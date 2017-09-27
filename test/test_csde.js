@@ -77,11 +77,14 @@ describe('CourtSpot', () => {
 			team_names: ['TSV 1906 Freystadt', 'SV Fun-Ball Dortelweil'],
 			id: 'csde:1-9-10',
 			scoring: '5x11_15^90',
+			mscore: [0, 0],
 		});
 	});
 
 	it('annotate', () => {
-		const ev = {};
+		const ev = {
+			matches: [],
+		};
 		const url = 'http://courtspot.de/php__Skripte/liveabfrage.php?l=2&v=12&g=20';
 		const params = utils.parse_querystring(url);
 		csde._annotate(ev, params);
@@ -89,11 +92,28 @@ describe('CourtSpot', () => {
 			team_names: ['TV Refrath 2', 'VfB/SC Peine'],
 			id: 'csde:2-12-20',
 			scoring: '5x11_15^90',
+			mscore: [0, 0],
+			matches: [],
 		});
 	});
 
 	it('annotate Regionalliga', () => {
-		const ev = {};
+		const matches = [{
+			name: '1.HD',
+			score: [[21, 5], [21, 3]],
+		}, {
+			name: '2.HD',
+			score: [[21, 23], [21, 23]],
+		}, {
+			name: 'DD',
+			score: [[21, 23], [29, 27], [1, 1]],
+		}, {
+			name: '1.HE',
+			score: [[21, 23], [29, 27], [21, 1]],
+		}];
+		const ev = {
+			matches,
+		};
 		const params = {
 			l: 4,
 			v: 2,
@@ -104,6 +124,8 @@ describe('CourtSpot', () => {
 			team_names: ['BV Gifhorn 1', 'SG EBT Berlin 2'],
 			id: 'csde:4-2-1',
 			scoring: '3x21',
+			mscore: [2, 1],
+			matches,
 		});
 	});
 });

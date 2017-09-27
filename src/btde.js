@@ -79,12 +79,14 @@ function parse(str) {
 
 		return res;
 	});
+	const scoring = '5x11_15^90';
+
 	return {
 		id,
 		team_names,
 		mscore,
 		matches,
-		scoring: '5x11_15^90',
+		scoring,
 	};
 }
 

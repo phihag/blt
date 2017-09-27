@@ -3,6 +3,7 @@
 const assert = require('assert');
 const xmldom = require('xmldom');
 
+const eventutils = require('./eventutils');
 const utils = require('./utils');
 
 const TEAM_NAMES = {
@@ -167,6 +168,11 @@ function annotate(ev, params) {
 	ev.id = 'csde:' + params.l + '-' + params.v + '-' + params.g;
 	ev.team_names = [TEAM_NAMES[params.l + '-' + params.v], TEAM_NAMES[params.l + '-' + params.g]];
 	ev.scoring = SCORING[params.l];
+	if (ev.matches) {
+		ev.mscore = eventutils.calc_mscore(ev.scoring, ev.matches);
+	} else {
+		ev.mscore = [0, 0];
+	}
 }
 
 function run_once(cfg, src, sh) {

@@ -16,6 +16,7 @@ function add_event(events_container, ev) {
 	var container = uiu.el(events_container, 'div', 'event');
 	var header = uiu.el(container, 'div');
 	uiu.el(header, 'div', 'team_name', ev.team_names[0]);
+	uiu.el(header, 'div', 'mscore', ev.mscore[0] + ':' + ev.mscore[1]);
 	uiu.el(header, 'div', 'team_name', ev.team_names[1]);
 
 	ev.matches.forEach(function(match) {
