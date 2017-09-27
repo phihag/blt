@@ -1,0 +1,12 @@
+[Unit]
+Description=bbt
+
+[Service]
+ExecStart=/usr/bin/env node BBT_ROOT_DIR/src/bbt.js
+Type=simple
+User=bbt
+Group=bbt
+WorkingDirectory=BBT_ROOT_DIR
+
+[Install]
+WantedBy=multi-user.target

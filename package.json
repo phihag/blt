@@ -1,0 +1,33 @@
+{
+  "name": "bbt",
+  "description": "Badminton Bundesliga Ticker",
+  "main": "src/bbt.js",
+  "scripts": {
+    "test": "mocha --delay test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phihag/bbt.git"
+  },
+  "author": "Philipp Hagemeister",
+  "bugs": {
+    "url": "https://github.com/phihag/bbt/issues"
+  },
+  "homepage": "https://github.com/phihag/bbt",
+  "dependencies": {
+    "async": "*",
+    "express": "*",
+    "serve-favicon": "*",
+    "mustache": "*",
+    "mustache-express": "*",
+    "supervisor": "*",
+    "xmldom": "*"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "mocha": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "*"
+  },
+  "private": true
+}

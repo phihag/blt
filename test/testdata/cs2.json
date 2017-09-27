@@ -1,0 +1,42 @@
+{
+	"matches": [{
+		"name": "1.HD",
+		"players": [[{"name": "Joshua Magee"},
+			{"name": "Kai Waldenberger"}
+		], [
+			{"name": "Lucas Gredner"},
+			{"name": "Daniel Porath"}
+		]],
+		"score": [[15, 14], [9, 11], [11, 7], [10, 10]],
+		"serving": 1
+	}, { 
+		"name": "1.HE",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "2.HD",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "2.HE",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "DD",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "DE",
+		"players": [[
+			{"name": "Elin Svensson"}
+		], [
+			{"name": "Nadine Cordes"}
+		]],
+		"score": [[4, 0]],
+		"serving": 0
+	}, { 
+		"name": "GD",
+		"players": [[], []],
+		"score": []
+	}]
+}

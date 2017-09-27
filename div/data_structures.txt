@@ -1,0 +1,45 @@
+* denotes mandatory keys.
+
+full update
+===========
+
+type*     "full"
+event*    The event with which the current event should be replaced.
+
+event
+=====
+
+id*         A globally unique ID of the event.
+team_names* An array with two elements with the names of the home and away teamss
+matches     An arry of matches (see below).
+            If missing or false-y teammatch has not started yet.
+starttime   Human-readable string of scheduled match start time, i.e. "14:00"
+mscore*     The current match score as a two-element array, e.g. [3, 2].
+last_ticker_update  The last time we heard from the ticker (not necessarily the hall)
+scoring     Badminton scoring system. One of 
+              "3x21"       BWF since 2016
+              "5x11_15"    BWF 2016 Experiment Option 1 (5x11 until max. 15)
+              "5x11/3"     BWF 2016 Experiment Option 2 (5x11 with 3 point challenge)
+              "5x11_15^90" German Bundesliga 2017 (5x11 until max. 15, 90s intervals)
+              "2x21+11"    2x21, 3rd game until 11
+              "5x11_11"    UAE (5x11 sudden death)
+              "1x21"       One Game (1x21)
+              "1x11_15"    One Game 2016 Experiment Option 1 (1x11 until max. 15)
+              "3x15_18"    Shortened (3x15 until max. 18)
+link        Link of the source live ticker
+
+match
+=====
+name*    Human-readable match name.
+score*   An array of games.
+         Every game is a two-element array with the current number of points for home and away team.
+         [] if the match has not started yet.
+players  An array of array of players.
+         If missing (or false-y), the team setup has not been entered so far.
+serving  0 if the home team is serving, 1 if the away team is serving.
+
+player
+======
+name*     Full player name
+lastname  Surname of the player
+firstname Given name of the player

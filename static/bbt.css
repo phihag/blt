@@ -1,0 +1,42 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+
+.invisible {
+	display: none;
+}
+
+.event {
+	padding: 1em 1em;
+}
+.team_name {
+	display: inline-block;
+	min-width: 20ch;
+}
+.match {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.match + .match {
+	margin-top: 0.2em;
+}
+.match_name {
+	width: 6ch;
+	text-align: center;
+}
+.score {
+	width: 3ch;
+	text-align: center;
+}
+.score_highlight,
+.match_winner {
+	background: #ddf;
+}
+
+.footer {
+	text-align: right;
+}

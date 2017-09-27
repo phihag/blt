@@ -1,0 +1,36 @@
+{
+	"matches": [{
+		"name": "1.HD",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "1.HE",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "2.HD",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "2.HE",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "DD",
+		"players": [[], []],
+		"score": []
+	}, { 
+		"name": "DE",
+		"players": [[
+			{"name": "Elin Svensson"}
+		], [
+			{"name": "Nadine Cordes"}
+		]],
+		"score": [[5, 0]],
+		"serving": 0
+	}, { 
+		"name": "GD",
+		"players": [[], []],
+		"score": []
+	}]
+}
