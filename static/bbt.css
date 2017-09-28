@@ -1,46 +1,105 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font-size: 20px;
+	font-size: 14px;
 	font-family: 'Droid Sans', sans-serif;
 }
+@media (min-width: 400px) {
+	html, body {
+		font-size: 18px;
+	}
+}
+@media (min-width: 600px) {
+	html, body {
+		font-size: 20px;
+	}
+}
+@media (min-width: 800px) {
+	html, body {
+		font-size: 25px;
+	}
+}
 
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 140%;
+}
 
 .invisible {
 	display: none;
 }
 
+.events {
+	max-width: 100ch;
+	margin: 0 auto;
+}
 .event {
-	padding: 1em 1em;
+	max-width: 100vw;
+	padding: 0.5ch 0.5ch;
+}
+
+.header {
+	width: 100%;
+	padding: 0 1em;
+	background: #f8f8f8;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+}
+.header td {
+	vertical-align: middle;
+}
+.logo,
+.logo > img {
+	max-width: 10ch;
+	height: 5ch;
 }
 .team_name {
-	display: inline-block;
-	min-width: 20ch;
+	font-size: 110%;
 }
 .mscore {
-	display: inline-block;
+	text-align: center;
+	font-size: 160%;
+}
+.player_names {
+	padding: 0.2ch 0.2ch;
 }
 .match {
 	width: 100%;
 	border-collapse: collapse;
-	border: 1px solid black;
+	
+}
+.match td {
+	border: 1px solid #aaa;
 }
 .match + .match {
-	margin-top: 0.2em;
+	margin-top: .3em;
 }
 .match_name {
-	width: 6ch;
+	width: 5ch;
 	text-align: center;
 }
 .score {
 	width: 3ch;
 	text-align: center;
 }
-.score_highlight,
-.match_winner {
-	background: #ddf;
-}
 
 .footer {
 	text-align: right;
+}
+
+
+.player_name {
+	white-space: pre;
+}
+@media (max-width: 800px) {
+	.header {
+		padding: 0;
+	}
+	.player_name {
+		display: block;
+	}
+	.player_sep {
+		display: none;
+	}		
 }
