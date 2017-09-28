@@ -2,6 +2,7 @@ wss proxy!
 
 publish on Facebook
 
+backoff ws if killed with error
 automatically select next date (cron to roll over)
 source_turnier.de (for all the clubs without tickers)
 	get turnier.de IDs from debmlist

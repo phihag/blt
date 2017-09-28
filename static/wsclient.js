@@ -19,7 +19,7 @@ function _construct_url(abspath) {
 	return (
 		((l.protocol === 'https:') ? 'wss://' : 'ws://') +
 		l.hostname +
-		(((l.port !== 80) && (l.port !== 443)) ? ':' + l.port : '') +
+		((l.port && (l.port !== 80) && (l.port !== 443)) ? (':' + l.port) : '') +
 		abspath
 	);
 }
@@ -75,9 +75,10 @@ function init() {
 	}
 	_show_status('Verbinde ...');
 	var root_path = uiu.qs('body').getAttribute('data-root_path');
+
 	var new_ws;
 	try {
-		new_ws = new WebSocket(_construct_url(root_path + 'ws/subscribe'));
+		new_ws = new WebSocket(ws_url);
 	} catch(e) {
 		reconnect();
 		return;
