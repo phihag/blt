@@ -10,7 +10,7 @@ const TYPES = {
 	csde: require('./csde'),
 };
 
-function init(cfg, source_configs, app) {
+function init(cfg, source_configs, wss) {
 	const shs = [];
 	for (const src of source_configs) {
 		if (src.disabled) {
@@ -22,7 +22,7 @@ function init(cfg, source_configs, app) {
 			throw new Error('Unsupported source type ' + src.type);
 		}
 
-		const sh = new StateHandler(app);
+		const sh = new StateHandler(wss);
 		mod(cfg, src, sh);
 		shs.push(sh);
 	}

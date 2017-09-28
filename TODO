@@ -1,10 +1,16 @@
-update via AJAX
-updates via WebSocket if available
+find source of spurious updates
+handle init packets
+
+handle full packets
+ws retry
+ws keepalive
+
 show what was updated
 incremental updates
 
 publish on Facebook
 
+use event numbers instead of ids
 source_sclive
 source_turnier.de
 Live-Tabelle
@@ -12,5 +18,4 @@ source_bup
 	serve bup
 	bupdate (copy from bts)
 	password-protected
-
-
+ajax fallback

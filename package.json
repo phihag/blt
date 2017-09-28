@@ -21,6 +21,7 @@
     "mustache": "*",
     "mustache-express": "*",
     "supervisor": "*",
+    "ws": "*",
     "xmldom": "*"
   },
   "devDependencies": {

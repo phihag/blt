@@ -7,13 +7,17 @@
 <link rel="stylesheet" href="{{static_path}}bbt.css" />
 
 </head>
-<body data-static_path="{{static_path}}" data-reporting-enabled="{{#production}}true{{/production}}">
+<body data-root_path="{{root_path}}" data-static_path="{{static_path}}" data-reporting-enabled="{{#production}}true{{/production}}">
 {{{content}}}
 
 <script src="{{static_path}}report_problem.js"></script>
+
 <script src="{{static_path}}calc.js"></script>
 <script src="{{static_path}}extradata.js"></script>
+<script src="{{static_path}}render.js"></script>
 <script src="{{static_path}}uiu.js"></script>
+<script src="{{static_path}}wsclient.js"></script>
+
 <script src="{{static_path}}client.js"></script>
 
 </body>

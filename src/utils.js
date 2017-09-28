@@ -52,8 +52,32 @@ function parse_querystring(url) {
 	}, {});
 }
 
+function deep_equal(x, y) {
+	if (x === y) {
+		return true;
+	}
+	if ((x === null) || (y === null)) {
+		return false;
+	}
+	if ((typeof x == 'object') && (typeof y == 'object')) {
+		var key_count = 0;
+		for (var k in x) {
+			if (! deep_equal(x[k], y[k])) {
+				return false;
+			}
+			key_count++;
+		}
+
+		for (k in y) {
+			key_count--;
+		}
+		return key_count === 0;
+	}
+	return false;
+}
 
 module.exports = {
+	deep_equal,
 	download_page,
 	find,
 	parse_querystring,
