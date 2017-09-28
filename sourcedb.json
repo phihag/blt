@@ -1,7 +1,6 @@
 {
 "1.BC Wipperfeld": {
-	"type": "csde",
-	"link": "https://courtspot.de/liveTicker.php?Verein=1.BC+Wipperfeld&Liga=1"
+	"type": "csde"
 },
 "TSV Neuhausen-Nymphenburg": {
 	"type": "btde",
@@ -12,8 +11,7 @@
 	"url": "http://badmintonticker.de/ticker/tvrefrath/"
 },
 "TSV 1906 Freystadt": {
-	"type": "csde",
-	"link": "https://www.courtspot.de/liveTicker.php?Verein=TSV+1906+Freystadt&Liga=1"
+	"type": "csde"
 },
 "TSV Trittau": {
 	"type": "btde",

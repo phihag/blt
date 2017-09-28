@@ -1,5 +1,3 @@
-wss proxy!
-
 publish on Facebook
 
 backoff ws if killed with error
