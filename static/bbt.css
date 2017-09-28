@@ -62,7 +62,7 @@ h1 {
 	font-size: 160%;
 }
 .player_names {
-	padding: 0.2ch 0.2ch;
+	padding: 0.5ch 0.8ch;
 }
 .match {
 	width: 100%;
@@ -95,6 +95,9 @@ h1 {
 @media (max-width: 800px) {
 	.header {
 		padding: 0;
+	}
+	.player_names {
+		padding: 0.2ch;
 	}
 	.player_name {
 		display: block;
