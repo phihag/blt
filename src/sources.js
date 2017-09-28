@@ -12,6 +12,7 @@ const TYPES = {
 
 function init(cfg, source_configs, wss) {
 	const shs = [];
+	let i = 0;
 	for (const src of source_configs) {
 		if (src.disabled) {
 			continue;
@@ -22,7 +23,8 @@ function init(cfg, source_configs, wss) {
 			throw new Error('Unsupported source type ' + src.type);
 		}
 
-		const sh = new StateHandler(wss);
+		const sh = new StateHandler(wss, i);
+		i++;
 		mod(cfg, src, sh);
 		shs.push(sh);
 	}

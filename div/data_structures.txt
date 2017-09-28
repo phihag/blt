@@ -1,5 +1,7 @@
 * denotes mandatory keys.
 
+The protocol is simply JSON-encoded objects in WebSocket frames:
+
 init (all events)
 =================
 
@@ -11,6 +13,23 @@ full update (one event)
 type*     "full"
 event*    The event with which the current event should be replaced.
 
+
+keepalive (client -> server)
+============================
+type*     "keepalive"
+
+keptalive (answer to keepalive)
+===============================
+type*     "keptalive"
+
+error
+=====
+type*     "error"
+message*  Human-readable error message
+
+
+
+The more complex data structures are as follows:
 
 event
 =====

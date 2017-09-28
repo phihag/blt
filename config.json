@@ -2,7 +2,7 @@
 	"port": 9005,
 	"production": false,
 	"root_path": "/",
-	"default_interval": 10000,
+	"default_interval": 5000,
 	"verbosity": 3,
 	"note_html": "<h2>Nächster Spieltag: Sonntag 1.10. (1. Bundesliga)</h2>"
 }

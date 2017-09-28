@@ -106,3 +106,13 @@ h1 {
 		display: none;
 	}		
 }
+
+.status {
+	color: #888;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 0 0 .3ch .5ch;
+	border-bottom-left-radius: 1ch;
+	position: fixed;
+	top: 0;
+	right: 0;
+}

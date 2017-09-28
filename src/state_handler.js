@@ -1,5 +1,6 @@
 'use strict';
 
+const assert = require('assert');
 const WebSocket = require('ws');
 
 const utils = require('./utils');
@@ -18,6 +19,7 @@ function _broadcast(wss, msg) {
 // Handles the state of one ticker
 class StateHandler {
 	constructor(wss, num) {
+		assert(num !== undefined);
 		this.wss = wss;
 		this.num = num;
 		this.ev = {
@@ -35,10 +37,6 @@ class StateHandler {
 			return; // Nothing to do, no change
 		}
 
-		console.log('old: ', this.ev);
-		console.log('new: ', new_ev);
-
-		new_ev.last_ticker_update = Date.now();
 		this.ev = new_ev;
 
 		_broadcast(this.wss, {

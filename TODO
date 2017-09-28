@@ -1,12 +1,6 @@
-find source of spurious updates
-handle init packets
-
-handle full packets
-ws retry
-ws keepalive
+incremental updates
 
 show what was updated
-incremental updates
 
 publish on Facebook
 

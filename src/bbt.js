@@ -1,6 +1,7 @@
 const async = require('async');
 const express = require('express');
 const http = require('http');
+const url = require('url');
 
 const ws_module = require('ws');
 
@@ -10,7 +11,37 @@ const routes = require('./routes');
 
 
 function setup_ws(app, ws, req) {
+	const location = url.parse(req.url, true);
+	if (! location.path.endsWith('/ws/subscribe')) {
+		ws.send(JSON.stringify({
+			type: 'error',
+			message: 'Invalid location path ' + location.path,
+		}));
+		ws.close();
+		return;
+	}
+
 	const events = app.state_handlers.map(sh => sh.ev);
+	ws.onmessage = (e) => {
+		let msg;
+		try {
+			msg = JSON.parse(e.data);
+		} catch (e) {
+			console.error('Client did not send us valid JSON, terminating: ' + e.stack); // eslint-disable-line no-console
+			ws.close();
+			return;
+		}
+
+		if (msg.type === 'keepalive') {
+			try {
+				ws.send(JSON.stringify({
+					type: 'keptalive',
+				}));
+			} catch (_) {
+				// Ignore
+			}
+		}
+	};
 	ws.send(JSON.stringify({
 		type: 'init',
 		events: events,

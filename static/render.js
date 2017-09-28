@@ -86,7 +86,7 @@ function add_event(ev) {
 	var events_container = uiu.qs('.events');
 	var container = uiu.el(events_container, 'div', {
 		'class': 'event',
-		'data-event-id': ev.id,
+		'data-event-num': ev.num,
 	});
 	render_event(container, ev);
 }
@@ -98,7 +98,7 @@ function init(initial_events) {
 }
 
 function full(ev) {
-	var cur_container = document.querySelector('.event[data-event-num="' + ev.num + '"]')
+	var cur_container = document.querySelector('.event[data-event-num="' + ev.num + '"]');
 	if (cur_container) {
 		render_event(cur_container, ev);
 	} else {
@@ -118,7 +118,6 @@ if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var calc = null;
 	var extradata = null;
 	var uiu = null;
-	var wsclient = null;
 
 	module.exports = render;
 }

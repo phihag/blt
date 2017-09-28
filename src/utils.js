@@ -52,7 +52,7 @@ function parse_querystring(url) {
 	}, {});
 }
 
-function deep_equal(x, y) {
+function deep_equal(x, y, except_key) {
 	if (x === y) {
 		return true;
 	}
@@ -62,6 +62,9 @@ function deep_equal(x, y) {
 	if ((typeof x == 'object') && (typeof y == 'object')) {
 		var key_count = 0;
 		for (var k in x) {
+			if (k === except_key) {
+				continue;
+			}
 			if (! deep_equal(x[k], y[k])) {
 				return false;
 			}
@@ -69,6 +72,9 @@ function deep_equal(x, y) {
 		}
 
 		for (k in y) {
+			if (k === except_key) {
+				continue;
+			}
 			key_count--;
 		}
 		return key_count === 0;
