@@ -19,11 +19,22 @@ var TEAM_COLORS = {
 	'Wipperfeld': '#ff2149',
 	'Wittorf': '#0091ff',
 };
+
+function get_color(team_name) {
+	for (var keyword in TEAM_COLORS) {
+		if (team_name.includes(keyword)) {
+			return TEAM_COLORS[keyword];
+		}
+	}
+	return '#ddddff';
+}
+
 var LOGOS = [
 	'bcbeuel',
 	'bcbsaarbruecken',
 	'bcwipperfeld',
 	'bvgifhorn',
+	'bvmuelheim',
 	'ebtberlin',
 	'sganspach',
 	'sgschorndorf',
@@ -41,17 +52,18 @@ var LOGOS = [
 	'vfbfriedrichshafen',
 	'wittorfneumuenster',
 ];
-
-function get_color(team_name) {
-	for (var keyword in TEAM_COLORS) {
-		if (team_name.includes(keyword)) {
-			return TEAM_COLORS[keyword];
-		}
-	}
-	return '#ddddff';
-}
+var LOGO_ALIASSE = {
+	'TSV Neuhausen-Nymphenburg': 'tsvneuhausen',
+	'1.BV Mülheim': 'bvmuelheim',
+	'1.BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
+	'SC Union Lüdinghausen': 'unionluedinghausen',
+};
 
 function team_logo(team_name) {
+	if (LOGO_ALIASSE[team_name]) {
+		team_name = LOGO_ALIASSE[team_name];
+	}
+
 	var clean_name = team_name.toLowerCase().replace(/[^a-z]/g, '');
 	if (LOGOS.includes(clean_name)) {
 		return 'logos/' + clean_name + '.svg';

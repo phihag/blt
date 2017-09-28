@@ -1,6 +1,18 @@
 'use strict';
 
+const fs = require('fs');
 const http = require('http');
+const WebSocket = require('ws');
+
+function broadcast(wss, msg) {
+	const json_msg = JSON.stringify(msg);
+
+	for (const client of wss.clients) {
+		if (client.readyState === WebSocket.OPEN) {
+			client.send(json_msg);
+		}
+	}
+}
 
 function run_every(every, func) {
 	try {
@@ -89,11 +101,28 @@ function deep_copy(obj) {
 	return JSON.parse(JSON.stringify(obj));
 }
 
+function read_json(fn, callback) {
+	fs.readFile(fn, (err, json) => {
+		if (err) return callback(err);
+		return callback(null, JSON.parse(json));
+	});
+}
+
+function pad(n, width, z) {
+	z = z || '0';
+	width = width || 2;
+	n = n + '';
+	return n.length >= width ? n : (new Array(width - n.length + 1).join(z) + n);
+}
+
 module.exports = {
+	broadcast,
 	deep_copy,
 	deep_equal,
 	download_page,
 	find,
+	pad,
 	parse_querystring,
+	read_json,
 	run_every,
 };

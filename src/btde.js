@@ -111,10 +111,18 @@ function run_once(cfg, src, sh) {
 	});
 }
 
-function btde(cfg, src, sh) {
+function watch(cfg, src, sh) {
 	utils.run_every(cfg('default_interval'), () => run_once(cfg, src, sh));
 }
 
-module.exports = btde;
-// Testing only
-btde._parse = parse;
+function setup_tm(tm, home_team) {
+	tm.url = home_team.url;
+}
+
+module.exports = {
+	watch,
+	setup_tm,
+
+	// Testing only
+	_parse: parse,
+};

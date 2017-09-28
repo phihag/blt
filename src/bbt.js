@@ -8,6 +8,7 @@ const ws_module = require('ws');
 const config = require('./config');
 const sources = require('./sources');
 const routes = require('./routes');
+const utils = require('./utils');
 
 
 function setup_ws(app, ws, req) {
@@ -20,8 +21,6 @@ function setup_ws(app, ws, req) {
 		ws.close();
 		return;
 	}
-
-	const events = app.state_handlers.map(sh => sh.ev);
 	ws.onmessage = (e) => {
 		let msg;
 		try {
@@ -42,6 +41,8 @@ function setup_ws(app, ws, req) {
 			}
 		}
 	};
+
+	const events = app.state_handlers.map(sh => sh.ev);
 	ws.send(JSON.stringify({
 		type: 'init',
 		events: events,
@@ -49,14 +50,23 @@ function setup_ws(app, ws, req) {
 }
 
 
-function run_server(cfg, source_configs) {
+function run_server(cfg, source_info) {
 	const server = http.createServer();
 	const wss = new ws_module.Server({server});
 	const app = express();
 
 	app.cfg = cfg;
 	app.root_path = cfg('root_path');
-	app.state_handlers = sources.init(cfg, source_configs, wss);
+
+	// Set up state handlers
+	const now = new Date();
+	const default_datestr = now.getFullYear() + '-' + utils.pad(now.getMonth() + 1) + '-' + utils.pad(now.getDate());
+	const datestr = cfg('datestr', default_datestr);
+	app.state_handlers = sources.init(cfg, datestr, source_info, wss);
+	utils.broadcast(wss, JSON.stringify({
+		type: 'init',
+		events: app.state_handlers.map(sh => sh.ev),
+	}));
 
 	wss.on('connection', (ws, req) => setup_ws(app, ws, req));
 
@@ -69,12 +79,12 @@ function run_server(cfg, source_configs) {
 function main() {
 	async.waterfall([
 		config.load,
-		(cfg, cb) => sources.load_configs((err, source_configs) => cb(err, cfg, source_configs)),
-	], (err, cfg, source_configs) => {
+		(cfg, cb) => sources.load((err, source_info) => cb(err, cfg, source_info)),
+	], (err, cfg, source_info) => {
 		if (err) {
 			throw err;
 		}
-		run_server(cfg, source_configs);
+		run_server(cfg, source_info);
 	});
 }
 

@@ -1,20 +1,9 @@
 'use strict';
 
 const assert = require('assert');
-const WebSocket = require('ws');
 
 const utils = require('./utils');
 
-
-function _broadcast(wss, msg) {
-	const json_msg = JSON.stringify(msg);
-
-	for (const client of wss.clients) {
-		if (client.readyState === WebSocket.OPEN) {
-			client.send(json_msg);
-		}
-	}
-}
 
 function determine_diff(old_ev, new_ev) {
 	if (!utils.deep_equal(old_ev, new_ev, ['matches'])) {
@@ -79,13 +68,13 @@ class StateHandler {
 
 		this.ev = new_ev;
 		if (diff === 'full') {
-			_broadcast(this.wss, {
+			utils.broadcast(this.wss, {
 				type: 'full',
 				event: this.ev,
 			});
 		} else {
 			for (const sd of diff) {
-				_broadcast(this.wss, sd);
+				utils.broadcast(this.wss, sd);
 			}
 		}
 	}

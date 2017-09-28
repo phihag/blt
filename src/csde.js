@@ -197,11 +197,35 @@ function run_once(cfg, src, sh) {
 	});
 }
 
-function csde(cfg, src, sh) {
+function watch(cfg, src, sh) {
 	utils.run_every(cfg('default_interval'), () => run_once(cfg, src, sh));
 }
 
-module.exports = csde;
-// Testing only
-csde._parse = parse;
-csde._annotate = annotate;
+function setup_tm(tm, home_team) {
+	tm.link = home_team.link;
+
+	const team_ids = tm.team_names.map(tname => {
+		for (const k in TEAM_NAMES) {
+			if (TEAM_NAMES[k] === tname) {
+				return k;
+			}
+		}
+
+		throw new Error('Team ' + tname + ' missing in csde database');
+	});
+
+	const [l0, v] = team_ids[0].split('-');
+	const [l1, g] = team_ids[1].split('-');
+	assert(l0 === l1);
+
+	tm.url = 'http://courtspot.de/php__Skripte/liveabfrage.php?l=' + l0 + '&v=' + v + '&g=' + g;
+}
+
+module.exports = {
+	watch,
+	setup_tm,
+
+	// Testing only
+	_parse: parse,
+	_annotate: annotate,
+};

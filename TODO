@@ -1,10 +1,16 @@
 publish on Facebook
 
+automatically select next date (cron to roll over)
+source_turnier.de (for all the clubs without tickers)
+	get turnier.de IDs from debmlist
+if no tickers note when next tickers will be coming
 source_sclive
-source_turnier.de
+server-side error reporting
+
 Live-Tabelle
 source_bup
 	serve bup
 	bupdate (copy from bts)
 	password-protected
-ajax fallback
+
+

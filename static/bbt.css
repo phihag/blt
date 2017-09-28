@@ -41,7 +41,7 @@ h1 {
 
 .header {
 	width: 100%;
-	padding: 0 1em;
+	padding: 0 0;
 	background: #f8f8f8;
 	border-top-left-radius: 0.5em;
 	border-top-right-radius: 0.5em;
@@ -49,14 +49,21 @@ h1 {
 .header td {
 	vertical-align: middle;
 }
-.logo,
-.logo > img {
-	max-width: 10ch;
-	height: 5ch;
-}
-.team_name {
+
+.team_td {
+	width: 45%;
 	font-size: 110%;
 }
+.team_name {
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo {
+	vertical-align: middle;
+	height: 4ch;
+	max-width: 8ch;
+}
+
 .mscore {
 	text-align: center;
 	font-size: 160%;
