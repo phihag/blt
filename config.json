@@ -4,16 +4,5 @@
 	"root_path": "/",
 	"default_interval": 10000,
 	"verbosity": 3,
-	"note_html": "<h2>Nächster Spieltag: Samstag 30.9. (1. Bundesliga)</h2>",
-	"sources": [{
-		"disabled": false,
-		"type": "btde",
-		"url": "http://localhost/test/",
-		"real_url": "http://login.badmintonticker.de/ticker/tvrefrath2/"
-	}, {
-		"type": "csde",
-		"url": "http://localhost/test/cs1?l=1&v=9&g=10",
-		"real_url": "http://courtspot.de/php__Skripte/liveabfrage.php?l=1&v=9&g=10",
-		"link": "http://courtspot.de/liveTicker/liveTickerRahmen.php?Verein=TSV%201906%20Freystadt&Liga=1"
-	}]
+	"note_html": "<h2>Nächster Spieltag: Sonntag 1.10. (1. Bundesliga)</h2>"
 }
