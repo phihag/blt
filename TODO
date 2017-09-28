@@ -1,9 +1,3 @@
-set up on b.aufschlagwechsel.de
-ssl on b.aufschlagwechsel.de
-update script for b.aufschlagwechsel.de
-
-OpenGraph for facebook posts
-
 update via AJAX
 updates via WebSocket if available
 show what was updated
@@ -18,4 +12,5 @@ source_bup
 	serve bup
 	bupdate (copy from bts)
 	password-protected
+
 
