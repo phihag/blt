@@ -15,7 +15,7 @@ function run_server(cfg) {
 	app.root_path = cfg('root_path');
 	app.state_handlers = sources.init(cfg, app);
 
-	routes.setup(app);
+	routes.setup(cfg, app);
 
 	server.on('request', app);
 	server.listen(cfg('port'), () => {});

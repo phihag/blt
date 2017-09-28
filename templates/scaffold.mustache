@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <title>Bundesliga-Live-Ticker</title>
-<link rel="stylesheet" href="{{static_path}}bbt.css" />
 <meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="{{static_path}}bbt.css" />
 
 </head>
-<body data-static_path="{{static_path}}">
+<body data-static_path="{{static_path}}" data-reporting-enabled="{{#production}}true{{/production}}">
 {{{content}}}
 
 <script src="{{static_path}}report_problem.js"></script>

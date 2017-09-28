@@ -2,8 +2,16 @@ const mustache = require('mustache');
 const fs = require('fs');
 const path = require('path');
 
-function _read_template(template_id, callback) {
-	fs.readFile(path.dirname(__dirname) + '/templates/' + template_id + '.mustache', function (err, template_bytes) {
+const ROOT_DIR = path.dirname(__dirname);
+
+function _read_template(cfg, template_id, callback) {
+	const templates_dir = path.join(
+		ROOT_DIR,
+		(cfg('production', false) ? 'dist/templates' : 'templates')
+	);
+	const in_fn = path.join(templates_dir, template_id + '.mustache');
+
+	fs.readFile(in_fn, function (err, template_bytes) {
 		if (err) {
 			return callback(err, null);
 		}
@@ -30,7 +38,7 @@ function _find_partial_references(parsed, res) {
 	return res;
 }
 
-function _find_partials(template_id, callback, found, outstanding) {
+function _find_partials(cfg, template_id, callback, found, outstanding) {
 	if (!found) {
 		found = {};
 	}
@@ -38,7 +46,7 @@ function _find_partials(template_id, callback, found, outstanding) {
 		outstanding = [];
 	}
 
-	_read_template(template_id, function(err, template) {
+	_read_template(cfg, template_id, function(err, template) {
 		if (err) {
 			return callback(err, null);
 		}
@@ -56,17 +64,17 @@ function _find_partials(template_id, callback, found, outstanding) {
 			callback(null, found);
 		} else {
 			const next_id = outstanding.pop();
-			_find_partials(next_id, callback, found, outstanding);
+			_find_partials(cfg, next_id, callback, found, outstanding);
 		}
 	});
 }
 
-function render_mustache(template_id, data, callback) {
-	_find_partials(template_id, function(err, partials) {
+function render_mustache(cfg, template_id, data, callback) {
+	_find_partials(cfg, template_id, function(err, partials) {
 		if (err) {
 			return callback(err, null);
 		}
-		var html = mustache.render(partials[template_id], data, partials);
+		const html = mustache.render(partials[template_id], data, partials);
 		callback(null, html);
 	});
 }
@@ -75,21 +83,18 @@ function add_helper_funcs(data) {
 	data.urlencode = encodeURIComponent;
 }
 
-function render_standalone(template_id, data, cb) {
-	add_helper_funcs(data);
-	render_mustache(template_id, data, cb);
-}
-
 function render(req, res, next, template_id, data) {
+	const cfg = req.app.cfg;
 	add_helper_funcs(data);
 	data.root_path = req.app.root_path;
 	data.static_path = req.app.root_path + 'static/';
-	render_mustache(template_id, data, function(err, content) {
+	data.production = cfg('production', false);
+	render_mustache(cfg, template_id, data, function(err, content) {
 		if (err) {
 			return next(err);
 		}
 		data.content = content;
-		render_mustache('scaffold', data, function(err, html) {
+		render_mustache(cfg, 'scaffold', data, function(err, html) {
 			if (err) {
 				return next(err);
 			}
@@ -99,5 +104,4 @@ function render(req, res, next, template_id, data) {
 }
 
 module.exports = render;
-render.render_standalone = render_standalone;
 

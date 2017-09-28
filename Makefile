@@ -29,7 +29,7 @@ lint: eslint stylelint ## Verify source code quality
 eslint: eslint-server eslint-client
 
 eslint-server:
-	@node_modules/.bin/eslint src/
+	@node_modules/.bin/eslint src/ div/
 
 eslint-client:
 	@node_modules/.bin/eslint -c static/.eslintrc.yml static/*.js
@@ -42,4 +42,14 @@ install-service:
 	systemctl enable bbt
 	systemctl start bbt
 
-.PHONY: default compile help deps test clean run-server lint eslint eslint-server eslint-client install-service stylelint
+cleandist:
+	rm -rf -- dist
+
+dist: cleandist ## Create distribution files
+	mkdir -p dist/
+	node div/make_dist.js . dist/
+	mkdir -p dist/static/logos/
+	node_modules/.bin/svgo -q --folder static/logos/ -o dist/static/logos/
+
+
+.PHONY: default compile help deps test clean run-server lint eslint eslint-server eslint-client install-service stylelint cleandist

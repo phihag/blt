@@ -6,8 +6,8 @@ const path = require('path');
 
 const root_handler = require('./root_handler');
 
-function setup(app) {
-	app.use('/static', express.static('static'));
+function setup(cfg, app) {
+	app.use('/static', express.static((cfg('production', false) ? 'dist/' : '') + 'static'));
 	app.use(favicon(path.dirname(__dirname) + '/static/favicon.ico'));
 
 	app.get('/', root_handler);

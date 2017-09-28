@@ -1,5 +1,6 @@
 {
 	"port": 9005,
+	"production": false,
 	"root_path": "/",
 	"default_interval": 10000,
 	"verbosity": 3,

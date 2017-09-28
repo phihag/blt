@@ -27,7 +27,8 @@
     "eslint": "*",
     "mocha": "*",
     "stylelint": "*",
-    "stylelint-config-standard": "*"
+    "stylelint-config-standard": "*",
+    "svgo": "*"
   },
   "private": true
 }

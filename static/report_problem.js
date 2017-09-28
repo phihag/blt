@@ -27,9 +27,12 @@ function _send(obj) {
 }
 
 function report(info_obj) {
-	/*@DEV*/
-	return;
-	/*/@DEV*/
+	var body = document.getElementsByTagName('body')[0];
+	var enabled = body.getAttribute('data-reporting-enabled') === 'true';
+
+	if (!enabled) {
+		return;
+	}
 
 	reported_count++; // eslint-disable-line no-unreachable
 	if (reported_count > 5) {

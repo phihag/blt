@@ -26,7 +26,7 @@ function render_event(container, ev) {
 	}, ev.team_names[1]);
 	var away_logo_td = uiu.el(header_tr, 'td', {
 		'class': 'logo',
-		style: 'text-align: right;'
+		style: 'text-align: right;',
 	});
 	_render_logo(away_logo_td, ev.team_names[1]);
 
@@ -100,8 +100,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 /*@DEV*/
-if ((typeof 	module !== 'undefined') && (typeof require !== 'undefined')) {
+if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var calc = null;
+	var extradata = null;
 	var uiu = null;
 }
 /*/@DEV*/
