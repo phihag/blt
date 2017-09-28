@@ -82,7 +82,7 @@ function render_event(container, ev) {
 	});
 	uiu.el(away_td, 'span', {
 		'class': 'team_name',
-		'style': 'padding-right:0.5ch;'
+		'style': 'padding-right:0.5ch;',
 	}, ev.team_names[1]);
 	_render_logo(away_td, ev.team_names[1]);
 
