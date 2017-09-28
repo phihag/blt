@@ -74,8 +74,9 @@ function init() {
 		keepalive_interval = null;
 	}
 	_show_status('Verbinde ...');
-	var root_path = uiu.qs('body').getAttribute('data-root_path');
 
+	var root_path = uiu.qs('body').getAttribute('data-root_path');
+	var ws_url = _construct_url(root_path + 'ws/subscribe');
 	var new_ws;
 	try {
 		new_ws = new WebSocket(ws_url);
