@@ -10,7 +10,7 @@ function root_handler(req, res, next) {
 	});
 }
 
-function json_handler(req, res, next) {
+function json_handler(req, res) {
 	const events = req.app.state_handlers.map(sh => sh.ev);
 
 	res.setHeader('Content-Type', 'application/json');

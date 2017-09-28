@@ -45,7 +45,7 @@ function init(cfg, datestr, source_info, wss) {
 				throw new Error('Unsupported source type ' + tm.type);
 			}
 		}
-console.log('adding', tm.team_names);
+
 		const sh = new StateHandler(wss, i);
 		i++;
 		mod.watch(cfg, tm, sh);
