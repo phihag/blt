@@ -52,7 +52,7 @@ function parse_querystring(url) {
 	}, {});
 }
 
-function deep_equal(x, y, except_key) {
+function deep_equal(x, y, except_keys) {
 	if (x === y) {
 		return true;
 	}
@@ -62,7 +62,7 @@ function deep_equal(x, y, except_key) {
 	if ((typeof x == 'object') && (typeof y == 'object')) {
 		var key_count = 0;
 		for (var k in x) {
-			if (k === except_key) {
+			if (except_keys && except_keys.includes(k)) {
 				continue;
 			}
 			if (! deep_equal(x[k], y[k])) {
@@ -72,7 +72,7 @@ function deep_equal(x, y, except_key) {
 		}
 
 		for (k in y) {
-			if (k === except_key) {
+			if (except_keys && except_keys.includes(k)) {
 				continue;
 			}
 			key_count--;
@@ -82,7 +82,15 @@ function deep_equal(x, y, except_key) {
 	return false;
 }
 
+function deep_copy(obj) {
+	if (obj === undefined) {
+		return obj;
+	}
+	return JSON.parse(JSON.stringify(obj));
+}
+
 module.exports = {
+	deep_copy,
 	deep_equal,
 	download_page,
 	find,

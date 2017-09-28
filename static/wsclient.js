@@ -5,7 +5,7 @@ var events = [];
 var ws;
 var timeout;
 var keepalive_interval;
-var KEEPALIVE_INTERVAL_LENGTH = 200000 / 200	;
+var KEEPALIVE_INTERVAL_LENGTH = 200000;
 var DEFAULT_TIMEOUT = 500;
 var MAX_TIMEOUT = 10000;
 var timeout_length = DEFAULT_TIMEOUT;
@@ -29,7 +29,7 @@ function onmessage(ws_msg) {
 	// console.log('got ' + msg.type + ' message', msg);
 	if (msg.type === 'init') {
 		events = msg.events;
-		render.init(events);
+		crender.init(events);
 	} else if (msg.type === 'full') {
 		var ev = msg.event;
 		var found = false;
@@ -43,7 +43,18 @@ function onmessage(ws_msg) {
 		if (!found) {
 			events.push(ev);
 		}
-		render.full(ev);
+		crender.full(ev);
+	} else if (msg.type === 'score') {
+		var event = cutils.find(events, function(e) {
+			return e.num === msg.num;
+		});
+		var match = cutils.find(event.matches, function(m) {
+			return m.name === msg.name;
+		});
+
+		match.score = msg.score;
+		match.serving = msg.serving;
+		crender.updated_score(event, match);
 	} else if (msg.type === 'keptalive') {
 		// Nothing to do here.
 	} else if (msg.type === 'error') {
@@ -139,7 +150,8 @@ return {
 /*@DEV*/
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var uiu = null;
-	var render = null;
+	var crender = null;
+	var cutils = null;
 	var report_problem = null;
 
 	module.exports = wsclient;

@@ -2,14 +2,14 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 	var events = JSON.parse(uiu.qs('.events').getAttribute('data-initial-json'));
-	render.init(events);
+	crender.init(events);
 	wsclient.init();
 });
 
 
 /*@DEV*/
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
-	var render = null;
+	var crender = null;
 	var uiu = null;
 	var wsclient = null;
 }

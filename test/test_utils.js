@@ -26,4 +26,49 @@ describe('utils', () => {
 			}
 		);
 	});
+
+	it('deep_equal', () => {
+		assert(!utils.deep_equal({
+			foo: 1,
+			bar: 2,
+		}, {
+			bar: 2,
+		}));
+		assert(utils.deep_equal({
+			foo: 1,
+			bar: 2,
+		}, {
+			bar: 2,
+		}, ['foo']));
+		assert(!utils.deep_equal({
+			foo: 1,
+			bar: 2,
+		}, {
+			bar: 3,
+		}, ['foo']));
+		assert(utils.deep_equal({
+			foo: 1,
+			bar: 2,
+		}, {
+			bar: 3,
+		}, ['foo', 'bar']));
+		assert(utils.deep_equal({
+			sub: {
+				foo: 1,
+			},
+		}, {
+			sub: {
+				foo: 1,
+			},
+		}, ['foo']));
+		assert(!utils.deep_equal({
+			sub: {
+				foo: 1,
+			},
+		}, {
+			sub: {
+				foo: 2,
+			},
+		}, ['foo']));
+	});
 });
