@@ -1,5 +1,6 @@
 publish on Facebook
 
+support Lüdinghausen
 source_sclive
 source_turnier.de (for all the clubs without tickers)
 	get turnier.de IDs from debmlist
@@ -13,5 +14,4 @@ source_bup
 	serve bup
 	bupdate (copy from bts)
 	password-protected
-
 
