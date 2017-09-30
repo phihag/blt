@@ -1,11 +1,11 @@
 publish on Facebook
 
-backoff ws if killed with error
-automatically select next date (cron to roll over)
+source_sclive
 source_turnier.de (for all the clubs without tickers)
 	get turnier.de IDs from debmlist
+backoff ws if killed with error
+automatically select next date (cron to roll over)
 if no tickers note when next tickers will be coming
-source_sclive
 server-side error reporting
 
 Live-Tabelle

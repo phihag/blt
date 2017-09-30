@@ -66,7 +66,12 @@ function parse(str) {
 	const parser = new xmldom.DOMParser();
 	const doc = parser.parseFromString(str, 'text/xml');
 
-	if (doc.getElementsByTagName('STATUS')[0].textContent != 'an') {
+	const status_el = doc.getElementsByTagName('STATUS')[0];
+	if (!status_el) {
+		return {};
+	}
+
+	if (status_el.textContent != 'an') {
 		return {};
 	}
 
