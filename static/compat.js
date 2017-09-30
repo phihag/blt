@@ -6,11 +6,11 @@ if (! Array.prototype.includes) {
 			if (this[i] === el) return true;
 		}
 		return false;
-	}
+	};
 }
 
 if (! String.prototype.includes) {
 	String.prototype.includes = function(substr) {
 		return this.indexOf(substr) !== -1;
-	}
+	};
 }
