@@ -4,22 +4,24 @@
 <meta charset="utf-8" />
 <title>Badminton-Bundesliga auf einen Blick</title>
 <meta name="viewport" content="width=device-width"/>
-<link rel="stylesheet" href="{{static_path}}bbt.css" />
+<link rel="stylesheet" href="{{{static_path}}}bbt.css" />
 
 </head>
-<body data-root_path="{{root_path}}" data-static_path="{{static_path}}" data-reporting-enabled="{{#production}}true{{/production}}">
+<body data-root_path="{{{root_path}}}" data-static_path="{{{static_path}}}" data-reporting-enabled="{{#report_problems}}true{{/report_problems}}">
 {{{content}}}
 
-<script src="{{static_path}}report_problem.js"></script>
+<script src="{{{static_path}}}compat.js"></script>
 
-<script src="{{static_path}}calc.js"></script>
-<script src="{{static_path}}extradata.js"></script>
-<script src="{{static_path}}crender.js"></script>
-<script src="{{static_path}}cutils.js"></script>
-<script src="{{static_path}}uiu.js"></script>
-<script src="{{static_path}}wsclient.js"></script>
+<script src="{{{static_path}}}report_problem.js"></script>
 
-<script src="{{static_path}}client.js"></script>
+<script src="{{{static_path}}}calc.js"></script>
+<script src="{{{static_path}}}extradata.js"></script>
+<script src="{{{static_path}}}crender.js"></script>
+<script src="{{{static_path}}}cutils.js"></script>
+<script src="{{{static_path}}}uiu.js"></script>
+<script src="{{{static_path}}}wsclient.js"></script>
+
+<script src="{{{static_path}}}client.js"></script>
 
 </body>
 </html>

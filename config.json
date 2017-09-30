@@ -1,6 +1,7 @@
 {
 	"port": 9005,
 	"production": false,
+	"report_problems": true,
 	"root_path": "/",
 	"default_interval": 500000,
 	"verbosity": 3,

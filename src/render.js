@@ -89,6 +89,7 @@ function render(req, res, next, template_id, data) {
 	data.root_path = req.app.root_path;
 	data.static_path = req.app.root_path + 'static/';
 	data.production = cfg('production', false);
+	data.report_problems = cfg('report_problems', true);
 	data.note_html = cfg('note_html', '');
 	render_mustache(cfg, template_id, data, function(err, content) {
 		if (err) {
