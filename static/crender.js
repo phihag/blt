@@ -46,12 +46,19 @@ function render_match(table, ev, team_colors, max_game_count, match) {
 				calc.is_winner(ev.scoring, game_id, gscore[team_id], gscore[1 - team_id]) ||
 				((game_id === match.score.length - 1) && (match.serving === team_id))
 			);
+
+			var bg_css = '';
+			if (highlight) {
+				var bg_col = team_colors[team_id];
+				bg_css = 'background:' + bg_col + ';';
+				if (cutils.cached_brightness(bg_col) < 120) {
+					bg_css += 'color:#fff;';
+				}
+			}
 			uiu.el(
 				tr, 'td', {
 					'class': 'score',
-					style: (
-						(highlight ? 'background:' + team_colors[team_id] + ';' : '')
-					),
+					style: bg_css,
 				},
 				gscore ? gscore[team_id] : '');
 		}
@@ -149,6 +156,7 @@ return {
 /*@DEV*/
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var calc = null;
+	var cutils = null;
 	var extradata = null;
 	var uiu = null;
 

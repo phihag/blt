@@ -70,6 +70,7 @@ function team_logo(team_name) {
 	}
 }
 
+
 return {
 	get_color: get_color,
 	team_logo: team_logo,
