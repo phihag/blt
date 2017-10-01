@@ -115,6 +115,11 @@ function render_event(container, ev) {
 	}
 
 	var footer = uiu.el(container, 'div', 'footer');
+	if (ev.starttime) {
+		uiu.el(footer, 'div', {
+			style: 'float:left;',
+		}, 'Spielbeginn: ' + ev.starttime);
+	}
 	uiu.el(footer, 'a', {
 		href: ev.link,
 	}, 'Original-Liveticker');

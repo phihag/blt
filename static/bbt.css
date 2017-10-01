@@ -36,7 +36,10 @@ h1 {
 }
 .event {
 	max-width: 100vw;
-	padding: 0.25em 0.25em;
+	padding: 0 0.25em;
+}
+.event + .event {
+	margin-top: 2em;
 }
 
 .header {
