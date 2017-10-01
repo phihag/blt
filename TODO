@@ -9,6 +9,7 @@ backoff ws if killed with error
 automatically select next date (cron to roll over)
 if no tickers note when next tickers will be coming
 server-side error reporting
+ticker notes as well
 
 Live-Tabelle
 source_bup
