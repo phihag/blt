@@ -180,7 +180,7 @@ function annotate(ev, params) {
 	}
 }
 
-function run_once(cfg, src, sh) {
+function run_once(cfg, src, sh, cb) {
 	const url = src.url;
 
 	if (cfg('verbosity', 0) > 2) {
@@ -188,22 +188,22 @@ function run_once(cfg, src, sh) {
 	}
 
 	utils.download_page(url, (err, _req, txt) => {
-		if (err) {
-			throw err;
+		let event;
+		try {
+			const params = utils.parse_querystring(url);
+			event = parse(txt);
+			event.link = src.link;
+			annotate(event, params);
+		} catch (e) {
+			return cb(e);
 		}
-
-		const params = utils.parse_querystring(url);
-		assert(src.link);
-		const event = parse(txt);
-		event.link = src.link;
-		annotate(event, params);
-
 		sh.on_new_full(event);
+		cb();
 	});
 }
 
 function watch(cfg, src, sh) {
-	utils.run_every(cfg('default_interval'), () => run_once(cfg, src, sh));
+	utils.run_every(cfg('default_interval'), (cb) => run_once(cfg, src, sh, cb));
 }
 
 function setup_tm(tm, home_team) {

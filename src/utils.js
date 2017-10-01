@@ -15,12 +15,20 @@ function broadcast(wss, msg) {
 }
 
 function run_every(every, func) {
+	function cb(err) {
+		if (err) {
+			console.error('Error during run: ' + err.stack); // eslint-disable-line no-console
+		}
+		setTimeout(() => run_every(every, func), every);
+	}
+
 	try {
-		func();
+		func(cb);
 	} catch(e) {
 		console.error('Uncaught error: ' + e.stack); // eslint-disable-line no-console
+		setTimeout(() => run_every(every, func), every);
 	}
-	setTimeout(() => run_every(every, func), every);
+
 }
 
 // Callback gets called with (error, response, body as string)

@@ -4,7 +4,7 @@
 	"report_problems": true,
 	"root_path": "/",
 	"default_interval": 5000,
-	"verbosity": 3,
+	"verbosity": 2,
 	"datestr": "2017-10-01",
 	"note_html": "<p style=\"text-align: center;\">Sonntag 1.10. (1. Bundesliga). Um 14 Uhr geht's los!</p>"
 }

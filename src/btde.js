@@ -90,7 +90,7 @@ function parse(str) {
 	};
 }
 
-function run_once(cfg, src, sh) {
+function run_once(cfg, src, sh, cb) {
 	const base_url = src.url;
 
 	assert(base_url.endsWith('/'));
@@ -101,18 +101,22 @@ function run_once(cfg, src, sh) {
 	}
 
 	utils.download_page(url, (err, _req, txt) => {
-		if (err) {
-			throw err;
-		}
+		if (err) return cb(err);
 
-		const event = parse(txt);
+		let event;
+		try {
+			event = parse(txt);
+		} catch (e) {
+			return cb(e);
+		}
 		event.link = base_url;
 		sh.on_new_full(event);
+		return cb();
 	});
 }
 
 function watch(cfg, src, sh) {
-	utils.run_every(cfg('default_interval'), () => run_once(cfg, src, sh));
+	utils.run_every(cfg('default_interval'), (cb) => run_once(cfg, src, sh, cb));
 }
 
 function setup_tm(tm, home_team) {
