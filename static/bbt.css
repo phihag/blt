@@ -31,7 +31,7 @@ h1 {
 }
 
 .events {
-	max-width: 50em;
+	max-width: 44em;
 	margin: 0 auto;
 }
 .event {
@@ -53,6 +53,13 @@ h1 {
 .team_td {
 	width: 45%;
 	font-size: 110%;
+}
+.team_name_container {
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-align-items: center;
+	align-items: center;
 }
 .team_name {
 	display: inline-block;

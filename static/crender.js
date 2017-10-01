@@ -76,8 +76,9 @@ function render_event(container, ev) {
 	var header = uiu.el(container, 'table', 'header');
 	var header_tr = uiu.el(header, 'tr');
 	var home_td = uiu.el(header_tr, 'td', 'team_td');
-	_render_logo(home_td, ev.team_names[0]);
-	uiu.el(home_td, 'span', {
+	var home_div = uiu.el(home_td, 'div', 'team_name_container');
+	_render_logo(home_div, ev.team_names[0]);
+	uiu.el(home_div, 'span', {
 		'class': 'team_name',
 		style: 'padding-left:0.5ch;',
 	}, ev.team_names[0]);
@@ -85,13 +86,17 @@ function render_event(container, ev) {
 	uiu.el(header_tr, 'td', 'mscore', ev.mscore[0] + ':' + ev.mscore[1]);
 	var away_td = uiu.el(header_tr, 'td', {
 		'class': 'team_td',
-		style: 'text-align: right;',
+		style: 'text-align:right;',
 	});
-	uiu.el(away_td, 'span', {
+	var away_div = uiu.el(away_td, 'div', {
+		'class': 'team_name_container',
+		style: 'justify-content:flex-end;',
+	});
+	uiu.el(away_div, 'span', {
 		'class': 'team_name',
 		'style': 'padding-right:0.5ch;',
 	}, ev.team_names[1]);
-	_render_logo(away_td, ev.team_names[1]);
+	_render_logo(away_div, ev.team_names[1]);
 
 	if (ev.matches) {
 		ev.matches.forEach(function(match) {
