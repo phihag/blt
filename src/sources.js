@@ -33,7 +33,7 @@ function init(cfg, datestr, source_info, wss) {
 				throw new Error('Cannot find home team ' + home_team_name + ' in sourcedb');
 			}
 
-			tm.type = 'btde';
+			tm.type = home_team.type;
 			mod = TYPES[home_team.type];
 			if (!mod) {
 				throw new Error('Unsupported source type ' + tm.type);

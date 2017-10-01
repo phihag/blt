@@ -1,8 +1,7 @@
 render starttime
-add a match note (Wipperfeld)
-localconfig
 Übersicht über Spielstände (ohne zu Scrollen)
 
+autogen top note
 source_sclive
 source_turnier.de (for all the clubs without tickers)
 	get turnier.de IDs from debmlist

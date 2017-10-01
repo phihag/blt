@@ -3,6 +3,8 @@
 const assert = require('assert');
 
 const utils = require('./utils');
+const source_helper = require('./source_helper');
+
 
 const MATCH_NAMES = {
 	'1': 'HD1',
@@ -110,6 +112,7 @@ function run_once(cfg, src, sh, cb) {
 			return cb(e);
 		}
 		event.link = base_url;
+		source_helper.copy_props(event, src);
 		sh.on_new_full(event);
 		return cb();
 	});

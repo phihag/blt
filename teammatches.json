@@ -261,7 +261,8 @@
         "starttime": "14:00",
         "date": "2017-10-01",
         "date_de": "01.10.2017",
-        "ts": 1506859200
+        "ts": 1506859200,
+        "admin_note": "Bei diesem Match gab es leider ein technisches Problem mit dem Original-Ticker. Darum können auch an dieser Stelle keine Ergebnisse angezeigt werden."
     },
     {
         "type": "auto",

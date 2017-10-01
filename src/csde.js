@@ -5,6 +5,7 @@ const xmldom = require('xmldom');
 
 const eventutils = require('./eventutils');
 const utils = require('./utils');
+const source_helper = require('./source_helper');
 
 const TEAM_NAMES = {
 	'1-1': '1.BC Sbr.-Bischmisheim',
@@ -197,6 +198,7 @@ function run_once(cfg, src, sh, cb) {
 		} catch (e) {
 			return cb(e);
 		}
+		source_helper.copy_props(event, src);
 		sh.on_new_full(event);
 		cb();
 	});

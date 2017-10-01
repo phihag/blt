@@ -106,8 +106,12 @@ function render_event(container, ev) {
 			});
 			render_match(table, ev, team_colors, max_game_count, match);
 		});
-	} else {
+	} else if (!ev.admin_note) {
 		uiu.el(container, 'div', {}, 'Ticker noch nicht aktiv');
+	}
+
+	if (ev.admin_note) {
+		uiu.el(container, 'div', {}, ev.admin_note);
 	}
 
 	var footer = uiu.el(container, 'div', 'footer');
