@@ -123,12 +123,19 @@ function pad(n, width, z) {
 	return n.length >= width ? n : (new Array(width - n.length + 1).join(z) + n);
 }
 
+function obj_update(obj, other) {
+	for (const key in other) {
+		obj[key] = other[key];
+	}
+}
+
 module.exports = {
 	broadcast,
 	deep_copy,
 	deep_equal,
 	download_page,
 	find,
+	obj_update,
 	pad,
 	parse_querystring,
 	read_json,

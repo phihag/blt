@@ -1,23 +1,32 @@
 'use strict';
 
-const fs = require('fs');
 const path = require('path');
+
+const utils = require('./utils');
 
 function load(cb) {
 	const fn = path.dirname(__dirname) + '/config.json';
-	fs.readFile(fn, function(err, config_json) {
-		if (err) {
-			return cb(err);
-		}
-		const config_data = JSON.parse(config_json);
-		cb(null, function(key, def) {
-			if (! (key in config_data)) {
-				if (def !== undefined) {
-					return def;
+	utils.read_json(fn, (err, config_data) => {
+		if (err) return cb(err);
+
+		const local_fn = path.dirname(__dirname) + '/localconfig.json';
+		utils.read_json(local_fn, (err, localconfig) => {
+			if (err) {
+				if (err.code !== 'ENOENT') {
+					return cb(err);
 				}
-				throw new Error('Cannot find configuration key ' + JSON.stringify(key));
+			} else {
+				utils.obj_update(config_data, localconfig);
 			}
-			return config_data[key];
+			cb(null, function get_from_config(key, def) {
+				if (! (key in config_data)) {
+					if (def !== undefined) {
+						return def;
+					}
+					throw new Error('Cannot find configuration key ' + JSON.stringify(key));
+				}
+				return config_data[key];
+			});
 		});
 	});
 }

@@ -2,3 +2,5 @@ dist
 node_modules
 sources.json
 test_sources.json
+localconfig.json
+
