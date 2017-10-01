@@ -27,7 +27,7 @@ function render_match(table, ev, team_colors, max_game_count, match) {
 		var player_names_el = uiu.el(tr, 'td', {
 			'class': 'player_names',
 			style: (
-				(won_match ? 'background:' + team_colors[team_id] + ';' : '')
+				(won_match ? 'font-weight:bold;' : '')
 			),
 		});
 		var team_players = match.players ? match.players[team_id] : null;

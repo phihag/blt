@@ -12,7 +12,7 @@ var TEAM_COLORS = {
 	'Freystadt': '#ff161d',
 	'Hohenlimburg': '#0ebbff',
 	'Horner': '#ff2222', // Hamburg Horner TV
-	'Lüdinghausen': '#ffffff',
+	'Lüdinghausen': '#ff1400',
 	'Neuhausen': '#02c0ff',
 	'Refrath': '#8bd6ff',
 	'Trittau': '#ff557a',
