@@ -133,3 +133,11 @@ h1 {
 	top: 0;
 	right: 0;
 }
+
+.footer_info {
+	float: left;
+	color: #666;
+}
+.footer_info + .footer_info {
+	margin-left: 1em;
+}

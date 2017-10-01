@@ -115,10 +115,11 @@ function render_event(container, ev) {
 	}
 
 	var footer = uiu.el(container, 'div', 'footer');
+	if (ev.league_key) {
+		uiu.el(footer, 'div', 'footer_info', extradata.name_by_league(ev.league_key));
+	}
 	if (ev.starttime) {
-		uiu.el(footer, 'div', {
-			style: 'float:left;',
-		}, 'Spielbeginn: ' + ev.starttime);
+		uiu.el(footer, 'div', 'footer_info', 'Spielbeginn: ' + ev.starttime);
 	}
 	uiu.el(footer, 'a', {
 		href: ev.link,

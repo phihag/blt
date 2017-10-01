@@ -1,6 +1,8 @@
 Übersicht über Spielstände (ohne zu Scrollen)
 
 autogen top note
+compress .js (with source map)
+	report with source maps
 source_sclive
 source_turnier.de (for all the clubs without tickers)
 	get turnier.de IDs from debmlist
