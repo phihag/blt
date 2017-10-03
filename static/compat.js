@@ -23,3 +23,9 @@ window.addEventListener('load', function() {
 		uiu.qs('.bbt_h1').style.marginTop = height + 'px';
 	}
 });
+
+/*@DEV*/
+if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
+	var uiu = null;
+}
+/*/@DEV*/
