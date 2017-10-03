@@ -91,68 +91,32 @@ describe('sclive (shuttlecock-live.com)', () => {
 			scoring: '5x11_15^90',
 			matches: [{
 				name: 'HE1',
-				players: [[
-					{name: 'Max Weißkirchen'},
-				], [
-					{name: 'Tobias Wadenka'},
-				]],
-				score: [[6, 11], [11, 8], [11, 3], [2, 11], [11, 9]],
+				players: [[], []],
+				score: [],
 			}, {
 				name: 'HE2',
-				players: [[
-					{name: 'Lukas Resch'},
-				], [
-					{name: 'Yankov Krasimir'},
-				]],
-				score: [[7, 11], [7, 11], [6, 11]],
+				players: [[], []],
+				score: [],
 			}, {
 				name: 'DE',
-				players: [[
-					{name: 'Luise Heim'},
-				], [
-					{name: 'Natalya Voytsekh'},
-				]],
-				score: [[5, 11], [11, 6], [6, 11], [11, 8], [4, 11]],
+				players: [[], []],
+				score: [],
 			}, {
 				name: 'HD1',
-				players: [[
-					{name: 'Max Weißkirchen'},
-					{name: 'Raphael Beck'},
-				], [
-					{name: 'Yankov Krasimir'},
-					{name: 'Przemyskaw Szydlowski'},
-				]],
-				score: [[11, 7], [11, 8], [10, 12], [11, 8]],
+				players: [[], []],
+				score: [],
 			}, {
 				name: 'HD2',
-				players: [[
-					{name: 'Patrick MacHugh'},
-					{name: 'Daniel Hess'},
-				], [
-					{name: 'Tobias Wadenka'},
-					{name: 'Manuel Heumann'},
-				]],
-				score: [[6, 11], [6, 11], [11, 4], [6, 11]],
+				players: [[], []],
+				score: [],
 			}, {
 				name: 'GD',
-				players: [[
-					{name: 'Raphael Beck'},
-					{name: 'Eva Janssens'},
-				], [
-					{name: 'Manuel Heumann'},
-					{name: 'Kaja Stankovic'},
-				]],
-				score: [[11, 5], [11, 7], [14, 12]],
+				players: [[], []],
+				score: [],
 			}, {
 				name: 'DD',
-				players: [[
-					{name: 'Birgit Overzier'},
-					{name: 'Eva Janssens'},
-				], [
-					{name: 'Natalya Voytsekh'},
-					{name: 'Kaja Stankovic'},
-				]],
-				score: [[7, 11], [11, 6], [11, 13], [8, 11]],
+				players: [[], []],
+				score: [],
 			}],
 		});
 	});
