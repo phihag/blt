@@ -81,4 +81,79 @@ describe('sclive (shuttlecock-live.com)', () => {
 			}],
 		});
 	});
+
+	it('parsing with zeroes', () => {
+		const data_json = '{"games": [{"field": -1, "id": 134, "name": "1. Herreneinzel", "player_a": "", "player_b": "", "sets": [[666, 1, [0, 0]], [667, 2, [0, 0]], [668, 3, [0, 0]], [669, 4, [0, 0]], [670, 5, [0, 0]]]}, {"field": -1, "id": 135, "name": "2. Herreneinzel", "player_a": "", "player_b": "", "sets": [[671, 1, [0, 0]], [672, 2, [0, 0]], [673, 3, [0, 0]], [674, 4, [0, 0]], [675, 5, [0, 0]]]}, {"field": -1, "id": 136, "name": "Dameneinzel", "player_a": "", "player_b": "", "sets": [[676, 1, [0, 0]], [677, 2, [0, 0]], [678, 3, [0, 0]], [679, 4, [0, 0]], [680, 5, [0, 0]]]}, {"field": -1, "id": 137, "name": "1. Herrendoppel", "player_a": "", "player_b": "", "sets": [[681, 1, [0, 0]], [682, 2, [0, 0]], [683, 3, [0, 0]], [684, 4, [0, 0]], [685, 5, [0, 0]]]}, {"field": -1, "id": 138, "name": "2. Herrendoppel", "player_a": "", "player_b": "", "sets": [[686, 1, [0, 0]], [687, 2, [0, 0]], [688, 3, [0, 0]], [689, 4, [0, 0]], [690, 5, [0, 0]]]}, {"field": -1, "id": 139, "name": "Gemischtes Doppel", "player_a": "", "player_b": "", "sets": [[691, 1, [0, 0]], [692, 2, [0, 0]], [693, 3, [0, 0]], [694, 4, [0, 0]], [695, 5, [0, 0]]]}, {"field": -1, "id": 140, "name": "Damendoppel", "player_a": "", "player_b": "", "sets": [[696, 1, [0, 0]], [697, 2, [0, 0]], [698, 3, [0, 0]], [699, 4, [0, 0]], [700, 5, [0, 0]]]}], "result": [0, 0], "team_a": "1. BC Beuel", "team_b": "TSV Freystadt"}';
+
+		assert.deepStrictEqual(sclive._parse(data_json), {
+			team_names: ['1.BC Beuel', 'TSV 1906 Freystadt'],
+			mscore: [0, 0],
+			scoring: '5x11_15^90',
+			matches: [{
+				name: 'HE1',
+				players: [[
+					{name: 'Max Weißkirchen'},
+				], [
+					{name: 'Tobias Wadenka'},
+				]],
+				score: [[6, 11], [11, 8], [11, 3], [2, 11], [11, 9]],
+			}, {
+				name: 'HE2',
+				players: [[
+					{name: 'Lukas Resch'},
+				], [
+					{name: 'Yankov Krasimir'},
+				]],
+				score: [[7, 11], [7, 11], [6, 11]],
+			}, {
+				name: 'DE',
+				players: [[
+					{name: 'Luise Heim'},
+				], [
+					{name: 'Natalya Voytsekh'},
+				]],
+				score: [[5, 11], [11, 6], [6, 11], [11, 8], [4, 11]],
+			}, {
+				name: 'HD1',
+				players: [[
+					{name: 'Max Weißkirchen'},
+					{name: 'Raphael Beck'},
+				], [
+					{name: 'Yankov Krasimir'},
+					{name: 'Przemyskaw Szydlowski'},
+				]],
+				score: [[11, 7], [11, 8], [10, 12], [11, 8]],
+			}, {
+				name: 'HD2',
+				players: [[
+					{name: 'Patrick MacHugh'},
+					{name: 'Daniel Hess'},
+				], [
+					{name: 'Tobias Wadenka'},
+					{name: 'Manuel Heumann'},
+				]],
+				score: [[6, 11], [6, 11], [11, 4], [6, 11]],
+			}, {
+				name: 'GD',
+				players: [[
+					{name: 'Raphael Beck'},
+					{name: 'Eva Janssens'},
+				], [
+					{name: 'Manuel Heumann'},
+					{name: 'Kaja Stankovic'},
+				]],
+				score: [[11, 5], [11, 7], [14, 12]],
+			}, {
+				name: 'DD',
+				players: [[
+					{name: 'Birgit Overzier'},
+					{name: 'Eva Janssens'},
+				], [
+					{name: 'Natalya Voytsekh'},
+					{name: 'Kaja Stankovic'},
+				]],
+				score: [[7, 11], [11, 6], [11, 13], [8, 11]],
+			}],
+		});
+	});
 });

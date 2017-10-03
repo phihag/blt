@@ -156,9 +156,10 @@ function match_winner(counting, input_scores) {
 }
 
 return {
-	max_game_count: max_game_count,
-	match_winner: match_winner,
+	game_winner: game_winner,
 	is_winner: is_winner,
+	match_winner: match_winner,
+	max_game_count: max_game_count,
 };
 
 })();

@@ -44,16 +44,27 @@ function _parse(data_json) {
 	for (const match_data of data.games) {
 		const name = (MATCH_NAMES[match_data.name] || match_data.name);
 
-		const players = [match_data.player_a, match_data.player_b].map(phtml => phtml.split(/\s*<br\/?>\s*/).map(name => {
-			return {name};
-		}));
-		const score = [];
-		for (const set_data of match_data.sets) {
-			score.push(set_data[2]);
+		const players = [match_data.player_a, match_data.player_b].map(
+			phtml => phtml.split(/\s*<br\/?>\s*/).filter(name => name).map(name => {
+				return {name};
+			})
+		);
+		let score = [];
+		let game_idx = 0;
+		for (const game_data of match_data.sets) {
+			const gscore = game_data[2];
+			score.push(gscore);
 
 			if (calc.match_winner(scoring, score) !== 'inprogress') {
 				break;
 			}
+			if (calc.game_winner(scoring, game_idx, gscore[0], gscore[1]) === 'inprogress') {
+				break;
+			}
+			game_idx++;
+		}
+		if (utils.deep_equal(score, [[0, 0]])) {
+			score = [];
 		}
 
 		matches.push({
