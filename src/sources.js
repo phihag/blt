@@ -9,6 +9,7 @@ const StateHandler = require('./state_handler').StateHandler;
 const TYPES = {
 	btde: require('./btde'),
 	csde: require('./csde'),
+	none: require('./none_source'),
 };
 
 function init(cfg, datestr, source_info, wss) {

@@ -16,6 +16,10 @@
 "TSV Trittau": {
 	"type": "btde",
 	"url": "http://login.badmintonticker.de/ticker/tsvtrittau/"
+},
+
+"SG EBT Berlin": {
+	"type": "none"
 }
 
 }
