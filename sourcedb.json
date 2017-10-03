@@ -31,8 +31,7 @@
 	"admin_note": "SG EBT Berlin hat bisher nicht auf Anfragen nach Ticker-URL und Ticker-Format geantwortet."
 },
 "1.BC Beuel": {
-	"type": "none",
-	"admin_note": "Dieser Ticker wird noch nicht unterstützt. Wird bis Samstag nachgerüstet!"
+	"type": "sclive"
 }
 
 }

@@ -10,6 +10,7 @@ const TYPES = {
 	btde: require('./btde'),
 	csde: require('./csde'),
 	none: require('./none_source'),
+	sclive: require('./sclive'),
 	scu: require('./scu'),
 };
 

@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const http = require('http');
+const https = require('https');
 const WebSocket = require('ws');
 const {StringDecoder} = require('string_decoder');
 
@@ -34,7 +35,8 @@ function run_every(every, func) {
 
 // Callback gets called with (error, response, body as string)
 function download_page(url, cb) {
-	http.get(url, (res) => {
+	const http_mod = url.startsWith('https') ? https : http;
+	http_mod.get(url, (res) => {
 		const chunks = [];
 
 		res.on('data', (chunk) => {
@@ -43,15 +45,19 @@ function download_page(url, cb) {
 		res.on('end', () => {
 			const buf = Buffer.concat(chunks);
 
-			const first_bytes = buf.slice(0, 1024);
-			const ascii_sd = new StringDecoder('ascii');
-			const html_head = ascii_sd.write(first_bytes);
-			const m = /(?:<meta\s+charset="|<meta\s+http-equiv="Content-Type"\s*content="[^;]*;\s+charset=)([^"]+)"/i.exec(html_head);
-			const guess_encoding = (m ? ({
-				'iso-8859-1': 'latin1',
-				'iso-8859-15': 'latin1',
-			}[m[1].toLowerCase()]) : '');
-
+			let guess_encoding;
+			if (res.headers['content-type'] && res.headers['content-type'].includes('text/html')) {
+				const first_bytes = buf.slice(0, 1024);
+				const ascii_sd = new StringDecoder('ascii');
+				const html_head = ascii_sd.write(first_bytes);
+				const m = /(?:<meta\s+charset="|<meta\s+http-equiv="Content-Type"\s*content="[^;]*;\s+charset=)([^"]+)"/i.exec(html_head);
+				if (m) {
+					guess_encoding = {
+						'iso-8859-1': 'latin1',
+						'iso-8859-15': 'latin1',
+					}[m[1].toLowerCase()];
+				}
+			}
 			const encoding = guess_encoding || 'utf8';
 
 			const sd = new StringDecoder(encoding);

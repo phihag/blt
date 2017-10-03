@@ -1,7 +1,8 @@
+source_sclive
+
 Übersicht über Spielstände (ohne zu Scrollen)
 generate short links
 
-source_sclive
 test for 8.1.
 prepare for 7.1.
 test with old android
@@ -9,12 +10,14 @@ upload
 
 source EBT?
 
+compress .js (with source map)
+	test report with source maps
 embed functionality
-	CSS: contain
+	reduce css
+	pull CSS
+	CSS: contain property?
 autogen top note
 include top message as part of sync
-compress .js (with source map)
-	report with source maps
 source_turnier.de (for all the clubs without tickers)
 	get turnier.de IDs from debmlist
 backoff ws if killed with error
