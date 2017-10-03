@@ -75,7 +75,7 @@ function render_event(container, shortcut_container, ev) {
 	var max_game_count = calc.max_game_count(ev.scoring || '5x11_15^90');
 	var team_colors = ev.team_names.map(extradata.get_color);
 
-	container.setAttribute('id', ev.team_names[0]);
+	container.setAttribute('id', extradata.shortname(ev.team_names[0]));
 	var header = uiu.el(container, 'table', 'header');
 	var header_tr = uiu.el(header, 'tr');
 	var home_td = uiu.el(header_tr, 'td', 'team_td');
@@ -135,9 +135,10 @@ function render_event(container, shortcut_container, ev) {
 		style: 'clear:both;',
 	});
 
+	var shortcut_str = extradata.shortname(ev.team_names[0]) + (ev.mscore ? ' ' + ev.mscore[0] + ':' + ev.mscore[1] + ' ' : ' - ') + extradata.shortname(ev.team_names[1]);
 	uiu.el(shortcut_container, 'a', {
-		href: '#',
-	});
+		href: '#' + extradata.shortname(ev.team_names[0]),
+	}, shortcut_str);
 }
 
 function add_event(ev) {
@@ -157,6 +158,7 @@ function add_event(ev) {
 
 function init(initial_events) {
 	uiu.empty(uiu.qs('.events'));
+	uiu.empty(uiu.qs('.shortcuts'));
 	initial_events.forEach(function(ev) {
 		full(ev);
 	});

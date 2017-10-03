@@ -20,7 +20,7 @@ html, body {
 	}
 }
 
-h1 {
+.bbt_h1 {
 	margin: 0;
 	text-align: center;
 	font-size: 140%;
@@ -140,4 +140,29 @@ h1 {
 }
 .footer_info + .footer_info {
 	margin-left: 1em;
+}
+
+.shortcuts {
+	position: fixed;
+	/* we would like to use position: sticky; here, but it's not supported everywhere :( */
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1em 0 0 1em;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.95);
+}
+.shortcut {
+	min-width: 11em;
+	display: inline-block;
+	margin-right: 1.5em;
+	margin-bottom: 0.5em;
+}
+.shortcut a:visited, .shortcut a:link {
+	color: #000;
+	text-decoration: none;
+}
+.shortcut a:visited:hover, .shortcut a:link:hover {
+	color: #00e;
+	text-decoration: underline;
 }
