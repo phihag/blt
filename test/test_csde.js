@@ -75,7 +75,6 @@ describe('CourtSpot', () => {
 		csde._annotate(ev, params);
 		assert.deepStrictEqual(ev, {
 			team_names: ['TSV 1906 Freystadt', 'SV Fun-Ball Dortelweil'],
-			id: 'csde:1-9-10',
 			scoring: '5x11_15^90',
 			mscore: [0, 0],
 		});
@@ -90,7 +89,6 @@ describe('CourtSpot', () => {
 		csde._annotate(ev, params);
 		assert.deepStrictEqual(ev, {
 			team_names: ['TV Refrath 2', 'VfB/SC Peine'],
-			id: 'csde:2-12-20',
 			scoring: '5x11_15^90',
 			mscore: [0, 0],
 			matches: [],
@@ -122,7 +120,6 @@ describe('CourtSpot', () => {
 		csde._annotate(ev, params);
 		assert.deepStrictEqual(ev, {
 			team_names: ['BV Gifhorn 1', 'SG EBT Berlin 2'],
-			id: 'csde:4-2-1',
 			scoring: '3x21',
 			mscore: [2, 1],
 			matches,

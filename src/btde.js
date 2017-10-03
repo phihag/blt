@@ -46,7 +46,6 @@ function parse(str) {
 
 	const mscore = [parseInt(metadata_ar[1]), parseInt(metadata_ar[2])];
 	const team_names = [metadata_ar[3], metadata_ar[4]];
-	const id = 'btde:' + team_names[0] + '-' + team_names[1];
 
 	const match_parts = pipe_parts.slice(1, -1);
 	const matches = match_parts.map(mp_str => {
@@ -84,7 +83,6 @@ function parse(str) {
 	const scoring = '5x11_15^90';
 
 	return {
-		id,
 		team_names,
 		mscore,
 		matches,

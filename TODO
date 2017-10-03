@@ -1,7 +1,16 @@
 Übersicht über Spielstände (ohne zu Scrollen)
 generate short links
-
 source_sclive
+test with old android
+embed functionality
+	CSS: contain
+test for 8.1.
+prepare for 7.1.
+include top message as part of sync
+upload
+
+source EBT?
+source Lüdinghausen?
 
 autogen top note
 compress .js (with source map)

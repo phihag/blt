@@ -171,7 +171,6 @@ function annotate(ev, params) {
 	assert(params.v !== undefined);
 	assert(params.g !== undefined);
 
-	ev.id = 'csde:' + params.l + '-' + params.v + '-' + params.g;
 	ev.team_names = [TEAM_NAMES[params.l + '-' + params.v], TEAM_NAMES[params.l + '-' + params.g]];
 	ev.scoring = SCORING[params.l];
 	if (ev.matches) {

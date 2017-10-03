@@ -56,9 +56,6 @@ class StateHandler {
 	}
 
 	on_new_full(new_ev) {
-		if (!new_ev.id) {
-			throw new Error('Missing event ID!');
-		}
 		new_ev.num = this.num;
 		const diff = determine_diff(this.ev, new_ev);
 
