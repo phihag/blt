@@ -15,9 +15,3 @@ if (! String.prototype.includes) {
 	};
 }
 
-
-/*@DEV*/
-if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
-	var uiu = null;
-}
-/*/@DEV*/
