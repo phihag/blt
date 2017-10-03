@@ -10,6 +10,10 @@
 	"type": "btde",
 	"url": "http://badmintonticker.de/ticker/tvrefrath/"
 },
+"TV Refrath 2": {
+	"type": "btde",
+	"url": "http://badmintonticker.de/ticker/tvrefrath2/"
+},
 "TSV 1906 Freystadt": {
 	"type": "csde"
 },
@@ -32,6 +36,42 @@
 },
 "1.BC Beuel": {
 	"type": "sclive"
+},
+"1.BV Mülheim": {
+	"type": "csde"
+},
+"1.BV Mülheim 2": {
+	"type": "csde"
+},
+"SV Fischbach": {
+	"type": "none"
+},
+"VfB Friedrichshafen": {
+	"type": "none"
+},
+"TSV Neubiberg/Ottobrunn 1920": {
+	"type": "none"
+},
+"SG Schorndorf": {
+	"type": "btde",
+	"url": "http://login.badmintonticker.de/ticker/sgschorndorf/"
+},
+"TV 1884 Marktheidenfeld": {
+	"type": "btde",
+	"url": "http://login.badmintonticker.de/ticker/tv1884marktheidenfeld/"
+},
+"STC Blau-Weiss Solingen": {
+	"type": "csde"
+},
+"VfB/SC Peine": {
+	"type": "csde"
+},
+"1.BC Sbr.-Bischmisheim": {
+	"type": "csde"
+},
+"1.BC Sbr.-Bischmisheim 2": {
+	"type": "csde"
 }
+
 
 }
