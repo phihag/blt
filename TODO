@@ -1,18 +1,21 @@
+source Lüdinghausen
+	check for invalid teams (like now)
+	automatically add scoring from league_key if msising
 Übersicht über Spielstände (ohne zu Scrollen)
 generate short links
+
 source_sclive
-test with old android
 embed functionality
 	CSS: contain
 test for 8.1.
 prepare for 7.1.
-include top message as part of sync
+test with old android
 upload
 
 source EBT?
-source Lüdinghausen?
 
 autogen top note
+include top message as part of sync
 compress .js (with source map)
 	report with source maps
 source_turnier.de (for all the clubs without tickers)

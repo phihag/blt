@@ -1,0 +1,11 @@
+<root>
+	<foo class="b">b1</foo>
+	<bar class="c">c2</bar>
+	<baz class="c">
+		<subchild />
+		<subchild class="foo b something c2 ac">b3</subchild>
+		<gp class="b">b4
+			<anothersub class="test b a a2 a3">b5</anothersub>
+		</gp>
+	</baz>
+</root>

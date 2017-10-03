@@ -1,0 +1,45 @@
+<div class="spiel_1">
+              <span class="match">Herrendoppel</span>
+              <div class="game">
+                <span class="form">Heim<br></span>
+                <span>Zurwonne<br> Blair</span>
+                <span class="form">Gast<br></span>
+                <span>Persson<br>Trisnato</span>
+              </div>
+              <div class="satz">
+                <span class="form">Sätze <br></span>
+                <span class="satz_points">2</span>
+                <span class="form"><br></span>
+                <span class="satz_points">3</span>
+              </div>
+              <div class="punkte">
+                <span  class="form">Satz 1<br></span>
+                <span class="satz_points">11</span>
+                <span class="form"><br></span>
+                <span class="satz_points">7</span>
+              </div>    
+              <div class="punkte">
+                <span class="form">Satz 2<br></span>
+                <span class="satz_points">11</span>
+                <span class="form"><br></span>
+                <span class="satz_points">7</span>
+              </div>    
+              <div class="punkte">
+                <span class="form">Satz 3<br></span>
+                <span class="satz_points">8</span>
+                <span class="form"><br></span>
+                <span class="satz_points">11</span>
+              </div>    
+              <div class="punkte">
+                <span class="form">Satz 4<br></span>
+                <span class="satz_points">13</span>
+                <span class="form"><br></span>
+                <span class="satz_points">15</span>
+              </div>    
+              <div class="punkte">
+                <span class="form">Satz 5<br></span>
+                <span class="satz_points">10</span>
+                <span class="form"><br></span>
+                <span class="satz_points">12</span>
+              </div>          
+          </div>
