@@ -1,10 +1,4 @@
-Übersicht über Spielstände (ohne zu Scrollen)
-generate short links
 
-test with old android
-upload
-
-source EBT?
 
 compress .js (with source map)
 	test report with source maps
@@ -12,6 +6,7 @@ embed functionality
 	reduce css
 	pull CSS
 	CSS: contain property?
+source EBT?
 autogen top note
 include top message as part of sync
 source_turnier.de (for all the clubs without tickers)
