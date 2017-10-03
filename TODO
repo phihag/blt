@@ -1,12 +1,13 @@
+logos berlin / Hohenlimburg
+
 source Lüdinghausen
 	check for invalid teams (like now)
-	automatically add scoring from league_key if msising
+
+trittau: invalid teams
 Übersicht über Spielstände (ohne zu Scrollen)
 generate short links
 
 source_sclive
-embed functionality
-	CSS: contain
 test for 8.1.
 prepare for 7.1.
 test with old android
@@ -14,6 +15,8 @@ upload
 
 source EBT?
 
+embed functionality
+	CSS: contain
 autogen top note
 include top message as part of sync
 compress .js (with source map)

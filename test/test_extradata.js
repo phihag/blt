@@ -1,6 +1,9 @@
 'use strict';
 
 const assert = require('assert');
+const async = require('async');
+const fs = require('fs');
+const path = require('path');
 
 const extradata = require('../static/extradata');
 
@@ -36,5 +39,66 @@ describe('extradata', () => {
 		assert.strictEqual(extradata.shortname('SG Schorndorf'), 'Schorndorf');
 		assert.strictEqual(extradata.shortname('VfB Friedrichshafen'), 'Friedrichshafen');
 		assert.strictEqual(extradata.shortname('SV Fischbach'), 'Fischbach');
-;	});
+	});
+
+	const expect_logos = {
+		'SV Fun-Ball Dortelweil': 'svfunballdortelweil',
+		'1.BC Beuel': 'bcbeuel',
+		'1.BV Mülheim': 'bvmuelheim',
+		'SC Union Lüdinghausen': 'unionluedinghausen',
+		'1.BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
+		'TSV Trittau': 'tsvtrittau',
+		'TV Refrath': 'tvrefrath',
+		'TSV Neuhausen-Nymphenburg': 'tsvneuhausen',
+		'1.BC Wipperfeld': 'bcwipperfeld',
+		'TSV 1906 Freystadt': 'tsvfreystadt',
+		'TSV Trittau 2': 'tsvtrittau',
+		'Blau-Weiss Wittorf-NMS': 'wittorfneumuenster',
+		'Hamburg Horner TV': 'hamburghornertv',
+		'TV Refrath 2': 'tvrefrath',
+		'1.BC Beuel 2': 'bcbeuel',
+		'VfB/SC Peine': 'vfbscpeine',
+		'1.BV Mülheim 2': 'bvmuelheim',
+		'BC Hohenlimburg': 'bchohenlimburg',
+		'SG EBT Berlin': 'sgebtberlin',
+		'STC Blau-Weiss Solingen': 'stcblauweisssolingen',
+		'1.BC Sbr.-Bischmisheim 2': 'bcbsaarbruecken',
+		'TV 1884 Marktheidenfeld': 'tvmarktheidenfeld',
+		'TV Dillingen': 'tvdillingen',
+		'SV GutsMuths Jena': 'svgutsmuthsjena',
+		'TuS Wiebelskirchen': 'tuswiebelskirchen',
+		'TSV Neubiberg/Ottobrunn 1920': 'tsvneubibergottobrunn',
+		'BSpfr. Neusatz': 'bspfrneusatz',
+		'SG Schorndorf': 'sgschorndorf',
+		'VfB Friedrichshafen': 'vfbfriedrichshafen',
+		'SV Fischbach': 'svfischbach',
+	};
+
+	it('logo associations', function() {
+		assert(!extradata.team_logo('FoOBAR'));
+
+		for (const team_name in expect_logos) {
+			const logo_name = expect_logos[team_name];
+			assert.deepStrictEqual(
+				extradata.team_logo(team_name),
+				'logos/' + logo_name + '.svg');
+		}
+	});
+
+	it('logo files present', function(done) {
+		const logo_names = Object.values(expect_logos);
+		const root_dir = path.dirname(__dirname);
+
+		async.each(logo_names, function(logo_name, cb) {
+			const rel_fn = path.join('static', 'logos', logo_name + '.svg');
+			const logo_fn = path.join(root_dir, rel_fn);
+			fs.stat(logo_fn, function(err, stat) {
+				if (err) {
+					return cb(err);
+				}
+				assert(stat.size > 100);
+				cb();
+			});
+		}, done);
+	});
 });
