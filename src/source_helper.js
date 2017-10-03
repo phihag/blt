@@ -15,7 +15,7 @@ function copy_props(ev, src) {
 		ev.team_names = src.team_names;
 		ev.admin_note = admin_note;
 		ev.matches = false;
-		ev.mscore = false;
+		ev.mscore = [0, 0];
 		ev.link = src.link || src.url;
 	}
 }
