@@ -62,7 +62,7 @@ describe('CourtSpot', () => {
 				});
 			}
 		});
-		run();
+		run(); // If this says "run is not a function", you need to call mocha with --delay
 	});
 
 	it('inactive ticker', () => {

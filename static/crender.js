@@ -65,14 +65,17 @@ function render_match(table, ev, team_colors, max_game_count, match) {
 	}
 }
 
-function render_event(container, ev) {
+function render_event(container, shortcut_container, ev) {
 	uiu.empty(container);
+	uiu.empty(shortcut_container);
+
 	if (!ev.team_names) {
 		return; // Incomplete
 	}
-	var max_game_count = calc.max_game_count(ev.scoring || '3x21');
+	var max_game_count = calc.max_game_count(ev.scoring || '5x11_15^90');
 	var team_colors = ev.team_names.map(extradata.get_color);
 
+	container.setAttribute('id', ev.team_names[0]);
 	var header = uiu.el(container, 'table', 'header');
 	var header_tr = uiu.el(header, 'tr');
 	var home_td = uiu.el(header_tr, 'td', 'team_td');
@@ -83,7 +86,7 @@ function render_event(container, ev) {
 		style: 'padding-left:0.5ch;',
 	}, ev.team_names[0]);
 
-	uiu.el(header_tr, 'td', 'mscore', ev.mscore[0] + ':' + ev.mscore[1]);
+	uiu.el(header_tr, 'td', 'mscore', (ev.mscore ? (ev.mscore[0] + ':' + ev.mscore[1]) : ''));
 	var away_td = uiu.el(header_tr, 'td', {
 		'class': 'team_td',
 		style: 'text-align:right;',
@@ -111,7 +114,9 @@ function render_event(container, ev) {
 	}
 
 	if (ev.admin_note) {
-		uiu.el(container, 'div', {}, ev.admin_note);
+		uiu.el(container, 'div', {
+			style: 'white-space:pre-wrap;',
+		}, ev.admin_note);
 	}
 
 	var footer = uiu.el(container, 'div', 'footer');
@@ -121,9 +126,18 @@ function render_event(container, ev) {
 	if (ev.starttime) {
 		uiu.el(footer, 'div', 'footer_info', 'Spielbeginn: ' + ev.starttime);
 	}
-	uiu.el(footer, 'a', {
-		href: ev.link,
-	}, 'Original-Liveticker');
+	if (ev.link) {
+		uiu.el(footer, 'a', {
+			href: ev.link,
+		}, 'Original-Liveticker');
+	}
+	uiu.el(container, 'div', {
+		style: 'clear:both;',
+	});
+
+	uiu.el(shortcut_container, 'a', {
+		href: '#',
+	});
 }
 
 function add_event(ev) {
@@ -132,7 +146,13 @@ function add_event(ev) {
 		'class': 'event',
 		'data-event-num': ev.num,
 	});
-	render_event(container, ev);
+
+	var shortcuts_container = uiu.qs('.shortcuts');
+	var shortcut_container = uiu.el(shortcuts_container, 'div', {
+		'class': 'shortcut',
+		'data-event-num': ev.num,
+	});
+	render_event(container, shortcut_container, ev);
 }
 
 function init(initial_events) {
@@ -144,8 +164,10 @@ function init(initial_events) {
 
 function full(ev) {
 	var cur_container = document.querySelector('.event[data-event-num="' + ev.num + '"]');
+	var shortcut_container = document.querySelector('.shortcut[data-event-num="' + ev.num + '"]');
+
 	if (cur_container) {
-		render_event(cur_container, ev);
+		render_event(cur_container, shortcut_container, ev);
 	} else {
 		add_event(ev);
 	}

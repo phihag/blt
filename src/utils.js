@@ -3,6 +3,7 @@
 const fs = require('fs');
 const http = require('http');
 const WebSocket = require('ws');
+const {StringDecoder} = require('string_decoder');
 
 function broadcast(wss, msg) {
 	const json_msg = JSON.stringify(msg);
@@ -33,16 +34,32 @@ function run_every(every, func) {
 
 // Callback gets called with (error, response, body as string)
 function download_page(url, cb) {
-	http.get(url, function(res) {
-		res.setEncoding('utf8'); // TODO read actual page encoding
-		let body = '';
-		res.on('data', function(chunk) {
-			body += chunk;
+	http.get(url, (res) => {
+		const chunks = [];
+
+		res.on('data', (chunk) => {
+			chunks.push(chunk);
 		});
-		res.on('end', function() {
+		res.on('end', () => {
+			const buf = Buffer.concat(chunks);
+
+			const first_bytes = buf.slice(0, 1024);
+			const ascii_sd = new StringDecoder('ascii');
+			const html_head = ascii_sd.write(first_bytes);
+			const m = /(?:<meta\s+charset="|<meta\s+http-equiv="Content-Type"\s*content="[^;]*;\s+charset=)([^"]+)"/i.exec(html_head);
+			const guess_encoding = (m ? ({
+				'iso-8859-1': 'latin1',
+				'iso-8859-15': 'latin1',
+			}[m[1].toLowerCase()]) : '');
+
+			const encoding = guess_encoding || 'utf8';
+
+			const sd = new StringDecoder(encoding);
+			const body = sd.write(buf);
+
 			cb(null, res, body);
 		});
-	}).on('error', function(e) {
+	}).on('error', (e) => {
 		cb(e, null, null);
 	});
 }

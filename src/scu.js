@@ -5,7 +5,6 @@ const xmldom = require('xmldom');
 
 
 const calc = require('../static/calc');
-const eventutils = require('./eventutils');
 const source_helper = require('./source_helper');
 const utils = require('./utils');
 const xmlutils = require('./xmlutils');
@@ -88,7 +87,6 @@ function _parse(html) {
 		};
 		matches.push(match);
 	}
-
 	return res;
 }
 
@@ -106,6 +104,9 @@ function run_once(cfg, src, sh, cb) {
 		} catch (e) {
 			return cb(e);
 		}
+
+		event.team_names[0] = src.team_names[0];
+
 		source_helper.copy_props(event, src);
 		sh.on_new_full(event);
 		cb();
@@ -116,8 +117,9 @@ function watch(cfg, src, sh) {
 	utils.run_every(cfg('default_interval'), (cb) => run_once(cfg, src, sh, cb));
 }
 
-function setup_tm(tm, home_team) {
-
+function setup_tm(tm, home_team_cfg) {
+	tm.link = home_team_cfg.link;
+	tm.url = home_team_cfg.url;
 }
 
 module.exports = {

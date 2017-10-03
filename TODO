@@ -1,9 +1,3 @@
-logos berlin / Hohenlimburg
-
-source Lüdinghausen
-	check for invalid teams (like now)
-
-trittau: invalid teams
 Übersicht über Spielstände (ohne zu Scrollen)
 generate short links
 
@@ -23,12 +17,10 @@ compress .js (with source map)
 	report with source maps
 source_turnier.de (for all the clubs without tickers)
 	get turnier.de IDs from debmlist
-support Lüdinghausen?
 backoff ws if killed with error
 automatically select next date (cron to roll over?)
 if no tickers note when next tickers will be coming
 server-side error reporting
-ticker notes as well
 
 Live-Tabelle
 source_bup

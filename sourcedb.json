@@ -13,13 +13,26 @@
 "TSV 1906 Freystadt": {
 	"type": "csde"
 },
+"SV Fun-Ball Dortelweil": {
+	"type": "csde"
+},
 "TSV Trittau": {
 	"type": "btde",
 	"url": "http://login.badmintonticker.de/ticker/tsvtrittau/"
 },
+"SC Union Lüdinghausen": {
+	"type": "scu",
+	"url": "http://www.scunion08.de/liveTicker/overview.php",
+	"link": "http://www.scunion08.de/liveTicker/index.php"
+},
 
 "SG EBT Berlin": {
-	"type": "none"
+	"type": "none",
+	"admin_note": "SG EBT Berlin hat bisher nicht auf Anfragen nach Ticker-URL und Ticker-Format geantwortet."
+},
+"1.BC Beuel": {
+	"type": "none",
+	"admin_note": "Dieser Ticker wird noch nicht unterstützt. Wird bis Samstag nachgerüstet!"
 }
 
 }
