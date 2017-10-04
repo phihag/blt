@@ -69,22 +69,23 @@ function render_event(container, shortcut_container, ev) {
 	uiu.empty(container);
 	uiu.empty(shortcut_container);
 
-	if (!ev.team_names) {
+	var team_names = ev.team_names;
+	if (!team_names) {
 		return; // Incomplete
 	}
 	var max_game_count = calc.max_game_count(ev.scoring || '5x11_15^90');
-	var team_colors = ev.team_names.map(extradata.get_color);
+	var team_colors = team_names.map(extradata.get_color);
 
-	container.setAttribute('id', extradata.shortname(ev.team_names[0]));
+	container.setAttribute('id', extradata.shortname(team_names[0]));
 	var header = uiu.el(container, 'table', 'header');
 	var header_tr = uiu.el(header, 'tr');
 	var home_td = uiu.el(header_tr, 'td', 'team_td');
 	var home_div = uiu.el(home_td, 'div', 'team_name_container');
-	_render_logo(home_div, ev.team_names[0]);
+	_render_logo(home_div, team_names[0]);
 	uiu.el(home_div, 'span', {
 		'class': 'team_name',
 		style: 'padding-left:0.5ch;',
-	}, ev.team_names[0]);
+	}, team_names[0]);
 
 	uiu.el(header_tr, 'td', 'mscore', (ev.mscore ? (ev.mscore[0] + ':' + ev.mscore[1]) : ''));
 	var away_td = uiu.el(header_tr, 'td', {
@@ -98,8 +99,8 @@ function render_event(container, shortcut_container, ev) {
 	uiu.el(away_div, 'span', {
 		'class': 'team_name',
 		'style': 'padding-right:0.5ch;',
-	}, ev.team_names[1]);
-	_render_logo(away_div, ev.team_names[1]);
+	}, team_names[1]);
+	_render_logo(away_div, team_names[1]);
 
 	if (ev.matches) {
 		ev.matches.forEach(function(match) {
@@ -135,9 +136,9 @@ function render_event(container, shortcut_container, ev) {
 		style: 'clear:both;',
 	});
 
-	var shortcut_str = extradata.shortname(ev.team_names[0]) + (ev.mscore ? ' ' + ev.mscore[0] + ':' + ev.mscore[1] + ' ' : ' - ') + extradata.shortname(ev.team_names[1]);
+	var shortcut_str = extradata.shortname(team_names[0]) + (ev.mscore ? ' ' + ev.mscore[0] + ':' + ev.mscore[1] + ' ' : ' - ') + extradata.shortname(team_names[1]);
 	uiu.el(shortcut_container, 'a', {
-		href: '#' + extradata.shortname(ev.team_names[0]),
+		href: '#' + extradata.shortname(team_names[0]),
 	}, shortcut_str);
 }
 
