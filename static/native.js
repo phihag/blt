@@ -1,7 +1,7 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function() {
-	var events = JSON.parse(uiu.qs('.events').getAttribute('data-initial-json'));
+	var events = JSON.parse(uiu.qs('.bbt_events').getAttribute('data-initial-json'));
 	crender.init(events);
 	wsclient.init();
 });

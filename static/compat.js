@@ -15,15 +15,6 @@ if (! String.prototype.includes) {
 	};
 }
 
-window.addEventListener('load', function() {
-	var test = document.createElement('div');
-	test.style.cssText = 'position:sticky';
-	if (! test.style.position) {
-		var height = uiu.qs('.shortcuts').scrollHeight;
-		uiu.qs('.bbt_h1').style.marginTop = height + 'px';
-	}
-});
-
 /*@DEV*/
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var uiu = null;

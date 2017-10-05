@@ -1,101 +1,54 @@
-html, body {
-	margin: 0;
-	padding: 0;
-	font-size: 14px;
-	font-family: 'Droid Sans', sans-serif;
-}
-@media (min-width: 400px) {
-	html, body {
-		font-size: 18px;
-	}
-}
-@media (min-width: 600px) {
-	html, body {
-		font-size: 20px;
-	}
-}
-@media (min-width: 800px) {
-	html, body {
-		font-size: 25px;
-	}
-}
-
-.bbt_h1 {
-	margin: 0;
-	padding-top: 0.2em;
-	text-align: center;
-	font-size: 140%;
-}
-
-.invisible {
-	display: none;
-}
-
-.main {
-	max-width: 33em;
-	margin: 0 auto;
-}
-.events {
-}
-.event {
+.bbt_event {
 	max-width: 100vw;
 	padding: 0 0.25em;
 }
-.event + .event {
+.bbt_event + .bbt_event {
 	margin-top: 2em;
 }
 
-.header {
+.bbt_header {
 	width: 100%;
 	padding: 0 0;
 	background: #f8f8f8;
 	border-top-left-radius: 0.5em;
 	border-top-right-radius: 0.5em;
 }
-.header td {
+.bbt_header td {
 	vertical-align: middle;
 }
 
-.team_td {
+.bbt_team_td {
 	width: 45%;
 	font-size: 110%;
 }
-.team_name_container {
+.bbt_team_name_container {
 	display: -webkit-flex;
 	display: flex;
 
 	-webkit-align-items: center;
 	align-items: center;
 }
-.team_name {
+.bbt_team_name {
 	display: inline-block;
 	vertical-align: middle;
 }
-.logo {
+.bbt_logo {
 	vertical-align: middle;
 	height: 2em;
 	max-width: 4em;
 }
 
-.mscore {
-	text-align: center;
-	font-size: 160%;
-}
-.player_names {
-	padding: 0.25em 0.4em;
-}
-.match {
+.bbt_match {
 	width: 100%;
 	border-collapse: collapse;
-	
 }
-.match td {
+.bbt_match td {
 	border: 1px solid #aaa;
 }
-.match + .match {
+.bbt_match + .bbt_match {
 	margin-top: .3em;
 }
-.match_name {
+.bbt_match_name {
 	width: 2.5em;
 	text-align: center;
 }
@@ -103,31 +56,33 @@ html, body {
 	width: 1.5em;
 	text-align: center;
 }
-
 .footer {
 	text-align: right;
 }
 
 
-.player_name {
+.bbt_player_name {
 	white-space: pre;
 }
+.bbt_player_names {
+	padding: 0.25em 0.4em;
+}
 @media (max-width: 800px) {
-	.header {
+	.bbt_header {
 		padding: 0;
 	}
-	.player_names {
+	.bbt_player_names {
 		padding: 0.1em;
 	}
-	.player_name {
+	.bbt_player_name {
 		display: block;
 	}
-	.player_sep {
+	.bbt_player_sep {
 		display: none;
 	}		
 }
 
-.status {
+.bbt_status {
 	color: #888;
 	background: rgba(255, 255, 255, 0.9);
 	padding: 0 0 .15em .25em;
@@ -137,15 +92,15 @@ html, body {
 	right: 0;
 }
 
-.footer_info {
+.bbt_footer_info {
 	float: left;
 	color: #666;
 }
-.footer_info + .footer_info {
+.bbt_footer_info + .bbt_footer_info {
 	margin-left: 1em;
 }
 
-.shortcuts {
+.bbt_shortcuts {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -153,15 +108,15 @@ html, body {
 	background: #fafafa;
 	background: rgba(250, 250, 250, 0.95);
 }
-.shortcut {
+.bbt_shortcut {
 	margin-right: 0.5em;
 	margin-bottom: 0.5em;
 }
 @media (max-width: 1000px) {
-	.shortcuts {
+	.bbt_shortcuts {
 		position: relative;
 	}
-	.shortcut {
+	.bbt_shortcut {
 		display: inline-block;
 		margin-right: 1.5em;
 		margin-bottom: 0.8em;
@@ -169,7 +124,7 @@ html, body {
 	}
 }
 @media (min-width: 1001px) and (max-width: 1700px) {
-	.shortcuts {
+	.bbt_shortcuts {
 		position: relative;
 	}
 	.bbt_root {
@@ -178,11 +133,11 @@ html, body {
 	}
 }
 
-.shortcut a:visited, .shortcut a:link {
+.bbt_shortcut a:visited, .bbt_shortcut a:link {
 	color: #000;
 	text-decoration: none;
 }
-.shortcut a:visited:hover, .shortcut a:link:hover {
+.bbt_shortcut a:visited:hover, .bbt_shortcut a:link:hover {
 	color: #00e;
 	text-decoration: underline;
 }

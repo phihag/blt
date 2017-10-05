@@ -1,24 +1,6 @@
 // ui utils
-var uiu = (function() {
 'use strict';
-
-function qsEach(selector, func, container) {
-	if (!container) {
-		container = document;
-	}
-	var nodes = container.querySelectorAll(selector);
-	for (var i = 0;i < nodes.length;i++) {
-		func(nodes[i], i);
-	}
-}
-
-function visible(node, val) {
-	if (val) {
-		removeClass(node, 'invisible');
-	} else {
-		addClass(node, 'invisible');
-	}
-}
+var uiu = (function() {
 
 function qs(selector, container) {
 	if (! container) {
@@ -40,40 +22,11 @@ function qs(selector, container) {
 	return node;
 }
 
-function visible_qs(selector, val) {
-	visible(qs(selector), val);
-}
-
-function hide_qs(selector) {
-	visible_qs(selector, false);
-}
-
-function show_qs(selector) {
-	visible_qs(selector, true);
-}
-
-function hide(node) {
-	visible(node, false);
-}
-
-function show(node) {
-	visible(node, true);
-}
-
 function empty(node) {
 	var last;
 	while ((last = node.lastChild)) {
 		node.removeChild(last);
 	}
-}
-
-function remove(node) {
-	empty(node);
-	node.parentNode.removeChild(node);
-}
-
-function remove_qsa(qs, container) {
-	qsEach(qs, remove, container);
 }
 
 function text(node, str) {
@@ -107,71 +60,12 @@ function el(parent, tagName, attrs, text) {
 	return el;
 }
 
-// From https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/
-var hasClass, addClass, removeClass;
-if (typeof document != 'undefined') {
-	if ('classList' in document.documentElement) {
-		hasClass = function(el, className) {
-			return el.classList.contains(className);
-		};
-		addClass = function(el, className) {
-			el.classList.add(className);
-		};
-		removeClass = function(el, className) {
-			el.classList.remove(className);
-		};
-	} else {
-		hasClass = function (el, className) {
-			return new RegExp('\\b'+ className+'\\b').test(el.className);
-		};
-		addClass = function (el, className) {
-			if (!hasClass(el, className)) {
-				el.className += ' ' + className;
-			}
-		};
-		removeClass = function (el, className) {
-			el.className = el.className.replace(new RegExp('\\b' + className + '\\b', 'g'), '');
-		};
-	}
-}
-
-function addClass_qs(selector, className) {
-	return addClass(qs(selector), className);
-}
-
-function removeClass_qs(selector, className) {
-	return removeClass(qs(selector), className);
-}
-
-function setClass(el, className, enabled) {
-	if (enabled) {
-		addClass(el, className);
-	} else {
-		removeClass(el, className);
-	}
-}
-
 return {
-	addClass: addClass,
-	addClass_qs: addClass_qs,
 	empty: empty,
 	el: el,
-	hasClass: hasClass,
-	hide: hide,
-	hide_qs: hide_qs,
 	qs: qs,
-	qsEach: qsEach,
-	remove: remove,
-	remove_qsa: remove_qsa,
-	removeClass: removeClass,
-	removeClass_qs: removeClass_qs,
-	setClass: setClass,
-	show: show,
-	show_qs: show_qs,
 	text: text,
 	text_qs: text_qs,
-	visible: visible,
-	visible_qs: visible_qs,
 };
 
 })();

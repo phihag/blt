@@ -11,7 +11,7 @@ var MAX_TIMEOUT = 10000;
 var timeout_length = DEFAULT_TIMEOUT;
 
 function _show_status(message) {
-	uiu.text_qs('.status', message);
+	uiu.text_qs('.bbt_status', message);
 }
 
 function _construct_url(abspath) {
