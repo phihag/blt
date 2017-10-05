@@ -75,8 +75,7 @@ function init() {
 	}
 	_show_status('Verbinde ...');
 
-	var root_path = uiu.qs('body').getAttribute('data-root_path');
-	var ws_url = _construct_url(root_path + 'ws/subscribe');
+	var ws_url = _construct_url(cutils.root_url() + 'ws/subscribe');
 	var new_ws;
 	try {
 		new_ws = new WebSocket(ws_url);

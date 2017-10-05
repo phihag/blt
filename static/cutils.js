@@ -33,10 +33,15 @@ function cached_brightness(rgb_str) {
 	return _cache[rgb_str];
 }
 
+function root_url() {
+	return uiu.qs('.bbt_root').getAttribute('data-rooturl') || 'https://b./aufschlagwechsel.de/'
+}
+
 return {
 	cached_brightness: cached_brightness,
 	brightness: brightness,
 	find: find,
+	root_url: root_url,
 };
 })();
 

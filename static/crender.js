@@ -3,8 +3,7 @@
 var crender = (function() {
 
 function _render_logo(container, team_name) {
-	var static_path = uiu.qs('body').getAttribute('data-static_path');
-	var logo_url = static_path + extradata.team_logo(team_name);
+	var logo_url = cutils.root_url() + 'static/' + extradata.team_logo(team_name);
 	uiu.el(container, 'img', {
 		'class': 'bbt_logo',
 		src: logo_url,

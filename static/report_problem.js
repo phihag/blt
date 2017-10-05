@@ -27,8 +27,8 @@ function _send(obj) {
 }
 
 function report(info_obj) {
-	var body = document.getElementsByTagName('body')[0];
-	var enabled = body.getAttribute('data-reporting-enabled') === 'true';
+	var bbt_root = document.getElementsByClassName('bbt_root')[0];
+	var enabled = bbt_root.getAttribute('data-reporting-enabled') === 'true';
 
 	if (!enabled) {
 		return;
