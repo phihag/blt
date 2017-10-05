@@ -40,13 +40,6 @@ function qs(selector, container) {
 	return node;
 }
 
-function visible_qsa(selector, val) {
-	var nodes = document.querySelectorAll(selector);
-	for (var i = 0;i < nodes.length;i++) {
-		visible(nodes[i], val);
-	}
-}
-
 function visible_qs(selector, val) {
 	visible(qs(selector), val);
 }
@@ -65,20 +58,6 @@ function hide(node) {
 
 function show(node) {
 	visible(node, true);
-}
-
-function disabled_qsa(qs, val) {
-	var nodes = document.querySelectorAll(qs);
-	for (var i = 0;i < nodes.length;i++) {
-		var n = nodes[i];
-		if (val) {
-			n.setAttribute('disabled', 'disabled');
-			addClass(n, 'half-invisible');
-		} else {
-			n.removeAttribute('disabled');
-			removeClass(n, 'half-invisible');
-		}
-	}
 }
 
 function empty(node) {
@@ -104,23 +83,6 @@ function text(node, str) {
 
 function text_qs(selector, str) {
 	text(qs(selector), str);
-}
-
-function ns_el(parent, ns, tagName, attrs, text) {
-	var doc = parent ? parent.ownerDocument : document;
-	var el = doc.createElementNS(ns, tagName);
-	if (attrs) {
-		for (var k in attrs) {
-			el.setAttribute(k, attrs[k]);
-		}
-	}
-	if ((text !== undefined) && (text !== null)) {
-		el.appendChild(doc.createTextNode(text));
-	}
-	if (parent) {
-		parent.appendChild(el);
-	}
-	return el;
 }
 
 function el(parent, tagName, attrs, text) {
@@ -189,34 +151,14 @@ function setClass(el, className, enabled) {
 	}
 }
 
-function closest(el, cb) {
-	while (el) {
-		if (cb(el)) {
-			return el;
-		}
-		el = el.parentNode;
-	}
-}
-
-function closest_class(el, className) {
-	return closest(el, function(node) {
-		// nodeType != 1: not an element (i.e. document)
-		return (node.nodeType === 1) && hasClass(node, className);
-	});
-}
-
 return {
 	addClass: addClass,
 	addClass_qs: addClass_qs,
-	closest: closest,
-	closest_class: closest_class,
-	disabled_qsa: disabled_qsa,
 	empty: empty,
 	el: el,
 	hasClass: hasClass,
 	hide: hide,
 	hide_qs: hide_qs,
-	ns_el: ns_el,
 	qs: qs,
 	qsEach: qsEach,
 	remove: remove,
@@ -230,7 +172,6 @@ return {
 	text_qs: text_qs,
 	visible: visible,
 	visible_qs: visible_qs,
-	visible_qsa: visible_qsa,
 };
 
 })();
