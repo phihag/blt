@@ -15,6 +15,10 @@ function _show_status(message) {
 }
 
 function _construct_url(abspath) {
+	if (abspath.includes(':')) {
+		return abspath.replace(/^http(s?)/, 'ws$1');
+	}
+
 	var l = window.location;
 	return (
 		((l.protocol === 'https:') ? 'wss://' : 'ws://') +
