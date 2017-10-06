@@ -49,9 +49,7 @@ function embed_init(bbt_root) {
 
 	uiu.el(bbt_root, 'div', 'bbt_shortcuts');
 	uiu.el(bbt_root, 'div', 'bbt_status');
-	var main = uiu.el(bbt_root, 'div', {
-		style: 'max-width:33em;margin:0 auto;',
-	});
+	var main = uiu.el(bbt_root, 'div', 'bbt_main');
 	uiu.el(main, 'div', 'bbt_events');
 
 	crender.init(events);

@@ -29,3 +29,33 @@ html, body {
 	font-size: 140%;
 }
 
+.bbt_main {
+	max-width:33em;
+	margin:0 auto;
+}
+
+.bbt_shortcuts {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+@media (max-width: 1000px) {
+	.bbt_shortcuts {
+		position: static;
+	}
+	.bbt_shortcut {
+		display: inline-block;
+		margin-right: 1.5em;
+		margin-bottom: 0.8em;
+		min-width: 15em;
+	}
+}
+@media (min-width: 1001px) and (max-width: 1700px) {
+	.bbt_shortcuts {
+		position: static;
+	}
+	.bbt_root {
+		display: -webkit-flex;
+		display: flex;
+	}
+}

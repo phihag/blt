@@ -1,5 +1,4 @@
 .bbt_event {
-	max-width: 100vw;
 	padding: 0 0.25em;
 }
 .bbt_event + .bbt_event {
@@ -101,36 +100,12 @@
 }
 
 .bbt_shortcuts {
-	position: fixed;
-	top: 0;
-	left: 0;
 	padding: 0.5em 0 0.2em 0.5em;
-	background: #fafafa;
 	background: rgba(250, 250, 250, 0.95);
 }
 .bbt_shortcut {
 	margin-right: 0.5em;
 	margin-bottom: 0.5em;
-}
-@media (max-width: 1000px) {
-	.bbt_shortcuts {
-		position: relative;
-	}
-	.bbt_shortcut {
-		display: inline-block;
-		margin-right: 1.5em;
-		margin-bottom: 0.8em;
-		min-width: 15em;
-	}
-}
-@media (min-width: 1001px) and (max-width: 1700px) {
-	.bbt_shortcuts {
-		position: relative;
-	}
-	.bbt_root {
-		display: -webkit-flex;
-		display: flex;
-	}
 }
 
 .bbt_shortcut a:visited, .bbt_shortcut a:link {

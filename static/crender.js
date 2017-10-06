@@ -135,7 +135,7 @@ function render_event(container, shortcut_container, ev) {
 			rel: 'noopener noreferrer',
 		}, 'Original-Liveticker');
 	}
-	uiu.el(container, 'div', {
+	uiu.el(footer, 'div', {
 		style: 'clear:both;',
 	});
 

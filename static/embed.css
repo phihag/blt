@@ -1,3 +1,10 @@
+.bbt_root {
+	font-size: 22px;
+}
+.bbt_header {
+	background: #e0e0e0;
+}
+
 .bbt_shortcuts {
-	top: 5em;
+	display: none;
 }
