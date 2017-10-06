@@ -38,8 +38,8 @@ function root_url() {
 }
 
 return {
-	cached_brightness: cached_brightness,
 	brightness: brightness,
+	cached_brightness: cached_brightness,
 	find: find,
 	root_url: root_url,
 };

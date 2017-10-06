@@ -59,6 +59,7 @@ function embed_init(bbt_root) {
 /*@DEV*/
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var crender = null;
+	var uiu = null;
 	var wsclient = null;
 }
 /*/@DEV*/

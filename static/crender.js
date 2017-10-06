@@ -126,7 +126,18 @@ function render_event(container, shortcut_container, ev) {
 		uiu.el(footer, 'div', 'bbt_footer_info', extradata.name_by_league(ev.league_key));
 	}
 	if (ev.starttime) {
-		uiu.el(footer, 'div', 'bbt_footer_info', 'Spielbeginn: ' + ev.starttime);
+		var starttime_str = 'Spielbeginn: ';
+		if (ev.date) {
+			var now = new Date();
+			var ymd = ev.date.split('-').map(function(str) {
+				return parseInt(str);
+			});
+			if ((ymd[0] !== now.getFullYear()) || (ymd[1] !== now.getMonth() + 1) || (ymd[2] !== now.getDate())) {
+				starttime_str += ymd[2] + '.' + ymd[1] + '.' + ymd[0] + ' ';
+			}
+		}
+		starttime_str += ev.starttime;
+		uiu.el(footer, 'div', 'bbt_footer_info', starttime_str);
 	}
 	if (ev.link) {
 		uiu.el(footer, 'a', {

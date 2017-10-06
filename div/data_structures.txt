@@ -49,7 +49,6 @@ num*        An ID of an event that is valid as long as a connection is held.
 team_names* An array with two elements with the names of the home and away teams.
 matches     An arry of matches (see below).
             If missing or false-y teammatch has not started yet.
-starttime   Human-readable string of scheduled match start time, i.e. "14:00"
 mscore*     The current match score as a two-element array, e.g. [3, 2].
 scoring     Badminton scoring system. One of 
               "3x21"       BWF since 2016
@@ -62,6 +61,9 @@ scoring     Badminton scoring system. One of
               "1x11_15"    One Game 2016 Experiment Option 1 (1x11 until max. 15)
               "3x15_18"    Shortened (3x15 until max. 18)
 link        Link of the source live ticker
+starttime   Human-readable string of scheduled match start time, i.e. "14:00"
+date        ISO 8601 date (YYYY-MM-DD)
+ts          UNIX timestamp of start of match.
 
 match
 =====
