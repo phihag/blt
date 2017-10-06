@@ -131,6 +131,8 @@ function render_event(container, shortcut_container, ev) {
 	if (ev.link) {
 		uiu.el(footer, 'a', {
 			href: ev.link,
+			target: '_blank',
+			rel: 'noopener noreferrer',
 		}, 'Original-Liveticker');
 	}
 	uiu.el(container, 'div', {
