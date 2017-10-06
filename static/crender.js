@@ -147,7 +147,7 @@ function render_event(container, shortcut_container, ev) {
 				return parseInt(str);
 			});
 			if ((ymd[0] !== now.getFullYear()) || (ymd[1] !== now.getMonth() + 1) || (ymd[2] !== now.getDate())) {
-				starttime_str += ymd[2] + '.' + ymd[1] + '.' + ymd[0] + ' ';
+				starttime_str = ymd[2] + '.' + ymd[1] + '. ';
 			}
 		}
 		starttime_str += ev.starttime;
