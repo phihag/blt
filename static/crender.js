@@ -103,6 +103,18 @@ function render_event(container, shortcut_container, ev) {
 	}, team_names[1]);
 	_render_logo(away_div, team_names[1]);
 
+	var admin_note = ev.admin_note;
+	var bbt_root = uiu.qs('.bbt_root');
+	var override_json = bbt_root.getAttribute('data-override-notes-json');
+	if (override_json) {
+		try {
+			var override = JSON.parse(override_json);
+			admin_note = override[team_names[0]] || admin_note;
+		} catch (e) {
+			report_problem.silent_error('Failed to parse data-override-notes-json: ' + e.stack);
+		}
+	}
+
 	if (ev.matches) {
 		ev.matches.forEach(function(match) {
 			var table = uiu.el(container, 'table', {
@@ -111,14 +123,14 @@ function render_event(container, shortcut_container, ev) {
 			});
 			render_match(table, ev, team_colors, max_game_count, match);
 		});
-	} else if (!ev.admin_note) {
+	} else if (!admin_note) {
 		uiu.el(container, 'div', {}, 'Ticker noch nicht aktiv');
 	}
 
-	if (ev.admin_note) {
+	if (admin_note) {
 		uiu.el(container, 'div', {
 			style: 'white-space:pre-wrap;',
-		}, ev.admin_note);
+		}, admin_note);
 	}
 
 	var footer = uiu.el(container, 'div', 'footer');
