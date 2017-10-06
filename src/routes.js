@@ -12,6 +12,7 @@ function setup(cfg, app) {
 
 	app.get('/', web_handlers.root_handler);
 	app.get('/events.json', web_handlers.json_handler);
+	app.get('/embed.js', web_handlers.embed_handler);
 }
 
 
