@@ -22,7 +22,7 @@
 },
 "TSV Trittau": {
 	"type": "btde",
-	"url": "http://login.badmintonticker.de/ticker/tsvtrittau/"
+	"url": "http://badmintonticker.de/ticker/tsvtrittau/"
 },
 "SC Union Lüdinghausen": {
 	"type": "scu",
@@ -54,11 +54,11 @@
 },
 "SG Schorndorf": {
 	"type": "btde",
-	"url": "http://login.badmintonticker.de/ticker/sgschorndorf/"
+	"url": "http://badmintonticker.de/ticker/sgschorndorf/"
 },
 "TV 1884 Marktheidenfeld": {
 	"type": "btde",
-	"url": "http://login.badmintonticker.de/ticker/tv1884marktheidenfeld/"
+	"url": "http://badmintonticker.de/ticker/tv1884marktheidenfeld/"
 },
 "STC Blau-Weiss Solingen": {
 	"type": "csde"
