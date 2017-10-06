@@ -104,14 +104,16 @@ function render_event(container, shortcut_container, ev) {
 	_render_logo(away_div, team_names[1]);
 
 	var admin_note = ev.admin_note;
-	var bbt_root = uiu.qs('.bbt_root');
-	var override_json = bbt_root.getAttribute('data-override-notes-json');
-	if (override_json) {
-		try {
-			var override = JSON.parse(override_json);
-			admin_note = override[team_names[0]] || admin_note;
-		} catch (e) {
-			report_problem.silent_error('Failed to parse data-override-notes-json: ' + e.stack);
+	if (admin_note) {
+		var bbt_root = uiu.qs('.bbt_root');
+		var override_json = bbt_root.getAttribute('data-override-notes-json');
+		if (override_json) {
+			try {
+				var override = JSON.parse(override_json);
+				admin_note = override[team_names[0]] || admin_note;
+			} catch (e) {
+				report_problem.silent_error('Failed to parse data-override-notes-json: ' + e.stack);
+			}
 		}
 	}
 
