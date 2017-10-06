@@ -34,7 +34,7 @@ function cached_brightness(rgb_str) {
 }
 
 function root_url() {
-	return uiu.qs('.bbt_root').getAttribute('data-rooturl') || 'https://b./aufschlagwechsel.de/'
+	return uiu.qs('.bbt_root').getAttribute('data-rooturl') || 'https://b.aufschlagwechsel.de/';
 }
 
 return {
@@ -48,5 +48,7 @@ return {
 /*@DEV*/
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	module.exports = cutils;
+
+	var uiu = null;
 }
 /*/@DEV*/

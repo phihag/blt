@@ -14,9 +14,3 @@ if (! String.prototype.includes) {
 		return this.indexOf(substr) !== -1;
 	};
 }
-
-/*@DEV*/
-if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
-	var uiu = null;
-}
-/*/@DEV*/
