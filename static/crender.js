@@ -226,6 +226,7 @@ if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var calc = null;
 	var cutils = null;
 	var extradata = null;
+	var report_problem = null;
 	var uiu = null;
 
 	module.exports = crender;
