@@ -1,0 +1,31 @@
+[
+{
+    "team_names": [
+        "1.BC Wipperfeld",
+        "1.BC Beuel"
+    ],
+	"date": "2017-10-01",
+	"override": {
+		"admin_note": "Bei diesem Match gab es leider ein technisches Problem mit dem Original-Ticker. Darum können auch an dieser Stelle keine Ergebnisse angezeigt werden."
+	}
+}, {
+   "team_names": [
+        "1.BC Beuel",
+        "TSV 1906 Freystadt"
+    ],
+    "date": "2017-10-07",
+    "override": {
+		"url": "https://www.shuttlecock-live.com/ticker/match/14"
+    }
+}, {
+	"team_names": [
+    	"1.BC Beuel",
+        "TSV 1906 Freystadt"
+	],
+	"date": "2017-10-07",
+	"override": {
+		"url": "https://www.shuttlecock-live.com/ticker/match/14"
+	}
+}
+
+]

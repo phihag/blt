@@ -1,5 +1,6 @@
 'use strict';
 
+const assert = require('assert');
 const async = require('async');
 const path = require('path');
 
@@ -14,8 +15,29 @@ const TYPES = {
 	scu: require('./scu'),
 };
 
+function apply_overrides(tms, overrides) {
+	for (const o of overrides) {
+		const tm = utils.find(tms, (search_tm) => {
+			return (
+				utils.deep_equal(o.team_names, search_tm.team_names) &&
+				(o.datestr === search_tm.datestr)
+			);
+		});
+		if (!tm) {
+			throw new Error(
+				'Could not find match ' + o.team_names[0] + '-' + o.team_names[1] +
+				' on ' + o.datestr + ' to override'
+			);
+		}
+
+		assert(o.override);
+		utils.obj_update(tm, o.override);
+	}
+}
+
 function init(cfg, datestr, source_info, wss) {
-	const [teammatches, sourcedb] = source_info;
+	const [teammatches, overrides, sourcedb] = source_info;
+	apply_overrides(teammatches, overrides);
 
 	const shs = [];
 	let i = 0;
@@ -60,6 +82,7 @@ function init(cfg, datestr, source_info, wss) {
 function load(callback) {
 	async.parallel([
 		cb => utils.read_json(path.join(path.dirname(__dirname), 'teammatches.json'), cb),
+		cb => utils.read_json(path.join(path.dirname(__dirname), 'tm_overrides.json'), cb),
 		cb => utils.read_json(path.join(path.dirname(__dirname), 'sourcedb.json'), cb),
 	], (err, source_info) => {
 		if (err) return callback(err);

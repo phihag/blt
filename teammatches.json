@@ -261,8 +261,7 @@
         "starttime": "14:00",
         "date": "2017-10-01",
         "date_de": "01.10.2017",
-        "ts": 1506859200,
-        "admin_note": "Bei diesem Match gab es leider ein technisches Problem mit dem Original-Ticker. Darum können auch an dieser Stelle keine Ergebnisse angezeigt werden."
+        "ts": 1506859200
     },
     {
         "type": "auto",
@@ -370,8 +369,7 @@
         "starttime": "18:00",
         "date": "2017-10-07",
         "date_de": "07.10.2017",
-        "ts": 1507392000,
-        "url": "https://www.shuttlecock-live.com/ticker/match/14"
+        "ts": 1507392000
     },
     {
         "type": "auto",
@@ -443,8 +441,7 @@
         "starttime": "14:00",
         "date": "2017-10-08",
         "date_de": "08.10.2017",
-        "ts": 1507464000,
-        "url": "https://www.shuttlecock-live.com/ticker/match/11"
+        "ts": 1507464000
     },
     {
         "type": "auto",
