@@ -65,19 +65,27 @@ function _parse(html) {
 			})
 		);
 
-		const score = [];
 		const score_els = xmlutils.getElementsByClassName(doc, 'punkte');
 		assert.strictEqual(score_els.length, 5);
+		let score = [];
+		let game_idx = 0;
 		for (const game_el of score_els) {
 			const point_spans = xmlutils.find_els(
 				game_el,
 				(el) => (el.tagName === 'span') && (el.getAttribute('class') !== 'form'));
-			const points = point_spans.map(span => parseInt(span.textContent));
-			score.push(points);
+			const gscore = point_spans.map(span => parseInt(span.textContent));
+			score.push(gscore);
 
 			if (calc.match_winner(scoring, score) !== 'inprogress') {
 				break;
 			}
+			if (calc.game_winner(scoring, game_idx, gscore[0], gscore[1]) === 'inprogress') {
+				break;
+			}
+			game_idx++;
+		}
+		if (utils.deep_equal(score, [[0, 0]])) {
+			score = [];
 		}
 
 		const match = {
@@ -107,6 +115,7 @@ function run_once(cfg, src, sh, cb) {
 
 		event.team_names[0] = src.team_names[0];
 
+		event.link = src.url;
 		source_helper.copy_props(event, src);
 		sh.on_new_full(event);
 		cb();

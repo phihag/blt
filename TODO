@@ -1,11 +1,13 @@
+fix scu!
+
 embed: serve style upfront
 compress .js (with source map)
 	test report with source maps
 
+include top message as part of sync
+autogen top note
 
 source EBT?
-autogen top note
-include top message as part of sync
 source_turnier.de (for all the clubs without tickers)
 	get turnier.de IDs from debmlist
 backoff ws if killed with error

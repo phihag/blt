@@ -85,4 +85,83 @@ describe('scu (Lüdinghausen) source', () => {
 			done();
 		});
 	});
+
+	it('real example', (done) => {
+		fs.readFile(path.join(__dirname, 'testdata', 'scu2.html'), (err, html) => {
+			if (err) return done(err);
+
+			assert.deepStrictEqual(scu._parse(html), {
+				team_names: ['SC Union 08 Lüdinghausen', 'TSV Neuhausen-Nymphenburg'],
+				mscore: [0, 0],
+				scoring: '5x11_15^90',
+				matches: [{
+					name: 'HD1',
+					players: [[
+						{name: 'Zurwonne'},
+						{name: 'Blair'},
+					], [
+						{name: 'Test'},
+						{name: 'Test'},
+					]],
+					score: [],
+				}, {
+					name: 'DD',
+					players: [[
+						{name: 'Li'},
+						{name: 'Schnaae'},
+					], [
+						{name: 'Test'},
+						{name: 'Test'},
+					]],
+					score: [],
+				}, {
+					name: 'HE1',
+					players: [[
+						{name: 'Tan'},
+					], [
+						{name: 'Test'},
+					]],
+					score: [],
+				}, {
+					name: 'HE2',
+					players: [[
+						{name: 'Fransman'},
+					], [
+						{name: 'Test'},
+					]],
+					score: [],
+				}, {
+					name: 'DE',
+					players: [[
+						{name: 'Li'},
+					], [
+						{name: 'Test'},
+					]],
+					score: [],
+				}, {
+					name: 'GD',
+					players: [[
+						{name: 'Blair'},
+						{name: 'Schnaase'},
+					], [
+						{name: 'Test'},
+						{name: 'Test'},
+					]],
+					score: [],
+				}, {
+					name: 'HD2',
+					players: [[
+						{name: 'Bosch'},
+						{name: 'Fransman'},
+					], [
+						{name: 'Test'},
+						{name: 'Test'},
+					]],
+					score: [],
+				}],
+			});
+
+			done();
+		});
+	});
 });
