@@ -16,6 +16,6 @@ function setup_tm(tm, home_team) {
 }
 
 module.exports = {
-	watch,
 	setup_tm,
+	watch,
 };

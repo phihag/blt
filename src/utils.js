@@ -16,21 +16,24 @@ function broadcast(wss, msg) {
 	}
 }
 
-function run_every(every, func) {
-	function cb(err) {
+/*
+func gets called with (err, next_interval).
+Both arguments must always be present.
+*/
+function run_every(func) {
+	function cb(err, next_interval) {
 		if (err) {
 			console.error('Error during run: ' + err.stack); // eslint-disable-line no-console
 		}
-		setTimeout(() => run_every(every, func), every);
+		setTimeout(() => run_every(func), next_interval);
 	}
 
 	try {
 		func(cb);
 	} catch(e) {
-		console.error('Uncaught error: ' + e.stack); // eslint-disable-line no-console
-		setTimeout(() => run_every(every, func), every);
+		console.error('Uncaught error: ' + e.stack + '. Retrying in 10s.'); // eslint-disable-line no-console
+		setTimeout(() => run_every(func), 10000);
 	}
-
 }
 
 // Callback gets called with (error, response, body as string)

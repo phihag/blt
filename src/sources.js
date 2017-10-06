@@ -73,7 +73,18 @@ function init(cfg, datestr, source_info, wss) {
 
 		const sh = new StateHandler(wss, i);
 		i++;
-		mod.watch(cfg, tm, sh);
+		if (mod.watch) {
+			mod.watch(cfg, tm, sh);
+		} else {
+			const fast = cfg('fast_interval');
+			const slow = cfg('slow_interval')
+			utils.run_every((cb) => {
+				mod.run_once(cfg, tm, sh, (err) => {
+					const next = (!tm.ts || (Date.now() >= tm.ts * 1000 - 10 * slow)) ? fast : slow;
+					cb(err, next);
+				});
+			});
+		}
 		shs.push(sh);
 	}
 	return shs;

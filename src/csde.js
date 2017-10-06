@@ -203,10 +203,6 @@ function run_once(cfg, src, sh, cb) {
 	});
 }
 
-function watch(cfg, src, sh) {
-	utils.run_every(cfg('default_interval'), (cb) => run_once(cfg, src, sh, cb));
-}
-
 function setup_tm(tm, home_team) {
 	tm.link = home_team.link;
 
@@ -229,7 +225,7 @@ function setup_tm(tm, home_team) {
 }
 
 module.exports = {
-	watch,
+	run_once,
 	setup_tm,
 
 	// Testing only
