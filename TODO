@@ -1,3 +1,6 @@
+highlight leagues by color
+checkbox for leagues
+
 embed: serve style upfront
 compress .js (with source map)
 	test report with source maps

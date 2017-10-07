@@ -78,6 +78,16 @@ function _parse(data_json) {
 }
 
 function run_once(cfg, src, sh, cb) {
+	if (!src.url) {
+		const event = {
+			admin_note: (src.admin_note || 'Konfigurations-Fehler: URL des Tickers fehlt'),
+			matches: [],
+		};
+		source_helper.copy_props(event, src);
+		sh.on_new_full(event);
+		return;
+	}
+
 	const url = src.url + '/json';
 
 	if (cfg('verbosity', 0) > 2) {
