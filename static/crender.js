@@ -205,7 +205,7 @@ function full(ev) {
 }
 
 function updated_score(ev, match) {
-	var match_table = uiu.qs('.bbt_event[data-event-num="' + ev.num + '"] .match[data-match-name="' + match.name + '"]');
+	var match_table = uiu.qs('.bbt_event[data-event-num="' + ev.num + '"] .bbt_match[data-match-name="' + match.name + '"]');
 
 	var max_game_count = calc.max_game_count(ev.scoring);
 	var team_colors = ev.team_names.map(extradata.get_color);
