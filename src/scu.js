@@ -114,7 +114,9 @@ function run_once(cfg, src, sh, cb) {
 		}
 
 		if (!event.team_names) {
-			console.error('[scu] Could not find team_names');
+			if (cfg('verbosity', 0) >= 0) {
+				console.error('[scu] Could not find team_names'); // eslint-disable-line no-console
+			}
 			event.team_names = src.team_names;
 		}
 		event.team_names[0] = src.team_names[0];
