@@ -113,6 +113,10 @@ function run_once(cfg, src, sh, cb) {
 			return cb(e);
 		}
 
+		if (!event.team_names) {
+			console.error('[scu] Could not find team_names');
+			event.team_names = src.team_names;
+		}
 		event.team_names[0] = src.team_names[0];
 
 		event.link = src.url;
