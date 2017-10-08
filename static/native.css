@@ -42,7 +42,7 @@ html, body {
 .bbt_shortcuts_placeholder {
 	width: 10em;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1020px) {
 	.bbt_shortcuts_placeholder {
 		width: auto;
 	}
@@ -56,7 +56,7 @@ html, body {
 		min-width: 15em;
 	}
 }
-@media (min-width: 1001px) and (max-width: 1700px) {
+@media (min-width: 1021px) and (max-width: 1700px) {
 	.bbt_root {
 		display: -webkit-flex;
 		display: flex;
