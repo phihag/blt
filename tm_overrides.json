@@ -26,6 +26,15 @@
 	"override": {
 		"url": "https://www.shuttlecock-live.com/ticker/match/11"
 	}
+}, {
+    "team_names": [
+        "1.BV M\u00fclheim 2",
+        "1.BC Beuel 2"
+    ],
+    "date": "2017-10-08",
+    "override": {
+        "admin_note": "In Mühlheim gibt es derzeit ein technisches Problem mit der Internetverbindung"
+    }
 }
 
 ]
