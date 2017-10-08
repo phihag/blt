@@ -40,7 +40,8 @@
 	"type": "csde"
 },
 "1.BV Mülheim 2": {
-	"type": "csde"
+	"type": "csde",
+	"admin_note": "In Mühlheim gibt es derzeit ein technisches Problem mit der Internetverbindung"
 },
 "SV Fischbach": {
 	"type": "none"

@@ -1,6 +1,10 @@
-highlight leagues by color
 checkbox for leagues
+load and store
+	-> msg Steffen
 
+highlight leagues by color
+
+detect slow conn (keepalive + answers)
 embed: serve style upfront
 compress .js (with source map)
 	test report with source maps
