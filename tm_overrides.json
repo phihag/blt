@@ -35,6 +35,14 @@
     "override": {
         "admin_note": "In Mülheim gibt es derzeit ein technisches Problem mit der Internetverbindung."
     }
+}, {
+    "team_names": [
+        "1.BV M\u00fclheim",
+        "TSV Trittau"
+    ],
+    "date": "2017-10-08",
+    "override": {
+        "admin_note": "In Mülheim gibt es derzeit ein technisches Problem mit der Internetverbindung."
+    }
 }
-
 ]

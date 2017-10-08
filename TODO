@@ -1,4 +1,10 @@
-don't disable tickers that fail once!
+menu overlaying content
+	-> Frank Schmidt (Facebook)
+
+admin note should be on top
+better error handling:
+	error_note
+	last_error
 
 checkbox for leagues
 load and store
