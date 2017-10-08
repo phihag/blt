@@ -59,6 +59,12 @@ class StateHandler {
 		new_ev.num = this.num;
 		const diff = determine_diff(this.ev, new_ev);
 
+		if (!new_ev.matches && this.ev.matches) {
+			// TODO better error handling
+			console.error('Ignoring update: new one is an error');
+			return;
+		}
+
 		if (!diff) {
 			return; // No change at all
 		}
