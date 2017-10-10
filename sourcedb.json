@@ -20,6 +20,15 @@
 "SV Fun-Ball Dortelweil": {
 	"type": "csde"
 },
+"Blau-Weiss Wittorf-NMS": {
+	"type": "csde"
+},
+"Hamburg Horner TV": {
+	"type": "btde",
+	"url": "http://badmintonticker.de/ticker/hamburghornertv/"
+},
+
+
 "TSV Trittau": {
 	"type": "btde",
 	"url": "http://badmintonticker.de/ticker/tsvtrittau/"
@@ -34,6 +43,9 @@
 	"type": "none"
 },
 "1.BC Beuel": {
+	"type": "sclive"
+},
+"1.BC Beuel 2": {
 	"type": "sclive"
 },
 "1.BV Mülheim": {
@@ -70,6 +82,13 @@
 },
 "1.BC Sbr.-Bischmisheim 2": {
 	"type": "csde"
+},
+"TV Dillingen": {
+	"type": "none"
+},
+"SV GutsMuths Jena": {
+	"type": "btde",
+	"url": "http://badmintonticker.de/ticker/svgutsmuthsjena/"
 }
 
 
