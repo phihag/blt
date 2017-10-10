@@ -28,6 +28,15 @@
 	}
 }, {
     "team_names": [
+        "1.BC Beuel 2",
+        "BC Hohenliburg"
+    ],
+    "date": "2017-10-21",
+    "override": {
+        "url": "https://www.shuttlecock-live.com/ticker/match/27"
+    }
+}, {
+    "team_names": [
         "1.BV M\u00fclheim 2",
         "1.BC Beuel 2"
     ],

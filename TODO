@@ -13,6 +13,9 @@ load and store
 highlight leagues by color
 
 detect slow conn (keepalive + answers)
+
+
+
 embed: serve style upfront
 compress .js (with source map)
 	test report with source maps
