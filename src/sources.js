@@ -20,13 +20,13 @@ function apply_overrides(tms, overrides) {
 		const tm = utils.find(tms, (search_tm) => {
 			return (
 				utils.deep_equal(o.team_names, search_tm.team_names) &&
-				(o.datestr === search_tm.datestr)
+				(o.date === search_tm.date)
 			);
 		});
 		if (!tm) {
 			throw new Error(
 				'Could not find match ' + o.team_names[0] + '-' + o.team_names[1] +
-				' on ' + o.datestr + ' to override'
+				' on ' + o.date + ' to override'
 			);
 		}
 
