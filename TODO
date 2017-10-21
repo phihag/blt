@@ -1,6 +1,14 @@
+handle 'error' event on new ws
+courtspot: reset doesn't work anymore, need proper error handling
+Friedrichshafen Badmintonticker
+
 menu overlaying content
 	-> Frank Schmidt (Facebook)
 
+courtspot update protocol
+	write extended tests for this
+
+import data of Johannes
 admin note should be on top
 better error handling:
 	error_note
