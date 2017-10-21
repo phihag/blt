@@ -90,7 +90,11 @@
 "SV GutsMuths Jena": {
 	"type": "btde",
 	"url": "http://badmintonticker.de/ticker/svgutsmuthsjena/"
+},
+"BC Hohenlimburg": {
+	"type": "csde"
 }
+
 
 
 }
