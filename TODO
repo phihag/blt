@@ -1,10 +1,8 @@
-handle 'error' event on new ws
-courtspot: reset doesn't work anymore, need proper error handling
-Friedrichshafen Badmintonticker
-
 menu overlaying content
 	-> Frank Schmidt (Facebook)
 
+handle 'error' event on new ws
+courtspot: reset doesn't work anymore, need proper error handling
 courtspot update protocol
 	write extended tests for this
 

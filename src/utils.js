@@ -1,5 +1,6 @@
 'use strict';
 
+const assert = require('assert');
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
@@ -11,9 +12,22 @@ function broadcast(wss, msg) {
 
 	for (const client of wss.clients) {
 		if (client.readyState === WebSocket.OPEN) {
-			client.send(json_msg);
+			client.send(json_msg, (err) => {
+				if (err) {
+					console.error('Error while broadcasting to wsclient: ' + err.stack);
+				}
+			});
 		}
 	}
+}
+
+function send(ws, obj) {
+	assert(typeof obj === 'object');
+	ws.send(JSON.stringify(obj), (err) => {
+		if (err) {
+			console.error('Error while sending to wsclient: ' + err.stack);
+		}
+	});
 }
 
 /*
@@ -166,4 +180,5 @@ module.exports = {
 	parse_querystring,
 	read_json,
 	run_every,
+	send,
 };

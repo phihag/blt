@@ -13,11 +13,12 @@ const utils = require('./utils');
 
 function setup_ws(app, ws, req) {
 	const location = url.parse(req.url, true);
+
 	if (! location.path.endsWith('/subscribe')) {
-		ws.send(JSON.stringify({
+		utils.send(ws, {
 			type: 'error',
 			message: 'Invalid location path ' + location.path,
-		}));
+		});
 		ws.close();
 		return;
 	}
