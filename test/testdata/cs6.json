@@ -1,18 +1,18 @@
 {
 	"matches": [{
-		"name": "1.HD",
+		"name": "HD1",
 		"players": [[], []],
 		"score": []
 	}, { 
-		"name": "1.HE",
+		"name": "HE1",
 		"players": [[], []],
 		"score": []
 	}, { 
-		"name": "2.HD",
+		"name": "HD2",
 		"players": [[], []],
 		"score": []
 	}, { 
-		"name": "2.HE",
+		"name": "HE2",
 		"players": [[], []],
 		"score": []
 	}, { 
@@ -32,5 +32,9 @@
 		"name": "GD",
 		"players": [[], []],
 		"score": []
-	}]
+	}],
+	"ticker_state": {
+		"n": "8",
+		"s": "25"
+	}
 }

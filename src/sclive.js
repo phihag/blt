@@ -2,6 +2,7 @@
 // Shuttlecock-live (github.com/meyerjo/ticker)
 
 const calc = require('../static/calc');
+const eventutils = require('./eventutils');
 const source_helper = require('./source_helper');
 const utils = require('./utils');
 
@@ -30,7 +31,8 @@ function _parse(data_json) {
 	const data = JSON.parse(data_json);
 
 	const matches = [];
-	const scoring = '5x11_15^90';
+	const league_key = '1BL-2017';
+	const scoring = eventutils.league_scoring(league_key);
 	const res = {
 		matches,
 		scoring,
@@ -73,6 +75,8 @@ function _parse(data_json) {
 			name,
 		});
 	}
+
+	eventutils.unify_order(matches, league_key);
 
 	return res;
 }

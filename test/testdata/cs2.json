@@ -1,6 +1,6 @@
 {
 	"matches": [{
-		"name": "1.HD",
+		"name": "HD1",
 		"players": [[{"name": "Joshua Magee"},
 			{"name": "Kai Waldenberger"}
 		], [
@@ -10,15 +10,15 @@
 		"score": [[15, 14], [9, 11], [11, 7], [10, 10]],
 		"serving": 1
 	}, { 
-		"name": "1.HE",
+		"name": "HE1",
 		"players": [[], []],
 		"score": []
 	}, { 
-		"name": "2.HD",
+		"name": "HD2",
 		"players": [[], []],
 		"score": []
 	}, { 
-		"name": "2.HE",
+		"name": "HE2",
 		"players": [[], []],
 		"score": []
 	}, { 
@@ -38,5 +38,9 @@
 		"name": "GD",
 		"players": [[], []],
 		"score": []
-	}]
+	}],
+	"ticker_state": {
+		"n": "8",
+		"s": "17"
+	}
 }

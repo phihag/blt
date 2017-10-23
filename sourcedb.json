@@ -93,8 +93,16 @@
 },
 "BC Hohenlimburg": {
 	"type": "csde"
+},
+"BSpfr. Neusatz": {
+	"type": "none"
+},
+"TuS Wiebelskirchen": {
+	"type": "none"
+},
+"TSV Trittau 2": {
+	"type": "none"
 }
-
 
 
 }

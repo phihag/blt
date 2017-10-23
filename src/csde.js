@@ -1,7 +1,6 @@
 'use strict';
 
 const assert = require('assert');
-const xmldom = require('xmldom');
 
 const eventutils = require('./eventutils');
 const utils = require('./utils');
@@ -55,21 +54,34 @@ const TEAM_NAMES = {
 	'5-810': 'BC Hohenlimburg 2',
 	'5-89': '1.CfB Köln 1',
 };
-const SCORING = {
-	1: '5x11_15^90', // 1BL
-	2: '5x11_15^90', // 2BLN
-	3: '5x11_15^90', // 2BLS
-	4: '3x21', // RL Nord
-	5: '3x21', // RL West
+const LEAGUE_KEY = {
+	1: '1BL-2017',
+	2: '2BLN-2017',
+	3: '2BLS-2017',
+	4: 'RLN-2016',
+	5: 'RLW-2016',
 };
 
+
 function parse(str) {
-	const parser = new xmldom.DOMParser();
-	const doc = parser.parseFromString(str, 'text/xml');
+	if (str.includes('\'src="//sedoparking.com/frmpark/')) {
+		return {
+			error_msg: 'CourtSpot nicht erreichbar',
+		};
+	}
+
+	const [err_msg, doc] = utils.parseXML(str);
+	if (err_msg) {
+		return {
+			error_msg: 'Ungültiges XML in CourtSpot-Status',
+		};
+	}
 
 	const status_el = doc.getElementsByTagName('STATUS')[0];
 	if (!status_el) {
-		return {};
+		return {
+			error_msg: 'CourtSpot-Status fehlt',
+		};
 	}
 
 	if (status_el.textContent != 'an') {
@@ -81,7 +93,7 @@ function parse(str) {
 	assert(namen_containers.length === 1);
 	const namen_els = Array.from(namen_containers[0].getElementsByTagName('Name'));
 	for (const el of namen_els) {
-		const match_name = el.getElementsByTagName('Art')[0].textContent;
+		const match_name = eventutils.unify_name(el.getElementsByTagName('Art')[0].textContent);
 		const players = [[], []];
 
 		for (let i = 0;;i++) {
@@ -111,7 +123,7 @@ function parse(str) {
 	assert(staende_containers.length === 1);
 	const staende_els = Array.from(staende_containers[0].getElementsByTagName('Stand'));
 	for (const stand of staende_els) {
-		const match_name = stand.getElementsByTagName('Art')[0].textContent;
+		const match_name = eventutils.unify_name(stand.getElementsByTagName('Art')[0].textContent);
 		const score = [];
 		for (let i = 0;;i++) {
 			const home_pe = stand.getElementsByTagName('HS' + (i + 1))[0];
@@ -128,17 +140,18 @@ function parse(str) {
 			}
 		}
 
-		matches.forEach(function(match) {
-			if (match.name !== match_name) {
-				return;
-			}
+		const match = utils.find(matches, m => m.name === match_name);
+		if (match) {
 			match.score = score;
-		});
+		} else {
+			// We didn't see the match so far
+
+		}
 	}
 
 	for (let court_id = 1;court_id <= 2;court_id++) {
 		const cspec = doc.getElementsByTagName('Court' + court_id)[0].textContent;
-		const match_name = cspec.substr(3);
+		const match_name = eventutils.unify_name(cspec.substr(3));
 		if (!match_name) {
 			continue;
 		}
@@ -160,9 +173,29 @@ function parse(str) {
 		}
 	}
 
+	const ticker_state = {};
+
+	const n_els = doc.getElementsByTagName('AKTNRNAME');
+	if (n_els.length > 0) {
+		ticker_state.n = n_els[0].textContent;
+	}
+
+	const s_els = doc.getElementsByTagName('AKTNRSTAND');
+	if (s_els.length > 0) {
+		ticker_state.s = s_els[0].textContent;
+	}
+
 	return {
-		matches: matches,
+		matches,
+		ticker_state,
 	};
+}
+
+function integrate_update(new_ev, old_ev) {
+	if (!old_ev) {
+		return;
+	}
+
 }
 
 function annotate(ev, params) {
@@ -172,7 +205,9 @@ function annotate(ev, params) {
 	assert(params.g !== undefined);
 
 	ev.team_names = [TEAM_NAMES[params.l + '-' + params.v], TEAM_NAMES[params.l + '-' + params.g]];
-	ev.scoring = SCORING[params.l];
+	const league_key = LEAGUE_KEY[params.l];
+	ev.scoring = eventutils.league_scoring(league_key);
+	eventutils.unify_order(ev.matches, league_key);
 	if (ev.matches) {
 		ev.mscore = eventutils.calc_mscore(ev.scoring, ev.matches);
 	} else {
@@ -181,7 +216,12 @@ function annotate(ev, params) {
 }
 
 function run_once(cfg, src, sh, cb) {
-	const url = src.url;
+	let url = src.url;
+
+	const stateful_enabled = cfg('csde_stateful', false);
+	if (stateful_enabled && sh.ticker_state.csde_n && sh.ticker_state.csde_s) {
+		url += '&n=' + sh.ticker_state.csde_n + '&s=' + sh.ticker_state.csde_s;
+	}
 
 	if (cfg('verbosity', 0) > 2) {
 		console.log('[csde] Downloading ' + url); // eslint-disable-line no-console
@@ -227,6 +267,7 @@ function setup_tm(tm, home_team) {
 module.exports = {
 	run_once,
 	setup_tm,
+	integrate_update,
 
 	// Testing only
 	_parse: parse,

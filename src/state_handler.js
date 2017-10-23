@@ -49,20 +49,25 @@ class StateHandler {
 		assert(num !== undefined);
 		this.wss = wss;
 		this.num = num;
+		this.ticker_state = {};
 		this.ev = {
 			id: 'uninitialized',
 			num,
 		};
 	}
 
-	on_new_full(new_ev) {
+	on_new_full(new_ev, ticker_state) {
 		new_ev.num = this.num;
 		const diff = determine_diff(this.ev, new_ev);
 
 		if (!new_ev.matches && this.ev.matches) {
 			// TODO better error handling
-			console.error('Ignoring update: new one is an error');
+			// console.error('Ignoring update: new one is an error');
 			return;
+		}
+
+		if (ticker_state) {
+			this.ticker_state = ticker_state;
 		}
 
 		if (!diff) {

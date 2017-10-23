@@ -42,6 +42,8 @@ The more complex data structures are as follows:
 event
 =====
 
+error_msg   Error message. If set, all other fields may be missing.
+            Currently, events with an error message are never relayed to clients.
 admin_note  A technical note about this event.
 id          A globally unique ID of the event.
 num*        An ID of an event that is valid as long as a connection is held.

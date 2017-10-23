@@ -71,4 +71,15 @@ describe('utils', () => {
 			},
 		}, ['foo']));
 	});
+
+	it('parseXML', () => {
+		const [err, doc] = utils.parseXML('<foo>a</foo>');
+		assert(!err);
+		assert(doc);
+		assert.strictEqual(doc.documentElement.tagName, 'foo');
+		assert.strictEqual(doc.documentElement.textContent, 'a');
+
+		const [errmsg, _] = utils.parseXML('<<x');
+		assert.deepStrictEqual(errmsg, '[xmldom error]\tunexpected end of input\n@#[line:undefined,col:undefined]');
+	});
 });

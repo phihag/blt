@@ -6,6 +6,7 @@ const http = require('http');
 const https = require('https');
 const WebSocket = require('ws');
 const {StringDecoder} = require('string_decoder');
+const xmldom = require('xmldom');
 
 function broadcast(wss, msg) {
 	const json_msg = JSON.stringify(msg);
@@ -14,7 +15,7 @@ function broadcast(wss, msg) {
 		if (client.readyState === WebSocket.OPEN) {
 			client.send(json_msg, (err) => {
 				if (err) {
-					console.error('Error while broadcasting to wsclient: ' + err.stack);
+					console.error('Error while broadcasting to wsclient: ' + err.stack); // eslint-disable-line no-console
 				}
 			});
 		}
@@ -25,7 +26,7 @@ function send(ws, obj) {
 	assert(typeof obj === 'object');
 	ws.send(JSON.stringify(obj), (err) => {
 		if (err) {
-			console.error('Error while sending to wsclient: ' + err.stack);
+			console.error('Error while sending to wsclient: ' + err.stack); // eslint-disable-line no-console
 		}
 	});
 }
@@ -169,8 +170,45 @@ function obj_update(obj, other) {
 	}
 }
 
+// Returns (error_message, doc)
+function parseXML(str) {
+	let error_msg;
+	const eh = {
+		error: (emsg => {
+			if (error_msg) {
+				return; // Not the first error
+			}
+			error_msg = emsg;
+		}),
+		fatalError: (emsg => {
+			if (error_msg) {
+				return; // Not the first error
+			}
+			error_msg = emsg;
+		}),
+	};
+	const parser = new xmldom.DOMParser({errorHandler: eh});
+	const doc = parser.parseFromString(str, 'text/xml');
+	if (error_msg) {
+		return [error_msg, null];
+	}
+	return [null, doc];
+}
+
+function cmp(a, b) {
+	if (a < b) {
+		return -1;
+	} else if (a > b) {
+		return 1;
+	} else {
+		return 0;
+	}
+}
+
+
 module.exports = {
 	broadcast,
+	cmp,
 	deep_copy,
 	deep_equal,
 	download_page,
@@ -178,6 +216,7 @@ module.exports = {
 	obj_update,
 	pad,
 	parse_querystring,
+	parseXML,
 	read_json,
 	run_every,
 	send,

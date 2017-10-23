@@ -1,13 +1,14 @@
 menu overlaying content
 	-> Frank Schmidt (Facebook)
 
-handle 'error' event on new ws
-courtspot: reset doesn't work anymore, need proper error handling
 courtspot update protocol
 	write extended tests for this
+courtspot: reset doesn't work anymore, need proper error handling
 
+unify order everywhere
 import data of Johannes
 admin note should be on top
+show errors to client
 better error handling:
 	error_note
 	last_error

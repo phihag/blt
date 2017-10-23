@@ -11,13 +11,19 @@ const utils = require('../src/utils');
 
 const TESTDATA_DIR = path.join(__dirname, 'testdata');
 
+function _read(basename, cb) {
+	const fn = path.join(TESTDATA_DIR, basename);
+	fs.readFile(fn, {encoding: 'utf8'}, cb);
+}
+
+
 function read_testcases(callback) {
 	fs.readdir(TESTDATA_DIR, (err, files) => {
 		if (err) return callback(err);
 
 		const basenames = [];
 		for (const filename of files) {
-			const m = /^(cs[a-z0-9]+)\.xml$/.exec(filename);
+			const m = /^(cs[0-9]+)\.xml$/.exec(filename);
 			if (! m) {
 				continue;
 			}
@@ -28,13 +34,10 @@ function read_testcases(callback) {
 		}
 
 		async.map(basenames, (basename, cb) => {
-			const input_fn = path.join(TESTDATA_DIR, basename + '.xml');
-			const expected_fn = path.join(TESTDATA_DIR, basename + '.json');
-
-			fs.readFile(input_fn, {encoding: 'utf8'}, (err, input_xml) => {
+			_read(basename + '.xml', (err, input_xml) => {
 				if (err) return cb(err);
 
-				fs.readFile(expected_fn, {encoding: 'utf8'}, (err, expected_json) => {
+				_read(basename + '.json', (err, expected_json) => {
 					if (err) return cb(err);
 					const expected = JSON.parse(expected_json);
 
@@ -125,4 +128,83 @@ describe('CourtSpot', () => {
 			matches,
 		});
 	});
+
+	it('error', (done) => {
+		_read('csde.error', (err, html) => {
+			if (err) return done(err);
+
+			assert.deepStrictEqual(csde._parse(html), {
+				error_msg: 'CourtSpot nicht erreichbar',
+			});
+			done();
+		});
+	});
+
+	it('invalid XML', () => {
+		const invalid_xml = '<</foo>';
+		assert.deepStrictEqual(csde._parse(invalid_xml), {
+			error_msg: 'Ungültiges XML in CourtSpot-Status',
+		});
+
+		const only_text = 'xxx';
+		assert.deepStrictEqual(csde._parse(only_text), {
+			error_msg: 'CourtSpot-Status fehlt',
+		});
+
+		const closing_xml = '</foo></bar></foo>';
+		assert.deepStrictEqual(csde._parse(closing_xml), {
+			error_msg: 'CourtSpot-Status fehlt',
+		});
+	});
+
+/*
+TODO: disabled for now
+	it('updating', (done) => {
+		async.parallel([
+			cb => _read('cs_up_start.xml', cb),
+			cb => _read('cs_up_7_8.xml', cb),
+			cb => _read('cs_up_9_8.xml', cb),
+		], (err, args) => {
+			if (err) return done(err);
+
+			const [base_xml, up78_xml, up98_xml] = args;
+
+			const base_ev = csde._parse(base_xml);
+			assert.deepStrictEqual(base_ev, {
+				matches: [{
+					name: 'HD1',
+					players: [],
+				}, {
+					name: 'DD',
+					players: [],
+				}, {
+					name: 'HD2',
+					players: [],
+				}, {
+					name: 'HE1',
+					players: [],
+				}, {
+					name: 'DE',
+					players: [],
+				}, {
+					name: 'GD',
+					players: [],
+				}, {
+					name: 'HE2',
+					players: [],
+				}],
+				ticker_state: {
+					n: '7',
+					s: '8',
+				},
+			});
+
+			// TODO update to n changed
+			// TODO update to s changed
+			// TODO update totally unchanged
+			// TODO first request is partial already, should raise an error
+
+		});
+	});
+*/
 });
