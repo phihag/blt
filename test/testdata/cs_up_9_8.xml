@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<DATEN>
+  <STATUS>an</STATUS>
+  <ZEIT>06:08</ZEIT>
+  <Court1>aus1.HD</Court1>
+  <Court2>ausDD</Court2>
+  <AENDERUNGNAME>1</AENDERUNGNAME>
+  <AKTNRNAME>7</AKTNRNAME>
+  <NAMEN>
+    <Name>
+      <Art>1.HD</Art>
+      <Heimspieler1/>
+      <Heimspieler2/>
+      <Gastspieler1/>
+      <Gastspieler2/>
+    </Name>
+    <Name>
+      <Art>1.HE</Art>
+      <Heimspieler1/>
+      <Heimspieler2/>
+      <Gastspieler1/>
+      <Gastspieler2/>
+    </Name>
+    <Name>
+      <Art>2.HD</Art>
+      <Heimspieler1/>
+      <Heimspieler2/>
+      <Gastspieler1/>
+      <Gastspieler2/>
+    </Name>
+    <Name>
+      <Art>2.HE</Art>
+      <Heimspieler1/>
+      <Heimspieler2/>
+      <Gastspieler1/>
+      <Gastspieler2/>
+    </Name>
+    <Name>
+      <Art>DD</Art>
+      <Heimspieler1>Anika D&#xF6;rr</Heimspieler1>
+      <Heimspieler2>Elin Svensson</Heimspieler2>
+      <Gastspieler1/>
+      <Gastspieler2/>
+    </Name>
+    <Name>
+      <Art>DE</Art>
+      <Heimspieler1>Elin Svensson</Heimspieler1>
+      <Heimspieler2>Runa Plützer</Heimspieler2>
+      <Gastspieler1>Nadine Cordes</Gastspieler1>
+      <Gastspieler2>Laura Gredner</Gastspieler2>
+    </Name>
+    <Name>
+      <Art>GD</Art>
+      <Heimspieler1/>
+      <Heimspieler2/>
+      <Gastspieler1/>
+      <Gastspieler2/>
+    </Name>
+  </NAMEN>
+  <AENDERUNGSTAND>0</AENDERUNGSTAND>
+</DATEN>
