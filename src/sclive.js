@@ -18,10 +18,16 @@ const MATCH_NAMES = {
 	'Mixed': 'GD',
 };
 
+const MATCH_IDS = [
+	{'id': 12, 'team_a': '1. BC Beuel', 'team_b': '1. BC Bischmisheim', 'match_time': 1512842400.0}, {'id': 13, 'team_a': '1. BC Beuel', 'team_b': 'TSV Trittau', 'match_time': 1515938400.0}, {'id': 16, 'team_a': '1. BC Beuel', 'team_b': 'Union L\u00fcdinghausen', 'match_time': 1511895600.0}, {'id': 17, 'team_a': '1. BC Beuel', 'team_b': 'TV Refrath', 'match_time': 1521990000.0}, {'id': 18, 'team_a': '1. BC Beuel', 'team_b': 'SV Fun-Ball Dortelweil 1', 'match_time': 1515524400.0}, {'id': 21, 'team_a': '1. BC Beuel', 'team_b': '1. BV Muelheim', 'match_time': 1516993200.0}, {'id': 26, 'team_a': '1. BC Beuel', 'team_b': 'TSV Freystadt', 'match_time': 1570453200.0},
+	{'id': 20, 'team_a': '1. BC Beuel 2', 'team_b': '1. BC Wipperfeld 1', 'match_time': 1517148000.0}, {'id': 27, 'team_a': '1. BC Beuel 2', 'team_b': 'BC Hohenlimburg', 'match_time': 1508608800.0}, {'id': 29, 'team_a': '1. BC Beuel 2', 'team_b': 'Hamburg Horner TV', 'match_time': 1511632800.0}, {'id': 30, 'team_a': '1. BC Beuel 2', 'team_b': 'TSV Trittau 2', 'match_time': 1516471200.0}, {'id': 31, 'team_a': '1. BC Beuel 2', 'team_b': 'SG EBT Berlin', 'match_time': 1516543200.0}, {'id': 32, 'team_a': '1. BC Beuel 2', 'team_b': 'STC Blau-Weiss Solingen', 'match_time': 1518890400.0}, {'id': 33, 'team_a': '1. BC Beuel 2', 'team_b': '1.BV M\u00fclheim 2', 'match_time': 1521392400.0}, {'id': 34, 'team_a': '1. BC Beuel 2', 'team_b': 'Blau-Weiss Wittorf-NMS 1', 'match_time': 1509285600.0},
+];
+
 const ALIAS_NAMES = {
 	'1. BC Beuel': '1.BC Beuel',
 	'1. BC Beuel 2': '1.BC Beuel 2',
 	'TSV Freystadt': 'TSV 1906 Freystadt',
+	'Blau-Weiss Wittorf-NMS 1': 'Blau-Weiss Wittorf-NMS',
 };
 function _team_name(name_str) {
 	return ALIAS_NAMES[name_str] || name_str;
@@ -82,7 +88,11 @@ function _parse(data_json) {
 }
 
 function run_once(cfg, src, sh, cb) {
-	if (!src.url) {
+	const match_info = utils.find(MATCH_IDS, (mi => {
+		return (_team_name(mi.team_a) === src.team_names[0]) && (_team_name(mi.team_b) === src.team_names[1]);
+	}));
+
+	if (!match_info) {
 		const event = {
 			admin_note: (src.admin_note || 'Konfigurations-Fehler: URL des Tickers fehlt'),
 			matches: [],
@@ -91,8 +101,9 @@ function run_once(cfg, src, sh, cb) {
 		sh.on_new_full(event);
 		return;
 	}
+	const base_url = 'https://www.shuttlecock-live.com/ticker/match/' + match_info.id;
 
-	const url = src.url + '/json';
+	const url = base_url + '/json';
 
 	if (cfg('verbosity', 0) > 2) {
 		console.log('[sclive] Downloading ' + url); // eslint-disable-line no-console
@@ -106,7 +117,7 @@ function run_once(cfg, src, sh, cb) {
 			return cb(e);
 		}
 
-		event.link = src.url;
+		event.link = base_url;
 		source_helper.copy_props(event, src);
 		sh.on_new_full(event);
 		cb();

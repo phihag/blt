@@ -9,33 +9,6 @@
 		"admin_note": "Bei diesem Match gab es leider ein technisches Problem mit dem Original-Ticker. Darum können auch an dieser Stelle keine Ergebnisse angezeigt werden."
 	}
 }, {
-   "team_names": [
-        "1.BC Beuel",
-        "TSV 1906 Freystadt"
-    ],
-    "date": "2017-10-07",
-    "override": {
-		"url": "https://www.shuttlecock-live.com/ticker/match/14"
-    }
-}, {
-	"team_names": [
-    	"1.BC Beuel",
-        "TSV Neuhausen-Nymphenburg"
-	],
-	"date": "2017-10-08",
-	"override": {
-		"url": "https://www.shuttlecock-live.com/ticker/match/11"
-	}
-}, {
-    "team_names": [
-        "1.BC Beuel 2",
-        "BC Hohenlimburg"
-    ],
-    "date": "2017-10-21",
-    "override": {
-        "url": "https://www.shuttlecock-live.com/ticker/match/27"
-    }
-}, {
     "team_names": [
         "1.BV M\u00fclheim 2",
         "1.BC Beuel 2"
