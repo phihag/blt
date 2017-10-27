@@ -167,6 +167,7 @@ function render_event(container, shortcut_container, ev) {
 	var shortcut_str = extradata.shortname(team_names[0]) + (ev.mscore ? ' ' + ev.mscore[0] + ':' + ev.mscore[1] + ' ' : ' - ') + extradata.shortname(team_names[1]);
 	uiu.el(shortcut_container, 'a', {
 		href: '#' + extradata.shortname(team_names[0]),
+		'style': ((shortcut_str.length > 30) ? 'font-size:80%;' : ''),
 	}, shortcut_str);
 }
 
