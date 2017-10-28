@@ -101,7 +101,8 @@
 	"type": "csde"
 },
 "TSV Trittau 2": {
-	"type": "none"
+	"type": "btde",
+	"url": "http://badmintonticker.de/ticker/tsvtrittau2/"
 }
 
 
