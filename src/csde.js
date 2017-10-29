@@ -232,7 +232,7 @@ function run_once(cfg, src, sh, cb) {
 		try {
 			const params = utils.parse_querystring(url);
 			event = parse(txt);
-			event.link = src.link;
+			event.link = src.link + '&b';
 			annotate(event, params);
 		} catch (e) {
 			return cb(e);
