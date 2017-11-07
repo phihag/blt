@@ -3,8 +3,8 @@
 	"type": "csde"
 },
 "TSV Neuhausen-Nymphenburg": {
-	"type": "csde",
-	"btde_url": "http://badmintonticker.de/ticker/tsvneuhausennymphenburg/"
+	"type": "btde",
+	"url": "http://badmintonticker.de/ticker/tsvneuhausennymphenburg/"
 },
 "TV Refrath": {
 	"type": "btde",
