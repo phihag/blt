@@ -21,6 +21,14 @@ const MATCH_NAMES = {
 	'Mixed': 'GD',
 };
 
+const ALIAS_NAMES = {
+	'1. BC Wipperfeld': '1.BC Wipperfeld',
+};
+
+function _team_name(name_str) {
+	return ALIAS_NAMES[name_str] || name_str;
+}
+
 function _parse(html) {
 	const matches = [];
 	const scoring = '5x11_15^90';
@@ -120,6 +128,7 @@ function run_once(cfg, src, sh, cb) {
 			event.team_names = src.team_names;
 		}
 		event.team_names[0] = src.team_names[0];
+		event.team_names = event.team_names.map(_team_name);
 
 		event.link = src.url;
 		source_helper.copy_props(event, src);
