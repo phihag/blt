@@ -1,3 +1,10 @@
+checkbox for leagues
+load and store
+	-> msg Steffen
+
+menü auch auf Mobilgeräten
+
+
 courtspot update protocol
 	write extended tests for this
 courtspot: reset doesn't work anymore, need proper error handling
@@ -9,10 +16,6 @@ show errors to client
 better error handling:
 	error_note
 	last_error
-
-checkbox for leagues
-load and store
-	-> msg Steffen
 
 highlight leagues by color
 

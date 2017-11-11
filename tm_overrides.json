@@ -26,5 +26,14 @@
     "override": {
         "admin_note": "In Mülheim gibt es derzeit ein technisches Problem mit der Internetverbindung."
     }
+}, {
+    "team_names": [
+        "1.BV M\u00fclheim 2",
+        "VfB/SC Peine"
+    ],
+    "date": "2017-11-11",
+    "override": {
+        "admin_note": "Das DE wurde verletzungsbedingt von Peine aufgegeben."
+    }
 }
 ]
