@@ -26,5 +26,15 @@
     "override": {
         "admin_note": "In Mülheim gibt es derzeit ein technisches Problem mit der Internetverbindung."
     }
+},
+{
+    "team_names": [
+        "SV Fischbach",
+        "SG Schorndorf"
+    ],
+    "date": "2017-11-11",
+    "override": {
+        "admin_note": "In Fischbach gibt es derzeit ein technisches Problem mit der Übertragung zum Original-Ticker."
+    }
 }
 ]
