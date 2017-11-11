@@ -228,6 +228,8 @@ function run_once(cfg, src, sh, cb) {
 	}
 
 	utils.download_page(url, (err, _req, txt) => {
+		if (err) return cb(err);
+
 		let event;
 		try {
 			const params = utils.parse_querystring(url);
