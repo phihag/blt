@@ -44,10 +44,10 @@ function setup_ws(app, ws, req) {
 	};
 
 	const events = app.state_handlers.map(sh => sh.ev);
-	ws.send(JSON.stringify({
+	utils.send(ws, {
 		type: 'init',
 		events: events,
-	}));
+	});
 }
 
 
