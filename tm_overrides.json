@@ -35,5 +35,14 @@
     "override": {
         "admin_note": "Das DE wurde verletzungsbedingt von Peine aufgegeben."
     }
+}, {
+    "team_names": [
+        "1.BV M\u00fclheim",
+        "1.BC Beuel"
+    ],
+    "date": "2017-11-11",
+    "override": {
+        "admin_note": "Es gab ein unbekanntes technisches Problem in der innogy-Halle."
+    }
 }
 ]
