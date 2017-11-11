@@ -10,6 +10,7 @@ help:
 	@echo '  test          Run tests'
 	@echo '  run-server    Run the server'
 	@echo '  clean         Remove temporary files'
+	@echo '  install-service  (root only) Install the systemd service'
 
 
 deps:
