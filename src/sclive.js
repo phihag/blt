@@ -24,10 +24,11 @@ const MATCH_IDS = [
 ];
 
 const ALIAS_NAMES = {
-	'1. BC Beuel': '1.BC Beuel',
 	'1. BC Beuel 2': '1.BC Beuel 2',
-	'TSV Freystadt': 'TSV 1906 Freystadt',
+	'1. BC Beuel': '1.BC Beuel',
 	'Blau-Weiss Wittorf-NMS 1': 'Blau-Weiss Wittorf-NMS',
+	'TSV Freystadt': 'TSV 1906 Freystadt',
+	'Union Lüdinghausen': 'SC Union Lüdinghausen',
 };
 function _team_name(name_str) {
 	return ALIAS_NAMES[name_str] || name_str;
@@ -89,7 +90,9 @@ function _parse(data_json) {
 
 function run_once(cfg, src, sh, cb) {
 	const match_info = utils.find(MATCH_IDS, (mi => {
-		return (_team_name(mi.team_a) === src.team_names[0]) && (_team_name(mi.team_b) === src.team_names[1]);
+		return (
+			(_team_name(mi.team_a) === _team_name(src.team_names[0])) &&
+			(_team_name(mi.team_b) === _team_name(src.team_names[1])));
 	}));
 
 	if (!match_info) {
