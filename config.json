@@ -6,7 +6,7 @@
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
 	"verbosity": 2,
-	"datestr": "2017-12-09",
+	"datestr": "2017-12-10",
 	"csde_stateful": false,
-	"note_html": "<p style=\"text-align: center;\">Nächster Spieltag: 9.12. (1. Bundesliga)</p>"
+	"note_html": "<p style=\"text-align: center;\">Sonntag 10.12. (1. Bundesliga)</p>"
 }

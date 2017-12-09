@@ -1,9 +1,14 @@
+courtspot: allow tests (status off should be != error)
+
 checkbox for leagues
 load and store
 	-> msg Steffen
 
 btde: link to https
+
 integrate bup displays
+	overview of events to subscribe to
+	bupdate
 	-> Dieter Gläßer
 
 highlight current matches
