@@ -34,9 +34,9 @@
 	"url": "http://badmintonticker.de/ticker/tsvtrittau/"
 },
 "SC Union Lüdinghausen": {
-	"type": "scu",
-	"url": "http://www.scunion08.de/liveTicker/overview.php",
-	"link": "http://www.scunion08.de/liveTicker/index.php"
+	"type": "csde",
+	"old_url": "http://www.scunion08.de/liveTicker/overview.php",
+	"old_link": "http://www.scunion08.de/liveTicker/index.php"
 },
 
 "SG EBT Berlin": {
