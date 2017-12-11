@@ -1,5 +1,6 @@
 courtspot: allow tests (status off should be != error)
 
+color match names
 checkbox for leagues
 load and store
 	-> msg Steffen
