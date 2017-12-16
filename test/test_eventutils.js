@@ -13,6 +13,11 @@ describe('eventutils', () => {
 		assert.strictEqual(eventutils.unify_name('3. HE'), 'HE3');
 	});
 
+	it('unify_team_name', () => {
+		assert.strictEqual(eventutils.unify_team_name('STC BW Solingen'), 'STC Blau-Weiss Solingen');
+		assert.strictEqual(eventutils.unify_team_name('OSC Düsseldorf'), 'OSC Düsseldorf');
+	});
+
 	it('unify_order', () => {
 		const matches = [
 			{name: 'HD1'},

@@ -2,6 +2,7 @@
 
 const assert = require('assert');
 
+const eventutils = require('./eventutils');
 const utils = require('./utils');
 const source_helper = require('./source_helper');
 
@@ -45,7 +46,7 @@ function parse(str) {
 	const metadata_ar = pipe_parts[0].split('~');
 
 	const mscore = [parseInt(metadata_ar[1]), parseInt(metadata_ar[2])];
-	const team_names = [metadata_ar[3], metadata_ar[4]];
+	const team_names = [metadata_ar[3], metadata_ar[4]].map(eventutils.unify_team_name);
 
 	const match_parts = pipe_parts.slice(1, -1);
 	const matches = match_parts.map(mp_str => {
