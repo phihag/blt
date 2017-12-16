@@ -6,7 +6,7 @@
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
 	"verbosity": 2,
-	"datestr": "2017-12-16",
+	"datestr": "2017-12-17",
 	"csde_stateful": false,
-	"note_html": "<p style=\"text-align: center;\">Nächster Spieltag: Samstag 16.12. (verlegte Spiele)</p>"
+	"note_html": "<p style=\"text-align: center;\">Sonntag 17.12. (1. &amp; 2. Bundesliga)</p>"
 }
