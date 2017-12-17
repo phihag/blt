@@ -183,6 +183,7 @@ function add_event(ev) {
 		'class': 'bbt_shortcut',
 		'data-event-num': ev.num,
 	});
+
 	render_event(container, shortcut_container, ev);
 }
 
