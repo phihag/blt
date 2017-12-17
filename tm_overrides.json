@@ -44,5 +44,14 @@
     "override": {
         "admin_note": "Es gab ein unbekanntes technisches Problem in der innogy-Halle."
     }
+}, {
+    "team_names": [
+        "SC Union L\u00fcdinghausen",
+        "1.BC Sbr.-Bischmisheim"
+    ],
+    "date": "2017-17-12",
+    "override": {
+        "admin_note": "In Lüdinghausen gibt es derzeit technische Probleme mit der Übertragung ins Internet."
+    }
 }
 ]
