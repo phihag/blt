@@ -53,7 +53,10 @@ function is_visible(league_key) {
 }
 
 function rerender() {
-	var vissel_container = uiu.qs('.bbt_vissel');
+	var vissel_container = document.querySelector('.bbt_vissel');
+	if (!vissel_container) {
+		return; // No UI enabled (embed mode)
+	}
 	uiu.empty(vissel_container);
 	lkeys.forEach(function(lk) {
 		var lbl = uiu.el(vissel_container, 'label');
