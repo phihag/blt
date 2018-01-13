@@ -76,6 +76,9 @@ function render_event(container, shortcut_container, ev) {
 	var team_colors = team_names.map(extradata.get_color);
 
 	container.setAttribute('id', extradata.shortname(team_names[0]));
+	uiu.setClass(container, 'bbt_invisible', !cvissel.is_visible(ev.league_key));
+	container.setAttribute('data-league_key', ev.league_key);
+
 	var header = uiu.el(container, 'table', 'bbt_header');
 	var header_tr = uiu.el(header, 'tr');
 	var home_td = uiu.el(header_tr, 'td', 'bbt_team_td');
@@ -164,6 +167,9 @@ function render_event(container, shortcut_container, ev) {
 		style: 'clear:both;',
 	});
 
+	shortcut_container.setAttribute('data-league_key', ev.league_key);
+	uiu.setClass(shortcut_container, 'bbt_invisible', !cvissel.is_visible(ev.league_key));
+
 	var shortcut_str = extradata.shortname(team_names[0]) + (ev.mscore ? ' ' + ev.mscore[0] + ':' + ev.mscore[1] + ' ' : ' - ') + extradata.shortname(team_names[1]);
 	uiu.el(shortcut_container, 'a', {
 		href: '#' + extradata.shortname(team_names[0]),
@@ -190,6 +196,7 @@ function add_event(ev) {
 function init(initial_events) {
 	uiu.empty(uiu.qs('.bbt_events'));
 	uiu.empty(uiu.qs('.bbt_shortcuts'));
+	cvissel.clear_checkboxes();
 	initial_events.forEach(function(ev) {
 		full(ev);
 	});
@@ -198,6 +205,7 @@ function init(initial_events) {
 function full(ev) {
 	var cur_container = document.querySelector('.bbt_event[data-event-num="' + ev.num + '"]');
 	var shortcut_container = document.querySelector('.bbt_shortcut[data-event-num="' + ev.num + '"]');
+	cvissel.add_league(ev.league_key);
 
 	if (cur_container) {
 		render_event(cur_container, shortcut_container, ev);
@@ -227,6 +235,7 @@ return {
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var calc = null;
 	var cutils = null;
+	var cvissel = null;
 	var extradata = null;
 	var report_problem = null;
 	var uiu = null;

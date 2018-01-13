@@ -42,6 +42,18 @@ html, body {
 .bbt_shortcuts_placeholder {
 	width: 10em;
 }
+.bbt_vissel {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	border-top-right-radius: 0.5em;
+}
+.bbt_vissel label {
+	display: block;
+	font-size: 80%;
+}
 @media (max-width: 1020px) {
 	.bbt_shortcuts_placeholder {
 		width: auto;
@@ -54,6 +66,14 @@ html, body {
 		margin-right: 1.5em;
 		margin-bottom: 0.8em;
 		min-width: 15em;
+	}
+	.bbt_vissel {
+		position: static;
+		padding: 0.1em .5em .5em .5em;
+	}
+	.bbt_vissel label {
+		display: inline-block;
+		margin-right: 0.7em;
 	}
 }
 @media (min-width: 1021px) and (max-width: 1700px) {

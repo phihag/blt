@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		'extradata',
 		'crender',
 		'cutils',
+		'cvissel',
 		'uiu',
 		'wsclient',
 	];

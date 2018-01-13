@@ -5,6 +5,10 @@
 	margin-top: 2em;
 }
 
+.bbt_invisible {
+	display: none;
+}
+
 .bbt_header {
 	width: 100%;
 	padding: 0 0;

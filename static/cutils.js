@@ -10,6 +10,14 @@ function find(ar, cb) {
 	return null;
 }
 
+function map(ar, cb) {
+	var res = [];
+	for (var i = 0;i < ar.length;i++) {
+		res.push(cb(ar[i]));
+	}
+	return res;
+}
+
 // Returns a value between 0 (extremely dark) and 1 (extremely bright)
 function brightness(rgb_str) {
 	// formula from https://www.w3.org/TR/AERT#color-contrast
@@ -42,6 +50,7 @@ return {
 	cached_brightness: cached_brightness,
 	find: find,
 	root_url: root_url,
+	map: map,
 };
 })();
 

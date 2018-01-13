@@ -1,5 +1,4 @@
-checkbox for leagues
-load and store
+cvissel: message when nothing is selected
 
 
 courtspot: allow tests (status off should be != error)
