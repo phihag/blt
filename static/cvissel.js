@@ -26,7 +26,11 @@ function save() {
 	if (!localStorage) {
 		return;
 	}
-	localStorage.setItem('bbt_vissel_prefs', JSON.stringify(prefs));
+	try {
+		localStorage.setItem('bbt_vissel_prefs', JSON.stringify(prefs));
+	} catch (e) {
+		report_problem.silent_error('setItem failed: ' + e.stack);
+	}
 }
 
 function clear_checkboxes() {
@@ -89,6 +93,7 @@ return {
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var uiu = null;
 	var extradata = null;
+	var report_problem = null;
 	module.exports = cvissel;
 }
 /*/@DEV*/
