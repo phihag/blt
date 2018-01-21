@@ -4,9 +4,18 @@ var cvissel = (function() {
 var prefs = {};
 var lkeys = [];
 
+function has_localStorage() {
+	try {
+		return typeof localStorage !== 'undefined';
+	} catch (_) {
+		// SecurityException
+		return false;
+	}
+}
+
 function init_ui() {
 	clear_checkboxes();
-	if (!localStorage) {
+	if (!has_localStorage()) {
 		return;
 	}
 	var new_prefs_json = localStorage.getItem('bbt_vissel_prefs');
@@ -23,7 +32,7 @@ function update() {
 }
 
 function save() {
-	if (!localStorage) {
+	if (!has_localStorage()) {
 		return;
 	}
 	try {
