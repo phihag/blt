@@ -7,8 +7,8 @@
 	"url": "http://badmintonticker.de/ticker/tsvneuhausennymphenburg/"
 },
 "TV Refrath": {
-	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/tvrefrath/"
+	"type": "sclive",
+	"btde_url": "http://badmintonticker.de/ticker/tvrefrath/"
 },
 "TV Refrath 2": {
 	"type": "btde",
