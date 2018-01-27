@@ -1,4 +1,8 @@
-cvissel: message when nothing is selected
+read courts
+	CourtSpot
+	btde
+	sclive (be careful, might be wrong)
+cast with bup
 
 
 courtspot: allow tests (status off should be != error)
