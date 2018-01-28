@@ -25,6 +25,11 @@ const MATCH_IDS = [
 	{'id': 21, 'team_a': '1. BC Beuel', 'team_b': '1. BV Mülheim', 'match_time': 1516993200.0},
 	{'id': 26, 'team_a': '1. BC Beuel', 'team_b': 'TSV Freystadt', 'match_time': 1570453200.0},
 	{'id': 38, 'team_a': 'TV Refrath', 'team_b': 'TSV Freystadt', 'match_time': 1517061600.0},
+	{'id': 20, 'team_a': '1. BC Beuel', 'team_b': '1. BC Wipperfeld 1', 'match_time': 1517148000.0},
+	{'id': 30, 'team_a': '1. BC Beuel 2', 'team_b': 'TSV Trittau 2', 'match_time': 1516471200.0},
+	{'id': 31, 'team_a': '1. BC Beuel 2', 'team_b': 'SG EBT Berlin', 'match_time': 1516543200.0},
+	{'id': 32, 'team_a': '1. BC Beuel 2', 'team_b': 'STC Blau-Weiss Solingen', 'match_time': 1518890400.0},
+	{'id': 33, 'team_a': '1. BC Beuel 2', 'team_b': '1.BV Mülheim 2', 'match_time': 1521392400.0},
 ];
 
 const ALIAS_NAMES = {
@@ -35,6 +40,7 @@ const ALIAS_NAMES = {
 	'1. BV Muelheim': '1.BV Mülheim',
 	'1. BV Mülheim 2': '1.BV Mülheim 2',
 	'1. BV Muelheim 2': '1.BV Mülheim 2',
+	'1. BC Wipperfeld 1': '1.BC Wipperfeld',
 	'SV Fun-Ball Dortelweil 1': 'SV Fun-Ball Dortelweil',
 	'Blau-Weiss Wittorf-NMS 1': 'Blau-Weiss Wittorf-NMS',
 	'TSV Freystadt': 'TSV 1906 Freystadt',
