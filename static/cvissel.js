@@ -6,7 +6,7 @@ var lkeys = [];
 
 function has_localStorage() {
 	try {
-		return typeof localStorage !== 'undefined';
+		return (typeof localStorage !== 'undefined') && localStorage;
 	} catch (_) {
 		// SecurityException
 		return false;
