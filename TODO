@@ -3,7 +3,7 @@ read courts
 	btde
 	sclive (be careful, might be wrong)
 cast with bup
-
+add Regionalliga Nord / Regionalliga West (initially hidden)
 
 courtspot: allow tests (status off should be != error)
 
