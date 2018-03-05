@@ -52,5 +52,8 @@ dist: cleandist ## Create distribution files
 	mkdir -p dist/static/logos/
 	node_modules/.bin/svgo -q --folder static/logos/ -o dist/static/logos/
 
+docker:
+	docker build . -t bbt
+	docker run -it --name bbt --rm -p 19005:9005 bbt
 
-.PHONY: default compile help deps test clean run-server lint eslint eslint-server eslint-client install-service stylelint cleandist
+.PHONY: default compile help deps test clean run-server lint eslint eslint-server eslint-client install-service stylelint cleandist docker

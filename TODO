@@ -1,16 +1,12 @@
-bupdate
-serve bup
-test in docker
-	write Dockerfile
-
-
 automatically select next date (cron to roll over?)
+
 
 read courts
 	CourtSpot
 	btde
 	sclive (be careful, might be wrong)
 cast with bup
+
 add Regionalliga Nord / Regionalliga West (initially hidden)
 
 courtspot: allow tests (status off should be != error)

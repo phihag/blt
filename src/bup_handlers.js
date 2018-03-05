@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('assert');
+const child_process = require('child_process');
 const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
@@ -17,6 +18,23 @@ const TMP_ROOT = path.join(ROOT_DIR, 'tmp');
 const ZIP_URL = 'https://aufschlagwechsel.de/bup.zip';
 
 
+function rename(oldPath, newPath, callback) {
+	fs.rename(oldPath, newPath, (err) => {
+		if (!err || (err.code !== 'EXDEV')) return callback(err);
+
+		// On AUFS (e.g. docker), rename is not supported:
+		// https://docs.docker.com/engine/userguide/storagedriver/aufs-driver/#modifying-files-or-directories
+		// Fall back to mv instead.
+		child_process.execFile('mv', ['-T', '--', oldPath, newPath], (err, _stdout, stderr) => {
+			if (err) {
+				return callback(new Error(
+					'mv -T -- ' + JSON.stringify(oldPath) + ' ' + JSON.stringify(newPath) + ' failed: ' + stderr));
+			}
+
+			callback();
+		});
+	});
+}
 
 function safe_rimraf(path, cb) {
 	assert(path.includes('/tmp'));
@@ -39,17 +57,17 @@ function bupdate(callback) {
 	}, (cb) => {
 		const new_dir_abs = path.resolve(new_dir);
 		extract_zip(zip_fn, {dir: new_dir_abs}, cb);
-	}, function(cb) {
+	}, (cb) => {
 		const checksums_fn = path.join(new_dir, 'bup', 'checksums.json');
 		fs.readFile(checksums_fn, 'utf8', cb);
-	}, function(checksums_json, cb) {
+	}, (checksums_json, cb) => {
 		const checksums = JSON.parse(checksums_json);
 
-		async.each(Object.keys(checksums), function(vfn, cb) {
+		async.each(Object.keys(checksums), (vfn, cb) => {
 			const file_checksums = checksums[vfn];
 			const fn = path.join(new_dir, vfn);
 
-			utils.sha512_file(fn, function(err, sum) {
+			utils.sha512_file(fn, (err, sum) => {
 				if (err) return cb(err);
 
 				if (sum === file_checksums.sha512) {
@@ -63,24 +81,26 @@ function bupdate(callback) {
 				}
 			});
 		}, cb);
-	}, function(cb) {
+	}, (cb) => {
 		fs.stat(final_dir, err => cb(null, !err));
-	}, function(old_exists, cb) {
+	}, (old_exists, cb) => {
 		if (old_exists) {
-			fs.rename(final_dir, backup_dir, cb);
+			rename(final_dir, backup_dir, cb);
 		} else {
 			cb();
 		}
-	}, function(cb) {
-		fs.rename(path.join(new_dir, 'bup'), final_dir, cb);
-	}, function(cb) {
+	}, (cb) => {
+		rename(path.join(new_dir, 'bup'), final_dir, cb);
+	}, (cb) => {
 		safe_rimraf(backup_dir, cb);
-	}], function(err) {
+	}], (err) => {
 		if (err) {
-			safe_rimraf(tmp_dir, function(err) {
-				console.error('Final rimraf failed: ' + err.message);  // eslint-disable-line no-console
+			safe_rimraf(tmp_dir, (rimraf_err) => {
+				if (rimraf_err) {
+					console.error('Final rimraf failed: ' + rimraf_err.message);  // eslint-disable-line no-console
+				}
+				callback(err);
 			});
-			callback(err);
 			return;
 		}
 
@@ -99,6 +119,10 @@ function bupdate(callback) {
 
 function bupdate_handler(req, res, next) {
 	bupdate((err, bup_version) => {
+		if (err) {
+			console.error(err.message);
+			return next(err);
+		}
 		render(req, res, next, 'bupdate_success', {
 			bup_version,
 		});
