@@ -17,10 +17,12 @@
   "dependencies": {
     "async": "*",
     "express": "*",
-    "serve-favicon": "*",
+    "extract-zip": "*",
     "mustache": "*",
     "mustache-express": "*",
+    "serve-favicon": "*",
     "supervisor": "*",
+    "rimraf": "*",
     "ws": "*",
     "xmldom": "*"
   },

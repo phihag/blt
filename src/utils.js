@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('assert');
+const crypto = require('crypto');
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
@@ -205,6 +206,46 @@ function cmp(a, b) {
 	}
 }
 
+function ensure_mkdir(path, cb) {
+	fs.mkdir(path, 0o755, function(err) {
+		if (err && err.code == 'EEXIST') {
+			return cb(null);
+		}
+		cb(err);
+	});
+}
+
+function download_file(url, fn, callback) {
+	const file = fs.createWriteStream(fn);
+	https.get(url, response => {
+		if (response.statusCode !== 200) {
+			return callback(new Error(url + ' failed with code ' + response.statusCode));
+		}
+		response.pipe(file);
+		file.on('finish', () => {
+			file.close(callback);
+		});
+	}).on('error', (err) => {
+		fs.unlink(fn);
+		callback(err);
+	});
+}
+
+function sha512_file(fn, cb) {
+	const sha_sum = crypto.createHash('SHA512');
+
+	const s = fs.ReadStream(fn);
+	s.on('data', function(d) {
+		sha_sum.update(d);
+	});
+	s.on('error', function(err) {
+		cb(err);
+	});
+	s.on('end', function() {
+		cb(null, sha_sum.digest('hex'));
+	});
+}
+
 
 module.exports = {
 	broadcast,
@@ -212,6 +253,8 @@ module.exports = {
 	deep_copy,
 	deep_equal,
 	download_page,
+	download_file,
+	ensure_mkdir,
 	find,
 	obj_update,
 	pad,
@@ -220,4 +263,5 @@ module.exports = {
 	read_json,
 	run_every,
 	send,
+	sha512_file,
 };
