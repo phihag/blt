@@ -60,9 +60,7 @@ function run_server(cfg, source_info) {
 	app.root_path = cfg('root_path');
 
 	// Set up state handlers
-	const now = new Date();
-	const default_datestr = now.getFullYear() + '-' + utils.pad(now.getMonth() + 1) + '-' + utils.pad(now.getDate());
-	const datestr = cfg('datestr', default_datestr);
+	const datestr = cfg('datestr');
 	app.state_handlers = sources.init(cfg, datestr, source_info, wss);
 	utils.broadcast(wss, JSON.stringify({
 		type: 'init',

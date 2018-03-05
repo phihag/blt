@@ -120,7 +120,7 @@ function bupdate(callback) {
 function bupdate_handler(req, res, next) {
 	bupdate((err, bup_version) => {
 		if (err) {
-			console.error(err.message);
+			console.error('bupdate failed', err.message); // eslint-disable-line no-console
 			return next(err);
 		}
 		render(req, res, next, 'bupdate_success', {

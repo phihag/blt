@@ -1,4 +1,6 @@
-automatically select next date (cron to roll over?)
+automatically select next date
+	calc next match date, sleep for that time
+	kill old watchers
 
 
 read courts
