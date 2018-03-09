@@ -3,7 +3,7 @@
 const sources = require('./sources');
 const utils = require('./utils');
 
-function setup(app, source_info, wss) {
+function setup(app, wss, source_info) {
 	const now = new Date();
 	const default_datestr = now.getFullYear() + '-' + utils.pad(now.getMonth() + 1) + '-' + utils.pad(now.getDate());
 	const datestr = app.cfg('datestr', default_datestr);
