@@ -5,6 +5,7 @@ const url = require('url');
 
 const ws_module = require('ws');
 
+const changedate = require('./changedate');
 const config = require('./config');
 const sources = require('./sources');
 const routes = require('./routes');
@@ -60,12 +61,7 @@ function run_server(cfg, source_info) {
 	app.root_path = cfg('root_path');
 
 	// Set up state handlers
-	const datestr = cfg('datestr');
-	app.state_handlers = sources.init(cfg, datestr, source_info, wss);
-	utils.broadcast(wss, JSON.stringify({
-		type: 'init',
-		events: app.state_handlers.map(sh => sh.ev),
-	}));
+	changedate.setup(app, wss, source_info);
 
 	wss.on('connection', (ws, req) => setup_ws(app, ws, req));
 
