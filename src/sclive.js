@@ -30,6 +30,8 @@ const MATCH_IDS = [
 	{'id': 31, 'team_a': '1. BC Beuel 2', 'team_b': 'SG EBT Berlin', 'match_time': 1516543200.0},
 	{'id': 32, 'team_a': '1. BC Beuel 2', 'team_b': 'STC Blau-Weiss Solingen', 'match_time': 1518890400.0},
 	{'id': 33, 'team_a': '1. BC Beuel 2', 'team_b': '1.BV Mülheim 2', 'match_time': 1521392400.0},
+	{'id': 33, 'team_a': '1. BC Beuel 2', 'team_b': '1.BV M\u00fclheim 2', 'match_time': 1521392400.0},
+	{'id': 41, 'team_a': '1. BC Beuel 2', 'team_b': 'TV Refrath 2', 'match_time': 1521914400.0},
 ];
 
 const ALIAS_NAMES = {
