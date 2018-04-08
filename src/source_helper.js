@@ -9,7 +9,7 @@ function copy_props(ev, src) {
 
 	if (!ev.team_names[1]) {
 		const admin_note = (
-			'Der Original-Liveticker ist noch nicht verfügbar'
+			'Der Original-Liveticker ist noch nicht verfügbar.'
 		);
 		ev.admin_note = admin_note;
 		ev.team_names = src.team_names;
