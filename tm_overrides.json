@@ -61,7 +61,7 @@
     "date": "2018-04-14",
     "override": {
         "type": "csde",
-        "csde_league_code": 9999
+        "csde_league_code": 8
     }
 },  {
     "team_names": [
@@ -71,7 +71,7 @@
     "date": "2018-04-14",
     "override": {
         "type": "csde",
-        "csde_league_code": 9999,
+        "csde_league_code": 8,
         "event_note": "Das 2. Spiel am 14.04.2018 bestreiten der Sieger aus Spiel 1 gegen Blau-Weiss Wittdorf. Das 3. Spiel bestreiten Blau-Weiss Wittdorf gegen den Verlierer aus Spiel 1."
     }
 },  {
@@ -82,11 +82,27 @@
     "date": "2018-04-14",
     "override": {
         "type": "csde",
-        "csde_league_code": 9999,
+        "csde_league_code": 8,
         "event_note": "Das 2. Spiel am 14.04.2018 bestreiten der Sieger aus Spiel 1 gegen Blau-Weiss Wittdorf. Das 3. Spiel bestreiten Blau-Weiss Wittdorf gegen den Verlierer aus Spiel 1."
     }
+}, {
+    "team_names": [
+        "SC Union L\u00fcdinghausen",
+        "TSV Trittau"
+    ],
+    "date": "2018-04-14",
+    "override": {
+        "csde_league_code": 6
+    }
+}, {
+    "team_names": [
+        "1.BV M\u00fclheim",
+        "TV Refrath"
+    ],
+    "date": "2018-04-15",
+    "override": {
+        "csde_league_code": 7
+    }
 }
-
-
 
 ]
