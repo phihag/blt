@@ -217,6 +217,7 @@ function annotate(ev, params) {
 
 function run_once(cfg, src, sh, cb) {
 	let url = src.url;
+	assert(url);
 
 	const stateful_enabled = cfg('csde_stateful', false);
 	if (stateful_enabled && sh.ticker_state.csde_n && sh.ticker_state.csde_s) {
@@ -258,12 +259,22 @@ function setup_tm(tm, home_team) {
 		throw new Error('Team ' + tname + ' missing in csde database');
 	});
 
+	let cs_league_code;
 	const [l0, v] = team_ids[0].split('-');
 	const [l1, g] = team_ids[1].split('-');
-	assert(l0 === l1);
+	if (tm.csde_league_code) {
+		cs_league_code = tm.csde_league_code;
+	} else {
+		assert(l0 === l1,
+			'Liga-IDs der Mannschaften unterscheiden sich: ' +
+			tm.team_names[0] + ': ' + l0 + ', ' +
+			tm.team_names[1] + ': ' + l1);
+		cs_league_code = l0;
+	}
+	assert(cs_league_code);
 
-	tm.url = 'http://courtspot.de/php__Skripte/liveabfrage.php?l=' + l0 + '&v=' + v + '&g=' + g;
-	tm.link = 'https://www.courtspot.de/live/?Liga=' + l0;
+	tm.url = 'http://courtspot.de/php__Skripte/liveabfrage.php?l=' + cs_league_code + '&v=' + v + '&g=' + g;
+	tm.link = 'https://www.courtspot.de/live/?Liga=' + cs_league_code;
 }
 
 module.exports = {

@@ -51,25 +51,21 @@ function init(cfg, datestr, source_info, wss) {
 		}
 
 		let mod;
+		const home_team_name = tm.team_names[0];
+		const home_team = sourcedb[home_team_name];
+		if (!home_team) {
+			throw new Error('Cannot find home team ' + home_team_name + ' in sourcedb');
+		}
 		if (tm.type === 'auto') {
-			const home_team_name = tm.team_names[0];
-			const home_team = sourcedb[home_team_name];
-			if (!home_team) {
-				throw new Error('Cannot find home team ' + home_team_name + ' in sourcedb');
-			}
-
 			tm.type = home_team.type;
 			mod = TYPES[home_team.type];
-			if (!mod) {
-				throw new Error('Unsupported source type ' + tm.type);
-			}
-			mod.setup_tm(tm, home_team);
 		} else {
 			mod = TYPES[tm.type];
-			if (!mod) {
-				throw new Error('Unsupported source type ' + tm.type);
-			}
 		}
+		if (!mod) {
+			throw new Error('Unsupported source type ' + tm.type);
+		}
+		mod.setup_tm(tm, home_team);
 
 		const sh = new StateHandler(wss, i);
 		i++;

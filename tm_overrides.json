@@ -53,5 +53,40 @@
     "override": {
         "admin_note": "In Lüdinghausen gibt es derzeit technische Probleme mit der Übertragung ins Internet."
     }
+}, {
+    "team_names": [
+        "TV 1884 Marktheidenfeld",
+        "TSV 1906 Freystadt"
+    ],
+    "date": "2018-04-14",
+    "override": {
+        "type": "csde",
+        "csde_league_code": 9999
+    }
+},  {
+    "team_names": [
+        "Blau-Weiss Wittorf-NMS",
+        "TV 1884 Marktheidenfeld"
+    ],
+    "date": "2018-04-14",
+    "override": {
+        "type": "csde",
+        "csde_league_code": 9999,
+        "admin_note": "Das 2. Spiel am 14.04.2018 bestreiten der Sieger aus Spiel 1 gegen Blau-Weiss Wittdorf. Das 3. Spiel bestreiten Blau-Weiss Wittdorf gegen den Verlierer aus Spiel 1."
+    }
+},  {
+    "team_names": [
+        "TSV 1906 Freystadt",
+        "Blau-Weiss Wittorf-NMS"
+    ],
+    "date": "2018-04-14",
+    "override": {
+        "type": "csde",
+        "csde_league_code": 9999,
+        "admin_note": "Das 2. Spiel am 14.04.2018 bestreiten der Sieger aus Spiel 1 gegen Blau-Weiss Wittdorf. Das 3. Spiel bestreiten Blau-Weiss Wittdorf gegen den Verlierer aus Spiel 1."
+    }
 }
+
+
+
 ]
