@@ -139,7 +139,6 @@ function render_event(container, shortcut_container, ev) {
 	}
 
 	var event_note = ev.event_note;
-	console.log(ev)
 	if (event_note) {
 		uiu.el(container, 'div', {
 			style: 'white-space:pre-wrap;',

@@ -7,13 +7,22 @@ function copy_props(ev, src) {
 		}
 	}
 
-	if (ev.team_names[1] !== src.team_names[1]) {
+	if (!ev.team_names[1]) {
+		const admin_note = (
+			'Der Original-Liveticker ist noch nicht verfügbar'
+		);
+		ev.admin_note = admin_note;
+		ev.team_names = src.team_names;
+		ev.matches = false;
+		ev.mscore = [0, 0];
+		ev.link = src.link || src.url;
+	} else if (ev.team_names[1] !== src.team_names[1]) {
 		const admin_note = (
 			'Der Original-Liveticker ist noch nicht richtig eingestellt' +
 			'\n(zeigt noch ' + ev.team_names[0] + ' - ' + ev.team_names[1] + ').'
 		);
-		ev.team_names = src.team_names;
 		ev.admin_note = admin_note;
+		ev.team_names = src.team_names;
 		ev.matches = false;
 		ev.mscore = [0, 0];
 		ev.link = src.link || src.url;
