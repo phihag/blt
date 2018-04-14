@@ -53,6 +53,13 @@ const TEAM_NAMES = {
 	'5-715': 'Spvgg.Sterkrade-N. 1',
 	'5-810': 'BC Hohenlimburg 2',
 	'5-89': '1.CfB Köln 1',
+	'6-2': 'SC Union Lüdinghausen',
+	'6-7': 'TSV Trittau',
+	'7-3': 'TV Refrath',
+	'7-4': '1.BV Mülheim',
+	'8-9': 'TSV 1906 Freystadt',
+	'8-11': 'Blau-Weiss Wittorf-NMS',
+	'8-28': 'TV 1884 Marktheidenfeld',
 };
 const LEAGUE_KEY = {
 	1: '1BL-2017',
@@ -60,6 +67,9 @@ const LEAGUE_KEY = {
 	3: '2BLS-2017',
 	4: 'RLN-2016',
 	5: 'RLW-2016',
+	6: '1BL-2017',
+	7: '1BL-2017',
+	8: '1BL-2017',
 };
 
 
