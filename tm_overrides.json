@@ -71,7 +71,7 @@
     "date": "2018-04-14",
     "override": {
         "type": "csde",
-        "csde_league_code": 8,
+        "csde_league_code": 8
     }
 },  {
     "team_names": [
@@ -81,7 +81,7 @@
     "date": "2018-04-14",
     "override": {
         "type": "csde",
-        "csde_league_code": 8,
+        "csde_league_code": 8
     }
 }, {
     "team_names": [
