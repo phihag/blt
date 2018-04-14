@@ -3230,8 +3230,8 @@
     {
         "type": "auto",
         "team_names": [
-            "Blau-Weiss Wittorf-NMS",
-            "TV 1884 Marktheidenfeld"
+            "TSV 1906 Freystadt",
+            "Blau-Weiss Wittorf-NMS"
         ],
         "league_key": "1BL-2017",
         "starttime": "18:30",
@@ -3242,14 +3242,14 @@
     {
         "type": "auto",
         "team_names": [
-            "TSV 1906 Freystadt",
-            "Blau-Weiss Wittorf-NMS"
+            "Blau-Weiss Wittorf-NMS",
+            "TV 1884 Marktheidenfeld"
         ],
         "league_key": "1BL-2017",
-        "starttime": "18:30",
-        "date": "2018-04-14",
-        "date_de": "14.04.2018",
-        "ts": 1523723400
+        "starttime": "14:00",
+        "date": "2018-04-15",
+        "date_de": "15.04.2018",
+        "ts": 1523793600
     },
     {
         "type": "auto",
