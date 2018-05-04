@@ -53,5 +53,25 @@
     "override": {
         "admin_note": "In Lüdinghausen gibt es derzeit technische Probleme mit der Übertragung ins Internet."
     }
+}, {
+    "team_names": [
+        "1.BC Sbr.-Bischmisheim",
+        "TV Refrath"
+    ],
+    "date": "2018-05-05",
+    "override": {
+        "type": "csde",
+        "csde_league_code": 9
+    }
+}, {
+    "team_names": [
+        "1.BC Beuel",
+        "TSV Trittau"
+    ],
+    "date": "2018-05-05",
+    "override": {
+        "type": "csde",
+        "csde_league_code": 9
+    }
 }
 ]
