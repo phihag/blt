@@ -3262,5 +3262,19 @@
         "date": "2018-04-15",
         "date_de": "15.04.2018",
         "ts": 1523804400
+    },
+    {
+        "type": "csde",
+        "csde_league_code": "9",
+        "team_names": [
+            "1.BV M\u00fclheim",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2017",
+        "starttime": "17:00",
+        "date": "2018-04-15",
+        "date_de": "15.04.2018",
+        "ts": 1523804400
     }
+
 ]
