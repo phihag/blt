@@ -73,5 +73,28 @@
         "type": "csde",
         "csde_league_code": 9
     }
+}, {
+    "team_names": [
+        "TV Refrath",
+        "TSV Trittau"
+    ],
+    "date": "2018-05-06",
+    "override": {
+        "type": "csde",
+        "csde_league_code": 9
+    }
+}, {
+    "team_names": [
+        "1.BC Sbr.-Bischmisheim",
+        "1.BC Beuel"
+    ],
+    "date": "2018-05-06",
+    "override": {
+        "type": "csde",
+        "csde_league_code": 9
+    }
 }
+
+
+
 ]
