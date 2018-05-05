@@ -4,7 +4,7 @@ var extradata = (function() {
 
 var TEAM_COLORS = {
 	'Beuel': '#ffed00',
-	'Bischmisheim': '#1e3a8e',
+	'Bischmisheim': '#8bd6ff',
 	'BV Mülheim': '#ff423f',
 	'BW Solingen': '#cbff81', // STC BW Solingen
 	'Dortelweil': '#f9f152',
@@ -14,7 +14,7 @@ var TEAM_COLORS = {
 	'Horner': '#ff2222', // Hamburg Horner TV
 	'Lüdinghausen': '#ff1400',
 	'Neuhausen': '#02c0ff',
-	'Refrath': '#8bd6ff',
+	'Refrath': '#1e3a8e',
 	'Trittau': '#ff557a',
 	'Wipperfeld': '#ff2149',
 	'Wittorf': '#0091ff',
