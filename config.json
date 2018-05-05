@@ -5,7 +5,7 @@
 	"root_path": "/",
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
-	"verbosity": 3,
+	"verbosity": 2,
 	"datestr": "2018-05-05",
 	"csde_stateful": false,
 	"note_html": "<p style=\"text-align: center;\">Samstag 5.5.2018 - Bundesliga-Halbfinale</p>"
