@@ -60,6 +60,11 @@ const TEAM_NAMES = {
 	'8-9': 'TSV 1906 Freystadt',
 	'8-11': 'Blau-Weiss Wittorf-NMS',
 	'8-28': 'TV 1884 Marktheidenfeld',
+	'9-1': '1.BC Sbr.-Bischmisheim',
+	'9-3': 'TV Refrath',
+	'9-5': '1.BC Beuel',
+	'9-6': '1.BC Wipperfeld',
+	'9-7': 'TSV Trittau',	
 };
 const LEAGUE_KEY = {
 	1: '1BL-2017',
