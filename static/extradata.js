@@ -15,7 +15,9 @@ var TEAM_COLORS = {
 	'Lüdinghausen': '#ff1400',
 	'Neuhausen': '#02c0ff',
 	'Refrath': '#1e3a8e',
-	'Trittau': '#ff557a',
+	'Sterkrade': '#fefa42',
+	'Trittau': '#0060a1',
+	'Wesel': '#ed1a24',
 	'Wipperfeld': '#ff2149',
 	'Wittorf': '#0091ff',
 	'Sterkrade': '#ffff00',
@@ -63,6 +65,7 @@ var LOGOS = [
 ];
 var LOGO_ALIASSE = {
 	'1.BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
+	'1. BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
 	'1.BV Mülheim': 'bvmuelheim',
 	'BC Bischmisheim': 'bcbsaarbruecken',
 	'Blau-Weiss Wittorf-NMS': 'wittorfneumuenster',
