@@ -6,7 +6,7 @@
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
 	"verbosity": 2,
-	"datestr": "2018-09-08",
+	"datestr": "2018-09-09",
 	"csde_stateful": false,
-	"note_html": "<p style=\"text-align: center;\">Samstag 8.9.2018 - Erster Spieltag der neuen Saison</p>"
+	"note_html": "<p style=\"text-align: center;\">Sonntag 9.9.2018</p>"
 }
