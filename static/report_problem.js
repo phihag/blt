@@ -71,7 +71,9 @@ function silent_error(msg) {
 	report(get_info());
 }
 
-window.onerror = on_error;
+if (typeof window !== 'undefined') {
+	window.onerror = on_error;
+}
 
 return {
 	silent_error: silent_error,

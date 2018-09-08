@@ -73,7 +73,7 @@ describe('CourtSpot', () => {
 		const ev = csde._parse(str);
 		assert.deepStrictEqual(ev, {});
 
-		const url = 'http://courtspot.de/php__Skripte/liveabfrage.php?l=1&v=9&g=10';
+		const url = 'http://courtspot.de/php__Skripte/liveabfrage.php?l=1&v=9&g=8';
 		const params = utils.parse_querystring(url);
 		csde._annotate(ev, params);
 		assert.deepStrictEqual(ev, {
@@ -87,11 +87,11 @@ describe('CourtSpot', () => {
 		const ev = {
 			matches: [],
 		};
-		const url = 'http://courtspot.de/php__Skripte/liveabfrage.php?l=2&v=12&g=20';
+		const url = 'http://courtspot.de/php__Skripte/liveabfrage.php?l=2&v=14&g=18';
 		const params = utils.parse_querystring(url);
 		csde._annotate(ev, params);
 		assert.deepStrictEqual(ev, {
-			team_names: ['TV Refrath 2', 'VfB/SC Peine'],
+			team_names: ['TV Refrath 2', 'SG VfB/SC Peine'],
 			scoring: '5x11_15^90',
 			mscore: [0, 0],
 			matches: [],
@@ -117,7 +117,7 @@ describe('CourtSpot', () => {
 		};
 		const params = {
 			l: 4,
-			v: 2,
+			v: 5,
 			g: 1,
 		};
 		csde._annotate(ev, params);
