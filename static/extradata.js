@@ -20,7 +20,6 @@ var TEAM_COLORS = {
 	'Wesel': '#ed1a24',
 	'Wipperfeld': '#ff2149',
 	'Wittorf': '#0091ff',
-	'Sterkrade': '#ffff00',
 };
 function get_color(team_name) {
 	for (var keyword in TEAM_COLORS) {
