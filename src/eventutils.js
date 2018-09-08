@@ -126,7 +126,7 @@ function league_scoring(league_key) {
 	if (/^(?:1BL|2BLN|2BLS)-2016$/.test(league_key)) {
 		return '5x11_15';
 	}
-	if (/^(?:1BL|2BLN|2BLS)-2017$/.test(league_key)) {
+	if (/^(?:1BL|2BLN|2BLS)-(?:2017|2018)$/.test(league_key)) {
 		return '5x11_15^90';
 	}
 	if (league_key === 'OBL-2017') {
