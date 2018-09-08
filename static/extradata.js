@@ -194,5 +194,7 @@ return {
 /*@DEV*/
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	module.exports = extradata;
+
+	var report_problem = require('./report_problem');
 }
 /*/@DEV*/
