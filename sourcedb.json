@@ -4,15 +4,15 @@
 },
 "TSV Neuhausen-Nymphenburg": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/tsvneuhausennymphenburg/"
+	"url": "https://badmintonticker.de/ticker/tsvneuhausennymphenburg/"
 },
 "TV Refrath": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/tvrefrath/"
+	"url": "https://badmintonticker.de/ticker/tvrefrath/"
 },
 "TV Refrath 2": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/tvrefrath2/"
+	"url": "https://badmintonticker.de/ticker/tvrefrath2/"
 },
 "TSV 1906 Freystadt": {
 	"type": "csde"
@@ -29,13 +29,13 @@
 },
 "Hamburg Horner TV": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/hamburghornertv/"
+	"url": "https://badmintonticker.de/ticker/hamburghornertv/"
 },
 
 
 "TSV Trittau": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/tsvtrittau/"
+	"url": "https://badmintonticker.de/ticker/tsvtrittau/"
 },
 "Union Lüdinghausen": {
 	"type": "csde",
@@ -63,18 +63,18 @@
 },
 "VfB Friedrichshafen": {
 	"type": "none",
-	"url": "http://badmintonticker.de/ticker/vfbfriedrichshafen/"
+	"url": "https://badmintonticker.de/ticker/vfbfriedrichshafen/"
 },
 "TSV Neubiberg/Ottobrunn 1920": {
 	"type": "csde"
 },
 "SG Schorndorf": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/sgschorndorf/"
+	"url": "https://badmintonticker.de/ticker/sgschorndorf/"
 },
 "TV 1884 Marktheidenfeld": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/tv1884marktheidenfeld/"
+	"url": "https://badmintonticker.de/ticker/tv1884marktheidenfeld/"
 },
 "STC Blau-Weiss Solingen": {
 	"type": "csde"
@@ -93,7 +93,7 @@
 },
 "SV GutsMuths Jena": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/svgutsmuthsjena/"
+	"url": "https://badmintonticker.de/ticker/svgutsmuthsjena/"
 },
 "BC Hohenlimburg": {
 	"type": "csde"
@@ -106,7 +106,7 @@
 },
 "TSV Trittau 2": {
 	"type": "btde",
-	"url": "http://badmintonticker.de/ticker/tsvtrittau2/"
+	"url": "https://badmintonticker.de/ticker/tsvtrittau2/"
 },
 
 "Spvgg.Sterkrade-N.": {
