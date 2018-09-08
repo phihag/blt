@@ -45,6 +45,7 @@ var LOGOS = [
 	'sgebtberlin',
 	'sgschorndorf',
 	'stcblauweisssolingen',
+	'sterkrade',
 	'svfischbach',
 	'svfunballdortelweil',
 	'svgutsmuthsjena',
@@ -52,6 +53,7 @@ var LOGOS = [
 	'tsvneubibergottobrunn',
 	'tsvneuhausen',
 	'tsvtrittau',
+	'tusgeretsried',
 	'tuswiebelskirchen',
 	'tvdillingen',
 	'tvemsdetten',
@@ -60,16 +62,18 @@ var LOGOS = [
 	'unionluedinghausen',
 	'vfbfriedrichshafen',
 	'vfbscpeine',
+	'wesel',
 	'wittorfneumuenster',
-	'sterkrade',
 ];
 var LOGO_ALIASSE = {
-	'1.BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
 	'1. BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
+	'1.BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
 	'1.BV Mülheim': 'bvmuelheim',
 	'BC Bischmisheim': 'bcbsaarbruecken',
 	'Blau-Weiss Wittorf-NMS': 'wittorfneumuenster',
 	'SC Union Lüdinghausen': 'unionluedinghausen',
+	'SG VfB/SC Peine': 'vfbscpeine',
+	'Spvgg.Sterkrade-N.': 'sterkrade',
 	'TSV Neuhausen-Nymphenburg': 'tsvneuhausen',
 };
 function team_logo(team_name) {
@@ -78,6 +82,8 @@ function team_logo(team_name) {
 	var clean_name = team_name.toLowerCase().replace(/[^a-z]/g, '');
 	if (LOGOS.includes(clean_name)) {
 		return 'logos/' + clean_name + '.svg';
+	} else {
+		report_problem.silent_error('Cannot find logo for ' + clean_name);
 	}
 }
 
