@@ -79,7 +79,10 @@ function render_event(container, shortcut_container, ev) {
 	uiu.setClass(container, 'bbt_invisible', !cvissel.is_visible(ev.league_key));
 	container.setAttribute('data-league_key', ev.league_key);
 
-	var header = uiu.el(container, 'table', 'bbt_header');
+	var header = uiu.el(container, 'table', {
+		'class': 'bbt_header',
+		id: extradata.shortname(team_names[1]),
+	});
 	var header_tr = uiu.el(header, 'tr');
 	var home_td = uiu.el(header_tr, 'td', 'bbt_team_td');
 	var home_div = uiu.el(home_td, 'div', 'bbt_team_name_container');
