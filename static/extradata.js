@@ -82,13 +82,13 @@ function team2club(team_name) {
 
 var NRW2016_RE = /^NRW-(O19)-(?:(?:([NS])([12]))-)?([A-Z]{2})-([0-9]{3})-(?:2016|2017)$/;
 function name_by_league(league_key) {
-	if (/^1BL-(?:2015|2016|2017)$/.test(league_key)) {
+	if (/^1BL-(?:2015|2016|2017|2018)$/.test(league_key)) {
 		return '1. Bundesliga';
 	}
-	if (/^2BLN-(?:2015|2016|2017)$/.test(league_key)) {
+	if (/^2BLN-(?:2015|2016|2017|2018)$/.test(league_key)) {
 		return '2. Bundesliga Nord';
 	}
-	if (/^2BLS-(?:2015|2016|2017)$/.test(league_key)) {
+	if (/^2BLS-(?:2015|2016|2017|2018)$/.test(league_key)) {
 		return '2. Bundesliga Süd';
 	}
 	if (league_key === 'OBL-2017') {
