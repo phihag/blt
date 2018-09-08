@@ -33,7 +33,7 @@
 	"type": "btde",
 	"url": "http://badmintonticker.de/ticker/tsvtrittau/"
 },
-"SC Union Lüdinghausen": {
+"Union Lüdinghausen": {
 	"type": "csde",
 	"old_url": "http://www.scunion08.de/liveTicker/overview.php",
 	"old_link": "http://www.scunion08.de/liveTicker/index.php"
@@ -78,10 +78,10 @@
 "VfB/SC Peine": {
 	"type": "csde"
 },
-"1.BC Sbr.-Bischmisheim": {
+"1. BC Sbr.-Bischmisheim": {
 	"type": "csde"
 },
-"1.BC Sbr.-Bischmisheim 2": {
+"1. BC Sbr.-Bischmisheim 2": {
 	"type": "csde"
 },
 "TV Dillingen": {

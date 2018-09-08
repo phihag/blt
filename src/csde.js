@@ -11,7 +11,7 @@ const TEAM_NAMES = {
 	'1-2': '1.BC Beuel',
 	'1-3': 'TV Refrath',
 	'1-4': 'TSV Trittau',
-	'1-5': 'SC Union Lüdinghausen',
+	'1-5': 'Union Lüdinghausen',
 	'1-6': '1.BV Mülheim',
 	'1-7': '1.BC Wipperfeld',
 	'1-8': 'SV Fun-Ball Dortelweil',
