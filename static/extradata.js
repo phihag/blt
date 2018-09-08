@@ -16,6 +16,7 @@ var TEAM_COLORS = {
 	'Geretsried': '#0c8f78',
 	'Neuhausen': '#02c0ff',
 	'Refrath': '#1e3a8e',
+	'Schorndorf': '#eb1c24',
 	'Sterkrade': '#fefa42',
 	'Trittau': '#0060a1',
 	'Wesel': '#ed1a24',
