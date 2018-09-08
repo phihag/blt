@@ -20,6 +20,10 @@
 "SV Fun-Ball Dortelweil": {
 	"type": "csde"
 },
+"SV Fun-Ball Dortelweil 2": {
+	"type": "csde"
+},
+
 "Blau-Weiss Wittorf-NMS": {
 	"type": "csde"
 },
@@ -75,7 +79,7 @@
 "STC Blau-Weiss Solingen": {
 	"type": "csde"
 },
-"VfB/SC Peine": {
+"SG VfB/SC Peine": {
 	"type": "csde"
 },
 "1. BC Sbr.-Bischmisheim": {
@@ -103,7 +107,18 @@
 "TSV Trittau 2": {
 	"type": "btde",
 	"url": "http://badmintonticker.de/ticker/tsvtrittau2/"
-}
+},
 
+"Spvgg.Sterkrade-N.": {
+	"type": "csde"
+},
+
+"BV RW Wesel": {
+	"type": "csde"
+},
+
+"TuS Geretsried": {
+	"type": "none"
+}
 
 }

@@ -18,6 +18,7 @@ var TEAM_COLORS = {
 	'Trittau': '#ff557a',
 	'Wipperfeld': '#ff2149',
 	'Wittorf': '#0091ff',
+	'Sterkrade': '#ffff00',
 };
 function get_color(team_name) {
 	for (var keyword in TEAM_COLORS) {
@@ -58,6 +59,7 @@ var LOGOS = [
 	'vfbfriedrichshafen',
 	'vfbscpeine',
 	'wittorfneumuenster',
+	'sterkrade',
 ];
 var LOGO_ALIASSE = {
 	'1.BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
