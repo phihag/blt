@@ -13,6 +13,7 @@ var TEAM_COLORS = {
 	'Hohenlimburg': '#0ebbff',
 	'Horner': '#ff2222', // Hamburg Horner TV
 	'Lüdinghausen': '#ff1400',
+	'Geretsried': '#0c8f78',
 	'Neuhausen': '#02c0ff',
 	'Refrath': '#1e3a8e',
 	'Sterkrade': '#fefa42',
