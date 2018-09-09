@@ -45,7 +45,6 @@ const ALIAS_NAMES = {
 	'SV Fun-Ball Dortelweil 1': 'SV Fun-Ball Dortelweil',
 	'Blau-Weiss Wittorf-NMS 1': 'Blau-Weiss Wittorf-NMS',
 	'TSV Freystadt': 'TSV 1906 Freystadt',
-	'Union Lüdinghausen': 'SC Union Lüdinghausen',
 };
 function _team_name(name_str) {
 	return ALIAS_NAMES[name_str] || name_str;
