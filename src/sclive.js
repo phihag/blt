@@ -22,15 +22,15 @@ const MATCH_NAMES = {
 // 1BL:  https://www.shuttlecock-live.com/l/Bundesliga/json
 // 2BLN: https://www.shuttlecock-live.com/l/2.%20Bundesliga/json
 const MATCH_IDS = [
-	{"id": 43, "team_a": "1. BC Beuel", "team_b": "Union L\u00fcdinghausen", "match_time": 1536501600.0},
-	{"id": 44, "team_a": "1. BC Beuel", "team_b": "TV Refrath", "match_time": 1541872800.0},
-	{"id": 45, "team_a": "1. BC Beuel", "team_b": "TSV Trittau", "match_time": 1544968800.0},
-	{"id": 46, "team_a": "1. BC Beuel", "team_b": "1. BV Muelheim", "match_time": 1547920800.0},
-	{"id": 47, "team_a": "1. BC Beuel", "team_b": "1. BC Bischmisheim", "match_time": 1550862000.0},
-	{"id": 48, "team_a": "1. BC Beuel", "team_b": "Blau-Weiss Wittorf-NMS 1", "match_time": 1538316000.0},
-	{"id": 49, "team_a": "1. BC Beuel", "team_b": "1. BC Wipperfeld 1", "match_time": 1541950200.0},
-	{"id": 50, "team_a": "1. BC Beuel", "team_b": "SV Fun-Ball Dortelweil 1", "match_time": 1549807200.0},
-	{"id": 51, "team_a": "1. BC Beuel", "team_b": "TSV Freystadt", "match_time": 1551016800.0},
+	{'id': 43, 'team_a': '1. BC Beuel', 'team_b': 'Union L\u00fcdinghausen', 'match_time': 1536501600},
+	{'id': 44, 'team_a': '1. BC Beuel', 'team_b': 'TV Refrath', 'match_time': 1541872800},
+	{'id': 45, 'team_a': '1. BC Beuel', 'team_b': 'TSV Trittau', 'match_time': 1544968800},
+	{'id': 46, 'team_a': '1. BC Beuel', 'team_b': '1. BV Muelheim', 'match_time': 1547920800},
+	{'id': 47, 'team_a': '1. BC Beuel', 'team_b': '1. BC Bischmisheim', 'match_time': 1550862000},
+	{'id': 48, 'team_a': '1. BC Beuel', 'team_b': 'Blau-Weiss Wittorf-NMS 1', 'match_time': 1538316000},
+	{'id': 49, 'team_a': '1. BC Beuel', 'team_b': '1. BC Wipperfeld 1', 'match_time': 1541950200},
+	{'id': 50, 'team_a': '1. BC Beuel', 'team_b': 'SV Fun-Ball Dortelweil 1', 'match_time': 1549807200},
+	{'id': 51, 'team_a': '1. BC Beuel', 'team_b': 'TSV Freystadt', 'match_time': 1551016800},
 ];
 
 const ALIAS_NAMES = {
