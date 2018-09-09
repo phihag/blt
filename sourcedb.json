@@ -47,8 +47,7 @@
 	"type": "csde"
 },
 "1.BC Beuel": {
-	"type": "none",
-	"admin_note": "Der Ticker unter https://shuttlecock-live.com/ ist derzeit nicht funktional."
+	"type": "sclive"
 },
 "1.BC Beuel 2": {
 	"type": "sclive"
