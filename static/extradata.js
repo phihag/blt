@@ -164,6 +164,7 @@ var SHORT_NAMES = {
 	'TSV Neuhausen-Nymphenburg': 'Neuhausen',
 	'Hamburg Horner TV': 'HornerTV',
 	'SV GutsMuths Jena': 'Jena',
+	'Spvgg.Sterkrade': 'Sterkrade',
 };
 function shortname(team_name) {
 	if (SHORT_NAMES[team_name]) {
