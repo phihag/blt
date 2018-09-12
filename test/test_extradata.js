@@ -39,6 +39,7 @@ describe('extradata', () => {
 		assert.strictEqual(extradata.shortname('SG Schorndorf'), 'Schorndorf');
 		assert.strictEqual(extradata.shortname('VfB Friedrichshafen'), 'Friedrichshafen');
 		assert.strictEqual(extradata.shortname('SV Fischbach'), 'Fischbach');
+		assert.strictEqual(extradata.shortname('Spvgg.Sterkrade-N.'), 'Sterkrade');
 	});
 
 	const expect_logos = {
@@ -72,6 +73,7 @@ describe('extradata', () => {
 		'SG Schorndorf': 'sgschorndorf',
 		'VfB Friedrichshafen': 'vfbfriedrichshafen',
 		'SV Fischbach': 'svfischbach',
+		'Spvgg.Sterkrade-N.': 'sterkrade',
 	};
 
 	it('logo associations', function() {
