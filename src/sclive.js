@@ -31,6 +31,16 @@ const MATCH_IDS = [
 	{'id': 49, 'team_a': '1. BC Beuel', 'team_b': '1. BC Wipperfeld 1', 'match_time': 1541950200},
 	{'id': 50, 'team_a': '1. BC Beuel', 'team_b': 'SV Fun-Ball Dortelweil 1', 'match_time': 1549807200},
 	{'id': 51, 'team_a': '1. BC Beuel', 'team_b': 'TSV Freystadt', 'match_time': 1551016800},
+
+	{'id': 57, 'team_a': '1. BC Beuel 2', 'team_b': 'BV RW Wesel', 'match_time': 1538244000},
+	{'id': 58, 'team_a': '1. BC Beuel 2', 'team_b': 'BC Hohenlimburg', 'match_time': 1541934900},
+	{'id': 59, 'team_a': '1. BC Beuel 2', 'team_b': 'Spvgg Sterkrade-Nord 1', 'match_time': 1547992800},
+	{'id': 60, 'team_a': '1. BC Beuel 2', 'team_b': 'TSV Trittau 2', 'match_time': 1549735200},
+	{'id': 61, 'team_a': '1. BC Beuel 2', 'team_b': 'Hamburg Horner TV', 'match_time': 1550944800},
+	{'id': 62, 'team_a': '1. BC Beuel 2', 'team_b': 'SG EBT Berlin', 'match_time': 1551002400},
+	{'id': 63, 'team_a': '1. BC Beuel 2', 'team_b': '1.BV M\u00fclheim 2', 'match_time': 1553364000},
+	{'id': 64, 'team_a': '1. BC Beuel 2', 'team_b': 'TV Refrath 2', 'match_time': 1553425200},
+	{'id': 65, 'team_a': '1. BC Beuel 2', 'team_b': 'VfB/SC Peine', 'match_time': 1544889600},
 ];
 
 const ALIAS_NAMES = {
