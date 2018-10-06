@@ -36,7 +36,7 @@ function apply_overrides(tms, overrides) {
 }
 
 function init(cfg, datestr, source_info, wss) {
-	const [teammatches, overrides, sourcedb] = source_info;
+	const {teammatches, overrides, sourcedb} = source_info;
 	apply_overrides(teammatches, overrides);
 
 	const shs = [];
@@ -91,10 +91,14 @@ function load(callback) {
 		cb => utils.read_json(path.join(path.dirname(__dirname), 'teammatches.json'), cb),
 		cb => utils.read_json(path.join(path.dirname(__dirname), 'tm_overrides.json'), cb),
 		cb => utils.read_json(path.join(path.dirname(__dirname), 'sourcedb.json'), cb),
-	], (err, source_info) => {
+	], (err, source_info_ar) => {
 		if (err) return callback(err);
 
-		callback(err, source_info);
+		callback(err, {
+			teammatches: source_info_ar[0],
+			overrides: source_info_ar[1],
+			sourcedb: source_info_ar[2],
+		});
 	});
 }
 

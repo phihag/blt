@@ -206,6 +206,12 @@ function cmp(a, b) {
 	}
 }
 
+function cmp_key(key) {
+	return function(x, y) {
+		return cmp(x[key], y[key]);
+	};
+}
+
 function ensure_mkdir(path, cb) {
 	fs.mkdir(path, 0o755, function(err) {
 		if (err && err.code == 'EEXIST') {
@@ -250,6 +256,7 @@ function sha512_file(fn, cb) {
 module.exports = {
 	broadcast,
 	cmp,
+	cmp_key,
 	deep_copy,
 	deep_equal,
 	download_page,

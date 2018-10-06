@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Badminton-Bundesliga auf einen Blick</title>
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="{{static_path}}/native.css" />
+<link rel="stylesheet" href="{{static_path}}/allteams.css" />
+</head>
+<body>
+
+<h1>Alle Teams und ihre Links</h1>
+
+<table>
+{{#teams}}
+<tr>
+	<td style="text-align:center;padding:10px 0;"><img style="vertical-align:middle;height:2em;max-width:4em;" src="{{static_path}}{{logo}}" /></td>
+	<td>{{team_name}}</td>
+	<td><a href="https://b.aufschlagwechsel.de/#{{short_name}}">https://b.aufschlagwechsel.de/#<strong>{{short_name}}</strong></a></td>
+</tr>
+{{/teams}}
+</table>
+
+</body>
+</html>

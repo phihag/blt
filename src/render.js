@@ -83,7 +83,7 @@ function add_helper_funcs(data) {
 	data.urlencode = encodeURIComponent;
 }
 
-function render(req, res, next, template_id, data) {
+function render(req, res, next, template_id, data, no_scaffold) {
 	const cfg = req.app.cfg;
 	add_helper_funcs(data);
 	data.root_path = req.app.root_path;
@@ -95,6 +95,10 @@ function render(req, res, next, template_id, data) {
 		if (err) {
 			return next(err);
 		}
+		if (no_scaffold) {
+			return res.send(content);
+		}
+
 		data.content = content;
 		render_mustache(cfg, 'scaffold', data, function(err, html) {
 			if (err) {

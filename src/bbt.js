@@ -59,6 +59,7 @@ function run_server(cfg, source_info) {
 
 	app.cfg = cfg;
 	app.root_path = cfg('root_path');
+	app.source_info = source_info;
 
 	// Set up state handlers
 	changedate.setup(app, wss, source_info);
