@@ -5,6 +5,20 @@ document.addEventListener('DOMContentLoaded', function() {
 	cvissel.init_ui();
 	crender.init(events);
 	wsclient.init();
+
+	var h = window.location.hash.substring(1);
+	if (h) {
+		var end_events = events.slice(-4);
+		var add_space = end_events.some(function(ev) {
+			return (
+				(extradata.shortname(ev.team_names[0]) === h) ||
+				(extradata.shortname(ev.team_names[1]) === h)
+			);
+		});
+		if (add_space) {
+			document.getElementById('extra_space').setAttribute('style', 'height:85vh;');
+		}
+	}
 });
 
 
