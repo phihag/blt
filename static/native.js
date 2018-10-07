@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 if ((typeof module !== 'undefined') && (typeof require !== 'undefined')) {
 	var crender = null;
 	var cvissel = null;
+	var extradata = null;
 	var uiu = null;
 	var wsclient = null;
 }
