@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	var h = window.location.hash.substring(1);
 	if (h) {
-		var end_events = events.slice(-4);
+		var end_events = events.slice(-3);
 		var add_space = end_events.some(function(ev) {
 			return (
 				(extradata.shortname(ev.team_names[0]) === h) ||
