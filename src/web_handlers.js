@@ -65,7 +65,7 @@ function allteams_handler(req, res, next) {
 		_add_team(tm.team_names[1], tm.league_key);
 	}
 
-	const teams = Array.from(team_map.values()).sort(utils.cmp_key('team_name'));
+	const teams = Array.from(team_map.values()).sort(utils.cmp_key('short_name'));
 
 	render(req, res, next, 'allteams', {
 		teams,
