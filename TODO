@@ -1,3 +1,5 @@
+message if everything unselected
+
 automatically select next date
 	calc next match date, sleep for that time
 	kill old watchers
