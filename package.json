@@ -15,15 +15,15 @@
   },
   "homepage": "https://github.com/phihag/bbt",
   "dependencies": {
-    "async": "*",
-    "express": "*",
+    "async": "2.5.0",
+    "express": "4.16.0",
     "extract-zip": "*",
     "mustache": "*",
     "mustache-express": "*",
-    "serve-favicon": "*",
+    "serve-favicon": "2.4.5",
     "supervisor": "*",
     "rimraf": "*",
-    "ws": "*",
+    "ws": "3.3.1",
     "xmldom": "*"
   },
   "devDependencies": {
