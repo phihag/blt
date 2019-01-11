@@ -1278,7 +1278,7 @@
             "BC Hohenlimburg"
         ],
         "league_key": "2BLN-2018",
-        "starttime": "11:11",
+        "starttime": "11:15",
         "date": "2018-11-11",
         "date_de": "11.11.2018",
         "ts": 1541931300
@@ -1442,8 +1442,8 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Fun-Ball Dortelweil 2",
-            "TSV Neubiberg\/Ottobrunn 1920"
+            "TuS Geretsried",
+            "TV 1884 Marktheidenfeld"
         ],
         "league_key": "2BLS-2018",
         "starttime": "15:00",
@@ -1458,18 +1458,6 @@
             "SG EBT Berlin"
         ],
         "league_key": "2BLN-2018",
-        "starttime": "15:00",
-        "date": "2018-12-15",
-        "date_de": "15.12.2018",
-        "ts": 1544882400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TuS Geretsried",
-            "TV 1884 Marktheidenfeld"
-        ],
-        "league_key": "2BLS-2018",
         "starttime": "15:00",
         "date": "2018-12-15",
         "date_de": "15.12.2018",
@@ -1504,6 +1492,18 @@
         "team_names": [
             "SV GutsMuths Jena",
             "TV Dillingen"
+        ],
+        "league_key": "2BLS-2018",
+        "starttime": "17:00",
+        "date": "2018-12-15",
+        "date_de": "15.12.2018",
+        "ts": 1544889600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "TSV Neubiberg\/Ottobrunn 1920"
         ],
         "league_key": "2BLS-2018",
         "starttime": "17:00",
@@ -1586,8 +1586,8 @@
     {
         "type": "auto",
         "team_names": [
-            "1. BC Sbr.-Bischmisheim",
-            "TSV 1906 Freystadt"
+            "TV Refrath",
+            "Blau-Weiss Wittorf-NMS"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -1598,8 +1598,8 @@
     {
         "type": "auto",
         "team_names": [
-            "TV Refrath",
-            "Blau-Weiss Wittorf-NMS"
+            "1. BC Sbr.-Bischmisheim",
+            "TSV 1906 Freystadt"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -1654,6 +1654,18 @@
         "date": "2019-01-12",
         "date_de": "12.01.2019",
         "ts": 1547298000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG VfB\/SC Peine",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2018",
+        "starttime": "16:00",
+        "date": "2019-01-12",
+        "date_de": "12.01.2019",
+        "ts": 1547305200
     },
     {
         "type": "auto",
@@ -1718,18 +1730,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Schorndorf",
-            "TSV Neuhausen-Nymphenburg"
-        ],
-        "league_key": "2BLS-2018",
-        "starttime": "14:00",
-        "date": "2019-01-13",
-        "date_de": "13.01.2019",
-        "ts": 1547384400
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "Union L\u00fcdinghausen",
             "1.BV M\u00fclheim"
         ],
@@ -1754,10 +1754,10 @@
     {
         "type": "auto",
         "team_names": [
-            "BV RW Wesel",
-            "1.BV M\u00fclheim 2"
+            "SG Schorndorf",
+            "TSV Neuhausen-Nymphenburg"
         ],
-        "league_key": "2BLN-2018",
+        "league_key": "2BLS-2018",
         "starttime": "14:00",
         "date": "2019-01-13",
         "date_de": "13.01.2019",
@@ -1766,8 +1766,8 @@
     {
         "type": "auto",
         "team_names": [
-            "SG VfB\/SC Peine",
-            "1.BC Beuel 2"
+            "BV RW Wesel",
+            "1.BV M\u00fclheim 2"
         ],
         "league_key": "2BLN-2018",
         "starttime": "14:00",
@@ -1802,6 +1802,18 @@
     {
         "type": "auto",
         "team_names": [
+            "1.BC Wipperfeld",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "13:00",
+        "date": "2019-01-19",
+        "date_de": "19.01.2019",
+        "ts": 1547899200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "Spvgg.Sterkrade-N.",
             "BV RW Wesel"
         ],
@@ -1814,14 +1826,26 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Wipperfeld",
-            "1. BC Sbr.-Bischmisheim"
+            "1.BV M\u00fclheim 2",
+            "SG VfB\/SC Peine"
         ],
-        "league_key": "1BL-2018",
-        "starttime": "13:00",
+        "league_key": "2BLN-2018",
+        "starttime": "14:00",
         "date": "2019-01-19",
         "date_de": "19.01.2019",
-        "ts": 1547899200
+        "ts": 1547902800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2018",
+        "starttime": "14:00",
+        "date": "2019-01-19",
+        "date_de": "19.01.2019",
+        "ts": 1547902800
     },
     {
         "type": "auto",
@@ -1850,18 +1874,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BV M\u00fclheim 2",
-            "SG VfB\/SC Peine"
-        ],
-        "league_key": "2BLN-2018",
-        "starttime": "14:00",
-        "date": "2019-01-19",
-        "date_de": "19.01.2019",
-        "ts": 1547902800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TV Refrath 2",
             "SG EBT Berlin"
         ],
@@ -1874,22 +1886,10 @@
     {
         "type": "auto",
         "team_names": [
-            "TSV Neubiberg\/Ottobrunn 1920",
-            "TV 1884 Marktheidenfeld"
+            "TSV Trittau 2",
+            "Hamburg Horner TV"
         ],
-        "league_key": "2BLS-2018",
-        "starttime": "14:00",
-        "date": "2019-01-19",
-        "date_de": "19.01.2019",
-        "ts": 1547902800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV Fun-Ball Dortelweil",
-            "TSV Trittau"
-        ],
-        "league_key": "1BL-2018",
+        "league_key": "2BLN-2018",
         "starttime": "15:00",
         "date": "2019-01-19",
         "date_de": "19.01.2019",
@@ -1898,10 +1898,10 @@
     {
         "type": "auto",
         "team_names": [
-            "TSV Trittau 2",
-            "Hamburg Horner TV"
+            "SV Fun-Ball Dortelweil",
+            "TSV Trittau"
         ],
-        "league_key": "2BLN-2018",
+        "league_key": "1BL-2018",
         "starttime": "15:00",
         "date": "2019-01-19",
         "date_de": "19.01.2019",
@@ -1994,8 +1994,8 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BV M\u00fclheim 2",
-            "SG EBT Berlin"
+            "TV Refrath 2",
+            "SG VfB\/SC Peine"
         ],
         "league_key": "2BLN-2018",
         "starttime": "11:00",
@@ -2006,8 +2006,8 @@
     {
         "type": "auto",
         "team_names": [
-            "TV Refrath 2",
-            "SG VfB\/SC Peine"
+            "1.BV M\u00fclheim 2",
+            "SG EBT Berlin"
         ],
         "league_key": "2BLN-2018",
         "starttime": "11:00",
@@ -2066,6 +2066,18 @@
     {
         "type": "auto",
         "team_names": [
+            "Union L\u00fcdinghausen",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "14:00",
+        "date": "2019-01-20",
+        "date_de": "20.01.2019",
+        "ts": 1547989200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TV 1884 Marktheidenfeld",
             "SV GutsMuths Jena"
         ],
@@ -2090,18 +2102,6 @@
     {
         "type": "auto",
         "team_names": [
-            "Union L\u00fcdinghausen",
-            "1.BC Beuel"
-        ],
-        "league_key": "1BL-2018",
-        "starttime": "14:00",
-        "date": "2019-01-20",
-        "date_de": "20.01.2019",
-        "ts": 1547989200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "1.BC Beuel 2",
             "Spvgg.Sterkrade-N."
         ],
@@ -2114,8 +2114,8 @@
     {
         "type": "auto",
         "team_names": [
-            "1. BC Sbr.-Bischmisheim",
-            "TV Refrath"
+            "SV Fun-Ball Dortelweil",
+            "Blau-Weiss Wittorf-NMS"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -2138,8 +2138,8 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Fun-Ball Dortelweil",
-            "Blau-Weiss Wittorf-NMS"
+            "1. BC Sbr.-Bischmisheim",
+            "TV Refrath"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -2246,18 +2246,6 @@
     {
         "type": "auto",
         "team_names": [
-            "BV RW Wesel",
-            "BC Hohenlimburg"
-        ],
-        "league_key": "2BLN-2018",
-        "starttime": "14:00",
-        "date": "2019-02-10",
-        "date_de": "10.02.2019",
-        "ts": 1549803600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SG Schorndorf",
             "1. BC Sbr.-Bischmisheim 2"
         ],
@@ -2318,8 +2306,20 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BV M\u00fclheim",
-            "TSV 1906 Freystadt"
+            "BV RW Wesel",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "2BLN-2018",
+        "starttime": "14:00",
+        "date": "2019-02-10",
+        "date_de": "10.02.2019",
+        "ts": 1549803600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "1.BC Wipperfeld"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -2330,8 +2330,8 @@
     {
         "type": "auto",
         "team_names": [
-            "TV Refrath",
-            "1.BC Wipperfeld"
+            "1.BV M\u00fclheim",
+            "TSV 1906 Freystadt"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -2366,18 +2366,6 @@
     {
         "type": "auto",
         "team_names": [
-            "BC Hohenlimburg",
-            "SG EBT Berlin"
-        ],
-        "league_key": "2BLN-2018",
-        "starttime": "14:00",
-        "date": "2019-02-23",
-        "date_de": "23.02.2019",
-        "ts": 1550926800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "Spvgg.Sterkrade-N.",
             "1.BV M\u00fclheim 2"
         ],
@@ -2404,6 +2392,18 @@
         "team_names": [
             "SG VfB\/SC Peine",
             "TSV Trittau 2"
+        ],
+        "league_key": "2BLN-2018",
+        "starttime": "14:00",
+        "date": "2019-02-23",
+        "date_de": "23.02.2019",
+        "ts": 1550926800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "SG EBT Berlin"
         ],
         "league_key": "2BLN-2018",
         "starttime": "14:00",
