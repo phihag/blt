@@ -141,6 +141,7 @@ function unify_team_name(team_name) {
 	team_name = team_name.replace('<wbr>', '');
 	return {
 		'STC BW Solingen': 'STC Blau-Weiss Solingen',
+		'SC Union Lüdinghausen': 'Union Lüdinghausen',
 	}[team_name] || team_name;
 }
 
