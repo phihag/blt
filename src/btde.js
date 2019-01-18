@@ -18,7 +18,7 @@ const MATCH_NAMES = {
 };
 
 function _parse_players(player_str) {
-	if (/^<p>(?:<span>)?(?:Heim|Gast|HEIM|GAST)(?:<\/span>)?<\/p>$/.test(player_str)) {
+	if (player_str === '') {
 		return [];
 	}
 
