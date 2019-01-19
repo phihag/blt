@@ -34,7 +34,7 @@ const MATCH_IDS = [
 
 	{'id': 57, 'team_a': '1. BC Beuel 2', 'team_b': 'BV RW Wesel', 'match_time': 1538244000},
 	{'id': 58, 'team_a': '1. BC Beuel 2', 'team_b': 'BC Hohenlimburg', 'match_time': 1541934900},
-	{'id': 59, 'team_a': '1. BC Beuel 2', 'team_b': 'Spvgg Sterkrade-Nord 1', 'match_time': 1547992800},
+	{'id': 59, 'team_a': '1. BC Beuel 2', 'team_b': 'Spvgg.Sterkrade-N.', 'match_time': 1547992800},
 	{'id': 60, 'team_a': '1. BC Beuel 2', 'team_b': 'TSV Trittau 2', 'match_time': 1549735200},
 	{'id': 61, 'team_a': '1. BC Beuel 2', 'team_b': 'Hamburg Horner TV', 'match_time': 1550944800},
 	{'id': 62, 'team_a': '1. BC Beuel 2', 'team_b': 'SG EBT Berlin', 'match_time': 1551002400},
