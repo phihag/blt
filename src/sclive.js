@@ -56,6 +56,7 @@ const ALIAS_NAMES = {
 	'Blau-Weiss Wittorf-NMS 1': 'Blau-Weiss Wittorf-NMS',
 	'TSV Freystadt': 'TSV 1906 Freystadt',
 	'VfB/SC Peine': 'SG VfB/SC Peine',
+	'Spvgg Sterkrade-Nord 1': 'Spvgg.Sterkrade-N.',
 };
 function _team_name(name_str) {
 	return ALIAS_NAMES[name_str] || name_str;
