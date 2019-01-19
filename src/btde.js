@@ -22,7 +22,7 @@ function _parse_players(player_str) {
 		return [];
 	}
 
-	const doubles_m = /([^,\/]+), ([^,\/]+)\/([^,\/]+), ([^,\/]+)/.exec(player_str);
+	const doubles_m = /([^,/]+), ([^,/]+)\/([^,/]+), ([^,/]+)/.exec(player_str);
 	if (doubles_m) {
 		return [{
 			name: doubles_m[2] + ' ' + doubles_m[1],
@@ -31,7 +31,7 @@ function _parse_players(player_str) {
 		}];
 	}
 
-	const singles_m = /([^,\/]+),\s*([^,\/]+)/.exec(player_str);
+	const singles_m = /([^,/]+),\s*([^,/]+)/.exec(player_str);
 	if (singles_m) {
 		return [{
 			name: singles_m[2] + ' ' + singles_m[1],
