@@ -1,4 +1,7 @@
-message if everything unselected
+bbt mark winner on left
+
+message if everything unselected!
+	-> Steffen Hohenberg
 
 automatically select next date
 	calc next match date, sleep for that time
