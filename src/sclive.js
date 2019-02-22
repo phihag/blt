@@ -44,7 +44,7 @@ const MATCH_IDS = [
 ];
 
 const ALIAS_NAMES = {
-	'1. BC Bischmisheim': '1.BC Sbr.-Bischmisheim',
+	'1. BC Bischmisheim': '1. BC Sbr.-Bischmisheim',
 	'1. BC Beuel 2': '1.BC Beuel 2',
 	'1. BC Beuel': '1.BC Beuel',
 	'1. BV Mülheim': '1.BV Mülheim',
