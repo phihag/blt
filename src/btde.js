@@ -57,8 +57,8 @@ function parse(str) {
 		};
 
 		const players = [
-			_parse_players(mp[4]),
 			_parse_players(mp[5]),
+			_parse_players(mp[6]),
 		];
 		if ((players[0].length > 0) || (players[1].length > 0)) {
 			res.players = players;
