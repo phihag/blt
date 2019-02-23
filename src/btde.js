@@ -64,11 +64,12 @@ function parse(str) {
 			res.players = players;
 		}
 
+		const SCORE_IDXSTART = 7;
 		for (let game_idx = 0;game_idx < 5;game_idx++) {
-			if (mp[6 + game_idx] !== '') {
+			if (mp[SCORE_IDXSTART + game_idx] !== '') {
 				res.score.push([
-					parseInt(mp[6 + game_idx]),
-					parseInt(mp[6 + game_idx + 5]),
+					parseInt(mp[SCORE_IDXSTART + game_idx]),
+					parseInt(mp[SCORE_IDXSTART + game_idx + 5]),
 				]);
 			}
 		}
