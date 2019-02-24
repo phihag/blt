@@ -6,7 +6,7 @@
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
 	"verbosity": 2,
-	"datestr": "2019-02-23",
+	"datestr": "2019-02-24",
 	"csde_stateful": false,
 	"__note_html": "<p style=\"text-align: center;\">28.10.2018</p>"
 }
