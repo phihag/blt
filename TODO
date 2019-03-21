@@ -1,3 +1,8 @@
+automatically select next date
+	calc next match date, sleep for that time
+	kill old watchers
+	test fewer or more events
+
 peine green
 bbt mark winner on left by colorig match name
 switch colors of Wittorf and Trittau
@@ -7,10 +12,6 @@ colors Jena / Fischbach
 message if everything unselected!
 	-> Steffen Hohenberg
 
-automatically select next date
-	calc next match date, sleep for that time
-	kill old watchers
-	test fewer or more events
 
 
 read courts
