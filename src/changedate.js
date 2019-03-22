@@ -26,7 +26,7 @@ function next_date(teammatches, now_str) {
 
 	for (const tm of teammatches) {
 		if (!/^([0-9]{4,})-([0-9]{2})-([0-9]{2})$/.test(tm.date)) {
-			console.log(`Cannot parse date ${JSON.stringify(tm.date)}`);
+			console.log(`Cannot parse date ${JSON.stringify(tm.date)}`); // eslint-disable-line no-console
 			continue;
 		}
 
