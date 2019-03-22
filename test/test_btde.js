@@ -6,85 +6,85 @@ const btde = require('../src/btde');
 
 describe('btde', () => {
 	it('basic parsing', () => {
-		const str = '0~6~1~TV Refrath 2~1.BC Beuel 2|1~0~~HHHH00~<span>Völker</span>, Jan-Colin<br><span>Magee</span>, Joshua~<span>Hess</span>, Daniel<br><span>Scheiel</span>, Patrick~12~11~11~~~10~9~7~~|2~0~~GGGG00~<span>Dörr</span>, Anika<br><span>Svensson</span>, Elin~<span>Kaminski</span>, Lisa<br><span>Pohl</span>, Hannah~7~5~6~~~11~11~11~~|3~0~~HHHGGH~<span>Offermann</span>, Christoph<br><span>Waldenberger</span>, Kai~<span>Rocca</span>, Luis Aniello La<br><span>Resch</span>, Lukas~11~11~5~8~11~6~7~11~11~9|4~0~~HHHH00~<p><span>Magee</span>, Joshua</p>~<p><span>Richardson</span>, Asher</p>~11~11~11~~~8~3~6~~|5~0~~HGHHH0~<p><span>Svensson</span>, Elin</p>~<p><span>Pohl</span>, Hannah</p>~9~12~11~11~~11~10~7~9~|6~1~~HHHGH0~<span>Dörr</span>, Anika<br><span>Völker</span>, Jan-Colin~<span>Kaminski</span>, Lisa<br><span>Hess</span>, Daniel~11~11~10~11~~8~8~12~8~|7~2~~HHHH00~<p><span>Waldenberger</span>, Kai</p>~<p><span>Konder</span>, Lennart</p>~11~11~11~~~3~6~7~~|1506469532';
+		const str = '0~3~4~TV Refrath~1.BC Beuel|1~0~~HGHGG~G~Magee, Sam/Völker, Jan Colin~Briggs, Peter/Hess, Daniel~11~8~11~6~8~8~11~4~11~11|2~0~~HHH00~H~Nelte, Carla/Magee, Chloe~Pohl, Hannah/Kaminski, Lisa~13~11~11~~~11~3~3~~|3~0~~GHGHH~H~Schwenger, Max/Beck, Raphael~Weißkirchen, Max/Resch, Lukas~7~11~8~11~11~11~5~11~9~5|4~0~~GGHHG~G~Magee, Joshua~Goh, Giap Chin~6~7~11~11~3~11~11~9~6~11|5~0~~HHH00~H~Sandorhazi, Vivien~Kaminski, Lisa~11~11~11~~~5~1~8~~|6~2~~HGHGG~G~Nelte, Carla/Magee, Sam~Pohl, Hannah/Briggs, Peter~11~6~12~9~9~7~11~10~11~11|7~1~~GHGG0~G~Beck, Raphael~Weißkirchen, Max~13~11~6~3~~15~7~11~11~|1553292611';
 
 		assert.deepStrictEqual(btde._parse(str), {
-			team_names: ['TV Refrath 2', '1.BC Beuel 2'],
-			mscore: [6, 1],
+			team_names: ['TV Refrath', '1.BC Beuel'],
+			mscore: [3, 4],
 			scoring: '5x11_15^90',
 			matches: [{
 				name: 'HD1',
 				players: [[
-					{name: 'Jan-Colin Völker'},
-					{name: 'Joshua Magee'},
+					{name: 'Sam Magee'},
+					{name: 'Jan Colin Völker'},
 				], [
+					{name: 'Peter Briggs'},
 					{name: 'Daniel Hess'},
-					{name: 'Patrick Scheiel'},
 				]],
-				score: [[12, 10], [11, 9], [11, 7]],
+				score: [[11, 8], [8, 11], [11, 4], [6, 11], [8, 11]],
 			}, {
 				name: 'DD',
 				players: [[
-					{name: 'Anika Dörr'},
-					{name: 'Elin Svensson'},
+					{name: 'Carla Nelte'},
+					{name: 'Chloe Magee'},
 				], [
-					{name: 'Lisa Kaminski'},
 					{name: 'Hannah Pohl'},
+					{name: 'Lisa Kaminski'},
 				]],
-				score: [[7, 11], [5, 11], [6, 11]],
+				score: [[13, 11], [11, 3], [11, 3]],
 			}, {
 				name: 'HD2',
 				players: [[
-					{name: 'Christoph Offermann'},
-					{name: 'Kai Waldenberger'},
+					{name: 'Max Schwenger'},
+					{name: 'Raphael Beck'},
 				], [
-					{name: 'Luis Aniello La Rocca'},
+					{name: 'Max Weißkirchen'},
 					{name: 'Lukas Resch'},
 				]],
-				score: [[11, 6], [11, 7], [5, 11], [8, 11], [11, 9]],
+				score: [[7, 11], [11, 5], [8, 11], [11, 9], [11, 5]],
 			}, {
 				name: 'HE1',
 				players: [[
 					{name: 'Joshua Magee'},
 				], [
-					{name: 'Asher Richardson'},
+					{name: 'Giap Chin Goh'},
 				]],
-				score: [[11, 8], [11, 3], [11, 6]],
+				score: [[6,11], [7,11], [11,9], [11,6], [3,11]],
 			}, {
 				name: 'DE',
 				players: [[
-					{name: 'Elin Svensson'},
+					{name: 'Vivien Sandorhazi'},
 				], [
-					{name: 'Hannah Pohl'},
+					{name: 'Lisa Kaminski'},
 				]],
-				score: [[9, 11], [12, 10], [11, 7], [11, 9]],
+				score: [[11, 5], [11, 1], [11, 8]],
 			}, {
 				name: 'GD',
 				players: [[
-					{name: 'Anika Dörr'},
-					{name: 'Jan-Colin Völker'},
+					{name: 'Carla Nelte'},
+					{name: 'Sam Magee'},
 				], [
-					{name: 'Lisa Kaminski'},
-					{name: 'Daniel Hess'},
+					{name: 'Hannah Pohl'},
+					{name: 'Peter Briggs'},
 				]],
-				score: [[11, 8], [11, 8], [10, 12], [11, 8]],
+				score: [[11, 7], [6, 11], [12, 10], [9, 11], [9, 11]],
 			}, {
 				name: 'HE2',
 				players: [[
-					{name: 'Kai Waldenberger'},
+					{name: 'Raphael Beck'},
 				], [
-					{name: 'Lennart Konder'},
+					{name: 'Max Weißkirchen'},
 				]],
-				score: [[11, 3], [11, 6], [11, 7]],
+				score: [[13, 15], [11, 7], [6, 11], [3, 11]],
 			}],
 		});
 	});
 
 	it('parse empty match', () => {
-		const str = '0~0~0~TV Refrath~SC Union Lüdinghausen|1~0~~000000~<p>HEIM</p>~<p>GAST</p>~~~~~~~~~~|2~0~~000000~<p>HEIM</p>~<p>GAST</p>~~~~~~~~~~|3~0~~000000~<p>HEIM</p>~<p>GAST</p>~~~~~~~~~~|4~0~~000000~<p>HEIM</p>~<p>GAST</p>~~~~~~~~~~|5~0~~000000~<p>HEIM</p>~<p>GAST</p>~~~~~~~~~~|6~0~~000000~<p>HEIM</p>~<p>GAST</p>~~~~~~~~~~|7~0~~000000~<p>HEIM</p>~<p>GAST</p>~~~~~~~~~~|1506471257';
+		const str = '0~0~0~TV Refrath 2~BC Hohenlimburg|1~0~~00000~~~~~~~~~~~~~|2~0~~00000~~~~~~~~~~~~~|3~0~~00000~~~~~~~~~~~~~|4~0~~00000~~~~~~~~~~~~~|5~0~~00000~~~~~~~~~~~~~|6~0~~00000~~~~~~~~~~~~~|7~0~~00000~~~~~~~~~~~~~|1553294840';
 
 		assert.deepStrictEqual(btde._parse(str), {
-			team_names: ['TV Refrath', 'SC Union Lüdinghausen'],
+			team_names: ['TV Refrath 2', 'BC Hohenlimburg'],
 			scoring: '5x11_15^90',
 			mscore: [0, 0],
 			matches: [{
