@@ -10,7 +10,7 @@ function setup(app, wss, source_info) {
 
 	if (datestr === 'auto') {
 		const now = new Date();
-		const now_str = now.getFullYear() + '-' + utils.pad(now.getMonth() + 1) + '-' + utils.pad(now.getDate() + 1);
+		const now_str = now.getFullYear() + '-' + utils.pad(now.getMonth() + 1) + '-' + utils.pad(now.getDate());
 		datestr = next_date(source_info.teammatches, now_str);
 	}
 
