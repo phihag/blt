@@ -16,13 +16,13 @@
   "homepage": "https://github.com/phihag/bbt",
   "dependencies": {
     "async": "*",
-    "express": "*",
+    "express": "^4.16.4",
     "extract-zip": "*",
     "mustache": "*",
     "mustache-express": "*",
-    "serve-favicon": "*",
-    "supervisor": "*",
     "rimraf": "*",
+    "serve-favicon": "^2.5.0",
+    "supervisor": "*",
     "ws": "*",
     "xmldom": "*"
   },
