@@ -8,13 +8,18 @@ var TEAM_COLORS = {
 	'BV Mülheim': '#ff423f',
 	'BW Solingen': '#cbff81', // STC BW Solingen
 	'Dortelweil': '#f9f152',
-	'EBT Berlin': '#0d9aff',
+	'EBT Berlin': '#7688ad',
+	'Fischbach': '#d9251d',
 	'Freystadt': '#ff161d',
+	'Geretsried': '#0c8f78',
 	'Hohenlimburg': '#0ebbff',
 	'Horner': '#f4b692', // Hamburg Horner TV
+	'Jena': '#3466a4', // SV GutsMuths Jena
 	'Lüdinghausen': '#ff1400',
-	'Geretsried': '#0c8f78',
+	'Marktheidenfeld': '#1c3759',
+	'Neubiberg': '#E2001A', // TSV Neubiberg/Ottobrunn 1920
 	'Neuhausen': '#02c0ff',
+	'Peine': '#41b768',
 	'Refrath': '#1e3a8e',
 	'Schorndorf': '#eb1c24',
 	'Sterkrade': '#fefa42',
