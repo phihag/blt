@@ -4,7 +4,7 @@ var extradata = (function() {
 
 var TEAM_COLORS = {
 	'Beuel': '#ffed00',
-	'Bischmisheim': '#8bd6ff',
+	'Bischmisheim': '#1c388f',
 	'BV Mülheim': '#ff423f',
 	'BW Solingen': '#cbff81', // STC BW Solingen
 	'Dortelweil': '#f9f152',
