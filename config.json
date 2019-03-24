@@ -8,5 +8,5 @@
 	"verbosity": 2,
 	"datestr": "2019-03-24",
 	"csde_stateful": false,
-	"__note_html": "<p style=\"text-align: center;\">28.10.2018</p>"
+	"note_html": "<p><strong style=\"text-align: center;\">Achtung: Derzeit Probleme mit CourtSpot-basierten Livetickern!</strong></p>"
 }

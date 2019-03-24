@@ -7,6 +7,7 @@ var TEAM_COLORS = {
 	'Bischmisheim': '#1c388f',
 	'BV Mülheim': '#ff423f',
 	'BW Solingen': '#cbff81', // STC BW Solingen
+	'Dillingen': '#164f89',
 	'Dortelweil': '#f9f152',
 	'EBT Berlin': '#7688ad',
 	'Fischbach': '#d9251d',
