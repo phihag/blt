@@ -11,7 +11,7 @@ var TEAM_COLORS = {
 	'EBT Berlin': '#0d9aff',
 	'Freystadt': '#ff161d',
 	'Hohenlimburg': '#0ebbff',
-	'Horner': '#ff2222', // Hamburg Horner TV
+	'Horner': '#f4b692', // Hamburg Horner TV
 	'Lüdinghausen': '#ff1400',
 	'Geretsried': '#0c8f78',
 	'Neuhausen': '#02c0ff',
