@@ -13,16 +13,28 @@ function _render_logo(container, team_name) {
 function render_match(table, ev, team_colors, max_game_count, match) {
 	uiu.empty(table);
 
+	var bg_css = [0, 1].map(function(team_id) {
+		var bg_col = team_colors[team_id];
+		var res = 'background:' + bg_col + ';';
+		if (cutils.cached_brightness(bg_col) < 120) {
+			res += 'color:#fff;';
+		}
+		return res;
+	});
+
+	var match_winner = calc.match_winner(ev.scoring, match.score);
+
 	for (var team_id = 0;team_id < 2;team_id++) {
+		var won_match = (match_winner === ((team_id === 0) ? 'left' : 'right'));
+
 		var tr = uiu.el(table, 'tr');
 		if (team_id === 0) {
 			uiu.el(tr, 'td', {
 				'class': 'bbt_match_name',
+				style: (match_winner === 'left' ? bg_css[0] : (match_winner === 'right' ? bg_css[1] : '')),
 				rowspan: 2,
 			}, match.name);
 		}
-		var won_match = (
-			calc.match_winner(ev.scoring, match.score) === ((team_id === 0) ? 'left' : 'right'));
 		var player_names_el = uiu.el(tr, 'td', {
 			'class': 'bbt_player_names',
 			style: (
@@ -45,19 +57,12 @@ function render_match(table, ev, team_colors, max_game_count, match) {
 				calc.is_winner(ev.scoring, game_id, gscore[team_id], gscore[1 - team_id]) ||
 				((game_id === match.score.length - 1) && (match.serving === team_id))
 			);
+			var row_bg_css = highlight ? bg_css[team_id] : '';
 
-			var bg_css = '';
-			if (highlight) {
-				var bg_col = team_colors[team_id];
-				bg_css = 'background:' + bg_col + ';';
-				if (cutils.cached_brightness(bg_col) < 120) {
-					bg_css += 'color:#fff;';
-				}
-			}
 			uiu.el(
 				tr, 'td', {
 					'class': 'score',
-					style: bg_css,
+					style: row_bg_css,
 				},
 				gscore ? gscore[team_id] : '');
 		}
