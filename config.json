@@ -8,5 +8,5 @@
 	"verbosity": 2,
 	"datestr": "auto",
 	"csde_stateful": false,
-	"note_htmlINACTIVE": "<p><strong style=\"text-align: center;\">Achtung: Derzeit Probleme mit CourtSpot-basierten Livetickern!</strong></p>"
+	"note_html": "<p>Viertelfinal-Spiele</p>"
 }
