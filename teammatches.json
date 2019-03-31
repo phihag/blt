@@ -3238,5 +3238,29 @@
         "date": "2019-03-24",
         "date_de": "24.03.2019",
         "ts": 1553436000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "Union L\u00fcdinghausen"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "19:00",
+        "date": "2019-04-09",
+        "date_de": "09.04.2019",
+        "ts": 1554829200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV M\u00fclheim",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "19:00",
+        "date": "2019-04-09",
+        "date_de": "09.04.2019",
+        "ts": 1554829200
     }
 ]
