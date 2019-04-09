@@ -61,7 +61,8 @@ const TEAM_NAMES = {
 	'6-22': 'TV Dieburg/Groß-Zimmern 1',
 	'6-23': 'BC Remagen 1',
 	'6-24': 'TV 1860 Hofheim 1',
-
+	'7-1': '1.BV Mülheim',
+	'7-2': 'TSV 1906 Freystadt',
 };
 const LEAGUE_KEY = {
 	1: '1BL-2018',
@@ -265,12 +266,17 @@ function setup_tm(tm, home_team) {
 
 	const team_ids = tm.team_names.map(tname => {
 		for (const k in TEAM_NAMES) {
+			const league_code = tm.csde_league_code;
+			if (league_code && !k.startsWith(league_code)) {
+				continue;
+			}
 			if (TEAM_NAMES[k] === tname) {
 				return k;
 			}
 		}
 
-		throw new Error('Team ' + tname + ' missing in csde database');
+		const league_text = league_code ? `(league code league_code) ` : '';
+		throw new Error(`Team ${tname}${league_text} missing in csde database`);
 	});
 
 	let cs_league_code;

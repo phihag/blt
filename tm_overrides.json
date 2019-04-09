@@ -9,7 +9,17 @@
     "override": {
         "admin_note": "In Dillingen gab es ein Problem mit der Internetverbindung."
     }
-}
+},
 
+{
+    "team_names": [
+        "1.BV M\u00fclheim",
+        "TSV 1906 Freystadt"
+    ],
+    "date": "2019-04-09",
+    "override": {
+        "csde_league_code": 7
+    }
+}
 
 ]
