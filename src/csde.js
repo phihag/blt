@@ -61,8 +61,8 @@ const TEAM_NAMES = {
 	'6-22': 'TV Dieburg/Groß-Zimmern 1',
 	'6-23': 'BC Remagen 1',
 	'6-24': 'TV 1860 Hofheim 1',
-	'7-1': '1.BV Mülheim',
-	'7-2': 'TSV 1906 Freystadt',
+	'7-6': '1.BV Mülheim',
+	'7-9': 'TSV 1906 Freystadt',
 };
 const LEAGUE_KEY = {
 	1: '1BL-2018',
