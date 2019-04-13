@@ -3297,9 +3297,21 @@
             "SG Schorndorf"
         ],
         "league_key": "1BL-2018",
-        "starttime": "13:00",
+        "starttime": "13:30",
         "date": "2019-04-13",
         "date_de": "13.04.2019",
         "ts": 1555164000
+    }, {
+        "type": "btde",
+        "btde_url": "https://tsvneuhausennymphenburg.badmintonticker.de/ticker/tsvneuhausennymphenburg/",
+        "team_names": [
+            "TSV Neuhausen-Nymphenburg",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "18:00",
+        "date": "2019-04-13",
+        "date_de": "13.04.2019",
+        "ts": 1555164002
     }
 ]
