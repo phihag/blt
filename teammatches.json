@@ -3264,8 +3264,7 @@
         "ts": 1554829200
     },
     {
-        "type": "btde",
-        "btde_url": "https://bcsbrbischmisheim.badmintonticker.de/ticker/bcsbrbischmisheim/",
+        "type": "auto",
         "team_names": [
             "1. BC Sbr.-Bischmisheim",
             "Union Lüdinghausen"
@@ -3277,8 +3276,7 @@
         "ts": 1555164000
     },
     {
-        "type": "btde",
-        "btde_url": "https://bvmuelheim.badmintonticker.de/ticker/bvmuelheim/",
+        "type": "auto",
         "team_names": [
             "1.BV Mülheim",
             "TV Refrath"
@@ -3290,28 +3288,46 @@
         "ts": 1555164000
     },
     {
+        "admin_note": "Spiel um Platz 3",
+        "btde_url": "https://bvmuelheim.badmintonticker.de/ticker/bvmuelheim/",
         "type": "btde",
-        "btde_url": "https://sgschorndorf.badmintonticker.de/ticker/sgschorndorf/",
         "team_names": [
-            "Blau-Weiss Wittorf-NMS",
+            "1.BV Mülheim",
+            "Union Lüdinghausen"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "10:00",
+        "date": "2019-04-14",
+        "date_de": "14.04.2019",
+        "ts": 1555228800
+    },
+    {
+        "admin_note": "Spiel um den Aufstieg in die 1. Bundesliga",
+        "type": "btde",
+        "btde_url": "https://tsvneuhausennymphenburg.badmintonticker.de/ticker/tsvneuhausennymphenburg/",
+        "_maybe_btde_url": "https://sgschorndorf.badmintonticker.de/ticker/sgschorndorf/",
+        "team_names": [
+            "TSV Neuhausen-Nymphenburg",
             "SG Schorndorf"
         ],
         "league_key": "1BL-2018",
-        "starttime": "13:30",
-        "date": "2019-04-13",
-        "date_de": "13.04.2019",
-        "ts": 1555164000
-    }, {
+        "starttime": "10:00",
+        "date": "2019-04-14",
+        "date_de": "14.04.2019",
+        "ts": 1555228800
+    },  
+    {
+        "admin_note": "Spiel um die deutsche Meisterschaft",
+        "btde_url": "https://bcsbrbischmisheim.badmintonticker.de/ticker/bcsbrbischmisheim/",
         "type": "btde",
-        "btde_url": "https://tsvneuhausennymphenburg.badmintonticker.de/ticker/tsvneuhausennymphenburg/",
         "team_names": [
-            "TSV Neuhausen-Nymphenburg",
-            "Blau-Weiss Wittorf-NMS"
+            "1. BC Sbr.-Bischmisheim",
+            "TV Refrath"
         ],
         "league_key": "1BL-2018",
-        "starttime": "18:00",
-        "date": "2019-04-13",
-        "date_de": "13.04.2019",
-        "ts": 1555164002
+        "starttime": "14:00",
+        "date": "2019-04-14",
+        "date_de": "14.04.2019",
+        "ts": 1555243200
     }
 ]
