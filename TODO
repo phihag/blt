@@ -1,3 +1,9 @@
+beuel matchid
+bvm matchid
+bvm color
+
+
+
 automatically select next date
 	calc next match date, sleep for that time
 	kill old watchers
