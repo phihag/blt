@@ -3265,7 +3265,7 @@
     },
     {
         "type": "btde",
-        "btde_url": "https://bcsbrbischmisheim.badmintonticker.de/",
+        "btde_url": "https://bcsbrbischmisheim.badmintonticker.de/ticker/bcsbrbischmisheim/",
         "team_names": [
             "1. BC Sbr.-Bischmisheim",
             "Union Lüdinghausen"
@@ -3278,7 +3278,7 @@
     },
     {
         "type": "btde",
-        "btde_url": "https://bvmuelheim.badmintonticker.de/",
+        "btde_url": "https://bvmuelheim.badmintonticker.de/ticker/bvmuelheim/",
         "team_names": [
             "1.BV Mülheim",
             "TV Refrath"
@@ -3291,7 +3291,7 @@
     },
     {
         "type": "btde",
-        "btde_url": "https://sgschorndorf.badmintonticker.de/",
+        "btde_url": "https://sgschorndorf.badmintonticker.de/ticker/sgschorndorf/",
         "team_names": [
             "Blau-Weiss Wittorf-NMS",
             "SG Schorndorf"
