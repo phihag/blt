@@ -1,7 +1,7 @@
 'use strict';
 
 function copy_props(ev, src) {
-	for (const k of ['starttime', 'date', 'ts', 'admin_note', 'event_note', 'league_key', 'team_names']) {
+	for (const k of ['starttime', 'date', 'ts', 'admin_note', 'event_note', 'league_key', 'team_names', 'url']) {
 		if (src.hasOwnProperty(k) && (ev[k] === undefined)) {
 			ev[k] = src[k];
 		}

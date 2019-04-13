@@ -93,8 +93,8 @@ function parse(str) {
 }
 
 function run_once(cfg, src, sh, cb) {
-	const base_url = src.url;
-
+	const base_url = src.url || src.btde_url;
+	assert(base_url);
 	assert(base_url.endsWith('/'));
 	const url = base_url + 'ticker.php';
 
