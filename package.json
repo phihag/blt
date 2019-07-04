@@ -3,7 +3,9 @@
   "description": "Badminton Bundesliga Ticker",
   "main": "src/bbt.js",
   "scripts": {
-    "test": "mocha --delay test/"
+    "test": "mocha --delay test/",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,8 @@
     "serve-favicon": "^2.5.0",
     "supervisor": "*",
     "ws": "*",
-    "xmldom": "*"
+    "xmldom": "*",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint": "*",
@@ -33,5 +36,6 @@
     "stylelint-config-standard": "*",
     "svgo": "*"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
