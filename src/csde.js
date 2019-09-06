@@ -263,8 +263,9 @@ function setup_tm(tm, home_team) {
 	tm.link = home_team.link;
 
 	const team_ids = tm.team_names.map(tname => {
+		let league_code;
 		for (const k in TEAM_NAMES) {
-			const league_code = tm.csde_league_code;
+			league_code = tm.csde_league_code;
 			if (league_code && !k.startsWith(league_code)) {
 				continue;
 			}
