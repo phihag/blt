@@ -32,7 +32,7 @@ const TEAM_NAMES = {
 	'3-23': 'SV Fun-Ball Dortelweil',
 	'3-24': 'SG Schorndorf',
 	'3-25': 'TV 1884 Marktheidenfeld',
-	'3-26': 'SC GutsMuths Jena',
+	'3-26': 'SV GutsMuths Jena',
 	'3-27': 'SV Fischbach',
 	'3-28': 'BC Remagen',
 	'3-29': 'TV 1860 Hofheim',
