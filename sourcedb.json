@@ -37,10 +37,8 @@
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/tsvtrittau/"
 },
-"Union Lüdinghausen": {
-	"type": "csde",
-	"old_url": "http://www.scunion08.de/liveTicker/overview.php",
-	"old_link": "http://www.scunion08.de/liveTicker/index.php"
+"SC Union Lüdinghausen": {
+	"type": "csde"
 },
 
 "SG EBT Berlin": {
@@ -113,11 +111,24 @@
 	"type": "csde"
 },
 
+"BC Remagen": {
+	"type": "csde"
+},
+
 "BV RW Wesel": {
 	"type": "csde"
 },
 
 "TuS Geretsried": {
+	"type": "csde"
+},
+
+"SV GutsMuths Jena" : {
+	"type": "btde",
+	"url": "https://svgutsmuthsjena.badmintonticker.de"
+},
+
+"TV 1860 Hofheim": {
 	"type": "csde"
 }
 
