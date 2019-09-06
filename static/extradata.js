@@ -83,6 +83,7 @@ var LOGO_ALIASSE = {
 	'Spvgg.Sterkrade-N.': 'sterkrade',
 	'TSV Neuhausen-Nymphenburg': 'tsvneuhausen',
 	'Union Lüdinghausen': 'unionluedinghausen',
+	'STC BW Solingen': 'stcblauweisssolingen',
 };
 function team_logo(team_name) {
 	team_name = LOGO_ALIASSE[team2club(team_name)] || team_name;
