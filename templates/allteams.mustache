@@ -13,9 +13,10 @@
 
 <table>
 {{#teams}}
-<tr>
+<tr id="{{short_name}}">
 	<td style="text-align:center;padding:10px 0;"><img style="vertical-align:middle;height:2em;max-width:4em;" src="{{static_path}}{{logo}}" /></td>
 	<td>{{team_name}}</td>
+	<td style="padding-right:1em;"><span style="{{color_css}}">21</span></td>
 	<td><a href="https://b.aufschlagwechsel.de/#{{short_name}}">https://b.aufschlagwechsel.de/#<strong>{{short_name}}</strong></a></td>
 </tr>
 {{/teams}}

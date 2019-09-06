@@ -41,6 +41,15 @@ function cached_brightness(rgb_str) {
 	return _cache[rgb_str];
 }
 
+function color_css(bg_col) {
+	var res = 'background:' + bg_col + ';';
+	console.log(bg_col, cached_brightness(bg_col))
+	if (cached_brightness(bg_col) < 135) {
+		res += 'color:#fff;';
+	}
+	return res;
+}
+
 function root_url() {
 	return uiu.qs('.bbt_root').getAttribute('data-rooturl') || 'https://b.aufschlagwechsel.de/';
 }
@@ -48,6 +57,7 @@ function root_url() {
 return {
 	brightness: brightness,
 	cached_brightness: cached_brightness,
+	color_css: color_css,
 	find: find,
 	root_url: root_url,
 	map: map,

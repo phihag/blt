@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
+const cutils = require('../static/cutils');
 const extradata = require('../static/extradata');
 const render = require('./render');
 const utils = require('./utils');
@@ -50,8 +51,11 @@ function allteams_handler(req, res, next) {
 		if (team_map.has(team_name)) return;
 
 		const short_name = extradata.shortname(team_name);
+		const color = extradata.get_color(team_name);
 
 		team_map.set(team_name, {
+			color,
+			color_css: cutils.color_css(color),
 			team_name,
 			league_key,
 			short_name,

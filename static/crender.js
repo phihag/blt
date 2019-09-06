@@ -15,11 +15,7 @@ function render_match(table, ev, team_colors, max_game_count, match) {
 
 	var bg_css = [0, 1].map(function(team_id) {
 		var bg_col = team_colors[team_id];
-		var res = 'background:' + bg_col + ';';
-		if (cutils.cached_brightness(bg_col) < 120) {
-			res += 'color:#fff;';
-		}
-		return res;
+		return cutils.color_css(bg_col);
 	});
 
 	var match_winner = calc.match_winner(ev.scoring, match.score);
