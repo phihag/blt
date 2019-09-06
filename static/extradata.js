@@ -13,12 +13,13 @@ var TEAM_COLORS = {
 	'Fischbach': '#d9251d',
 	'Freystadt': '#ff161d',
 	'Geretsried': '#0c8f78',
+	'Hofheim': '#181d4b',
 	'Hohenlimburg': '#0ebbff',
 	'Horner': '#f4b692', // Hamburg Horner TV
 	'Jena': '#3466a4', // SV GutsMuths Jena
 	'Lüdinghausen': '#ff1400',
 	'Marktheidenfeld': '#1c3759',
-	'Neubiberg': '#E2001A', // TSV Neubiberg/Ottobrunn 1920
+	'Neubiberg': '#e2001a', // TSV Neubiberg/Ottobrunn 1920
 	'Neuhausen': '#02c0ff',
 	'Peine': '#41b768',
 	'Refrath': '#1e3a8e',
