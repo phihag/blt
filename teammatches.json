@@ -15,7 +15,7 @@
         "type": "auto",
         "team_names": [
             "1.BV Mülheim 2",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "12:00",
@@ -74,6 +74,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SC Union Lüdinghausen",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "15:00",
+        "date": "2019-09-07",
+        "date_de": "07.09.2019",
+        "ts": 1567861200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SG Schorndorf",
             "TV 1884 Marktheidenfeld"
         ],
@@ -90,18 +102,6 @@
             "SV Berliner Brauereien"
         ],
         "league_key": "2BLN-2018",
-        "starttime": "15:00",
-        "date": "2019-09-07",
-        "date_de": "07.09.2019",
-        "ts": 1567861200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Union Lüdinghausen",
-            "1.BC Wipperfeld"
-        ],
-        "league_key": "1BL-2018",
         "starttime": "15:00",
         "date": "2019-09-07",
         "date_de": "07.09.2019",
@@ -254,7 +254,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "BC Hohenlimburg"
         ],
         "league_key": "2BLN-2018",
@@ -338,7 +338,7 @@
     {
         "type": "auto",
         "team_names": [
-            "Union Lüdinghausen",
+            "SC Union Lüdinghausen",
             "1.BC Beuel"
         ],
         "league_key": "1BL-2018",
@@ -375,7 +375,7 @@
         "type": "auto",
         "team_names": [
             "TV Refrath 2",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "14:00",
@@ -435,7 +435,7 @@
         "type": "auto",
         "team_names": [
             "TV Refrath",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "18:00",
@@ -615,7 +615,7 @@
         "type": "auto",
         "team_names": [
             "Blau-Weiss Wittorf-NMS",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "14:00",
@@ -638,7 +638,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "Hamburg Horner TV"
         ],
         "league_key": "2BLN-2018",
@@ -854,7 +854,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "TSV Trittau 2"
         ],
         "league_key": "2BLN-2018",
@@ -878,8 +878,8 @@
     {
         "type": "auto",
         "team_names": [
-            "TSV Trittau",
-            "TV Refrath"
+            "SC Union Lüdinghausen",
+            "1.BV Mülheim"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -890,8 +890,8 @@
     {
         "type": "auto",
         "team_names": [
-            "Union Lüdinghausen",
-            "1.BV Mülheim"
+            "TSV Trittau",
+            "TV Refrath"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -915,7 +915,7 @@
         "type": "auto",
         "team_names": [
             "1.BC Beuel 2",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "18:00",
@@ -1035,7 +1035,7 @@
         "type": "auto",
         "team_names": [
             "1.BC Sbr.-Bischmisheim",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -1202,7 +1202,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "BV RW Wesel"
         ],
         "league_key": "2BLN-2018",
@@ -1238,8 +1238,8 @@
     {
         "type": "auto",
         "team_names": [
-            "TV Refrath",
-            "TSV Neuhausen-Nymphenburg"
+            "SC Union Lüdinghausen",
+            "TSV Trittau"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -1250,8 +1250,8 @@
     {
         "type": "auto",
         "team_names": [
-            "Union Lüdinghausen",
-            "TSV Trittau"
+            "TV Refrath",
+            "TSV Neuhausen-Nymphenburg"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -1323,7 +1323,7 @@
         "type": "auto",
         "team_names": [
             "SV Berliner Brauereien",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "14:00",
@@ -1419,7 +1419,7 @@
         "type": "auto",
         "team_names": [
             "TSV Neuhausen-Nymphenburg",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "16:00",
@@ -1539,7 +1539,7 @@
         "type": "auto",
         "team_names": [
             "SG EBT Berlin",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "14:00",
@@ -1587,7 +1587,7 @@
         "type": "auto",
         "team_names": [
             "TSV 1906 Freystadt",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -1706,7 +1706,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "SG EBT Berlin"
         ],
         "league_key": "2BLN-2018",
@@ -1719,7 +1719,7 @@
         "type": "auto",
         "team_names": [
             "1.BC Wipperfeld",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -1851,7 +1851,7 @@
         "type": "auto",
         "team_names": [
             "1.BC Beuel",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "14:00",
@@ -1910,7 +1910,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "SV Berliner Brauereien"
         ],
         "league_key": "2BLN-2018",
@@ -1982,7 +1982,7 @@
     {
         "type": "auto",
         "team_names": [
-            "Union Lüdinghausen",
+            "SC Union Lüdinghausen",
             "TV Refrath"
         ],
         "league_key": "1BL-2018",
@@ -2079,7 +2079,7 @@
         "type": "auto",
         "team_names": [
             "BV RW Wesel",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "14:00",
@@ -2258,7 +2258,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "1.BC Beuel 2"
         ],
         "league_key": "2BLN-2018",
@@ -2306,6 +2306,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SC Union Lüdinghausen",
+            "1.BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "15:00",
+        "date": "2020-01-26",
+        "date_de": "26.01.2020",
+        "ts": 1580047200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TSV Trittau",
             "Blau-Weiss Wittorf-NMS"
         ],
@@ -2320,18 +2332,6 @@
         "team_names": [
             "TV Refrath",
             "TSV 1906 Freystadt"
-        ],
-        "league_key": "1BL-2018",
-        "starttime": "15:00",
-        "date": "2020-01-26",
-        "date_de": "26.01.2020",
-        "ts": 1580047200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Union Lüdinghausen",
-            "1.BC Sbr.-Bischmisheim"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -2390,6 +2390,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SC Union Lüdinghausen",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2018",
+        "starttime": "15:00",
+        "date": "2020-02-08",
+        "date_de": "08.02.2020",
+        "ts": 1581170400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SG Schorndorf",
             "BC Remagen"
         ],
@@ -2403,7 +2415,7 @@
         "type": "auto",
         "team_names": [
             "TSV Trittau 2",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "15:00",
@@ -2418,18 +2430,6 @@
             "BC Offenburg"
         ],
         "league_key": "2BLS-2018",
-        "starttime": "15:00",
-        "date": "2020-02-08",
-        "date_de": "08.02.2020",
-        "ts": 1581170400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Union Lüdinghausen",
-            "Blau-Weiss Wittorf-NMS"
-        ],
-        "league_key": "1BL-2018",
         "starttime": "15:00",
         "date": "2020-02-08",
         "date_de": "08.02.2020",
@@ -2559,7 +2559,7 @@
         "type": "auto",
         "team_names": [
             "Hamburg Horner TV",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "12:00",
@@ -2655,7 +2655,7 @@
         "type": "auto",
         "team_names": [
             "1.BV Mülheim",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -2798,7 +2798,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "TV Refrath 2"
         ],
         "league_key": "2BLN-2018",
@@ -2871,7 +2871,7 @@
         "type": "auto",
         "team_names": [
             "TSV Trittau",
-            "Union Lüdinghausen"
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2018",
         "starttime": "15:00",
@@ -2931,7 +2931,7 @@
         "type": "auto",
         "team_names": [
             "BC Hohenlimburg",
-            "STC Blau-Weiss Solingen"
+            "STC BW Solingen"
         ],
         "league_key": "2BLN-2018",
         "starttime": "14:00",
@@ -2978,7 +2978,7 @@
     {
         "type": "auto",
         "team_names": [
-            "Union Lüdinghausen",
+            "SC Union Lüdinghausen",
             "TSV Neuhausen-Nymphenburg"
         ],
         "league_key": "1BL-2018",
@@ -3122,7 +3122,7 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
+            "STC BW Solingen",
             "1.BV Mülheim 2"
         ],
         "league_key": "2BLN-2018",
@@ -3230,7 +3230,7 @@
     {
         "type": "auto",
         "team_names": [
-            "Union Lüdinghausen",
+            "SC Union Lüdinghausen",
             "TSV 1906 Freystadt"
         ],
         "league_key": "1BL-2018",
