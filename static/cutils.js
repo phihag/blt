@@ -43,7 +43,6 @@ function cached_brightness(rgb_str) {
 
 function color_css(bg_col) {
 	var res = 'background:' + bg_col + ';';
-	console.log(bg_col, cached_brightness(bg_col))
 	if (cached_brightness(bg_col) < 135) {
 		res += 'color:#fff;';
 	}
