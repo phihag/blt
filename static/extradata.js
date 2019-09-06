@@ -179,6 +179,7 @@ var SHORT_NAMES = {
 	'Hamburg Horner TV': 'HornerTV',
 	'SV GutsMuths Jena': 'Jena',
 	'Spvgg.Sterkrade-N.': 'Sterkrade',
+	'SV Berliner Brauereien': 'BerlinerBrauereien',
 };
 function shortname(team_name) {
 	if (SHORT_NAMES[team_name]) {
