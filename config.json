@@ -6,7 +6,7 @@
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
 	"verbosity": 2,
-	"datestr": "2019-09-07",
+	"datestr": "2019-09-08",
 	"csde_stateful": false,
 	"note_html": ""
 }

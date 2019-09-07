@@ -22,7 +22,12 @@ const MATCH_NAMES = {
 // 1BL:  https://www.shuttlecock-live.com/l/Bundesliga/json
 // 2BLN: https://www.shuttlecock-live.com/l/2.%20Bundesliga/json
 const MATCH_IDS = [
-	{'id': 75, 'team_a': '1. BC Beuel', 'team_b': 'Union Lüdinghausen', 'match_time': 1554829200},
+	{"id": 81, "team_a": "1. BC Beuel 2", "team_b": "1.BV M\u00fclheim 2", "match_time": 1567951200.0},
+	{"id": 82, "team_a": "1. BC Beuel 2", "team_b": "STC Blau-Weiss Solingen", "match_time": 1571508000.0},
+	{"id": 83, "team_a": "1. BC Beuel 2", "team_b": "Hamburg Horner TV", "match_time": 1572112800.0}, {"id": 84, "team_a": "1. BC Beuel 2", "team_b": "TV Refrath 2", "match_time": 1573304400.0}, {"id": 85, "team_a": "1. BC Beuel 2", "team_b": "TSV Trittau 2", "match_time": 1576951200.0}, {"id": 86, "team_a": "1. BC Beuel 2", "team_b": "SG EBT Berlin", "match_time": 1581256800.0},
+	{"id": 87, "team_a": "1. BC Beuel 2", "team_b": "BC Hohenlimburg", "match_time": 1582394400.0},
+	{"id": 88, "team_a": "1. BC Beuel 2", "team_b": "BV RW Wesel", "match_time": 1584270000.0},
+	{"id": 96, "team_a": "1. BC Beuel 2", "team_b": "SV Berliner Brauereien 1", "match_time": 1581184800.0}
 ];
 
 const ALIAS_NAMES = {
