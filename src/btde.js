@@ -42,10 +42,15 @@ function _parse_players(player_str) {
 }
 
 function parse(str) {
-	const match_strings = str.split('|').slice(0, -1);
-	const matches = match_strings.map(m_str => {
-		const mp = m_str.split('~');
+	const pipe_parts = str.split('|');
+	const metadata_ar = pipe_parts[0].split('~');
 
+	const mscore = [parseInt(metadata_ar[1]), parseInt(metadata_ar[2])];
+	const team_names = [metadata_ar[3], metadata_ar[4]].map(eventutils.unify_team_name);
+
+	const match_parts = pipe_parts.slice(1, -1);
+	const matches = match_parts.map(mp_str => {
+		const mp = mp_str.split('~');
 		const res = {
 			name: MATCH_NAMES[mp[0]],
 			score: [],
@@ -80,6 +85,8 @@ function parse(str) {
 	const scoring = '5x11_15^90';
 
 	return {
+		team_names,
+		mscore,
 		matches,
 		scoring,
 	};
