@@ -22,12 +22,25 @@ const MATCH_NAMES = {
 // 1BL:  https://www.shuttlecock-live.com/l/Bundesliga/json
 // 2BLN: https://www.shuttlecock-live.com/l/2.%20Bundesliga/json
 const MATCH_IDS = [
-	{"id": 81, "team_a": "1. BC Beuel 2", "team_b": "1.BV M\u00fclheim 2", "match_time": 1567951200.0},
-	{"id": 82, "team_a": "1. BC Beuel 2", "team_b": "STC Blau-Weiss Solingen", "match_time": 1571508000.0},
-	{"id": 83, "team_a": "1. BC Beuel 2", "team_b": "Hamburg Horner TV", "match_time": 1572112800.0}, {"id": 84, "team_a": "1. BC Beuel 2", "team_b": "TV Refrath 2", "match_time": 1573304400.0}, {"id": 85, "team_a": "1. BC Beuel 2", "team_b": "TSV Trittau 2", "match_time": 1576951200.0}, {"id": 86, "team_a": "1. BC Beuel 2", "team_b": "SG EBT Berlin", "match_time": 1581256800.0},
-	{"id": 87, "team_a": "1. BC Beuel 2", "team_b": "BC Hohenlimburg", "match_time": 1582394400.0},
-	{"id": 88, "team_a": "1. BC Beuel 2", "team_b": "BV RW Wesel", "match_time": 1584270000.0},
-	{"id": 96, "team_a": "1. BC Beuel 2", "team_b": "SV Berliner Brauereien 1", "match_time": 1581184800.0}
+	{'id': 77, 'team_a': '1. BC Beuel', 'team_b': 'TV Refrath', 'match_time': 1576868400.0},
+	{'id': 78, 'team_a': '1. BC Beuel', 'team_b': 'Union L\u00fcdinghausen', 'match_time': 1577023200.0},
+	{'id': 79, 'team_a': '1. BC Beuel', 'team_b': '1. BV Muelheim', 'match_time': 1580047200.0},
+	{'id': 80, 'team_a': '1. BC Beuel', 'team_b': 'TSV Trittau', 'match_time': 1584284400.0},
+	{'id': 89, 'team_a': '1. BC Beuel', 'team_b': 'Blau-Weiss Wittorf-NMS 1', 'match_time': 1568484000.0},
+	{'id': 90, 'team_a': '1. BC Beuel', 'team_b': 'TSV Freystadt', 'match_time': 1570298400.0},
+	{'id': 91, 'team_a': '1. BC Beuel', 'team_b': 'TSV Neuhausen-Nymphenburg', 'match_time': 1570370400.0},
+	{'id': 92, 'team_a': '1. BC Beuel', 'team_b': '1. BC Bischmisheim', 'match_time': 1572184800.0},
+	{'id': 93, 'team_a': '1. BC Beuel', 'team_b': '1. BC Wipperfeld 1', 'match_time': 1584126000.0},
+
+	{'id': 81, 'team_a': '1. BC Beuel 2', 'team_b': '1.BV M\u00fclheim 2', 'match_time': 1567951200.0},
+	{'id': 82, 'team_a': '1. BC Beuel 2', 'team_b': 'STC Blau-Weiss Solingen', 'match_time': 1571508000.0},
+	{'id': 83, 'team_a': '1. BC Beuel 2', 'team_b': 'Hamburg Horner TV', 'match_time': 1572112800.0},
+	{'id': 84, 'team_a': '1. BC Beuel 2', 'team_b': 'TV Refrath 2', 'match_time': 1573304400.0},
+	{'id': 85, 'team_a': '1. BC Beuel 2', 'team_b': 'TSV Trittau 2', 'match_time': 1576951200.0},
+	{'id': 86, 'team_a': '1. BC Beuel 2', 'team_b': 'SG EBT Berlin', 'match_time': 1581256800.0},
+	{'id': 87, 'team_a': '1. BC Beuel 2', 'team_b': 'BC Hohenlimburg', 'match_time': 1582394400.0},
+	{'id': 88, 'team_a': '1. BC Beuel 2', 'team_b': 'BV RW Wesel', 'match_time': 1584270000.0},
+	{'id': 96, 'team_a': '1. BC Beuel 2', 'team_b': 'SV Berliner Brauereien 1', 'match_time': 1581184800.0}
 ];
 
 const ALIAS_NAMES = {
