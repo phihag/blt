@@ -15,6 +15,7 @@ function get_info() {
 		screen: window.screen.width + 'x' + window.screen.height,
 		last_error: last_error,
 		reported_count: reported_count,
+		bbt_version: '20190907',
 	};
 }
 
