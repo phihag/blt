@@ -23,7 +23,7 @@ var TEAM_COLORS = {
 	'Neuhausen': '#02c0ff',
 	'Peine': '#41b768',
 	'Refrath': '#1e3a8e',
-	'Remagen': '#182651',
+	'Remagen': '#1f355e',
 	'Offenburg': '#0671fb',
 	'Schorndorf': '#eb1c24',
 	'Sterkrade': '#fefa42',
