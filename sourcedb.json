@@ -126,11 +126,15 @@
 
 "SV GutsMuths Jena" : {
 	"type": "btde",
-	"url": "https://svgutsmuthsjena.badmintonticker.de"
+	"url": "https://badmintonticker.de/ticker/svgutsmuthsjena/"
 },
 
 "TV 1860 Hofheim": {
 	"type": "csde"
+},
+"BC Offenburg": {
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/bcoffenburg/"
 }
 
 }
