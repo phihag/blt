@@ -446,18 +446,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Fischbach",
-            "TSV Neubiberg\/Ottobrunn 1920"
-        ],
-        "league_key": "2BLS-2018",
-        "starttime": "11:00",
-        "date": "2019-09-15",
-        "date_de": "15.09.2019",
-        "ts": 1568538000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV GutsMuths Jena",
             "SV Fun-Ball Dortelweil"
         ],
@@ -490,6 +478,18 @@
         "date": "2019-09-15",
         "date_de": "15.09.2019",
         "ts": 1568541600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2018",
+        "starttime": "14:00",
+        "date": "2019-09-15",
+        "date_de": "15.09.2019",
+        "ts": 1568548800
     },
     {
         "type": "auto",
