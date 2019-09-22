@@ -38,6 +38,8 @@ Both arguments must always be present.
 */
 function run_every(func) {
 	function cb(err, next_interval) {
+		if (err === 'aborted') return;
+
 		if (err) {
 			console.error('Error during run: ' + err.stack); // eslint-disable-line no-console
 		}

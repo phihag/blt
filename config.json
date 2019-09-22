@@ -6,8 +6,7 @@
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
 	"verbosity": 2,
-	"datestr": "2019-09-28",
+	"datestr": "auto",
 	"csde_stateful": false,
-	"note_html": "",
-	"_note_html": "<p style=\"text-align:center;\">Sonntag, 15.9.2019</p>"
+	"note_html": ""
 }
