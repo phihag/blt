@@ -36,7 +36,7 @@ eslint-client:
 	@node_modules/.bin/eslint -c static/.eslintrc.yml static/*.js
 
 stylelint:
-	@./node_modules/.bin/stylelint css/*.css
+	@./node_modules/.bin/stylelint static/*.css
 
 install-service:
 	sed -e "s#BBT_ROOT_DIR#$$PWD#" div/bbt.service.template > /etc/systemd/system/bbt.service
