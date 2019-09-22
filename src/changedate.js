@@ -25,10 +25,12 @@ function setup(app, wss, source_info) {
 		cron.schedule('1 0 * * *', () => {
 			const new_date = next_date(source_info.teammatches, get_now_str());
 			if (app.cfg('verbosity', 0) >= 3) {
+				// eslint-disable-next-line no-console
 				console.log(`Checking date at ${(new Date()).toISOString()} (currently displayed: ${new_date})`);
 			}
 			if (new_date !== datestr) {
 				if (app.cfg('verbosity', 0) >= 2) {
+					// eslint-disable-next-line no-console
 					console.log(`Switching from ${datestr} to ${new_date}`);
 				}
 				datestr = new_date;
