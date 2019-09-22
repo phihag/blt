@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "indentation": ["tab", {
+      "except": ["value"]
+    }],
+    "shorthand-property-no-redundant-values": null,
+    "max-empty-lines": null,
+    "number-leading-zero": null,
+    "declaration-empty-line-before": null,
+    "rule-empty-line-before": null,
+    "selector-list-comma-newline-after": null,
+    "at-rule-empty-line-before": null
+  }
+}

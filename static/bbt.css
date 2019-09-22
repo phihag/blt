@@ -11,7 +11,7 @@
 
 .bbt_header {
 	width: 100%;
-	padding: 0 0;
+	padding: 0;
 	background: #f8f8f8;
 	border-top-left-radius: 0.5em;
 	border-top-right-radius: 0.5em;
@@ -82,7 +82,7 @@
 	}
 	.bbt_player_sep {
 		display: none;
-	}		
+	}
 }
 
 .bbt_status {
