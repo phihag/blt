@@ -274,7 +274,7 @@ function setup_tm(tm, home_team) {
 			}
 		}
 
-		const league_text = league_code ? `(league code league_code) ` : '';
+		const league_text = league_code ? `(league code ${league_code}) ` : '';
 		throw new Error(`Team ${tname}${league_text} missing in csde database`);
 	});
 
