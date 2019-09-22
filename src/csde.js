@@ -293,7 +293,7 @@ function setup_tm(tm, home_team) {
 	assert(cs_league_code);
 
 	tm.url = 'https://courtspot.de/php__Skripte/liveabfrage.php?l=' + cs_league_code + '&v=' + v + '&g=' + g;
-	tm.link = 'https://www.courtspot.de/live/?Liga=' + cs_league_code;
+	tm.link = 'https://courtspot.de/live/?Liga=' + cs_league_code;
 }
 
 module.exports = {
