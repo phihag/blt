@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var events = JSON.parse(uiu.qs('.bbt_events').getAttribute('data-initial-json'));
 	cvissel.init_ui();
 	crender.init(events);
-	wsclient.init();
+	wsclient.init(events);
 
 	var h = window.location.hash.substring(1);
 	if (h && events) {

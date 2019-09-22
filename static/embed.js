@@ -54,7 +54,7 @@ function embed_init(bbt_root) {
 	uiu.el(main, 'div', 'bbt_events');
 
 	crender.init(events);
-	wsclient.init();
+	wsclient.init(events);
 }
 
 /*@DEV*/

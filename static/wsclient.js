@@ -1,7 +1,7 @@
 'use strict';
 
 var wsclient = (function() {
-var events = [];
+var events;
 var ws;
 var timeout;
 var keepalive_interval;
@@ -32,8 +32,11 @@ function onmessage(ws_msg) {
 	var msg = JSON.parse(ws_msg.data);
 	// console.log('got ' + msg.type + ' message', msg);
 	if (msg.type === 'init') {
+		var changed = !cutils.deep_equal(events, msg.events);
 		events = msg.events;
-		crender.init(events);
+		if (changed) {
+			crender.init(events);
+		}
 	} else if (msg.type === 'full') {
 		var ev = msg.event;
 		var found = false;
@@ -68,7 +71,8 @@ function onmessage(ws_msg) {
 	}
 }
 
-function init() {
+function init(initial_events) {
+	events = initial_events;
 	if (timeout) {
 		clearTimeout(timeout);
 		timeout = null;
