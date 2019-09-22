@@ -9,6 +9,8 @@ const WebSocket = require('ws');
 const {StringDecoder} = require('string_decoder');
 const xmldom = require('xmldom');
 
+const {deep_equal} = require('../static/cutils');
+
 function broadcast(wss, msg) {
 	const json_msg = JSON.stringify(msg);
 
@@ -114,36 +116,6 @@ function parse_querystring(url) {
 		res[key] = value ? decodeURIComponent(value.replace(/\+/g, ' ')) : '';
 		return res;
 	}, {});
-}
-
-function deep_equal(x, y, except_keys) {
-	if (x === y) {
-		return true;
-	}
-	if ((x === null) || (y === null)) {
-		return false;
-	}
-	if ((typeof x == 'object') && (typeof y == 'object')) {
-		var key_count = 0;
-		for (var k in x) {
-			if (except_keys && except_keys.includes(k)) {
-				continue;
-			}
-			if (! deep_equal(x[k], y[k])) {
-				return false;
-			}
-			key_count++;
-		}
-
-		for (k in y) {
-			if (except_keys && except_keys.includes(k)) {
-				continue;
-			}
-			key_count--;
-		}
-		return key_count === 0;
-	}
-	return false;
 }
 
 function deep_copy(obj) {

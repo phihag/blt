@@ -53,10 +53,41 @@ function root_url() {
 	return uiu.qs('.bbt_root').getAttribute('data-rooturl') || 'https://b.aufschlagwechsel.de/';
 }
 
+function deep_equal(x, y, except_keys) {
+	if (x === y) {
+		return true;
+	}
+	if ((x === null) || (y === null)) {
+		return false;
+	}
+	if ((typeof x == 'object') && (typeof y == 'object')) {
+		var key_count = 0;
+		for (var k in x) {
+			if (except_keys && except_keys.includes(k)) {
+				continue;
+			}
+			if (! deep_equal(x[k], y[k])) {
+				return false;
+			}
+			key_count++;
+		}
+
+		for (k in y) {
+			if (except_keys && except_keys.includes(k)) {
+				continue;
+			}
+			key_count--;
+		}
+		return key_count === 0;
+	}
+	return false;
+}
+
 return {
 	brightness: brightness,
 	cached_brightness: cached_brightness,
 	color_css: color_css,
+	deep_equal: deep_equal,
 	find: find,
 	root_url: root_url,
 	map: map,
