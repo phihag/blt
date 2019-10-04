@@ -1,3 +1,15 @@
 [
+{
+    "team_names": [
+        "1.BV Mülheim",
+        "TV Refrath"
+    ],
+    "league_key": "1BL-2018",
+    "date": "2019-10-05",
+    "ts": 1570284000,
+    "override": {
+        "event_note_html": "<span style=\"display: block;margin: 0.5em 0; color: #111;\"><a href=\"https://rp-online.de/nrw/staedte/meerbusch/sport/badminton-elite-trifft-sich-in-meerbusch_aid-46218807\">Event</a> mit Vorprogramm ab 15:00 <a href=\"https://goo.gl/maps/RkGHroLj9ErFmoTV8\" title=\"Mönkesweg 58 in Meerbusch\">in Meerbusch</a><br/>Video-Übertragung <a href=\"https://sportdeutschland.tv/badminton/1-bundesliga-1-bv-muelheim-vs-tv-refrath\">auf sportdeutschland.tv</a></span>"
+    }
+}
 
 ]

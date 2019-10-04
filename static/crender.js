@@ -148,6 +148,11 @@ function render_event(container, shortcut_container, ev) {
 			style: 'white-space:pre-wrap;',
 		}, event_note);
 	}
+	var event_note_html = ev.event_note_html;
+	if (event_note_html) {
+		var event_note_html_container = uiu.el(container, 'div');
+		event_note_html_container.innerHTML = event_note_html;
+	}
 
 	var footer = uiu.el(container, 'div', 'footer');
 	if (ev.league_key) {
