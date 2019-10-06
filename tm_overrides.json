@@ -37,7 +37,7 @@
     "date_de": "06.10.2019",
     "ts": 1570366800,
     "override": {
-        "admin_note": "Stromausfall in Lüdinghausen. An der Wiederherstellung des Online-Tickers wird gearbeitet."
+        "_admin_note": "Stromausfall in Lüdinghausen. An der Wiederherstellung des Online-Tickers wird gearbeitet."
     }
 }
 
