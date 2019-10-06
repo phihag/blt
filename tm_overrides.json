@@ -24,6 +24,21 @@
     "override": {
         "admin_note": "Technische Probleme in Wesel, heute kein Liveticker"
     }
+},
+{
+    "type": "auto",
+    "team_names": [
+        "SC Union Lüdinghausen",
+        "1.BV Mülheim"
+    ],
+    "league_key": "1BL-2018",
+    "starttime": "15:00",
+    "date": "2019-10-06",
+    "date_de": "06.10.2019",
+    "ts": 1570366800,
+    "override": {
+        "admin_note": "Stromausfall in Lüdinghausen. An der Wiederherstellung des Online-Tickers wird gearbeitet."
+    }
 }
 
 ]
