@@ -1154,6 +1154,18 @@
     {
         "type": "auto",
         "team_names": [
+            "STC BW Solingen",
+            "BV RW Wesel"
+        ],
+        "league_key": "2BLN-2019",
+        "starttime": "13:00",
+        "date": "2019-10-27",
+        "date_de": "27.10.2019",
+        "ts": 1572177600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Beuel",
             "1.BC Sbr.-Bischmisheim"
         ],
@@ -1194,18 +1206,6 @@
             "TSV Neubiberg\/Ottobrunn 1920"
         ],
         "league_key": "2BLS-2019",
-        "starttime": "14:00",
-        "date": "2019-10-27",
-        "date_de": "27.10.2019",
-        "ts": 1572181200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "STC BW Solingen",
-            "BV RW Wesel"
-        ],
-        "league_key": "2BLN-2019",
         "starttime": "14:00",
         "date": "2019-10-27",
         "date_de": "27.10.2019",
@@ -1850,6 +1850,30 @@
     {
         "type": "auto",
         "team_names": [
+            "BV RW Wesel",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2019",
+        "starttime": "12:00",
+        "date": "2019-12-22",
+        "date_de": "22.12.2019",
+        "ts": 1577012400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC BW Solingen",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2019",
+        "starttime": "12:00",
+        "date": "2019-12-22",
+        "date_de": "22.12.2019",
+        "ts": 1577012400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TV 1860 Hofheim",
             "SG Schorndorf"
         ],
@@ -1898,34 +1922,10 @@
     {
         "type": "auto",
         "team_names": [
-            "BV RW Wesel",
-            "SG EBT Berlin"
-        ],
-        "league_key": "2BLN-2019",
-        "starttime": "14:00",
-        "date": "2019-12-22",
-        "date_de": "22.12.2019",
-        "ts": 1577019600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "Blau-Weiss Wittorf-NMS",
             "TSV Neuhausen-Nymphenburg"
         ],
         "league_key": "1BL-2019",
-        "starttime": "14:00",
-        "date": "2019-12-22",
-        "date_de": "22.12.2019",
-        "ts": 1577019600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "STC BW Solingen",
-            "SV Berliner Brauereien"
-        ],
-        "league_key": "2BLN-2019",
         "starttime": "14:00",
         "date": "2019-12-22",
         "date_de": "22.12.2019",
@@ -2030,6 +2030,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SV Berliner Brauereien",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "2BLN-2019",
+        "starttime": "14:00",
+        "date": "2020-01-04",
+        "date_de": "04.01.2020",
+        "ts": 1578142800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SV GutsMuths Jena",
             "TV 1860 Hofheim"
         ],
@@ -2102,18 +2114,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Berliner Brauereien",
-            "BC Hohenlimburg"
-        ],
-        "league_key": "2BLN-2019",
-        "starttime": "14:00",
-        "date": "2020-01-05",
-        "date_de": "05.01.2020",
-        "ts": 1578229200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TSV Neubiberg\/Ottobrunn 1920",
             "SG Schorndorf"
         ],
@@ -2164,6 +2164,18 @@
         "team_names": [
             "SG EBT Berlin",
             "BC Hohenlimburg"
+        ],
+        "league_key": "2BLN-2019",
+        "starttime": "14:00",
+        "date": "2020-01-25",
+        "date_de": "25.01.2020",
+        "ts": 1579957200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "1.BV Mülheim 2"
         ],
         "league_key": "2BLN-2019",
         "starttime": "14:00",
@@ -2260,18 +2272,6 @@
         "team_names": [
             "STC BW Solingen",
             "1.BC Beuel 2"
-        ],
-        "league_key": "2BLN-2019",
-        "starttime": "14:00",
-        "date": "2020-01-26",
-        "date_de": "26.01.2020",
-        "ts": 1580043600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV Berliner Brauereien",
-            "1.BV Mülheim 2"
         ],
         "league_key": "2BLN-2019",
         "starttime": "14:00",
