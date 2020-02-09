@@ -39,6 +39,21 @@
     "override": {
         "_admin_note": "Stromausfall in Lüdinghausen. An der Wiederherstellung des Online-Tickers wird gearbeitet."
     }
+},
+{
+    "type": "auto",
+    "team_names": [
+        "BC Hohenlimburg",
+        "BV RW Wesel"
+    ],
+    "league_key": "2BLN-2019",
+    "starttime": "14:00",
+    "date": "2020-02-09",
+    "date_de": "09.02.2020",
+    "ts": 1581253200,
+    "override": {
+        "admin_note": "\n\nTechnische Probleme mit dem Ticker-System in Hohenlimburg.\n\n\n"
+    }
 }
 
 ]
