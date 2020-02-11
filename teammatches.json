@@ -2462,6 +2462,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SV GutsMuths Jena",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2019",
+        "starttime": "17:00",
+        "date": "2020-02-08",
+        "date_de": "08.02.2020",
+        "ts": 1581177600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TSV Neubiberg\/Ottobrunn 1920",
             "1.BC Sbr.-Bischmisheim 2"
         ],
@@ -2490,18 +2502,6 @@
             "SV Berliner Brauereien"
         ],
         "league_key": "2BLN-2019",
-        "starttime": "18:00",
-        "date": "2020-02-08",
-        "date_de": "08.02.2020",
-        "ts": 1581181200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV GutsMuths Jena",
-            "SV Fischbach"
-        ],
-        "league_key": "2BLS-2019",
         "starttime": "18:00",
         "date": "2020-02-08",
         "date_de": "08.02.2020",
