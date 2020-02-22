@@ -32,6 +32,10 @@
 		"players": [[], []],
 		"score": []
 	}],
+	"courts": [
+		{"label": "1", "match_id": "HD1"},
+		{"label": "2", "match_id": "DD"}
+	],
 	"ticker_state": {
 		"n": "8",
 		"s": "9"

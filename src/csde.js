@@ -162,17 +162,26 @@ function parse(str) {
 		}
 	}
 
+	const courts = [];
 	for (let court_id = 1;court_id <= 2;court_id++) {
 		const cspec = doc.getElementsByTagName('Court' + court_id)[0].textContent;
 		const match_name = eventutils.unify_name(cspec.substr(3));
+		const court_spec = {
+			label: '' + court_id,
+		};
 		if (!match_name) {
+			courts.push(court_spec);
 			continue;
 		}
 
 		const match = utils.find(matches, m => m.name === match_name);
 		if (!match) {
+			courts.push(court_spec);
 			continue;
 		}
+
+		court_spec.match_id = match_name;
+		courts.push(court_spec);
 
 		const rspec = cspec.substr(0, 3);
 		if (rspec === 'aus') {
@@ -199,6 +208,7 @@ function parse(str) {
 	}
 
 	return {
+		courts,
 		matches,
 		ticker_state,
 	};

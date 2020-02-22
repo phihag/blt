@@ -33,6 +33,10 @@
 		"players": [[], []],
 		"score": []
 	}],
+	"courts": [
+		{"label": "1", "match_id": "DE"},
+		{"label": "2", "match_id": "DD"}
+	],
 	"ticker_state": {
 		"n": "8",
 		"s": "21"

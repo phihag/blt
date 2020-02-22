@@ -66,6 +66,12 @@ link        Link of the source live ticker
 starttime   Human-readable string of scheduled match start time, i.e. "14:00"
 date        ISO 8601 date (YYYY-MM-DD)
 ts          UNIX timestamp of start of match.
+courts      An array of courts (optional)
+
+court
+=====
+label     A short, human-readable name for the court. ("Big hall 12" or just "1")
+match_id  The match name.
 
 match
 =====
