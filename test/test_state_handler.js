@@ -88,5 +88,20 @@ describe('state_handler', () => {
 				{type: 'score', num: 23, name: 'DE', score: [[2, 2]], serving: 1},
 				{type: 'score', num: 23, name: 'HD1', score: [[1, 0]], serving: 1},
 			]);
+
+		ev1.courts = [{label: '1'}, {label: '2'}];
+		assert(state_handler.determine_diff(ev1, ev2) === 'full');
+
+		ev2.courts = [{label: '1'}, {label: '2'}];
+		assert(Array.isArray(state_handler.determine_diff(ev1, ev2)));
+
+		ev2.courts = [{label: '1', match_id: 'DE'}, {label: '2', match_id: 'HD1'}];
+		assert(state_handler.determine_diff(ev1, ev2) === 'full');
+
+		ev1.courts = [{label: '1', match_id: 'DE'}, {label: '2', match_id: 'HD1'}];
+		assert(Array.isArray(state_handler.determine_diff(ev1, ev2)));
+
+		ev2.courts = [{label: '1', match_id: 'DE'}, {label: '2', match_id: 'HD2'}];
+		assert(state_handler.determine_diff(ev1, ev2) === 'full');
 	});
 });
