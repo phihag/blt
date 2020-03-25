@@ -17,7 +17,7 @@
   "dependencies": {
     "async": "*",
     "express": "^4.16.4",
-    "extract-zip": "*",
+    "extract-zip": "1.6.8",
     "mustache": "*",
     "mustache-express": "*",
     "node-cron": "^2.0.3",
