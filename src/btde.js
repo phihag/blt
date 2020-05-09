@@ -49,12 +49,19 @@ function parse(str) {
 	const team_names = [metadata_ar[3], metadata_ar[4]].map(eventutils.unify_team_name);
 
 	const match_parts = pipe_parts.slice(1, -1);
+	const courts = [{label: '1'}, {label: '2'}];
 	const matches = match_parts.map(mp_str => {
 		const mp = mp_str.split('~');
 		const res = {
 			name: MATCH_NAMES[mp[0]],
 			score: [],
 		};
+		const court_id = mp[1];
+		if (court_id === '1') {
+			courts[0].match_id = res.name;
+		} else if (court_id === '2') {
+			courts[1].match_id = res.name;
+		}
 
 		const players = [
 			_parse_players(mp[5]),
@@ -89,6 +96,7 @@ function parse(str) {
 		mscore,
 		matches,
 		scoring,
+		courts,
 	};
 }
 

@@ -1,4 +1,9 @@
+embed bup
+	handler in bup
+implement bupdate
+livescore display @bup, short URL for that
 
+---------
 
 
 
