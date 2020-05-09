@@ -1,7 +1,6 @@
 'use strict';
 
 const assert = require('assert');
-const crypto = require('crypto');
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
@@ -211,21 +210,6 @@ function download_file(url, fn, callback) {
 	});
 }
 
-function sha512_file(fn, cb) {
-	const sha_sum = crypto.createHash('SHA512');
-
-	const s = fs.ReadStream(fn);
-	s.on('data', function(d) {
-		sha_sum.update(d);
-	});
-	s.on('error', function(err) {
-		cb(err);
-	});
-	s.on('end', function() {
-		cb(null, sha_sum.digest('hex'));
-	});
-}
-
 
 module.exports = {
 	broadcast,
@@ -244,5 +228,4 @@ module.exports = {
 	read_json,
 	run_every,
 	send,
-	sha512_file,
 };

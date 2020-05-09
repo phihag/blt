@@ -15,13 +15,13 @@
         ],
         "comma-dangle": [
             2,
-            "always-multiline"
+            "only-multiline"
         ],
         "no-console": 2
     },
     "env": {
         "node": true,
-        "es6": true
+        "es2020": true
     },
     "globals": {
     },
