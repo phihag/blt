@@ -6,7 +6,7 @@
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
 	"verbosity": 2,
-	"datestr": "auto",
+	"datestr": "2020-03-14",
 	"csde_stateful": false,
 	"note_html": ""
 }
