@@ -17,7 +17,7 @@ function setup(cfg, app) {
 	app.get('/allteams', web_handlers.allteams_handler);
 
 	app.get('/bupdate', bup_handlers.bupdate_handler);
-	app.use('/bup', express.static('bup'));
+	app.use('/bup', express.static('bup', {index: ['index.html', 'bup.html']}));
 }
 
 
