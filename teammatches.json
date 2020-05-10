@@ -23,11 +23,23 @@
         "date_de": "14.03.2020",
         "ts": 1584205200
     },
-        {
+    {
         "type": "auto",
         "team_names": [
             "TSV Neuhausen-Nymphenburg",
             "1.BV Mülheim"
+        ],
+        "league_key": "1BL-2019",
+        "starttime": "18:00",
+        "date": "2020-03-14",
+        "date_de": "14.03.2020",
+        "ts": 1584205200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "TV Refrath 2"
         ],
         "league_key": "1BL-2019",
         "starttime": "18:00",
