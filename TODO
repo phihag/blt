@@ -1,7 +1,7 @@
 embed bup
 	handler in bup
-implement bupdate
-livescore display @bup, short URL for that
+livescore display @bup
+short URL overview for that
 
 ---------
 
@@ -9,12 +9,6 @@ livescore display @bup, short URL for that
 
 bvm color
 recolor wittorf
-
-
-automatically select next date
-	calc next match date, sleep for that time
-	kill old watchers
-	test fewer or more events
 
 compile javascript
 compile logos?
@@ -35,8 +29,6 @@ message if everything unselected!
 
 read courts
 	CourtSpot
-	btde
-	sclive (be careful, might be wrong)
 cast with bup
 
 add Regionalliga Nord / Regionalliga West (initially hidden)
