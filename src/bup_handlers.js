@@ -24,6 +24,17 @@ async function safe_rimraf(path) {
 }
 
 async function bupdate() {
+	try {
+		const cur = await promisify(fs.lstat)(FINAL_DIR);
+		if (cur.isSymbolicLink()) {
+			throw new Error(
+				`Refusing to bupdate; ${FINAL_DIR} is a symbolic link.` +
+				' Remove the symlink to allow bupdate');
+		}
+	} catch (e) {
+		if (e.code !== 'ENOENT') throw e;
+	}
+
 	const tmp_token = process.pid + '_' + Date.now() + '_' + crypto.randomBytes(4).readUInt32LE(0);
 	const tmp_dir = path.join(TMP_ROOT, 'bupdate_tmp_' + tmp_token);
 	const new_dir = path.join(tmp_dir, 'new');
