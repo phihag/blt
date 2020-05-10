@@ -15,6 +15,7 @@ function setup(cfg, app) {
 	app.get('/events.json', web_handlers.json_handler);
 	app.get('/embed.js', web_handlers.embed_handler);
 	app.get('/allteams', web_handlers.allteams_handler);
+	app.get('/streams', web_handlers.streams_handler);
 
 	app.get('/bupdate', bup_handlers.bupdate_handler);
 	app.use('/bup', express.static('bup', {index: ['index.html', 'bup.html']}));

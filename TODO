@@ -1,7 +1,7 @@
-embed bup
-	handler in bup
-livescore display @bup
 short URL overview for that
+handler in bup
+livescore display @bup
+courtspot: courts, test
 
 ---------
 

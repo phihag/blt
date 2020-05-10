@@ -3,10 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const cutils = require('../static/cutils');
-const extradata = require('../static/extradata');
 const render = require('./render');
-const utils = require('./utils');
+const {team_data} = require('./data');
 
 const ROOT_DIR = path.dirname(__dirname);
 
@@ -45,36 +43,16 @@ function embed_handler(req, res, next) {
 }
 
 function allteams_handler(req, res, next) {
-	const tms = req.app.source_info.teammatches;
-	const team_map = new Map();
-	const _add_team = (team_name, league_key) => {
-		if (team_map.has(team_name)) return;
-
-		const short_name = extradata.shortname(team_name);
-		const color = extradata.get_color(team_name);
-
-		team_map.set(team_name, {
-			color,
-			color_css: cutils.color_css(color),
-			team_name,
-			league_key,
-			short_name,
-			link: 'https://b.aufschlagwechsel.de/#' + short_name,
-			logo: extradata.team_logo(team_name),
-		});
-	};
-
-	for (const tm of tms) {
-		_add_team(tm.team_names[0], tm.league_key);
-		_add_team(tm.team_names[1], tm.league_key);
-	}
-
-	const teams = Array.from(team_map.values()).sort(utils.cmp_key('short_name'));
-
 	render(req, res, next, 'allteams', {
-		teams,
+		teams: team_data(req.app),
 	}, true);
 
+}
+
+function streams_handler(req, res, next) {
+	render(req, res, next, 'streams', {
+		teams: team_data(req.app),
+	}, true);
 }
 
 module.exports = {
@@ -82,4 +60,5 @@ module.exports = {
 	embed_handler,
 	json_handler,
 	root_handler,
+	streams_handler,
 };
