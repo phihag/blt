@@ -3,7 +3,6 @@
 const fs = require('fs');
 const path = require('path');
 
-const extradata = require('../static/extradata');
 const render = require('./render');
 const {team_data} = require('./data');
 
@@ -18,20 +17,7 @@ function root_handler(req, res, next) {
 }
 
 function json_handler(req, res) {
-	let events = req.app.state_handlers.map(sh => sh.ev);
-
-	let team = req.query.team;
-	if (team) {
-		team = team.toLowerCase();
-		events = events.filter(ev => {
-			if (!ev.team_names) return;
-			const _name = team_name => extradata.shortname(team_name.toLowerCase());
-			return (
-				_name(ev.team_names[0]) === team ||
-				_name(ev.team_names[1]) === team
-			);
-		});
-	}
+	const events = req.app.state_handlers.map(sh => sh.ev);
 
 	res.setHeader('Content-Type', 'application/json');
 	res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');

@@ -19,6 +19,7 @@ function setup(cfg, app) {
 
 	app.get('/bupdate', bup_handlers.bupdate_handler);
 	app.use('/bup', express.static('bup', {index: ['index.html', 'bup.html']}));
+	app.get('/event', bup_handlers.event_handler);
 }
 
 

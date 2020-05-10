@@ -8,6 +8,7 @@ const path = require('path');
 const rimraf = require('rimraf');
 const {promisify} = require('util');
 
+const extradata = require('../static/extradata');
 const render = require('./render');
 const utils = require('./utils');
 const promise_utils = require('./promise_utils');
@@ -99,7 +100,43 @@ async function bupdate_handler(req, res, next) {
 	}
 }
 
+function event_handler(req, res, next) {
+	const events = req.app.state_handlers.map(sh => sh.ev);
+	let team = req.query.team;
+	if (!team) {
+		return next(new Error('Missing GET parameter team'));
+	}
+
+	team = team.toLowerCase();
+	const _matches = team_name => extradata.shortname(team_name.toLowerCase()) === team;
+	let data = undefined;
+	for (const ev of events) {
+		if (_matches(ev.team_names[0])) {
+			data = ev;
+			break;
+		}
+	}
+	if (!data) {
+		for (const ev of events) {
+			if (_matches(ev.team_names[0])) {
+				data = ev;
+				break;
+			}
+		}
+	}
+	if (!data) {
+		res.status(404);
+		res.setHeader('Content-Type', 'text/plain');
+		res.send(`Event ${JSON.stringify(team)} not found`);
+		return;
+	}
+
+	res.setHeader('Content-Type', 'application/json');
+	res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+	res.send(JSON.stringify(data, null, 2));
+}
 
 module.exports = {
 	bupdate_handler,
+	event_handler,
 };
