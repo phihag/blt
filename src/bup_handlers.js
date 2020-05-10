@@ -14,7 +14,7 @@ const promise_utils = require('./promise_utils');
 
 const ROOT_DIR = path.dirname(__dirname);
 const TMP_ROOT = path.join(ROOT_DIR, 'tmp');
-const FINAL_DIR = path.join(ROOT_DIR, 'static', 'bup');
+const FINAL_DIR = path.join(ROOT_DIR, 'bup');
 const ZIP_URL = 'https://aufschlagwechsel.de/bup.zip';
 
 
