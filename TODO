@@ -1,12 +1,10 @@
-check serving
+make /streams link work
 livescore display @bup
 	1 court
 	2 courts
-make /streams link work
-intro text on /streams
+intro text on /streams: mention ios/Android apps
 courtspot: courts, test
 try with empty courtspot
-heinz, fb?
 
 ---------
 websockets proto for bup

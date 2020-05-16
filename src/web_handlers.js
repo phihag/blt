@@ -55,10 +55,17 @@ function streams_handler(req, res, next) {
 	}, true);
 }
 
+function stream_handler(req, res, next) {
+	const shortname = req.params.shortname;
+	const court = req.params.court || 'referee';
+	res.redirect(`/bup/#display&dm_style=stream&bbt_poll=${shortname}&court=${court}&nosettings`);
+}
+
 module.exports = {
 	allteams_handler,
 	embed_handler,
 	json_handler,
 	root_handler,
 	streams_handler,
+	stream_handler,
 };
