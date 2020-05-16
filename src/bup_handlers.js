@@ -108,7 +108,8 @@ function event_handler(req, res, next) {
 	}
 
 	team = team.toLowerCase();
-	const _matches = team_name => extradata.shortname(team_name.toLowerCase()) === team;
+	const _matches = team_name => extradata.shortname(team_name).toLowerCase() === team;
+
 	let data = undefined;
 	for (const ev of events) {
 		if (_matches(ev.team_names[0])) {
@@ -118,7 +119,7 @@ function event_handler(req, res, next) {
 	}
 	if (!data) {
 		for (const ev of events) {
-			if (_matches(ev.team_names[0])) {
+			if (_matches(ev.team_names[1])) {
 				data = ev;
 				break;
 			}
