@@ -112,6 +112,7 @@ function event_handler(req, res, next) {
 
 	let data = undefined;
 	for (const ev of events) {
+		if (!ev.team_names) continue;
 		if (_matches(ev.team_names[0])) {
 			data = ev;
 			break;
@@ -119,6 +120,7 @@ function event_handler(req, res, next) {
 	}
 	if (!data) {
 		for (const ev of events) {
+			if (!ev.team_names) continue;
 			if (_matches(ev.team_names[1])) {
 				data = ev;
 				break;
