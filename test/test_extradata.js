@@ -11,7 +11,8 @@ describe('extradata', () => {
 	it('shortname', () => {
 		assert.strictEqual(extradata.shortname('SV Fun-Ball Dortelweil'), 'Dortelweil');
 		assert.strictEqual(extradata.shortname('1.BC Beuel'), 'Beuel');
-		assert.strictEqual(extradata.shortname('1.BV Mülheim'), 'Mülheim');
+		assert.strictEqual(extradata.shortname('1.BV Mülheim'), 'BVMülheim');
+		assert.strictEqual(extradata.shortname('VfB GW Mülheim'), 'GWMülheim');
 		assert.strictEqual(extradata.shortname('SC Union Lüdinghausen'), 'Lüdinghausen');
 		assert.strictEqual(extradata.shortname('1.BC Sbr.-Bischmisheim'), 'Bischmisheim');
 		assert.strictEqual(extradata.shortname('TSV Trittau'), 'Trittau');
@@ -25,7 +26,7 @@ describe('extradata', () => {
 		assert.strictEqual(extradata.shortname('TV Refrath 2'), 'Refrath2');
 		assert.strictEqual(extradata.shortname('1.BC Beuel 2'), 'Beuel2');
 		assert.strictEqual(extradata.shortname('VfB/SC Peine'), 'Peine');
-		assert.strictEqual(extradata.shortname('1.BV Mülheim 2'), 'Mülheim2');
+		assert.strictEqual(extradata.shortname('1.BV Mülheim 2'), 'BVMülheim2');
 		assert.strictEqual(extradata.shortname('BC Hohenlimburg'), 'Hohenlimburg');
 		assert.strictEqual(extradata.shortname('SG EBT Berlin'), 'Berlin');
 		assert.strictEqual(extradata.shortname('STC Blau-Weiss Solingen'), 'Solingen');
@@ -46,6 +47,7 @@ describe('extradata', () => {
 		'SV Fun-Ball Dortelweil': 'svfunballdortelweil',
 		'1.BC Beuel': 'bcbeuel',
 		'1.BV Mülheim': 'bvmuelheim',
+		'VfB GW Mülheim 1': 'vfbgwmuelheim',
 		'SC Union Lüdinghausen': 'unionluedinghausen',
 		'1.BC Sbr.-Bischmisheim': 'bcbsaarbruecken',
 		'TSV Trittau': 'tsvtrittau',

@@ -13,6 +13,7 @@ var TEAM_COLORS = {
 	'Fischbach': '#d9251d',
 	'Freystadt': '#ff161d',
 	'Geretsried': '#0c8f78',
+	'GW Mülheim': '#1bb332',
 	'Hofheim': '#181d4b',
 	'Hohenlimburg': '#0ebbff',
 	'Horner': '#f4b692', // Hamburg Horner TV
@@ -21,10 +22,10 @@ var TEAM_COLORS = {
 	'Marktheidenfeld': '#1c3759',
 	'Neubiberg': '#e2001a', // TSV Neubiberg/Ottobrunn 1920
 	'Neuhausen': '#02c0ff',
+	'Offenburg': '#0671fb',
 	'Peine': '#41b768',
 	'Refrath': '#1e3a8e',
 	'Remagen': '#1f355e',
-	'Offenburg': '#0671fb',
 	'Schorndorf': '#eb1c24',
 	'Sterkrade': '#fefa42',
 	'Trittau': '#0060a1',
@@ -76,6 +77,7 @@ var LOGOS = [
 	'tvrefrath',
 	'unionluedinghausen',
 	'vfbfriedrichshafen',
+	'vfbgwmuelheim',
 	'vfbscpeine',
 	'wittorfneumuenster',
 ];
@@ -88,9 +90,10 @@ var LOGO_ALIASSE = {
 	'SC Union Lüdinghausen': 'unionluedinghausen',
 	'SG VfB/SC Peine': 'vfbscpeine',
 	'Spvgg.Sterkrade-N.': 'sterkrade',
+	'STC BW Solingen': 'stcblauweisssolingen',
 	'TSV Neuhausen-Nymphenburg': 'tsvneuhausen',
 	'Union Lüdinghausen': 'unionluedinghausen',
-	'STC BW Solingen': 'stcblauweisssolingen',
+	'VfB GW Mülheim': 'vfbgwmuelheim',
 };
 function team_logo(team_name) {
 	team_name = LOGO_ALIASSE[team2club(team_name)] || team_name;
@@ -131,7 +134,7 @@ function name_by_league(league_key) {
 		return 'NLA';
 	}
 	if (league_key === 'RLW-2016') {
-		league_key = 'NRW-O19-RL-001-2016';
+		return 'Regionalliga West';
 	}
 
 	var m = NRW2016_RE.exec(league_key);
@@ -180,13 +183,16 @@ var SHORT_NAMES = {
 	'SV GutsMuths Jena': 'Jena',
 	'Spvgg.Sterkrade-N.': 'Sterkrade',
 	'SV Berliner Brauereien': 'BerlinerBrauereien',
+	'1.BV Mülheim': 'BVMülheim',
+	'VfB GW Mülheim': 'GWMülheim',
 };
 function shortname(team_name) {
-	if (SHORT_NAMES[team_name]) {
-		return SHORT_NAMES[team_name];
+	var num_m = /^(.*)\s([JSM]?(?:[1-9]|[1-3][0-9]))$/.exec(team_name);
+	var core_name = num_m ? num_m[1] : team_name;
+	if (SHORT_NAMES[core_name]) {
+		return SHORT_NAMES[core_name] + (num_m ? num_m[2] : '');
 	}
-	var num_m = /\s([JSM]?(?:[2-9]|[1-3][0-9]))$/.exec(team_name);
-	var parts = team_name.split(/[\s-/]+/);
+	var parts = core_name.split(/[\s-/]+/);
 	var res = parts[0];
 	parts.forEach(function(p) {
 		if (p.length > res.length) {
@@ -194,7 +200,7 @@ function shortname(team_name) {
 		}
 	});
 	if (num_m) {
-		res += num_m[1];
+		res += num_m[2];
 	}
 	return res;
 }

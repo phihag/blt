@@ -6,7 +6,8 @@
 	"fast_interval": 5000,
 	"slow_interval": 3600000,
 	"verbosity": 2,
-	"datestr": "2020-03-14",
+	"datestr": "auto",
 	"csde_stateful": false,
-	"note_html": "<a href=\"/streams\">Informationen zum Video-Streaming-Overlay</a>. Sollte eine Test-Spiel fehlen, bitte bei <a href=\"https://phihag.de/\">Philipp Hagemeister</a> melden."
+	"note_html": "1. Spieltag Regionalliga West. Neu: <a href=\"/streams\">Video-Streaming-Overlays</a><br/><br/>",
+	"note_html_streaming": "<a href=\"/streams\">Informationen zum Video-Streaming-Overlay</a>. Sollte eine Test-Spiel fehlen, bitte bei <a href=\"https://phihag.de/\">Philipp Hagemeister</a> melden."
 }

@@ -135,6 +135,11 @@
 "BC Offenburg": {
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/bcoffenburg/"
+},
+
+"VfB GW Mülheim": {
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/vfbgwmuelheim/"
 }
 
 }

@@ -46,5 +46,17 @@
         "date": "2020-03-14",
         "date_de": "14.03.2020",
         "ts": 1584205200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "VfB GW Mülheim 1"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "19:30",
+        "date": "2020-22-08",
+        "date_de": "22.08.2020",
+        "ts": "VfB GW Mülheim 1"
     }
 ]
