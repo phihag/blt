@@ -1,10 +1,12 @@
-make /streams link work
 livescore display @bup
 	1 court
 	2 courts
 intro text on /streams: mention ios/Android apps
+	note about reconnect
 courtspot: courts, test
 try with empty courtspot
+
+bupdate as local command
 
 ---------
 websockets proto for bup
