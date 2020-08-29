@@ -110,7 +110,7 @@ function team2club(team_name) {
 	return team_name.replace(/[\s0-9]+$/, '');
 }
 
-var NRW2016_RE = /^NRW-(O19)-(?:(?:([NS])([12]))-)?([A-Z]{2})-([0-9]{3})-(?:2016|2017)$/;
+var NRW2016_RE = /^NRW-(O19)-(?:(?:GW|([NS])([12]))-)?([A-Z]{2})-([0-9]{3})-(?:2016|2017)$/;
 function name_by_league(league_key) {
 	if (/^1BL-(?:20[0-9]{2})$/.test(league_key)) {
 		return '1. Bundesliga';

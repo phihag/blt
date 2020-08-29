@@ -58,5 +58,30 @@
         "date": "2020-22-08",
         "date_de": "22.08.2020",
         "ts": "VfB GW Mülheim 1"
+    },
+
+    {
+        "type": "csde",
+        "team_names": [
+            "TV Refrath 4",
+            "FC Langenfeld 1"
+        ],
+        "league_key": "NRW-O19-GW-OL-003-2016",
+        "starttime": "15:00",
+        "date": "2020-08-29",
+        "date_de": "29.08.2020",
+        "ts": 1
+    },
+    {
+        "type": "csde",
+        "team_names": [
+            "TV Refrath 3",
+            "DJK Teut. St.Tönis 1"
+        ],
+        "league_key": "NRW-O19-GW-OL-003-2016",
+        "starttime": "18:00",
+        "date": "2020-08-29",
+        "date_de": "29.08.2020",
+        "ts": 2
     }
 ]
