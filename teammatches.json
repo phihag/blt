@@ -1,75 +1,122 @@
 [
-    {
-        "type": "auto",
-        "team_names": [
-            "TV Refrath 2",
-            "BV RW Wesel"
-        ],
-        "league_key": "2BLN-2019",
-        "starttime": "14:00",
-        "date": "2020-03-14",
-        "date_de": "14.03.2020",
-        "ts": 1584190800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TV Refrath",
-            "Blau-Weiss Wittorf-NMS"
-        ],
-        "league_key": "1BL-2019",
-        "starttime": "18:00",
-        "date": "2020-03-14",
-        "date_de": "14.03.2020",
-        "ts": 1584205200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TSV Neuhausen-Nymphenburg",
-            "1.BV Mülheim"
-        ],
-        "league_key": "1BL-2019",
-        "starttime": "18:00",
-        "date": "2020-03-14",
-        "date_de": "14.03.2020",
-        "ts": 1584205200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Beuel 2",
-            "TV Refrath 2"
-        ],
-        "league_key": "1BL-2019",
-        "starttime": "18:00",
-        "date": "2020-03-14",
-        "date_de": "14.03.2020",
-        "ts": 1584205200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BV Mülheim 2",
-            "VfB GW Mülheim 1"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "19:30",
-        "date": "2020-22-08",
-        "date_de": "22.08.2020",
-        "ts": "VfB GW Mülheim 1"
-    },
-
-    {
-        "type": "csde",
-        "team_names": [
-            "TV Refrath 3",
-            "DJK Teut. St.Tönis 1"
-        ],
-        "league_key": "NRW-O19-GW-OL-003-2016",
-        "starttime": "18:00",
-        "date": "2020-08-29",
-        "date_de": "29.08.2020",
-        "ts": 2
-    }
+{
+    "type": "auto",
+    "team_names": [
+        "SG Schorndorf",
+        "SC Union Lüdinghausen"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "Blau-Weiss Wittorf-NMS",
+        "TV Refrath"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "1.BC Wipperfeld",
+        "TSV Trittau"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "TSV Neuhausen-Nymphenburg",
+        "SV GutsMuths Jena"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "1.BC Sbr.-Bischmisheim",
+        "1.BC Beuel"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "SV GutsMuths Jena",
+        "TV Refrath                  "
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "TSV Trittau",
+        "SC Union Lüdinghausen"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "SC Union Lüdinghausen",
+        "SV GutsMuths Jena"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "1.BC Beuel",
+        "TSV Neuhausen-Nymphenburg"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+},
+{
+    "type": "auto",
+    "team_names": [
+        "TV Refrath",
+        "1.BC Wipperfeld"
+    ],
+    "league_key": "1BL-2019",
+    "starttime": "11:00",
+    "date": "2020-09-05",
+    "date_de": "5.9.2020",
+    "ts": 1
+}
 ]
