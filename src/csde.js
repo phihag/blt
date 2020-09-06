@@ -101,9 +101,9 @@ const TEAM_NAMES = {
 	'10-1115': 'SSV WBG Bochum 1',
 };
 const LEAGUE_KEY = {
-	1: '1BL-2019',
-	2: '2BLN-2019',
-	3: '2BLS-2019',
+	1: '1BL-2020',
+	2: '2BLN-2020',
+	3: '2BLS-2020',
 	4: 'RLW-2016',
 	5: 'RLN-TODO',
 	6: 'RLM-TODO',

@@ -28,7 +28,7 @@ describe('eventutils', () => {
 			{name: 'HE2'},
 			{name: 'GD'},
 		];
-		eventutils.unify_order(matches, '1BL-2019');
+		eventutils.unify_order(matches, '1BL-2020');
 		assert.deepStrictEqual(matches, [
 			{name: 'HD1'},
 			{name: 'DD'},

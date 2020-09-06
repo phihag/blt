@@ -70,6 +70,9 @@ function order_preferred_by_league(league_key) {
 	case '1BL-2019':
 	case '2BLN-2019':
 	case '2BLS-2019':
+	case '1BL-2020':
+	case '2BLN-2020':
+	case '2BLS-2020':
 		// See BLO-DB §8.8
 		return [
 			'HD1',
