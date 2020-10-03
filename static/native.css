@@ -53,6 +53,7 @@ html, body {
 .bbt_vissel label {
 	display: block;
 	font-size: 80%;
+	margin: 0.4em 0;
 }
 @media (max-width: 1020px) {
 	.bbt_shortcuts_placeholder {
@@ -73,7 +74,7 @@ html, body {
 	}
 	.bbt_vissel label {
 		display: inline-block;
-		margin-right: 0.7em;
+		margin: 0 0.7em 0 0;
 	}
 }
 @media (min-width: 1021px) and (max-width: 1700px) {
