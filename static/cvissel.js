@@ -1,7 +1,15 @@
 'use strict';
 var cvissel = (function() {
 
-var prefs = {};
+var DEFAULT_PREFS = {
+	'1BL-2020': true,
+	'2BLN-2020': true,
+	'2BLS-2020': true,
+	'RLW-2016': false,
+};
+var ALL_LEAGUES = Object.keys(DEFAULT_PREFS);
+
+var prefs = JSON.parse(JSON.stringify(DEFAULT_PREFS)); // ... not available in IE
 var lkeys = [];
 
 function has_localStorage() {
@@ -21,6 +29,12 @@ function init_ui() {
 	var new_prefs_json = localStorage.getItem('bbt_vissel_prefs');
 	if (new_prefs_json) {
 		prefs = JSON.parse(new_prefs_json);
+
+		if (Object.keys(prefs).some(league_key => !ALL_LEAGUES.includes(league_key))) {
+			// Configuration from last season, restore to defaults
+			prefs = JSON.parse(JSON.stringify(DEFAULT_PREFS));
+		}
+
 		update();
 	}
 }
