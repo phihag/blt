@@ -77,7 +77,7 @@ describe('CourtSpot', () => {
 		const params = utils.parse_querystring(url);
 		csde._annotate(ev, params);
 		assert.deepStrictEqual(ev, {
-			team_names: ['TSV 1906 Freystadt', 'Blau-Weiss Wittorf-NMS'],
+			team_names: [csde._TEAM_NAMES['1-9'], csde._TEAM_NAMES['1-8']],
 			scoring: '5x11_15^90',
 			mscore: [0, 0],
 		});
@@ -91,7 +91,7 @@ describe('CourtSpot', () => {
 		const params = utils.parse_querystring(url);
 		csde._annotate(ev, params);
 		assert.deepStrictEqual(ev, {
-			team_names: ['STC BW Solingen', 'BC Hohenlimburg'],
+			team_names: [csde._TEAM_NAMES['2-14'], csde._TEAM_NAMES['2-18']],
 			scoring: '5x11_15^90',
 			mscore: [0, 0],
 			matches: [],

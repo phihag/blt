@@ -301,4 +301,5 @@ module.exports = {
 	// Testing only
 	_parse: parse,
 	_annotate: annotate,
+	_TEAM_NAMES: TEAM_NAMES,
 };
