@@ -5,9 +5,9 @@ const assert = require('assert');
 const eventutils = require('./eventutils');
 const utils = require('./utils');
 const source_helper = require('./source_helper');
+const {is_bundesliga, max_game_count, league_scoring} = require('./eventutils');
 
-
-const MATCH_NAMES = {
+const MATCH_NAMES_BUNDESLIGA = {
 	'1': 'HD1',
 	'2': 'DD',
 	'3': 'HD2',
@@ -16,6 +16,17 @@ const MATCH_NAMES = {
 	'6': 'GD',
 	'7': 'HE2',
 };
+const MATCH_NAMES_8 = {
+	'1': 'HD1',
+	'2': 'HD2',
+	'3': 'DD',
+	'4': 'HE1',
+	'5': 'HE2',
+	'6': 'HE3',
+	'7': 'DD',
+	'8': 'GD',
+};
+
 
 function _parse_players(player_str) {
 	if (player_str === '') {
@@ -54,12 +65,15 @@ function _parse_players(player_str) {
 	throw new Error('Unparsable: ' + JSON.stringify(player_str));
 }
 
-function parse(str) {
+function parse(src, str) {
 	const pipe_parts = str.split('|');
 	const metadata_ar = pipe_parts[0].split('~');
 
 	const mscore = [parseInt(metadata_ar[1]), parseInt(metadata_ar[2])];
 	const team_names = [metadata_ar[3], metadata_ar[4]].map(eventutils.unify_team_name);
+
+	const MATCH_NAMES = is_bundesliga(src.league_key) ? MATCH_NAMES_BUNDESLIGA : MATCH_NAMES_8;
+	const GAME_COUNT = max_game_count(league_scoring(src.league_key));
 
 	const match_parts = pipe_parts.slice(1, -1);
 	const courts = [{label: '1'}, {label: '2'}];
@@ -85,11 +99,11 @@ function parse(str) {
 		}
 
 		const SCORE_IDXSTART = 7;
-		for (let game_idx = 0;game_idx < 5;game_idx++) {
+		for (let game_idx = 0;game_idx < GAME_COUNT;game_idx++) {
 			if (mp[SCORE_IDXSTART + game_idx] !== '') {
 				res.score.push([
 					parseInt(mp[SCORE_IDXSTART + game_idx]),
-					parseInt(mp[SCORE_IDXSTART + game_idx + 5]),
+					parseInt(mp[SCORE_IDXSTART + game_idx + GAME_COUNT]),
 				]);
 			}
 		}
@@ -128,7 +142,7 @@ function run_once(cfg, src, sh, cb) {
 
 		let event;
 		try {
-			event = parse(txt);
+			event = parse(src, txt);
 		} catch (e) {
 			return cb(e);
 		}

@@ -123,17 +123,17 @@ function order_preferred_by_league(league_key) {
 }
 
 function league_scoring(league_key) {
-	if (NRW2016_RE.test(league_key) || /^RL[MNW]-2016$/.test(league_key)) {
-		return '3x21';
-	}
 	if (/^(?:1BL|2BLN|2BLS)-2015$/.test(league_key)) {
 		return '3x21';
 	}
 	if (/^(?:1BL|2BLN|2BLS)-2016$/.test(league_key)) {
 		return '5x11_15';
 	}
-	if (/^(?:1BL|2BLN|2BLS)-(?:2017|2018|2019)$/.test(league_key)) {
+	if (is_bundesliga(league_key)) {
 		return '5x11_15^90';
+	}
+	if (NRW2016_RE.test(league_key) || /^RL[MNW]-2016$/.test(league_key)) {
+		return '3x21';
 	}
 	if (league_key === 'OBL-2017') {
 		return '3x21';
@@ -153,10 +153,36 @@ function unify_team_name(team_name) {
 	}[team_name] || team_name;
 }
 
+function is_bundesliga(league_key) {
+	return /^(?:1BL|2BLN|2BLS)-/.test(league_key);
+}
+
+function max_game_count(counting) {
+	switch (counting) {
+	case '5x11_15':
+	case '5x11_15^90':
+	case '5x11_15~NLA':
+	case '5x11/3':
+	case '5x11_11':
+		return 5;
+	case '3x21':
+	case '3x15_18':
+	case '2x21+11':
+		return 3;
+	case '1x21':
+	case '1x11_15':
+		return 1;
+	default:
+		throw new Error('Invalid counting scheme ' + counting);
+	}
+}
+
 module.exports = {
 	calc_mscore,
+	is_bundesliga,
+	max_game_count,
 	league_scoring,
 	unify_name,
-	unify_team_name,
 	unify_order,
+	unify_team_name,
 };
