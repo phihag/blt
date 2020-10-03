@@ -21,7 +21,12 @@ async function main() {
 		const [err_msg, doc] = utils.parseXML(xml);
 		assert(!err_msg, `Failed to parse XML: ${err_msg}`);
 		for (const el of Array.from(doc.getElementsByTagName('Verein'))) {
-			const name = el.getElementsByTagName('Lang')[0].textContent;
+			let name = el.getElementsByTagName('Lang')[0].textContent;
+			const name_m = /^(.*)\ 1$/.exec(name);
+			if (name_m) {
+				name = name_m[1];
+			}
+
 			const id = el.getElementsByTagName('Nummer')[0].textContent;
 			console.log(`'${league}-${id}': '${name}',`);
 		}
