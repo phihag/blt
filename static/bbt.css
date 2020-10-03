@@ -112,11 +112,20 @@
 	margin-bottom: 0.5em;
 }
 
-.bbt_shortcut a:visited, .bbt_shortcut a:link {
+.bbt_nothing_warning {
+	text-align: center;
+	color: #733;
+	padding: 2em 0;
+}
+
+.bbt_shortcut a:visited, .bbt_shortcut a:link, .pseudo_link {
 	color: #000;
 	text-decoration: none;
 }
-.bbt_shortcut a:visited:hover, .bbt_shortcut a:link:hover {
+.bbt_shortcut a:visited:hover, .bbt_shortcut a:link:hover, .pseudo_link {
 	color: #00e;
 	text-decoration: underline;
+}
+.pseudo_link {
+	cursor: pointer;
 }

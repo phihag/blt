@@ -37,12 +37,45 @@ function init_ui() {
 
 		update();
 	}
+
+	init_nothing_warning();
+}
+
+function init_nothing_warning() {
+	var warning_el = document.querySelector('.bbt_nothing_warning');
+	if (!warning_el) return;
+
+	uiu.el(warning_el, 'div', '', 'Heute keine Spiele in den gewählten Ligen');
+	const show_link = uiu.el(warning_el, 'div', {
+		'class': 'pseudo_link',
+		style: 'margin-top: 0.2em;'
+	}, 'Alle Ligen anzeigen');
+	show_link.addEventListener('click', function() {
+		var checkboxes = document.querySelectorAll('.bbt_vissel input[type="checkbox"]');
+		for (var cb of Array.from(checkboxes)) {
+			prefs[cb.getAttribute('name')] = true;
+			cb.checked = true;
+		}
+
+		save();
+		update();
+	});
 }
 
 function update() {
+	var all_hidden = true;
 	uiu.qsEach('.bbt_event,.bbt_shortcut', function(el) {
-		uiu.setClass(el, 'bbt_invisible', !is_visible(el.getAttribute('data-league_key')));
+		var visible = is_visible(el.getAttribute('data-league_key'));
+		if (visible) all_hidden = false;
+		uiu.setClass(el, 'bbt_invisible', !visible);
 	});
+
+	var warning_el = document.querySelector('.bbt_nothing_warning');
+	if (warning_el) {
+		uiu.setClass(warning_el, 'bbt_invisible', !all_hidden);
+	} else {
+		report_problem.silent_error('Missing .bbt_nothing_warning');
+	}
 }
 
 function save() {
