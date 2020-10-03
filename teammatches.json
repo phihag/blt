@@ -62,18 +62,6 @@
     {
         "type": "auto",
         "team_names": [
-            "BC Phönix Hövelhof",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "14:00",
-        "date": "2020-08-30",
-        "date_de": "30.08.2020",
-        "ts": 1598788800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "BV RW Wesel",
             "VfB GW Mülheim"
         ],
@@ -94,18 +82,6 @@
         "date": "2020-09-05",
         "date_de": "05.09.2020",
         "ts": 1599318000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Hohenlimburg 2",
-            "BC Phönix Hövelhof"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2020-09-05",
-        "date_de": "05.09.2020",
-        "ts": 1599321600
     },
     {
         "type": "auto",
@@ -166,6 +142,18 @@
         "date": "2020-09-26",
         "date_de": "26.09.2020",
         "ts": 1601136000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2020-09-27",
+        "date_de": "27.09.2020",
+        "ts": 1601208000
     },
     {
         "type": "auto",
@@ -326,6 +314,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SG EBT Berlin",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2020-10-04",
+        "date_de": "04.10.2020",
+        "ts": 1601802000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SV Fischbach",
             "BC Offenburg"
         ],
@@ -388,18 +388,6 @@
         "team_names": [
             "BC Hohenlimburg",
             "Hamburg Horner TV"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2020-10-04",
-        "date_de": "04.10.2020",
-        "ts": 1601812800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SG EBT Berlin",
-            "TV Refrath 2"
         ],
         "league_key": "2BLN-2020",
         "starttime": "14:00",
@@ -806,6 +794,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Hohenlimburg 2",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "19:30",
+        "date": "2020-10-23",
+        "date_de": "23.10.2020",
+        "ts": 1603474200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Hohenlimburg",
             "SG EBT Berlin"
         ],
@@ -998,6 +998,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Remagen",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2020-10-25",
+        "date_de": "25.10.2020",
+        "ts": 1603627200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SG Schorndorf",
             "1.BC Sbr.-Bischmisheim"
         ],
@@ -1050,18 +1062,6 @@
             "Union Lüdinghausen 2"
         ],
         "league_key": "RLW-2016",
-        "starttime": "14:00",
-        "date": "2020-10-25",
-        "date_de": "25.10.2020",
-        "ts": 1603630800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Remagen",
-            "BC Offenburg"
-        ],
-        "league_key": "2BLS-2020",
         "starttime": "14:00",
         "date": "2020-10-25",
         "date_de": "25.10.2020",
@@ -1694,18 +1694,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TuS Neuhofen",
-            "BC Offenburg"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "19:30",
-        "date": "2020-12-11",
-        "date_de": "11.12.2020",
-        "ts": 1607711400
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV Berliner Brauereien",
             "SG EBT Berlin"
         ],
@@ -1806,6 +1794,18 @@
             "TSV Trittau 2"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2020-12-13",
+        "date_de": "13.12.2020",
+        "ts": 1607857200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Neuhofen",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
         "starttime": "12:00",
         "date": "2020-12-13",
         "date_de": "13.12.2020",
@@ -1958,30 +1958,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TuS Neuhofen",
-            "TSV Neubiberg\/Ottobrunn 1920"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "11:00",
-        "date": "2020-12-19",
-        "date_de": "19.12.2020",
-        "ts": 1608372000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Offenburg",
-            "TuS Geretsried"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "11:30",
-        "date": "2020-12-19",
-        "date_de": "19.12.2020",
-        "ts": 1608373800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SG Schorndorf",
             "TSV Neuhausen-Nymphenburg"
         ],
@@ -2078,8 +2054,20 @@
     {
         "type": "auto",
         "team_names": [
-            "TV 1884 Marktheidenfeld",
-            "1.BC Sbr.-Bischmisheim 2"
+            "TuS Neuhofen",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2020-12-19",
+        "date_de": "19.12.2020",
+        "ts": 1608386400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "TuS Geretsried"
         ],
         "league_key": "2BLS-2020",
         "starttime": "15:30",
@@ -2134,6 +2122,18 @@
         "date": "2020-12-19",
         "date_de": "19.12.2020",
         "ts": 1608393600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "1.BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "20:00",
+        "date": "2020-12-19",
+        "date_de": "19.12.2020",
+        "ts": 1608404400
     },
     {
         "type": "auto",
