@@ -38,6 +38,19 @@ function _parse_players(player_str) {
 		}];
 	}
 
+	const doubles_simple_m = /([^/]+)\/([^/]+)/.exec(player_str);
+	if (doubles_simple_m) {
+		return [
+			{name: doubles_simple_m[1].trim()},
+			{name: doubles_simple_m[2].trim()},
+		];
+	}
+
+	// Hopefully just a simple singles player
+	if (!player_str.includes(',') && !player_str.includes('/')) {
+		return [{name: player_str}];
+	}
+
 	throw new Error('Unparsable: ' + JSON.stringify(player_str));
 }
 
