@@ -146,6 +146,11 @@
 "VfB GW Mülheim": {
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/vfbgwmuelheim/"
+},
+
+"1.CfB Köln": {
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/cfbkoeln/"
 }
 
 }
