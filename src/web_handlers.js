@@ -55,12 +55,12 @@ function streams_handler(req, res, next) {
 	}, true);
 }
 
-function stream_handler(req, res, next) {
+function stream_handler(req, res) {
 	const shortname = req.params.shortname;
 	res.redirect(`/bup/#display&dm_style=stream&bbt_poll=${shortname}&court=referee&nosettings`);
 }
 
-function streamcourt_handler(req, res, next) {
+function streamcourt_handler(req, res) {
 	const shortname = req.params.shortname;
 	const court = req.params.court;
 	res.redirect(`/bup/#display&dm_style=streamcourt&bbt_poll=${shortname}&court=${court}&nosettings`);

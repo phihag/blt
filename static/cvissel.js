@@ -48,7 +48,7 @@ function init_nothing_warning() {
 	uiu.el(warning_el, 'div', '', 'Heute keine Spiele in den gewählten Ligen');
 	const show_link = uiu.el(warning_el, 'div', {
 		'class': 'pseudo_link',
-		style: 'margin-top: 0.2em;'
+		style: 'margin-top: 0.2em;',
 	}, 'Alle Ligen anzeigen');
 	show_link.addEventListener('click', function() {
 		var checkboxes = document.querySelectorAll('.bbt_vissel input[type="checkbox"]');
