@@ -197,6 +197,8 @@ var SHORT_NAMES = {
 	'SV Berliner Brauereien': 'BerlinerBrauereien',
 	'1.BV Mülheim': 'BVMülheim',
 	'VfB GW Mülheim': 'GWMülheim',
+	'Gladbecker FC': 'Gladbeck',
+	'1.CfB Köln': 'Köln',
 };
 function shortname(team_name) {
 	var num_m = /^(.*)\s([JSM]?(?:[1-9]|[1-3][0-9]))$/.exec(team_name);
