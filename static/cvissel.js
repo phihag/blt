@@ -66,15 +66,27 @@ function update() {
 	var all_hidden = true;
 	uiu.qsEach('.bbt_event,.bbt_shortcut', function(el) {
 		var visible = is_visible(el.getAttribute('data-league_key'));
-		if (visible) all_hidden = false;
+		if (visible) {
+			all_hidden = false;
+		}
 		uiu.setClass(el, 'bbt_invisible', !visible);
 	});
 
+	update_nothing_warning(all_hidden);
+}
+
+function update_nothing_warning(show) {
 	var warning_el = document.querySelector('.bbt_nothing_warning');
 	if (warning_el) {
-		uiu.setClass(warning_el, 'bbt_invisible', !all_hidden);
+		uiu.setClass(warning_el, 'bbt_invisible', !show);
 	} else {
 		report_problem.silent_error('Missing .bbt_nothing_warning');
+	}
+}
+
+function on_add_event(event) {
+	if (is_visible(event.league_key)) {
+		update_nothing_warning(false);
 	}
 }
 
@@ -141,6 +153,7 @@ return {
 	clear_checkboxes: clear_checkboxes,
 	add_league: add_league,
 	is_visible: is_visible,
+	on_add_event: on_add_event,
 };
 
 })();

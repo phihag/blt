@@ -185,6 +185,7 @@ function render_event(container, shortcut_container, ev) {
 
 	shortcut_container.setAttribute('data-league_key', ev.league_key);
 	uiu.setClass(shortcut_container, 'bbt_invisible', !cvissel.is_visible(ev.league_key));
+	cvissel.on_add_event(ev);
 
 	var shortcut_str = extradata.shortname(team_names[0]) + (ev.mscore ? ' ' + ev.mscore[0] + ':' + ev.mscore[1] + ' ' : ' - ') + extradata.shortname(team_names[1]);
 	uiu.el(shortcut_container, 'a', {
