@@ -19,6 +19,7 @@ var TEAM_COLORS = {
 	'Hofheim': '#181d4b',
 	'Hohenlimburg': '#0ebbff',
 	'Horner': '#f4b692', // Hamburg Horner TV
+	'Hövelhof': '#ce1b28', // BX Phönix Hövelhof
 	'Jena': '#3466a4', // SV GutsMuths Jena
 	'Lüdinghausen': '#ff1400',
 	'Marktheidenfeld': '#1c3759',
