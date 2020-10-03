@@ -72,8 +72,9 @@ function parse(src, str) {
 	const mscore = [parseInt(metadata_ar[1]), parseInt(metadata_ar[2])];
 	const team_names = [metadata_ar[3], metadata_ar[4]].map(eventutils.unify_team_name);
 
+	const scoring = league_scoring(src.league_key) || '5x11_15^90';
 	const MATCH_NAMES = is_bundesliga(src.league_key) ? MATCH_NAMES_BUNDESLIGA : MATCH_NAMES_8;
-	const GAME_COUNT = max_game_count(league_scoring(src.league_key));
+	const GAME_COUNT = max_game_count(scoring);
 
 	const match_parts = pipe_parts.slice(1, -1);
 	const courts = [{label: '1'}, {label: '2'}];
@@ -116,7 +117,6 @@ function parse(src, str) {
 
 		return res;
 	});
-	const scoring = '5x11_15^90';
 
 	return {
 		team_names,
