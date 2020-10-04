@@ -32,15 +32,7 @@ const MATCH_IDS = [
 	{'id': 92, 'team_a': '1. BC Beuel', 'team_b': '1. BC Bischmisheim', 'match_time': 1572184800.0},
 	{'id': 93, 'team_a': '1. BC Beuel', 'team_b': '1. BC Wipperfeld 1', 'match_time': 1584126000.0},
 
-	{'id': 81, 'team_a': '1. BC Beuel 2', 'team_b': '1.BV M\u00fclheim 2', 'match_time': 1567951200.0},
-	{'id': 82, 'team_a': '1. BC Beuel 2', 'team_b': 'STC Blau-Weiss Solingen', 'match_time': 1571508000.0},
-	{'id': 83, 'team_a': '1. BC Beuel 2', 'team_b': 'Hamburg Horner TV', 'match_time': 1572112800.0},
-	{'id': 84, 'team_a': '1. BC Beuel 2', 'team_b': 'TV Refrath 2', 'match_time': 1573304400.0},
-	{'id': 85, 'team_a': '1. BC Beuel 2', 'team_b': 'TSV Trittau 2', 'match_time': 1576951200.0},
-	{'id': 86, 'team_a': '1. BC Beuel 2', 'team_b': 'SG EBT Berlin', 'match_time': 1581256800.0},
-	{'id': 87, 'team_a': '1. BC Beuel 2', 'team_b': 'BC Hohenlimburg', 'match_time': 1582394400.0},
-	{'id': 88, 'team_a': '1. BC Beuel 2', 'team_b': 'BV RW Wesel', 'match_time': 1584270000.0},
-	{'id': 96, 'team_a': '1. BC Beuel 2', 'team_b': 'SV Berliner Brauereien 1', 'match_time': 1581184800.0},
+{"id": 99, "team_a": "1. BC Beuel 2", "team_b": "TV Refrath 2", "match_time": 1603562400.0}, {"id": 100, "team_a": "1. BC Beuel 2", "team_b": "STC Blau-Weiss Solingen", "match_time": 1603634400.0}, {"id": 101, "team_a": "1. BC Beuel 2", "team_b": "BC Hohenlimburg", "match_time": 1608318000.0}, {"id": 102, "team_a": "1. BC Beuel 2", "team_b": "1. BV Muelheim", "match_time": 1608472800.0}, {"id": 103, "team_a": "1. BC Beuel 2", "team_b": "1.CfB K\u00f6ln", "match_time": 1612029600.0}, {"id": 104, "team_a": "1. BC Beuel 2", "team_b": "SG EBT Berlin", "match_time": 1613228400.0}, {"id": 105, "team_a": "1. BC Beuel 2", "team_b": "TSV Trittau 2", "match_time": 1616263200.0}, {"id": 106, "team_a": "1. BC Beuel 2", "team_b": "Hamburg Horner TV", "match_time": 1616335200.0}, {"id": 107, "team_a": "1. BC Beuel 2", "team_b": "VfB/SC Peine", "match_time": 1601820000.0}, {"id": 108, "team_a": "1. BC Beuel 2", "team_b": "SV Berliner Brauereien 1", "match_time": 1613296800.0}
 ];
 
 const ALIAS_NAMES = {
