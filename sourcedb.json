@@ -138,6 +138,10 @@
 "TV 1860 Hofheim": {
 	"type": "csde"
 },
+"TuS Schwanheim": {
+	"type": "csde"
+},
+
 "BC Offenburg": {
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/bcoffenburg/"
@@ -151,6 +155,11 @@
 "1.CfB Köln": {
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/cfbkoeln/"
+},
+
+"TuS Neuhofen": {
+	"type": "csde"
 }
+
 
 }
