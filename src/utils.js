@@ -210,8 +210,18 @@ function download_file(url, fn, callback) {
 	});
 }
 
+function async_express_handler(func) {
+	return async (req, res, next) => {
+		try {
+			await func(req, res);
+		} catch(err) {
+			return next(err);
+		}
+	};
+}
 
 module.exports = {
+	async_express_handler,
 	broadcast,
 	cmp,
 	cmp_key,

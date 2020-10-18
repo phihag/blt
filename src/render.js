@@ -2,6 +2,8 @@ const mustache = require('mustache');
 const fs = require('fs');
 const path = require('path');
 
+const {promisify} = require('util');
+
 const ROOT_DIR = path.dirname(__dirname);
 
 function _read_template(cfg, template_id, callback) {
@@ -109,5 +111,24 @@ function render(req, res, next, template_id, data, no_scaffold) {
 	});
 }
 
-module.exports = render;
+async function async_render(req, res, template_id, data, no_scaffold) {
+	const cfg = req.app.cfg;
+	add_helper_funcs(data);
+	data.root_path = req.app.root_path;
+	data.static_path = req.app.root_path + 'static/';
+	data.production = cfg('production', false);
+	data.report_problems = cfg('report_problems', true);
+	data.note_html = cfg('note_html', '');
+	const content = await promisify(render_mustache)(cfg, template_id, data);
 
+	if (no_scaffold) {
+		return res.send(content);
+	}
+
+	data.content = content;
+	const html = await promisify(render_mustache)(cfg, 'scaffold', data);
+	res.send(html);
+}
+
+module.exports = render;
+render.async_render = async_render;
