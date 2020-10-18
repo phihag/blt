@@ -1,3 +1,10 @@
+admin interface for overrides
+	auth
+	change override
+
+streams
+
+
 link should be able to go lower-ase
 
 automatically reload when going online if new code version is available (e.g. on smartphones)
