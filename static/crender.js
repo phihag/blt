@@ -124,10 +124,15 @@ function render_event(container, shortcut_container, ev) {
 		}
 	}
 
-	if (admin_note) {
-		uiu.el(container, 'div', {
+	var admin_note_html = ev.admin_note_html;
+	if (admin_note || admin_note_html) {
+		var div = uiu.el(container, 'div', {
 			style: 'white-space:pre-wrap;padding:0.4em 0;color:#000;text-align:center;',
 		}, admin_note);
+
+		if (admin_note_html) {
+			div.innerHTML = admin_note_html;
+		}
 	}
 
 	if (ev.matches) {
@@ -138,7 +143,7 @@ function render_event(container, shortcut_container, ev) {
 			});
 			render_match(table, ev, team_colors, max_game_count, match);
 		});
-	} else if (!admin_note) {
+	} else if (!admin_note && !admin_note_html) {
 		uiu.el(container, 'div', {}, 'Ticker noch nicht aktiv');
 	}
 
