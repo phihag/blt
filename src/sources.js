@@ -17,12 +17,17 @@ const TYPES = {
 
 function apply_overrides(tms, overrides) {
 	for (const o of overrides) {
-		const tm = utils.find(tms, (search_tm) => {
-			return (
-				utils.deep_equal(o.team_names, search_tm.team_names) &&
-				(o.date === search_tm.date)
-			);
+		const matching_tms = tms.filter(search_tm => {
+			return utils.deep_equal(o.team_names, search_tm.team_names);
 		});
+
+		let tm;
+		if (matching_tms.length > 1) {
+			tm = matching_tms.find(search_tm => o.date === search_tm.date)
+		} else {
+			tm = matching_tms[0];
+		}
+
 		if (!tm) {
 			throw new Error(
 				'Could not find match ' + o.team_names[0] + '-' + o.team_names[1] +
