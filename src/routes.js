@@ -6,6 +6,8 @@ const path = require('path');
 
 const web_handlers = require('./web_handlers');
 const bup_handlers = require('./bup_handlers');
+const admin_handlers = require('./admin_handlers');
+const {async_express_handler} = require('./utils');
 
 function setup(cfg, app) {
 	app.use('/static', express.static((cfg('production', false) ? 'dist/' : '') + 'static'));
@@ -22,6 +24,9 @@ function setup(cfg, app) {
 	app.get('/bupdate', bup_handlers.bupdate_handler);
 	app.use('/bup', express.static('bup', {index: ['index.html', 'bup.html']}));
 	app.get('/event', bup_handlers.event_handler);
+
+	app.get('/admin', async_express_handler(admin_handlers.overview_handler));
+	app.post('/admin/override', async_express_handler(admin_handlers.override_handler));
 }
 
 
