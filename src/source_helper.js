@@ -11,7 +11,7 @@ function copy_props(ev, src) {
 		const admin_note = (
 			'Der Original-Liveticker ist noch nicht verfügbar.'
 		);
-		ev.admin_note = admin_note;
+		ev.admin_note = ev.admin_note || admin_note;
 		ev.team_names = src.team_names;
 		ev.matches = false;
 		ev.mscore = [0, 0];
@@ -21,7 +21,7 @@ function copy_props(ev, src) {
 			'Der Original-Liveticker ist noch nicht richtig eingestellt' +
 			'\n(zeigt noch ' + ev.team_names[0] + ' - ' + ev.team_names[1] + ').'
 		);
-		ev.admin_note = admin_note;
+		ev.admin_note = ev.admin_note || admin_note;
 		ev.team_names = src.team_names;
 		ev.matches = false;
 		ev.mscore = [0, 0];

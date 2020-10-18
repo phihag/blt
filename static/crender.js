@@ -124,6 +124,12 @@ function render_event(container, shortcut_container, ev) {
 		}
 	}
 
+	if (admin_note) {
+		uiu.el(container, 'div', {
+			style: 'white-space:pre-wrap;padding:0.4em 0;color:#000;text-align:center;',
+		}, admin_note);
+	}
+
 	if (ev.matches) {
 		ev.matches.forEach(function(match) {
 			var table = uiu.el(container, 'table', {
@@ -134,12 +140,6 @@ function render_event(container, shortcut_container, ev) {
 		});
 	} else if (!admin_note) {
 		uiu.el(container, 'div', {}, 'Ticker noch nicht aktiv');
-	}
-
-	if (admin_note) {
-		uiu.el(container, 'div', {
-			style: 'white-space:pre-wrap;',
-		}, admin_note);
 	}
 
 	var event_note = ev.event_note;
