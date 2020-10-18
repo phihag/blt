@@ -23,7 +23,7 @@ function apply_overrides(tms, overrides) {
 
 		let tm;
 		if (matching_tms.length > 1) {
-			tm = matching_tms.find(search_tm => o.date === search_tm.date)
+			tm = matching_tms.find(search_tm => o.date === search_tm.date);
 		} else {
 			tm = matching_tms[0];
 		}
