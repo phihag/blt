@@ -3,7 +3,7 @@
 {
 	"team_names": ["TV Refrath 2", "BC Hohenlimburg"],
 	"override": {
-		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\">Live-Streams: <a href=\"https://www.youtube.com/watch?v=S0w8wZuoHks\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Feld 1</a> <a href=\"https://www.youtube.com/watch?v=LX-XkdbVoIY\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Feld 2</a></div>"
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\">Live-Streams: <a href=\"https://www.youtube.com/watch?v=S0w8wZuoHks\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Feld 1</a> &amp; <a href=\"https://www.youtube.com/watch?v=LX-XkdbVoIY\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Feld 2</a></div>"
 	}
 },
 
@@ -12,6 +12,54 @@
 	"override": {
 		"admin_note": "Komplettausfall des Internetzugangs in der Halle. An der Behebung des Problems wird gearbeitet."
 	}
+},
+
+{
+	"team_names": ["SG VfB/SC Peine", "SV Berliner Brauereien"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.youtube.com/watch?v=pERr2QnFxkw\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
+},
+
+{
+	"team_names": ["SG Schorndorf", "SC Union Lüdinghausen"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/sg-schorndorf-sc-union-luedinghausen/\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
+},
+
+{
+	"team_names": ["Blau-Weiss Wittorf-NMS", "TV Refrath"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/blau-weiss-wittorf-nms-tv-refrath/\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
+},
+
+{
+	"team_names": ["TSV Neuhausen-Nymphenburg", "SV GutsMuths Jena"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/tsv-neuhausen-nymphenburg-sv-gutsmuths-jena/\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
+},
+
+
+{
+	"team_names": ["1.BC Sbr.-Bischmisheim", "1.BC Beuel"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/1bc-sbr-bischmisheim-1bc-beuel/\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
+},
+
+{
+	"team_names": ["1.BC Wipperfeld", "TSV Trittau"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/1bc-wipperfeld-tsv-trittau/\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
 }
+
+
+
+
+
 
 ]
