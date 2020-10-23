@@ -402,10 +402,10 @@
             "BV RW Wesel"
         ],
         "league_key": "RLW-2016",
-        "starttime": "18:00",
+        "starttime": "17:00",
         "date": "2020-10-10",
         "date_de": "10.10.2020",
-        "ts": 1602345600
+        "ts": 1602342000
     },
     {
         "type": "auto",
@@ -890,6 +890,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Hohenlimburg",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2020-10-25",
+        "date_de": "25.10.2020",
+        "ts": 1603623600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "Hamburg Horner TV",
             "SG VfB\/SC Peine"
         ],
@@ -974,18 +986,6 @@
     {
         "type": "auto",
         "team_names": [
-            "BC Hohenlimburg",
-            "SV Berliner Brauereien"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2020-10-25",
-        "date_de": "25.10.2020",
-        "ts": 1603630800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "Blau-Weiss Wittorf-NMS",
             "1.BC Beuel"
         ],
@@ -1054,18 +1054,6 @@
         "date": "2020-10-31",
         "date_de": "31.10.2020",
         "ts": 1604152800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Hohenlimburg 2",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2020-10-31",
-        "date_de": "31.10.2020",
-        "ts": 1604163600
     },
     {
         "type": "auto",
@@ -1258,6 +1246,18 @@
         "date": "2020-11-07",
         "date_de": "07.11.2020",
         "ts": 1604768400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg 2",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "10:30",
+        "date": "2020-11-08",
+        "date_de": "08.11.2020",
+        "ts": 1604827800
     },
     {
         "type": "auto",
