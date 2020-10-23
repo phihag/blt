@@ -149,7 +149,7 @@ function league_scoring(league_key) {
 function unify_team_name(team_name) {
 	team_name = team_name.replace('<wbr>', '');
 	return {
-		'STC Blau-Weiss Solingen': 'STC BW Solingen',
+		'STC BW Solingen': 'STC Blau-Weiss Solingen',
 	}[team_name] || team_name;
 }
 
