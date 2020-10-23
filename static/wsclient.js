@@ -117,7 +117,7 @@ function keepalive() {
 
 function onopen() {
 	timeout_length = DEFAULT_TIMEOUT;
-	_show_status('Live.');
+	_show_status('');
 }
 
 function reconnect() {
