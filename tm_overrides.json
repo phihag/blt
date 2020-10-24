@@ -55,11 +55,32 @@
 	"override": {
 		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/1bc-wipperfeld-tsv-trittau/\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
 	}
+},
+
+
+
+{
+	"team_names": ["SV GutsMuths Jena", "TV Refrath"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/sv-gutsmuths-jena-tv-refrath/\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
+},
+
+
+{
+	"team_names": ["1.CfB Köln", "STC Blau-Weiss Solingen"],
+	"override": {
+		"admin_note_html": "<div style=\"margin: 10px 0;\"><a href=\"https://zoom.us/j/82151014191\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Konferenz</a></div>"
+	}
+},
+
+
+{
+	"team_names": ["1.BC Beuel 2", "TV Refrath 2"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.twitch.tv/badminton_beuel\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
 }
-
-
-
-
 
 
 ]
