@@ -82,6 +82,13 @@
 	}
 },
 
+{
+	"team_names": ["BC Remagen", "TuS Neuhofen"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.twitch.tv/bcremagen\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+	}
+},
+
 
 {
 	"team_names": ["1.BC Beuel 2", "TV Refrath 2"],
