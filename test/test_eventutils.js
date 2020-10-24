@@ -14,7 +14,7 @@ describe('eventutils', () => {
 	});
 
 	it('unify_team_name', () => {
-		assert.strictEqual(eventutils.unify_team_name('STC Blau-Weiss Solingen'), 'STC BW Solingen');
+		assert.strictEqual(eventutils.unify_team_name('STC BW Solingen'), 'STC Blau-Weiss Solingen');
 		assert.strictEqual(eventutils.unify_team_name('OSC Düsseldorf'), 'OSC Düsseldorf');
 	});
 
