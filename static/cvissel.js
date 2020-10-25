@@ -30,7 +30,10 @@ function init_ui() {
 	if (new_prefs_json) {
 		prefs = JSON.parse(new_prefs_json);
 
-		if (Object.keys(prefs).some(league_key => !ALL_LEAGUES.includes(league_key))) {
+		var is_old_key = function(league_key) {
+			return !ALL_LEAGUES.includes(league_key);
+		};
+		if (Object.keys(prefs).some(is_old_key)) {
 			// Configuration from last season, restore to defaults
 			prefs = JSON.parse(JSON.stringify(DEFAULT_PREFS));
 		}
@@ -46,16 +49,16 @@ function init_nothing_warning() {
 	if (!warning_el) return;
 
 	uiu.el(warning_el, 'div', '', 'Heute keine Spiele in den gewählten Ligen');
-	const show_link = uiu.el(warning_el, 'div', {
+	var show_link = uiu.el(warning_el, 'div', {
 		'class': 'pseudo_link',
 		style: 'margin-top: 0.2em;',
 	}, 'Alle Ligen anzeigen');
 	show_link.addEventListener('click', function() {
 		var checkboxes = document.querySelectorAll('.bbt_vissel input[type="checkbox"]');
-		for (var cb of Array.from(checkboxes)) {
+		Array.from(checkboxes).forEach(function(cb) {
 			prefs[cb.getAttribute('name')] = true;
 			cb.checked = true;
-		}
+		});
 
 		save();
 		update();
