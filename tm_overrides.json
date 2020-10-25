@@ -68,7 +68,7 @@
 
 
 {
-	"team_names": ["TuS Schwanheim", "1.BC Sbr.-Bischmisheim 2"],
+	"team_names": ["TuS Schwanheim", "SV Fischbach"],
 	"override": {
 		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.twitch.tv/tus1872schwanheim\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
 	}
@@ -76,47 +76,75 @@
 
 
 {
-	"team_names": ["1.CfB Köln", "STC Blau-Weiss Solingen"],
+	"team_names": ["1.CfB Köln", "TV Refrath 2"],
 	"override": {
-		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.youtube.com/watch?v=qRQQTNT3m_c\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a><span style=\"display:inline-block;margin-left:1em;\"> </span><span style=\"\"><a href=\"https://us02web.zoom.us/j/82151014191?pwd=dThsMm5vSldHWGJVMkhKUFhEYXVhQT09\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Konferenz</a></span></div>"
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.youtube.com/watch?v=5n3vxYMhRiQ\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a><span style=\"display:inline-block;margin-left:1em;\"> </span><span style=\"\"><a href=\"https://us02web.zoom.us/j/82151014191?pwd=dThsMm5vSldHWGJVMkhKUFhEYXVhQT09\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Konferenz</a></span></div>"
 	}
 },
 
 {
-	"team_names": ["BC Remagen", "TuS Neuhofen"],
+	"team_names": ["BC Remagen", "BC Offenburg"],
 	"override": {
 		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.twitch.tv/bcremagen\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
 	}
 },
 
 {
-	"team_names": ["TSV Trittau 2", "SG VfB/SC Peine"],
+	"team_names": ["Hamburg Horner TV", "SG VfB/SC Peine"],
 	"override": {
-		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.facebook.com/peinebadminton/videos/1628928093945101/\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.facebook.com/watch/live/?v=1655498464618238\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
 	}
 },
 
 
 {
-	"team_names": ["TV Hofheim", "BC Offenburg"],
+	"team_names": ["TV Hofheim", "TuS Neuhofen"],
 	"override": {
-		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.youtube.com/watch?v=XMvY1xeJvWI\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.youtube.com/watch?v=9Zj6oZpx9So\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
 	}
 },
 
 {
-	"team_names": ["TV 1884 Marktheidenfeld", "TuS Geretsried"],
+	"team_names": ["TV 1884 Marktheidenfeld", "TSV Neubiberg/Ottobrunn 1920"],
 	"override": {
 		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.twitch.tv/tvmarktheidenfeld\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
 	}
 },
 
 {
-	"team_names": ["1.BC Beuel 2", "TV Refrath 2"],
+	"team_names": ["1.BC Beuel 2", "STC Blau-Weiss Solingen"],
 	"override": {
 		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://www.twitch.tv/badminton_beuel\" target=\"_blank\" rel=\"noopener\" style=\"font-weight: bold;\">Live-Stream</a></div>"
 	}
-}
+},
 
+
+{
+	"team_names": ["1.BC Wipperfeld", "TSV Neuhausen-Nymphenburg"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/1bc-wipperfeld-tsv-neuhausen-nymphenburg/\" target=\"blank\" rel=\"noopener\" style=\"font-weight:bold;\">Live-Stream</a></div>"
+	}
+},
+
+{
+	"team_names": ["SG Schorndorf", "1.BC Sbr.-Bischmisheim"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/sg-schorndorf-1bc-sbr-bischmisheim/\" target=\"blank\" rel=\"noopener\" style=\"font-weight:bold;\">Live-Stream</a></div>"
+	}
+},
+
+{
+	"team_names": ["Blau-Weiss Wittorf-NMS", "1.BC Beuel"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/blau-weiss-wittorf-nms-1bc-beuel/\" target=\"blank\" rel=\"noopener\" style=\"font-weight:bold;\">Live-Stream</a></div>"
+	}
+},
+
+{
+	"team_names": ["TSV Trittau", "SC Union Lüdinghausen"],
+	"override": {
+		"admin_note_html": "<div style=\"font-size:120%; margin: 10px 0;\"><a href=\"https://live.badminton.de/spiel/tsv-trittau-sc-union-luedinghausen/\" target=\"blank\" rel=\"noopener\" style=\"font-weight:bold;\">Live-Stream</a></div>"
+	}
+}
 
 ]
