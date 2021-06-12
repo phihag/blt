@@ -68,6 +68,7 @@ starttime   Human-readable string of scheduled match start time, i.e. "14:00"
 date        ISO 8601 date (YYYY-MM-DD)
 ts          UNIX timestamp of start of match.
 courts      An array of courts (optional)
+live_stream_url  Link to video live steam, e.g. on YouTube or twitch.
 
 court
 =====

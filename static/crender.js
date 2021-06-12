@@ -135,6 +135,17 @@ function render_event(container, shortcut_container, ev) {
 		}
 	}
 
+	if (ev.live_stream_url) {
+		var live_stream_div = uiu.el(container, 'div', {
+			style: 'padding:0.4em 0;color:#000;text-align:center;',
+		});
+		uiu.el(live_stream_div, 'a', {
+			href: ev.live_stream_url,
+			target: '_blank',
+			rel: 'noopener',
+		}, ev.live_stream_url);
+	}
+
 	if (ev.matches) {
 		ev.matches.forEach(function(match) {
 			var table = uiu.el(container, 'table', {
