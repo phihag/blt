@@ -13,7 +13,7 @@ async function main() {
 	});
 	parser.parseArgs();
 
-	for (const league of [1, 2, 3, 4]) {
+	for (const league of [1, 2, 3, 4, 11, 12]) {
 		const response = await fetch(`https://courtspot.de/php__Skripte/getVereine.php?liga=${league}`);
 		assert.equal(response.status, 200);
 		const xml = await response.text();
