@@ -2,145 +2,27 @@
     {
         "type": "csde",
         "team_names": [
-            "SC Union Lüdinghausen",
-            "Blau-Weiss Wittorf-NMS"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "10:00",
-        "date": "2021-06-12",
-        "date_de": "12.06.2021",
-        "ts": 1623484800
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "TV Refrath",
-            "TSV Trittau"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "10:00",
-        "date": "2021-06-12",
-        "date_de": "12.06.2021",
-        "ts": 1623484800
-    },
-    {
-        "type": "csde",
-        "team_names": [
             "1.BC Sbr.-Bischmisheim",
-            "SG Schorndorf"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "13:00",
-        "date": "2021-06-12",
-        "date_de": "12.06.2021",
-        "ts": 1623495600
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "1.BC Wipperfeld",
-            "SV GutsMuths Jena"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "13:00",
-        "date": "2021-06-12",
-        "date_de": "12.06.2021",
-        "ts": 1623495600
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "1.BC Sbr.-Bischmisheim",
-            "Blau-Weiss Wittorf-NMS"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "16:00",
-        "date": "2021-06-12",
-        "date_de": "12.06.2021",
-        "ts": 1623506400
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "1.BC Wipperfeld",
-            "TSV Trittau"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "16:00",
-        "date": "2021-06-12",
-        "date_de": "12.06.2021",
-        "ts": 1623506400
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "SC Union Lüdinghausen",
-            "SG Schorndorf"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "19:00",
-        "date": "2021-06-12",
-        "date_de": "12.06.2021",
-        "ts": 1623517200
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "TV Refrath",
-            "SV GutsMuths Jena"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "19:00",
-        "date": "2021-06-12",
-        "date_de": "12.06.2021",
-        "ts": 1623517200
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "1.BC Sbr.-Bischmisheim",
-            "SC Union Lüdinghausen"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "11:00",
-        "date": "2021-06-13",
-        "date_de": "13.06.2021",
-        "ts": 1623574800
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "1.BC Wipperfeld",
             "TV Refrath"
         ],
         "league_key": "1BL-2020",
-        "starttime": "11:00",
-        "date": "2021-06-13",
-        "date_de": "13.06.2021",
-        "ts": 1623574800
+        "starttime": "12:00",
+        "date": "2021-06-19",
+        "date_de": "19.06.2021",
+        "ts": 1624096800,
+        "live_streams": [{"url": "https://sportdeutschland.tv/badminton/1-bl-final-four-halbfinale-bc-saarbruecken-bischmisheim-tv-refrath", "label": "Live-Stream auf sportdeutschland.tv"}]
     },
     {
         "type": "csde",
         "team_names": [
-            "Blau-Weiss Wittorf-NMS",
-            "SG Schorndorf"
+            "1.BC Wipperfeld",
+            "SC Union Lüdinghausen"
         ],
         "league_key": "1BL-2020",
-        "starttime": "11:00",
-        "date": "2021-06-13",
-        "date_de": "13.06.2021",
-        "ts": 1623574800
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "TSV Trittau",
-            "SV GutsMuths Jena"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "11:00",
-        "date": "2021-06-13",
-        "date_de": "13.06.2021",
-        "ts": 1623574800
+        "starttime": "12:00",
+        "date": "2021-06-19",
+        "date_de": "19.06.2021",
+        "ts": 1624096800,
+        "live_streams": [{"url": "https://sportdeutschland.tv/badminton/bl-final-four-halbfinale-2-1-bc-wipperfeld-sc-union", "label": "Live-Stream auf sportdeutschland.tv"}]
     }
 ]
