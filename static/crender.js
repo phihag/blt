@@ -135,15 +135,18 @@ function render_event(container, shortcut_container, ev) {
 		}
 	}
 
-	if (ev.live_stream_url) {
+	if (ev.live_streams) {
 		var live_stream_div = uiu.el(container, 'div', {
 			style: 'padding:0.4em 0;color:#000;text-align:center;',
 		});
-		uiu.el(live_stream_div, 'a', {
-			href: ev.live_stream_url,
-			target: '_blank',
-			rel: 'noopener',
-		}, ev.live_stream_url);
+		for (var live_stream of ev.live_streams) {
+			var label = live_stream.label || live_stream.url;
+			uiu.el(live_stream_div, 'a', {
+				href: live_stream.url,
+				target: '_blank',
+				rel: 'noopener',
+			}, label);
+		}
 	}
 
 	if (ev.matches) {

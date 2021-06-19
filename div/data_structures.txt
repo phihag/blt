@@ -68,7 +68,7 @@ starttime   Human-readable string of scheduled match start time, i.e. "14:00"
 date        ISO 8601 date (YYYY-MM-DD)
 ts          UNIX timestamp of start of match.
 courts      An array of courts (optional)
-live_stream_url  Link to video live steam, e.g. on YouTube or twitch.
+live_streams  Array of stream, describing video live streams.
 
 court
 =====
@@ -90,3 +90,8 @@ player
 name*     Full player name
 lastname  Surname of the player
 firstname Given name of the player
+
+stream
+======
+url*  URL of the video live stream
+label e.g. "Court 1 on YouTube"
