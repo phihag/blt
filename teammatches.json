@@ -3,26 +3,13 @@
         "type": "csde",
         "team_names": [
             "1.BC Sbr.-Bischmisheim",
-            "TV Refrath"
+            "1.BC Wipperfeld"
         ],
         "league_key": "1BL-2020",
-        "starttime": "12:00",
-        "date": "2021-06-19",
-        "date_de": "19.06.2021",
-        "ts": 1624096800,
-        "live_streams": [{"url": "https://sportdeutschland.tv/badminton/1-bl-final-four-halbfinale-bc-saarbruecken-bischmisheim-tv-refrath", "label": "Live-Stream auf sportdeutschland.tv"}]
-    },
-    {
-        "type": "csde",
-        "team_names": [
-            "1.BC Wipperfeld",
-            "SC Union Lüdinghausen"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "12:00",
-        "date": "2021-06-19",
-        "date_de": "19.06.2021",
-        "ts": 1624096800,
-        "live_streams": [{"url": "https://sportdeutschland.tv/badminton/bl-final-four-halbfinale-2-1-bc-wipperfeld-sc-union", "label": "Live-Stream auf sportdeutschland.tv"}]
+        "starttime": "14:00",
+        "date": "2021-06-20",
+        "date_de": "20.06.2021",
+        "ts": 1624190400,
+        "live_streams": [{"url": "https://sportdeutschland.tv/badminton/1-bc-bl-final-four-finale-saarbruecken-bischmisheim-wipperfeld-court", "label": "Live-Stream Feld 1"}, {"url": "https://sportdeutschland.tv/badminton/1-bc-bl-final-four-finale-saarbruecken-bischmisheim-wipperfeld-court-2", "label": "Live-Stream Feld 2"}]
     }
 ]
