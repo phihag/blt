@@ -2,6 +2,9 @@
 "1.BC Wipperfeld": {
 	"type": "csde"
 },
+"1.BC Wipperfeld 2": {
+	"type": "csde"
+},
 "TSV Neuhausen-Nymphenburg": {
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/tsvneuhausennymphenburg/"
@@ -33,7 +36,7 @@
 "Blau-Weiss Wittorf-NMS": {
 	"type": "csde"
 },
-"Hamburg Horner TV": {
+"Horner TV": {
 	"type": "csde"
 },
 "SV Berliner Brauereien": {
@@ -95,10 +98,10 @@
 "SG VfB/SC Peine": {
 	"type": "csde"
 },
-"1.BC Sbr.-Bischmisheim": {
+"1. BC Sbr.-Bischmisheim": {
 	"type": "csde"
 },
-"1.BC Sbr.-Bischmisheim 2": {
+"1. BC Sbr.-Bischmisheim 2": {
 	"type": "csde"
 },
 "TV Dillingen": {
@@ -126,7 +129,8 @@
 },
 
 "Spvgg.Sterkrade-N.": {
-	"type": "csde"
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/spvggsterkradenord/"
 },
 
 "BC Remagen": {
@@ -149,7 +153,7 @@
 "TV 1860 Hofheim": {
 	"type": "csde"
 },
-"TuS Schwanheim": {
+"TuS 1872  Schwanheim": {
 	"type": "csde"
 },
 

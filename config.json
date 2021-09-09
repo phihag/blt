@@ -4,9 +4,9 @@
 	"report_problems": true,
 	"root_path": "/",
 	"fast_interval": 5000,
-	"slow_interval": 3600000,
+	"slow_interval": 20000,
 	"verbosity": 2,
 	"datestr": "auto",
 	"csde_stateful": false,
-	"note_html": "Final Four: Bundesliga-Finale"
+	"note_html": "Saisonstart 2021/2022"
 }
