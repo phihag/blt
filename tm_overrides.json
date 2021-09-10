@@ -1,3 +1,17 @@
 [
+{
+    "team_names": [
+        "TV Refrath",
+        "SV GutsMuths Jena"
+    ],
+    "league_key": "1BL-2020",
+    "starttime": "18:00",
+    "date": "2021-09-11",
+    "override": {
+        "live_streams": [
+            {"label": "Livestream Feld 1", "url": "https://sportdeutschland.tv/tv-refrath-i/tv-refrath-sv-gutsmuths-jena"},
+            {"label": "Livestream Feld 2", "url": "https://sportdeutschland.tv/tv-refrath-i/tv-refrath-sv-gutsmuths-jena-feld-2"}
+        ]}
+    }
 
 ]

@@ -35,7 +35,7 @@ function apply_overrides(tms, overrides) {
 			);
 		}
 
-		assert(o.override);
+		assert(o.override, 'Could not find "override" property in match ' + o.team_names.join(' vs ') + ` on ${o.date}`);
 		utils.obj_update(tm, o.override);
 	}
 }
