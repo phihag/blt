@@ -1,6 +1,7 @@
 admin interface for overrides
 	auth
 	change override
+	public URL to list overrides
 
 streams
 
