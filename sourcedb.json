@@ -180,7 +180,15 @@
 },
 "TV Hofheim": {
 	"type": "csde"
+},
+
+"Gladbecker FC": {
+	"type": "none"
+},
+"BC Phönix Hövelhof": {
+	"type": "csde"
 }
+
 
 
 }
