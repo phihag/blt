@@ -2,494 +2,14 @@
     {
         "type": "auto",
         "team_names": [
-            "Union Lüdinghausen 2",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2020-08-22",
-        "date_de": "22.08.2020",
-        "ts": 1598108400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BV Mülheim 2",
-            "VfB GW Mülheim"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "19:30",
-        "date": "2020-08-22",
-        "date_de": "22.08.2020",
-        "ts": 1598117400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Wipperfeld 2",
-            "Gladbecker FC"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2020-08-29",
-        "date_de": "29.08.2020",
-        "ts": 1598716800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Union Lüdinghausen 2",
-            "BV RW Wesel"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "19:00",
-        "date": "2020-08-29",
-        "date_de": "29.08.2020",
-        "ts": 1598720400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BV RW Wesel",
-            "VfB GW Mülheim"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2020-09-05",
-        "date_de": "05.09.2020",
-        "ts": 1599310800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Gladbecker FC",
-            "Union Lüdinghausen 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2020-09-05",
-        "date_de": "05.09.2020",
-        "ts": 1599318000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BV Mülheim 2",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "11:00",
-        "date": "2020-09-06",
-        "date_de": "06.09.2020",
-        "ts": 1599382800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "VfB GW Mülheim",
-            "BC Hohenlimburg 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2020-09-06",
-        "date_de": "06.09.2020",
-        "ts": 1599397200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Gladbecker FC",
-            "VfB GW Mülheim"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2020-09-15",
-        "date_de": "15.09.2020",
-        "ts": 1600185600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Union Lüdinghausen 2",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2020-09-26",
-        "date_de": "26.09.2020",
-        "ts": 1601132400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Wipperfeld 2",
-            "BC Hohenlimburg 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2020-09-26",
-        "date_de": "26.09.2020",
-        "ts": 1601136000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BV RW Wesel",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2020-10-03",
-        "date_de": "03.10.2020",
-        "ts": 1601730000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BV Mülheim 2",
-            "Gladbecker FC"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:30",
-        "date": "2020-10-03",
-        "date_de": "03.10.2020",
-        "ts": 1601742600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BV Mülheim 2",
-            "BV RW Wesel"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2020-10-10",
-        "date_de": "10.10.2020",
-        "ts": 1602342000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Hohenlimburg 2",
-            "Union Lüdinghausen 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2020-10-10",
-        "date_de": "10.10.2020",
-        "ts": 1602345600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Union Lüdinghausen 2",
-            "VfB GW Mülheim"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2020-10-17",
-        "date_de": "17.10.2020",
-        "ts": 1602946800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "VfB GW Mülheim",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2020-10-18",
-        "date_de": "18.10.2020",
-        "ts": 1603026000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Gladbecker FC",
-            "BC Hohenlimburg 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2020-11-07",
-        "date_de": "07.11.2020",
-        "ts": 1604764800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Hohenlimburg 2",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "10:30",
-        "date": "2020-11-08",
-        "date_de": "08.11.2020",
-        "ts": 1604827800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BV RW Wesel",
-            "Gladbecker FC"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "16:00",
-        "date": "2020-11-15",
-        "date_de": "15.11.2020",
-        "ts": 1605452400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BV RW Wesel",
-            "BC Hohenlimburg 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2020-11-21",
-        "date_de": "21.11.2020",
-        "ts": 1605967200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Wipperfeld 2",
-            "Union Lüdinghausen 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "19:00",
-        "date": "2020-11-21",
-        "date_de": "21.11.2020",
-        "ts": 1605981600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "VfB GW Mülheim",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2020-12-06",
-        "date_de": "06.12.2020",
-        "ts": 1607263200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Wipperfeld 2",
-            "VfB GW Mülheim"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2020-12-12",
-        "date_de": "12.12.2020",
-        "ts": 1607792400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BV Mülheim 2",
-            "BC Hohenlimburg 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "19:00",
-        "date": "2020-12-12",
-        "date_de": "12.12.2020",
-        "ts": 1607796000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Hohenlimburg 2",
-            "Gladbecker FC"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "10:30",
-        "date": "2020-12-13",
-        "date_de": "13.12.2020",
-        "ts": 1607851800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "VfB GW Mülheim",
-            "Union Lüdinghausen 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2020-12-13",
-        "date_de": "13.12.2020",
-        "ts": 1607868000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BV RW Wesel",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2020-12-19",
-        "date_de": "19.12.2020",
-        "ts": 1608386400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Gladbecker FC",
-            "BV RW Wesel"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "12:00",
-        "date": "2020-12-20",
-        "date_de": "20.12.2020",
-        "ts": 1608462000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Union Lüdinghausen 2",
-            "BC Hohenlimburg 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2021-01-16",
-        "date_de": "16.01.2021",
-        "ts": 1610812800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Wipperfeld 2",
-            "BV RW Wesel"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2021-01-16",
-        "date_de": "16.01.2021",
-        "ts": 1610816400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Gladbecker FC",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2021-01-23",
-        "date_de": "23.01.2021",
-        "ts": 1611417600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Hohenlimburg 2",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2021-01-30",
-        "date_de": "30.01.2021",
-        "ts": 1612026000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BV Mülheim 2",
-            "Union Lüdinghausen 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "19:00",
-        "date": "2021-01-30",
-        "date_de": "30.01.2021",
-        "ts": 1612029600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "VfB GW Mülheim",
-            "Gladbecker FC"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2021-01-31",
-        "date_de": "31.01.2021",
-        "ts": 1612101600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Union Lüdinghausen 2",
-            "Gladbecker FC"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2021-02-27",
-        "date_de": "27.02.2021",
-        "ts": 1614441600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Wipperfeld 2",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2021-02-27",
-        "date_de": "27.02.2021",
-        "ts": 1614445200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "VfB GW Mülheim",
             "BV RW Wesel"
         ],
         "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2021-02-28",
-        "date_de": "28.02.2021",
-        "ts": 1614520800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Hohenlimburg 2",
-            "VfB GW Mülheim"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "11:00",
-        "date": "2021-03-21",
-        "date_de": "21.03.2021",
-        "ts": 1616320800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BV RW Wesel",
-            "Union Lüdinghausen 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "11:00",
-        "date": "2021-03-21",
-        "date_de": "21.03.2021",
-        "ts": 1616320800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Gladbecker FC",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "11:00",
-        "date": "2021-03-21",
-        "date_de": "21.03.2021",
-        "ts": 1616320800
+        "starttime": "14:00",
+        "date": "2021-09-05",
+        "date_de": "05.09.2021",
+        "ts": 1630843200
     },
     {
         "type": "auto",
@@ -582,6 +102,18 @@
             "STC Blau-Weiss Solingen"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2021-09-11",
+        "date_de": "11.09.2021",
+        "ts": 1631361600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "Gladbecker FC"
+        ],
+        "league_key": "RLW-2016",
         "starttime": "14:00",
         "date": "2021-09-11",
         "date_de": "11.09.2021",
@@ -686,6 +218,18 @@
     {
         "type": "auto",
         "team_names": [
+            "Union Lüdinghausen 2",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2021-09-11",
+        "date_de": "11.09.2021",
+        "ts": 1631372400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TV Refrath",
             "SV GutsMuths Jena"
         ],
@@ -694,6 +238,18 @@
         "date": "2021-09-11",
         "date_de": "11.09.2021",
         "ts": 1631376000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "19:00",
+        "date": "2021-09-11",
+        "date_de": "11.09.2021",
+        "ts": 1631379600
     },
     {
         "type": "auto",
@@ -842,6 +398,18 @@
     {
         "type": "auto",
         "team_names": [
+            "Gladbecker FC",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-09-12",
+        "date_de": "12.09.2021",
+        "ts": 1631448000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SC Union 08 Lüdinghausen",
             "SV GutsMuths Jena"
         ],
@@ -866,10 +434,34 @@
     {
         "type": "auto",
         "team_names": [
+            "VfB GW Mülheim",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-09-12",
+        "date_de": "12.09.2021",
+        "ts": 1631448000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. BC Sbr.-Bischmisheim",
             "1.BC Wipperfeld"
         ],
         "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2021-09-12",
+        "date_de": "12.09.2021",
+        "ts": 1631451600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "BV RW Wesel"
+        ],
+        "league_key": "RLW-2016",
         "starttime": "15:00",
         "date": "2021-09-12",
         "date_de": "12.09.2021",
@@ -938,6 +530,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Hohenlimburg 2",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2021-09-18",
+        "date_de": "18.09.2021",
+        "ts": 1631980800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SG Schorndorf",
             "1. BC Sbr.-Bischmisheim"
         ],
@@ -970,6 +574,18 @@
         "date": "2021-09-19",
         "date_de": "19.09.2021",
         "ts": 1632056400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg 2",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:30",
+        "date": "2021-09-20",
+        "date_de": "20.09.2021",
+        "ts": 1632155400
     },
     {
         "type": "auto",
@@ -1130,6 +746,18 @@
     {
         "type": "auto",
         "team_names": [
+            "Gladbecker FC",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2021-09-25",
+        "date_de": "25.09.2021",
+        "ts": 1632585600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Beuel 2",
             "Horner TV"
         ],
@@ -1214,6 +842,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TV Refrath 3",
+            "BC Hohenlimburg 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2021-09-26",
+        "date_de": "26.09.2021",
+        "ts": 1632646800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Offenburg",
             "TuS 1872  Schwanheim"
         ],
@@ -1274,6 +914,30 @@
     {
         "type": "auto",
         "team_names": [
+            "Gladbecker FC",
+            "BV RW Wesel"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-09-26",
+        "date_de": "26.09.2021",
+        "ts": 1632657600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "15:00",
+        "date": "2021-09-26",
+        "date_de": "26.09.2021",
+        "ts": 1632661200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "STC Blau-Weiss Solingen",
             "TSV Trittau 2"
         ],
@@ -1298,6 +962,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Hohenlimburg 2",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2021-10-02",
+        "date_de": "02.10.2021",
+        "ts": 1633190400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SV GutsMuths Jena",
             "Blau-Weiss Wittorf-NMS"
         ],
@@ -1306,6 +982,102 @@
         "date": "2021-10-03",
         "date_de": "03.10.2021",
         "ts": 1633251600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "16:00",
+        "date": "2021-10-09",
+        "date_de": "09.10.2021",
+        "ts": 1633788000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2021-10-09",
+        "date_de": "09.10.2021",
+        "ts": 1633795200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-10-10",
+        "date_de": "10.10.2021",
+        "ts": 1633867200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV RW Wesel",
+            "BC Hohenlimburg 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-10-10",
+        "date_de": "10.10.2021",
+        "ts": 1633867200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "Gladbecker FC"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-10-10",
+        "date_de": "10.10.2021",
+        "ts": 1633867200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "BV RW Wesel"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2021-10-16",
+        "date_de": "16.10.2021",
+        "ts": 1634396400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "BC Hohenlimburg 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2021-10-16",
+        "date_de": "16.10.2021",
+        "ts": 1634400000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV RW Wesel",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-10-17",
+        "date_de": "17.10.2021",
+        "ts": 1634472000
     },
     {
         "type": "auto",
@@ -1922,6 +1694,18 @@
     {
         "type": "auto",
         "team_names": [
+            "Union Lüdinghausen 2",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2021-10-30",
+        "date_de": "30.10.2021",
+        "ts": 1635606000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BSV Eggenstein-Leopoldshafen",
             "TSV Neuhausen-Nymphenburg 2"
         ],
@@ -2126,6 +1910,54 @@
     {
         "type": "auto",
         "team_names": [
+            "1.BV Mülheim 2",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2021-11-06",
+        "date_de": "06.11.2021",
+        "ts": 1636218000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg 2",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2021-11-06",
+        "date_de": "06.11.2021",
+        "ts": 1636218000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "13:00",
+        "date": "2021-11-07",
+        "date_de": "07.11.2021",
+        "ts": 1636286400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "Gladbecker FC"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-11-07",
+        "date_de": "07.11.2021",
+        "ts": 1636290000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. BC Sbr.-Bischmisheim 2",
             "SV Fischbach"
         ],
@@ -2306,6 +2138,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BV RW Wesel",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "19:00",
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637431200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BSV Eggenstein-Leopoldshafen",
             "BC Offenburg"
         ],
@@ -2326,6 +2170,18 @@
         "date": "2021-11-21",
         "date_de": "21.11.2021",
         "ts": 1637499600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV RW Wesel",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-11-28",
+        "date_de": "28.11.2021",
+        "ts": 1638104400
     },
     {
         "type": "auto",
@@ -2442,6 +2298,18 @@
             "SG VfB\/SC Peine"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2021-12-11",
+        "date_de": "11.12.2021",
+        "ts": 1639227600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
         "starttime": "14:00",
         "date": "2021-12-11",
         "date_de": "11.12.2021",
@@ -2618,6 +2486,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TV Refrath 3",
+            "BV RW Wesel"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2021-12-12",
+        "date_de": "12.12.2021",
+        "ts": 1639303200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BV Mülheim",
             "TSV Trittau 2"
         ],
@@ -2690,6 +2570,30 @@
     {
         "type": "auto",
         "team_names": [
+            "Gladbecker FC",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-12-12",
+        "date_de": "12.12.2021",
+        "ts": 1639314000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "BC Hohenlimburg 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-12-12",
+        "date_de": "12.12.2021",
+        "ts": 1639314000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Wipperfeld",
             "Blau-Weiss Wittorf-NMS"
         ],
@@ -2726,6 +2630,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Phönix Hövelhof",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "15:00",
+        "date": "2021-12-18",
+        "date_de": "18.12.2021",
+        "ts": 1639836000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SV GutsMuths Jena",
             "SG Schorndorf"
         ],
@@ -2734,6 +2650,66 @@
         "date": "2021-12-18",
         "date_de": "18.12.2021",
         "ts": 1639843200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg 2",
+            "Gladbecker FC"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2021-12-18",
+        "date_de": "18.12.2021",
+        "ts": 1639846800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "19:00",
+        "date": "2021-12-18",
+        "date_de": "18.12.2021",
+        "ts": 1639850400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "Gladbecker FC"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2021-12-19",
+        "date_de": "19.12.2021",
+        "ts": 1639908000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "BC Hohenlimburg 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-12-19",
+        "date_de": "19.12.2021",
+        "ts": 1639918800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV RW Wesel",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2021-12-19",
+        "date_de": "19.12.2021",
+        "ts": 1639918800
     },
     {
         "type": "auto",
@@ -2942,6 +2918,30 @@
     {
         "type": "auto",
         "team_names": [
+            "1.BV Mülheim 2",
+            "BV RW Wesel"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2022-01-15",
+        "date_de": "15.01.2022",
+        "ts": 1642266000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2022-01-15",
+        "date_de": "15.01.2022",
+        "ts": 1642266000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BSV Eggenstein-Leopoldshafen",
             "TV 1884 Marktheidenfeld"
         ],
@@ -2994,6 +2994,18 @@
             "TV Hofheim"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2022-01-16",
+        "date_de": "16.01.2022",
+        "ts": 1642327200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
         "starttime": "11:00",
         "date": "2022-01-16",
         "date_de": "16.01.2022",
@@ -3146,6 +3158,42 @@
     {
         "type": "auto",
         "team_names": [
+            "BV RW Wesel",
+            "Gladbecker FC"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2022-01-22",
+        "date_de": "22.01.2022",
+        "ts": 1642867200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "BC Hohenlimburg 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2022-01-22",
+        "date_de": "22.01.2022",
+        "ts": 1642867200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2022-01-22",
+        "date_de": "22.01.2022",
+        "ts": 1642870800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TuS 1872  Schwanheim",
             "TuS Neuhofen"
         ],
@@ -3154,6 +3202,18 @@
         "date": "2022-01-29",
         "date_de": "29.01.2022",
         "ts": 1643461200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg 2",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2022-01-29",
+        "date_de": "29.01.2022",
+        "ts": 1643475600
     },
     {
         "type": "auto",
@@ -3242,6 +3302,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Phönix Hövelhof",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2022-01-30",
+        "date_de": "30.01.2022",
+        "ts": 1643547600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Remagen",
             "TV Hofheim"
         ],
@@ -3294,6 +3366,18 @@
             "BC Hohenlimburg"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2022-01-30",
+        "date_de": "30.01.2022",
+        "ts": 1643547600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
         "starttime": "14:00",
         "date": "2022-01-30",
         "date_de": "30.01.2022",
@@ -3422,6 +3506,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TV Refrath 3",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644670800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "STC Blau-Weiss Solingen",
             "BC Hohenlimburg"
         ],
@@ -3494,6 +3590,30 @@
     {
         "type": "auto",
         "team_names": [
+            "1.BV Mülheim 2",
+            "BC Hohenlimburg 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644681600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV RW Wesel",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644681600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SV Fun-Ball Dortelweil",
             "SG Schorndorf"
         ],
@@ -3550,6 +3670,18 @@
         "date": "2022-02-12",
         "date_de": "12.02.2022",
         "ts": 1644685200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "Gladbecker FC"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "19:00",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644688800
     },
     {
         "type": "auto",
@@ -4814,6 +4946,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Hohenlimburg 2",
+            "BV RW Wesel"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2022-03-20",
+        "date_de": "20.03.2022",
+        "ts": 1647770400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Offenburg",
             "SV Fischbach"
         ],
@@ -4826,10 +4970,34 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Phönix Hövelhof",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2022-03-20",
+        "date_de": "20.03.2022",
+        "ts": 1647770400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BSV Eggenstein-Leopoldshafen",
             "1. BC Sbr.-Bischmisheim 2"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2022-03-20",
+        "date_de": "20.03.2022",
+        "ts": 1647770400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
         "starttime": "11:00",
         "date": "2022-03-20",
         "date_de": "20.03.2022",
@@ -4914,6 +5082,18 @@
             "TuS 1872  Schwanheim"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2022-03-20",
+        "date_de": "20.03.2022",
+        "ts": 1647770400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
         "starttime": "11:00",
         "date": "2022-03-20",
         "date_de": "20.03.2022",
