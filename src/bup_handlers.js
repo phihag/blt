@@ -91,6 +91,12 @@ async function bupdate_handler(req, res, next) {
 	try {
 		const bup_version = await bupdate();
 
+		if (req.query.format === 'text') {
+			res.setHeader('content-type', 'text/plain');
+			res.send(`Updated to bup ${bup_version}\n`);
+			return;
+		}
+
 		render(req, res, next, 'bupdate_success', {
 			bup_version,
 		});
