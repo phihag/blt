@@ -1,3 +1,47 @@
 [
 
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenburg",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:00",
+        "date": "2021-09-18",
+        "date_de": "18.09.2021",
+        "ts": 1631973600,
+        "override": {
+        	"live_streams": [{
+        		"label": "Live-Stream Court 1",
+				"url": "https://sportdeutschland.tv/tsv-neuhausen-nymphenburg-1/1-bundesliga-tsv-neuhausen-nymphenburg-vs-1-bc-bischmisheim-court-1"
+			}, {
+        		"label": "Live-Stream Court 2",
+				"url": "https://sportdeutschland.tv/tsv-neuhausen-nymphenburg-1/1-bundesliga-tsv-neuhausen-nymphenburg-vs-1-bc-bischmisheim-court-2"
+			}]
+		}
+    },
+
+
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2021-09-18",
+        "date_de": "18.09.2021",
+        "ts": 1631970000,
+		"override": {
+        	"live_streams": [{
+        		"label": "Live-Stream Court 1",
+				"url": "https://sportdeutschland.tv/sgschorndorfbadminton/1-bundesliga-sg-schorndorf-vs-sv-fun-ball-dortelweil"
+			}, {
+        		"label": "Live-Stream Court 2",
+				"url": "https://sportdeutschland.tv/sgschorndorfbadminton/1-bundesliga-sg-schorndorf-vs-sv-fun-ball-dortelweil-court-2"
+			}]
+		}
+    }
 ]
