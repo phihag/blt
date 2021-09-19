@@ -1,46 +1,58 @@
 [
 
+
     {
         "type": "auto",
         "team_names": [
             "TSV Neuhausen-Nymphenburg",
-            "1. BC Sbr.-Bischmisheim"
+            "SV Fun-Ball Dortelweil"
         ],
         "league_key": "1BL-2020",
-        "starttime": "16:00",
-        "date": "2021-09-18",
-        "date_de": "18.09.2021",
-        "ts": 1631973600,
+        "starttime": "14:00",
+        "date": "2021-09-19",
+        "date_de": "19.09.2021",
+        "ts": 1632052800,
         "override": {
         	"live_streams": [{
         		"label": "Live-Stream Court 1",
-				"url": "https://sportdeutschland.tv/tsv-neuhausen-nymphenburg-1/1-bundesliga-tsv-neuhausen-nymphenburg-vs-1-bc-bischmisheim-court-1"
+				"url": "https://sportdeutschland.tv/tsv-neuhausen-nymphenburg-1/1-bundesliga-tsv-neuhausen-nymphenburg-vs-fun-ball-dortelweil-court-1"
 			}, {
         		"label": "Live-Stream Court 2",
-				"url": "https://sportdeutschland.tv/tsv-neuhausen-nymphenburg-1/1-bundesliga-tsv-neuhausen-nymphenburg-vs-1-bc-bischmisheim-court-2"
+				"url": "https://sportdeutschland.tv/tsv-neuhausen-nymphenburg-1/1-bundesliga-tsv-neuhausen-nymphenburg-vs-fun-ball-dortelweil-court-2"
+			}]
+		}
+    },
+    {
+        "team_names": [
+            "SG Schorndorf",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "date": "2021-09-19",
+		"override": {
+        	"live_streams": [{
+        		"label": "Live-Stream Court 1",
+				"url": "https://sportdeutschland.tv/sgschorndorfbadminton/1-bundesliga-sg-schorndorf-vs-1-bc-saarbruecken-bischmisheim"
+			}, {
+        		"label": "Live-Stream Court 2",
+				"url": "https://sportdeutschland.tv/sgschorndorfbadminton/1-bundesliga-sg-schorndorf-vs-1-bc-saarbruecken-bischmisheim-court-2"
 			}]
 		}
     },
 
-
     {
         "type": "auto",
         "team_names": [
-            "SG Schorndorf",
-            "SV Fun-Ball Dortelweil"
+            "1.BC Beuel",
+            "SC Union 08 Lüdinghausen"
         ],
-        "league_key": "1BL-2020",
-        "starttime": "15:00",
-        "date": "2021-09-18",
-        "date_de": "18.09.2021",
-        "ts": 1631970000,
-		"override": {
+        "date": "2021-09-19",
+        "override": {
         	"live_streams": [{
         		"label": "Live-Stream Court 1",
-				"url": "https://sportdeutschland.tv/sgschorndorfbadminton/1-bundesliga-sg-schorndorf-vs-sv-fun-ball-dortelweil"
+				"url": "https://sportdeutschland.tv/1-bc-beuel/1-bunndesliga-1-bc-beuel-gegen-sc-union-08-luedinghausen"
 			}, {
         		"label": "Live-Stream Court 2",
-				"url": "https://sportdeutschland.tv/sgschorndorfbadminton/1-bundesliga-sg-schorndorf-vs-sv-fun-ball-dortelweil-court-2"
+				"url": "https://sportdeutschland.tv/1-bc-beuel/1-bunndesliga-1-bc-beuel-gegen-sc-union-08-luedinghausen-feld-2"
 			}]
 		}
     }

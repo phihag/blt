@@ -386,6 +386,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Remagen",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2021-09-12",
+        "date_de": "12.09.2021",
+        "ts": 1631444400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "Blau-Weiss Wittorf-NMS",
             "SG Schorndorf"
         ],
@@ -482,18 +494,6 @@
     {
         "type": "auto",
         "team_names": [
-            "BC Remagen",
-            "SV Fun-Ball Dortelweil 2"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "17:00",
-        "date": "2021-09-12",
-        "date_de": "12.09.2021",
-        "ts": 1631458800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "1.BC Wipperfeld",
             "SC Union 08 Lüdinghausen"
         ],
@@ -546,10 +546,10 @@
             "1. BC Sbr.-Bischmisheim"
         ],
         "league_key": "1BL-2020",
-        "starttime": "14:00",
+        "starttime": "13:00",
         "date": "2021-09-19",
         "date_de": "19.09.2021",
-        "ts": 1632052800
+        "ts": 1632049200
     },
     {
         "type": "auto",
@@ -1382,22 +1382,22 @@
     {
         "type": "auto",
         "team_names": [
-            "BC Hohenlimburg",
-            "Horner TV"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2021-10-24",
-        "date_de": "24.10.2021",
-        "ts": 1635076800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "BC Remagen",
             "BC Offenburg"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2021-10-24",
+        "date_de": "24.10.2021",
+        "ts": 1635073200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "Horner TV"
+        ],
+        "league_key": "2BLN-2020",
         "starttime": "14:00",
         "date": "2021-10-24",
         "date_de": "24.10.2021",
@@ -2354,18 +2354,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Wipperfeld",
-            "TSV Trittau"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "16:30",
-        "date": "2021-12-11",
-        "date_de": "11.12.2021",
-        "ts": 1639236600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "1. CfB Köln",
             "TSV Trittau 2"
         ],
@@ -2398,18 +2386,6 @@
         "date": "2021-12-11",
         "date_de": "11.12.2021",
         "ts": 1639238400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Beuel",
-            "Blau-Weiss Wittorf-NMS"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "18:00",
-        "date": "2021-12-11",
-        "date_de": "11.12.2021",
-        "ts": 1639242000
     },
     {
         "type": "auto",
@@ -2546,18 +2522,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Beuel",
-            "TSV Trittau"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "14:00",
-        "date": "2021-12-12",
-        "date_de": "12.12.2021",
-        "ts": 1639314000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "BC Remagen",
             "TuS Neuhofen"
         ],
@@ -2594,18 +2558,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Wipperfeld",
-            "Blau-Weiss Wittorf-NMS"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "14:30",
-        "date": "2021-12-12",
-        "date_de": "12.12.2021",
-        "ts": 1639315800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "STC Blau-Weiss Solingen",
             "SG EBT Berlin"
         ],
@@ -2630,6 +2582,18 @@
     {
         "type": "auto",
         "team_names": [
+            "1.BC Wipperfeld",
+            "TSV Trittau"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2021-12-18",
+        "date_de": "18.12.2021",
+        "ts": 1639836000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Phönix Hövelhof",
             "VfB GW Mülheim"
         ],
@@ -2638,6 +2602,18 @@
         "date": "2021-12-18",
         "date_de": "18.12.2021",
         "ts": 1639836000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:00",
+        "date": "2021-12-18",
+        "date_de": "18.12.2021",
+        "ts": 1639843200
     },
     {
         "type": "auto",
@@ -2674,6 +2650,30 @@
         "date": "2021-12-18",
         "date_de": "18.12.2021",
         "ts": 1639850400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "TSV Trittau"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:00",
+        "date": "2021-12-19",
+        "date_de": "19.12.2021",
+        "ts": 1639908000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:00",
+        "date": "2021-12-19",
+        "date_de": "19.12.2021",
+        "ts": 1639908000
     },
     {
         "type": "auto",
@@ -3194,6 +3194,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BC Remagen",
+            "TV Hofheim"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2022-01-29",
+        "date_de": "29.01.2022",
+        "ts": 1643461200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TuS 1872  Schwanheim",
             "TuS Neuhofen"
         ],
@@ -3306,18 +3318,6 @@
             "1.BV Mülheim 2"
         ],
         "league_key": "RLW-2016",
-        "starttime": "14:00",
-        "date": "2022-01-30",
-        "date_de": "30.01.2022",
-        "ts": 1643547600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Remagen",
-            "TV Hofheim"
-        ],
-        "league_key": "2BLS-2020",
         "starttime": "14:00",
         "date": "2022-01-30",
         "date_de": "30.01.2022",
