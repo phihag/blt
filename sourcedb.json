@@ -9,6 +9,11 @@
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/tsvneuhausennymphenburg/"
 },
+"TSV Neuhausen-Nymphenburg 2": {
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/tsvneuhausennymphenburg2/"
+},
+
 "TV Refrath": {
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/tvrefrath/"
@@ -170,7 +175,7 @@
 	"url": "https://badmintonticker.de/ticker/vfbgwmuelheim/"
 },
 
-"1.CfB Köln": {
+"1. CfB Köln": {
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/cfbkoeln/"
 },
@@ -186,6 +191,9 @@
 	"type": "none"
 },
 "BC Phönix Hövelhof": {
+	"type": "csde"
+},
+"BSV Eggenstein-Leopoldshafen": {
 	"type": "csde"
 }
 
