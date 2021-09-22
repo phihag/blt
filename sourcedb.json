@@ -194,7 +194,8 @@
 	"type": "csde"
 },
 "BSV Eggenstein-Leopoldshafen": {
-	"type": "csde"
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/bsveggensteinleopoldshafen/"
 }
 
 
