@@ -45,7 +45,8 @@
 	"type": "csde"
 },
 "SV Berliner Brauereien": {
-	"type": "csde"
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/svberlinerbrauereien/"
 },
 
 "TSV Trittau": {
