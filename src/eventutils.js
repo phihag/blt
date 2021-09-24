@@ -151,7 +151,7 @@ function unify_team_name(team_name) {
 	return {
 		'STC BW Solingen': 'STC Blau-Weiss Solingen',
 		'1.BC Sbr.-Bischmisheim': '1. BC Sbr.-Bischmisheim',
-		'1.BC Sbr.-Bischmisheim': '1. BC Sbr.-Bischmisheim 2',
+		'1.BC Sbr.-Bischmisheim 2': '1. BC Sbr.-Bischmisheim 2',
 	}[team_name] || team_name;
 }
 
