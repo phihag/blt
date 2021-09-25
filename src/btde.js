@@ -95,6 +95,16 @@ function parse(src, str) {
 			_parse_players(mp[5]),
 			_parse_players(mp[6]),
 		];
+
+		// Swap mixed (wrong order in btde)
+		if (res.name === 'GD') {
+			for (const team_players of players) {
+				if (team_players.length === 2) {
+					team_players.reverse();
+				}
+			}
+		}
+
 		if ((players[0].length > 0) || (players[1].length > 0)) {
 			res.players = players;
 		}
