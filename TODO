@@ -1,10 +1,13 @@
 admin interface for overrides
 	auth
-	change override
-	public URL to list overrides
+	interface to add overrides
+	save to database
+	actually apply overrides
+	apply overrides on startup
 
 streams
 
+github actions
 
 link should be able to go lower-ase
 
