@@ -590,6 +590,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TV 1884 Marktheidenfeld 2",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "12:30",
+        "date": "2021-09-25",
+        "date_de": "25.09.2021",
+        "ts": 1632565800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Beuel 2",
             "TSV Trittau 2"
         ],
@@ -710,6 +722,42 @@
     {
         "type": "auto",
         "team_names": [
+            "BSpfr. Neusatz",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-09-25",
+        "date_de": "25.09.2021",
+        "ts": 1632578400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-09-25",
+        "date_de": "25.09.2021",
+        "ts": 1632578400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-09-25",
+        "date_de": "25.09.2021",
+        "ts": 1632578400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. CfB Köln",
             "1.BC Wipperfeld 2"
         ],
@@ -762,6 +810,18 @@
             "Horner TV"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "10:00",
+        "date": "2021-09-26",
+        "date_de": "26.09.2021",
+        "ts": 1632643200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "10:00",
         "date": "2021-09-26",
         "date_de": "26.09.2021",
@@ -830,10 +890,34 @@
     {
         "type": "auto",
         "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2021-09-26",
+        "date_de": "26.09.2021",
+        "ts": 1632646800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TSV Neuhausen-Nymphenburg 2",
             "BC Remagen"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2021-09-26",
+        "date_de": "26.09.2021",
+        "ts": 1632646800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld 2",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "11:00",
         "date": "2021-09-26",
         "date_de": "26.09.2021",
@@ -986,6 +1070,42 @@
     {
         "type": "auto",
         "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2021-10-09",
+        "date_de": "09.10.2021",
+        "ts": 1633780800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "TV 1884 Marktheidenfeld 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-10-09",
+        "date_de": "09.10.2021",
+        "ts": 1633788000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-10-09",
+        "date_de": "09.10.2021",
+        "ts": 1633788000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "VfB GW Mülheim",
             "BC Phönix Hövelhof"
         ],
@@ -1006,6 +1126,30 @@
         "date": "2021-10-09",
         "date_de": "09.10.2021",
         "ts": 1633795200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2021-10-10",
+        "date_de": "10.10.2021",
+        "ts": 1633852800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1860 Ansbach",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "13:00",
+        "date": "2021-10-10",
+        "date_de": "10.10.2021",
+        "ts": 1633863600
     },
     {
         "type": "auto",
@@ -1042,6 +1186,18 @@
         "date": "2021-10-10",
         "date_de": "10.10.2021",
         "ts": 1633867200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:30",
+        "date": "2021-10-10",
+        "date_de": "10.10.2021",
+        "ts": 1633869000
     },
     {
         "type": "auto",
@@ -1190,6 +1346,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SG Schorndorf 2",
+            "TV 1884 Marktheidenfeld 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2021-10-23",
+        "date_de": "23.10.2021",
+        "ts": 1634994000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "STC Blau-Weiss Solingen",
             "1.BV Mülheim"
         ],
@@ -1214,6 +1382,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BSpfr. Neusatz",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-10-23",
+        "date_de": "23.10.2021",
+        "ts": 1634997600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SV Fischbach",
             "TuS Neuhofen"
         ],
@@ -1222,6 +1402,30 @@
         "date": "2021-10-23",
         "date_de": "23.10.2021",
         "ts": 1634997600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1860 Ansbach",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-10-23",
+        "date_de": "23.10.2021",
+        "ts": 1634997600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:30",
+        "date": "2021-10-23",
+        "date_de": "23.10.2021",
+        "ts": 1634999400
     },
     {
         "type": "auto",
@@ -1290,6 +1494,30 @@
             "SV Berliner Brauereien"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2021-10-24",
+        "date_de": "24.10.2021",
+        "ts": 1635066000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "TV 1884 Marktheidenfeld 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2021-10-24",
+        "date_de": "24.10.2021",
+        "ts": 1635066000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "11:00",
         "date": "2021-10-24",
         "date_de": "24.10.2021",
@@ -1394,6 +1622,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TSV 1860 Ansbach",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "13:00",
+        "date": "2021-10-24",
+        "date_de": "24.10.2021",
+        "ts": 1635073200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Hohenlimburg",
             "Horner TV"
         ],
@@ -1434,6 +1674,18 @@
             "SV GutsMuths Jena"
         ],
         "league_key": "1BL-2020",
+        "starttime": "14:30",
+        "date": "2021-10-24",
+        "date_de": "24.10.2021",
+        "ts": 1635078600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "14:30",
         "date": "2021-10-24",
         "date_de": "24.10.2021",
@@ -1910,6 +2162,30 @@
     {
         "type": "auto",
         "team_names": [
+            "TSV 1860 Ansbach",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-11-06",
+        "date_de": "06.11.2021",
+        "ts": 1636210800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-11-06",
+        "date_de": "06.11.2021",
+        "ts": 1636210800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BV Mülheim 2",
             "Union Lüdinghausen 2"
         ],
@@ -1930,6 +2206,18 @@
         "date": "2021-11-06",
         "date_de": "06.11.2021",
         "ts": 1636218000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2021-11-07",
+        "date_de": "07.11.2021",
+        "ts": 1636275600
     },
     {
         "type": "auto",
@@ -2018,6 +2306,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637413200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TV Refrath 2",
             "1.BC Wipperfeld 2"
         ],
@@ -2074,6 +2374,30 @@
         "date": "2021-11-20",
         "date_de": "20.11.2021",
         "ts": 1637418600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TV 1884 Marktheidenfeld 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637420400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637420400
     },
     {
         "type": "auto",
@@ -2150,10 +2474,34 @@
     {
         "type": "auto",
         "team_names": [
+            "HSG DHfK Leipzig",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2021-11-21",
+        "date_de": "21.11.2021",
+        "ts": 1637485200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BSV Eggenstein-Leopoldshafen",
             "BC Offenburg"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2021-11-21",
+        "date_de": "21.11.2021",
+        "ts": 1637488800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "11:00",
         "date": "2021-11-21",
         "date_de": "21.11.2021",
@@ -2246,6 +2594,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TV 1884 Marktheidenfeld 2",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "12:30",
+        "date": "2021-12-11",
+        "date_de": "11.12.2021",
+        "ts": 1639222200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Wipperfeld 2",
             "BC Hohenlimburg"
         ],
@@ -2318,6 +2678,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SG Schorndorf 2",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2021-12-11",
+        "date_de": "11.12.2021",
+        "ts": 1639231200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "STC Blau-Weiss Solingen",
             "SV Berliner Brauereien"
         ],
@@ -2350,6 +2722,30 @@
         "date": "2021-12-11",
         "date_de": "11.12.2021",
         "ts": 1639231200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-12-11",
+        "date_de": "11.12.2021",
+        "ts": 1639234800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1860 Ansbach",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2021-12-11",
+        "date_de": "11.12.2021",
+        "ts": 1639234800
     },
     {
         "type": "auto",
@@ -2414,10 +2810,34 @@
     {
         "type": "auto",
         "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2021-12-12",
+        "date_de": "12.12.2021",
+        "ts": 1639299600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Wipperfeld 2",
             "SG VfB\/SC Peine"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2021-12-12",
+        "date_de": "12.12.2021",
+        "ts": 1639303200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "11:00",
         "date": "2021-12-12",
         "date_de": "12.12.2021",
@@ -2442,6 +2862,18 @@
             "1. BC Sbr.-Bischmisheim 2"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2021-12-12",
+        "date_de": "12.12.2021",
+        "ts": 1639303200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld 2",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "11:00",
         "date": "2021-12-12",
         "date_de": "12.12.2021",
@@ -3218,6 +3650,54 @@
     {
         "type": "auto",
         "team_names": [
+            "SG Schorndorf 2",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2022-01-29",
+        "date_de": "29.01.2022",
+        "ts": 1643464800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2022-01-29",
+        "date_de": "29.01.2022",
+        "ts": 1643468400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1860 Ansbach",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2022-01-29",
+        "date_de": "29.01.2022",
+        "ts": 1643468400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "TV 1884 Marktheidenfeld 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:30",
+        "date": "2022-01-29",
+        "date_de": "29.01.2022",
+        "ts": 1643470200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Hohenlimburg 2",
             "TV Refrath 3"
         ],
@@ -3226,6 +3706,18 @@
         "date": "2022-01-29",
         "date_de": "29.01.2022",
         "ts": 1643475600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2022-01-30",
+        "date_de": "30.01.2022",
+        "ts": 1643533200
     },
     {
         "type": "auto",
@@ -3282,6 +3774,18 @@
             "TV Refrath 2"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2022-01-30",
+        "date_de": "30.01.2022",
+        "ts": 1643544000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1860 Ansbach",
+            "TV 1884 Marktheidenfeld 2"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "13:00",
         "date": "2022-01-30",
         "date_de": "30.01.2022",
@@ -3386,6 +3890,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TSV 1906 Freystadt",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:30",
+        "date": "2022-01-30",
+        "date_de": "30.01.2022",
+        "ts": 1643549400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "STC Blau-Weiss Solingen",
             "1.BC Beuel 2"
         ],
@@ -3430,6 +3946,18 @@
         "date": "2022-01-30",
         "date_de": "30.01.2022",
         "ts": 1643553000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld 2",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "12:30",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644665400
     },
     {
         "type": "auto",
@@ -3518,6 +4046,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SG Schorndorf 2",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644674400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "STC Blau-Weiss Solingen",
             "BC Hohenlimburg"
         ],
@@ -3550,6 +4090,30 @@
         "date": "2022-02-12",
         "date_de": "12.02.2022",
         "ts": 1644674400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644678000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644678000
     },
     {
         "type": "auto",
@@ -3682,6 +4246,42 @@
         "date": "2022-02-12",
         "date_de": "12.02.2022",
         "ts": 1644688800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2022-02-13",
+        "date_de": "13.02.2022",
+        "ts": 1644742800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2022-02-13",
+        "date_de": "13.02.2022",
+        "ts": 1644746400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2022-02-13",
+        "date_de": "13.02.2022",
+        "ts": 1644746400
     },
     {
         "type": "auto",
@@ -4370,6 +4970,30 @@
     {
         "type": "auto",
         "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2022-03-05",
+        "date_de": "05.03.2022",
+        "ts": 1646485200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld 2",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2022-03-05",
+        "date_de": "05.03.2022",
+        "ts": 1646485200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TV Refrath 2",
             "1. CfB Köln"
         ],
@@ -4430,10 +5054,34 @@
     {
         "type": "auto",
         "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2022-03-05",
+        "date_de": "05.03.2022",
+        "ts": 1646492400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SV Fischbach",
             "TV 1884 Marktheidenfeld"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2022-03-05",
+        "date_de": "05.03.2022",
+        "ts": 1646492400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "16:00",
         "date": "2022-03-05",
         "date_de": "05.03.2022",
@@ -4502,6 +5150,30 @@
     {
         "type": "auto",
         "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2022-03-06",
+        "date_de": "06.03.2022",
+        "ts": 1646557200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2022-03-06",
+        "date_de": "06.03.2022",
+        "ts": 1646557200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Wipperfeld 2",
             "1. CfB Köln"
         ],
@@ -4530,6 +5202,30 @@
             "SV Fun-Ball Dortelweil"
         ],
         "league_key": "1BL-2020",
+        "starttime": "11:00",
+        "date": "2022-03-06",
+        "date_de": "06.03.2022",
+        "ts": 1646560800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2022-03-06",
+        "date_de": "06.03.2022",
+        "ts": 1646560800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld 2",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "11:00",
         "date": "2022-03-06",
         "date_de": "06.03.2022",
@@ -4706,6 +5402,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TV 1884 Marktheidenfeld 2",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "12:30",
+        "date": "2022-03-19",
+        "date_de": "19.03.2022",
+        "ts": 1647689400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "SV Fun-Ball Dortelweil 2",
             "BC Remagen"
         ],
@@ -4778,6 +5486,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SG Schorndorf 2",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2022-03-19",
+        "date_de": "19.03.2022",
+        "ts": 1647698400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "STC Blau-Weiss Solingen",
             "1.BC Wipperfeld 2"
         ],
@@ -4834,6 +5554,30 @@
         "date": "2022-03-19",
         "date_de": "19.03.2022",
         "ts": 1647702000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2022-03-19",
+        "date_de": "19.03.2022",
+        "ts": 1647702000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:30",
+        "date": "2022-03-19",
+        "date_de": "19.03.2022",
+        "ts": 1647703800
     },
     {
         "type": "auto",
@@ -4906,6 +5650,18 @@
         "date": "2022-03-19",
         "date_de": "19.03.2022",
         "ts": 1647709200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2022-03-20",
+        "date_de": "20.03.2022",
+        "ts": 1647766800
     },
     {
         "type": "auto",
@@ -4994,6 +5750,18 @@
     {
         "type": "auto",
         "team_names": [
+            "BSpfr. Neusatz",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2022-03-20",
+        "date_de": "20.03.2022",
+        "ts": 1647770400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "Gladbecker FC",
             "TV Refrath 3"
         ],
@@ -5046,6 +5814,18 @@
             "TV Hofheim"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2022-03-20",
+        "date_de": "20.03.2022",
+        "ts": 1647770400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1860 Ansbach",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
         "starttime": "11:00",
         "date": "2022-03-20",
         "date_de": "20.03.2022",
@@ -5158,5 +5938,89 @@
         "date": "2022-03-20",
         "date_de": "20.03.2022",
         "ts": 1647784800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "13:00",
+        "date": "2022-04-09",
+        "date_de": "09.04.2022",
+        "ts": 1649502000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2022-04-09",
+        "date_de": "09.04.2022",
+        "ts": 1649505600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2022-04-09",
+        "date_de": "09.04.2022",
+        "ts": 1649512800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "TV 1884 Marktheidenfeld 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2022-04-09",
+        "date_de": "09.04.2022",
+        "ts": 1649512800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2022-04-10",
+        "date_de": "10.04.2022",
+        "ts": 1649581200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "TV 1884 Marktheidenfeld 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2022-04-10",
+        "date_de": "10.04.2022",
+        "ts": 1649581200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2022-04-10",
+        "date_de": "10.04.2022",
+        "ts": 1649581200
     }
 ]
