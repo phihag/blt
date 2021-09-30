@@ -152,6 +152,9 @@ function name_by_league(league_key) {
 	if (league_key === 'RLW-2016') {
 		return 'Regionalliga West';
 	}
+	if (league_key === 'RLSO-2019') {
+		return 'Regionalliga SüdOst';
+	}
 
 	var m = NRW2016_RE.exec(league_key);
 	if (m) {
