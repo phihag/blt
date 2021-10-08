@@ -6,6 +6,7 @@ var DEFAULT_PREFS = {
 	'2BLN-2020': true,
 	'2BLS-2020': true,
 	'RLW-2016': false,
+	'RLSO-2019': false,
 };
 var ALL_LEAGUES = Object.keys(DEFAULT_PREFS);
 
