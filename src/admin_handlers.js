@@ -1,5 +1,6 @@
 'use strict';
 
+const bcrypt = require('bcrypt');
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -22,8 +23,6 @@ async function override_handler(req, res) {
 }
 
 async function make_authentication_middleware(cfg) {
-	const bcrypt = require('bcrypt');
-
 	async function middleware(req, res, next) {
 		const b64auth = (req.headers.authorization || '').split(' ')[1] || ''
 		const [login, password] = Buffer.from(b64auth, 'base64').toString().split(':')
