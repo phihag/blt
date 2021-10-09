@@ -144,6 +144,9 @@ function league_scoring(league_key) {
 	if (league_key.startsWith('NRW')) {
 		return '3x21';
 	}
+	if (league_key === 'RLSO-2019') {
+		return '3x21';
+	}
 }
 
 function unify_team_name(team_name) {
