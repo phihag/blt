@@ -29,7 +29,8 @@
 	"type": "csde"
 },
 "TSV 1906 Freystadt": {
-	"type": "csde"
+	"type": "btde",
+	"url": "https://tsv1906freystadt.badmintonticker.de/ticker/"
 },
 "SV Fun-Ball Dortelweil": {
 	"type": "csde"
