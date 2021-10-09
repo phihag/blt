@@ -65,11 +65,11 @@ describe('btde', () => {
 			}, {
 				name: 'GD',
 				players: [[
-					{name: 'Carla Nelte'},
 					{name: 'Sam Magee'},
+					{name: 'Carla Nelte'},
 				], [
-					{name: 'Hannah Pohl'},
 					{name: 'Peter Briggs'},
+					{name: 'Hannah Pohl'},
 				]],
 				score: [[11, 7], [6, 11], [12, 10], [9, 11], [9, 11]],
 			}, {
@@ -182,8 +182,8 @@ describe('btde', () => {
 				name: 'GD',
 				score: [[4, 5]],
 				players: [
-					[{name: 'Isabel Herttrich'}, {name: 'Mark Lamsfuß'}],
-					[{name: 'Jessy'}, {name: 'Steffen'}],
+					[{name: 'Mark Lamsfuß'}, {name: 'Isabel Herttrich'}],
+					[{name: 'Steffen'}, {name: 'Jessy'}],
 				],
 				serving: 1,
 			}],
