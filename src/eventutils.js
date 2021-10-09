@@ -151,11 +151,13 @@ function league_scoring(league_key) {
 
 function unify_team_name(team_name) {
 	team_name = team_name.replace('<wbr>', '');
-	return {
+	team_name = {
 		'STC BW Solingen': 'STC Blau-Weiss Solingen',
 		'1.BC Sbr.-Bischmisheim': '1. BC Sbr.-Bischmisheim',
 		'1.BC Sbr.-Bischmisheim 2': '1. BC Sbr.-Bischmisheim 2',
 	}[team_name] || team_name;
+	team_name = team_name.replace(/\s+1$/, '');
+	return team_name;
 }
 
 function is_bundesliga(league_key) {
