@@ -1,3 +1,5 @@
+sync order_preferred_by_league between bup and bbt
+
 test that everybody has a logo + colors
 
 admin interface for overrides

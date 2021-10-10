@@ -57,22 +57,7 @@ function order_preferred_by_league(league_key) {
 		];
 	}
 
-	switch (league_key) {
-	case '1BL-2016':
-	case '2BLN-2016':
-	case '2BLS-2016':
-	case '1BL-2017':
-	case '2BLN-2017':
-	case '2BLS-2017':
-	case '1BL-2018':
-	case '2BLN-2018':
-	case '2BLS-2018':
-	case '1BL-2019':
-	case '2BLN-2019':
-	case '2BLS-2019':
-	case '1BL-2020':
-	case '2BLN-2020':
-	case '2BLS-2020':
+	if (is_bundesliga(league_key)) {
 		// See BLO-DB §8.8
 		return [
 			'HD1',
@@ -83,6 +68,9 @@ function order_preferred_by_league(league_key) {
 			'GD',
 			'HE2',
 		];
+	}
+
+	switch (league_key) {
 	case 'RLN-2016':
 		// Gruppenspielordnung Nord §7.9
 		return [
@@ -97,6 +85,18 @@ function order_preferred_by_league(league_key) {
 		];
 	case 'RLM-2016':
 		// SpO Gruppe Mitte §12c
+		return [
+			'HD1',
+			'DD',
+			'HD2',
+			'HE1',
+			'DE',
+			'GD',
+			'HE2',
+			'HE3',
+		];
+	case 'RLSO-2019':
+		// SpO Gruppe SüdOst §7.9
 		return [
 			'HD1',
 			'DD',
