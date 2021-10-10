@@ -202,8 +202,15 @@
 
 "HSG DHfK Leipzig": {
 	"type": "none"
+},
+"TSV 1860 Ansbach": {
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/tsv1860ansbach/"
+},
+"ESV Flügelrad Nürnberg": {
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/tsv1860ansbach/"
 }
-
 
 
 

@@ -59,8 +59,9 @@ var LOGOS = [
 	'bvrwwesel',
 	'cfbkoeln',
 	'djkteutsttnis',
-	'dhfkleipzig',
+	'dhfkleipzig', // blank, needs to be replaced
 	'ebtberlin',
+	'esvnuernberg', // png logo
 	'fclangenfeld',
 	'gladbeckerfc',
 	'hamburghornertv',
@@ -74,6 +75,7 @@ var LOGOS = [
 	'svfischbach',
 	'svfunballdortelweil',
 	'svgutsmuthsjena',
+	'tsvansbach', // png logo
 	'tsvfreystadt',
 	'tsvneubibergottobrunn',
 	'tsvneuhausen',
@@ -104,6 +106,7 @@ var LOGO_ALIASSE = {
 	'BC Bischmisheim': 'bcbsaarbruecken',
 	'BC Phönix Hövelhof': 'hoevelhof',
 	'Blau-Weiss Wittorf-NMS': 'wittorfneumuenster',
+	'ESV Flügelrad Nürnberg': 'esvnuernberg',
 	'SC Union Lüdinghausen': 'unionluedinghausen',
 	'SC Union 08 Lüdinghausen': 'unionluedinghausen',
 	'SG VfB/SC Peine': 'vfbscpeine',
