@@ -116,14 +116,16 @@ var LOGO_ALIASSE = {
 	'Union Lüdinghausen': 'unionluedinghausen',
 	'VfB GW Mülheim': 'vfbgwmuelheim',
 };
-function team_logo(team_name) {
+function team_logo(team_name, warn=true) {
 	team_name = LOGO_ALIASSE[team2club(team_name)] || team_name;
 
 	var clean_name = team_name.toLowerCase().replace(/[^a-z]/g, '');
 	if (LOGOS.includes(clean_name)) {
 		return 'logos/' + clean_name + '.svg';
 	} else {
-		report_problem.silent_error('Cannot find logo for ' + clean_name);
+		if (warn) {
+			report_problem.silent_error('Cannot find logo for ' + clean_name);
+		}
 	}
 }
 

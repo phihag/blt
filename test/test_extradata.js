@@ -79,7 +79,7 @@ describe('extradata', () => {
 	};
 
 	it('logo associations', function() {
-		assert(!extradata.team_logo('FoOBAR'));
+		assert(!extradata.team_logo('FoOBAR', false));
 
 		for (const team_name in expect_logos) {
 			const logo_name = expect_logos[team_name];
