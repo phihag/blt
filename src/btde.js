@@ -127,6 +127,7 @@ function parse(src, str) {
 
 		return res;
 	});
+	eventutils.unify_order(matches, src.league_key);
 
 	return {
 		team_names,
