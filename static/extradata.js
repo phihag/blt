@@ -206,6 +206,7 @@ var SHORT_NAMES = {
 	'Hamburg Horner TV': 'HornerTV',
 	'SV GutsMuths Jena': 'Jena',
 	'Spvgg.Sterkrade-N.': 'Sterkrade',
+	'ESV Flügelrad Nürnberg': 'Nürnberg',
 	'SV Berliner Brauereien': 'BerlinerBrauereien',
 	'1.BV Mülheim': 'BVMülheim',
 	'VfB GW Mülheim': 'GWMülheim',
