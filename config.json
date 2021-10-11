@@ -12,5 +12,5 @@
 		"user": "admin",
 		"password_hash": "<enter hash created by ./makepassword.js here in localconfig.json>"
 	}],
-	"note_html": "<div style=\"text-align:center\"><strong>Jetzt neu: Regionalliga SüdOst!</strong> (Unten links auswählen.)<br/>Nächster Bundesligaspieltag ist der 23. Oktober 2021.</div>"
+	"note_html": "<div style=\"text-align:center\">Nächster Bundesligaspieltag ist der 23. Oktober 2021.</div>"
 }
