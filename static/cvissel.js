@@ -41,9 +41,8 @@ function init_ui() {
 			// Configuration from last season, restore to defaults
 			prefs = JSON.parse(JSON.stringify(DEFAULT_PREFS));
 		}
-
-		update();
 	}
+	update();
 }
 
 function init_nothing_warning() {
