@@ -27,6 +27,9 @@ function init_ui() {
 	if (!has_localStorage()) {
 		return;
 	}
+
+	init_nothing_warning();
+
 	var new_prefs_json = localStorage.getItem('bbt_vissel_prefs');
 	if (new_prefs_json) {
 		prefs = JSON.parse(new_prefs_json);
@@ -41,8 +44,6 @@ function init_ui() {
 
 		update();
 	}
-
-	init_nothing_warning();
 }
 
 function init_nothing_warning() {
