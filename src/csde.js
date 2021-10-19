@@ -38,7 +38,7 @@ const TEAM_NAMES = {
 	'3-30': 'SV Fischbach',
 	'3-33': 'SV Fun-Ball Dortelweil 2',
 	'3-35': 'TSV Neuhausen-Nymphenburg 2',
-	'3-28': 'TuS 1872  Schwanheim',
+	'3-28': 'TuS 1872 Schwanheim',
 	'3-31': 'TuS Geretsried',
 	'3-32': 'TuS Neuhofen',
 	'3-27': 'TV 1884 Marktheidenfeld',
