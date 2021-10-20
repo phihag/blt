@@ -23,6 +23,7 @@ describe('extradata', () => {
 		assert.strictEqual(extradata.shortname('TSV Trittau 2'), 'Trittau2');
 		assert.strictEqual(extradata.shortname('Blau-Weiss Wittorf-NMS'), 'Wittorf');
 		assert.strictEqual(extradata.shortname('Hamburg Horner TV'), 'HornerTV');
+		assert.strictEqual(extradata.shortname('Horner TV'), 'HornerTV');
 		assert.strictEqual(extradata.shortname('TV Refrath 2'), 'Refrath2');
 		assert.strictEqual(extradata.shortname('1.BC Beuel 2'), 'Beuel2');
 		assert.strictEqual(extradata.shortname('VfB/SC Peine'), 'Peine');

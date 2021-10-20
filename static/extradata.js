@@ -206,6 +206,7 @@ function name_by_league(league_key) {
 var SHORT_NAMES = {
 	'TSV Neuhausen-Nymphenburg': 'Neuhausen',
 	'Hamburg Horner TV': 'HornerTV',
+	'Horner TV': 'HornerTV',
 	'SV GutsMuths Jena': 'Jena',
 	'Spvgg.Sterkrade-N.': 'Sterkrade',
 	'ESV Flügelrad Nürnberg': 'Nürnberg',
