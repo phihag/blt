@@ -1,3 +1,7 @@
+no_events_visible
+	show on init
+	render if checks change
+
 sync order_preferred_by_league between bup and bbt
 
 test that everybody has a logo + colors
