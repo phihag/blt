@@ -1754,18 +1754,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TSV Trittau 2",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "13:00",
-        "date": "2021-10-30",
-        "date_de": "30.10.2021",
-        "ts": 1635591600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "BC Hohenlimburg",
             "1.BC Beuel 2"
         ],
