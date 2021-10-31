@@ -1982,18 +1982,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TSV Trittau 2",
-            "TV Refrath 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "11:00",
-        "date": "2021-10-31",
-        "date_de": "31.10.2021",
-        "ts": 1635674400
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TuS 1872 Schwanheim",
             "SV Fun-Ball Dortelweil 2"
         ],
