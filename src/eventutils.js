@@ -156,6 +156,7 @@ function unify_team_name(team_name) {
 		'1.BC Sbr.-Bischmisheim': '1. BC Sbr.-Bischmisheim',
 		'1.BC Sbr.-Bischmisheim 2': '1. BC Sbr.-Bischmisheim 2',
 		'SC Union Lüdinghausen': 'SC Union 08 Lüdinghausen',
+		'1.CfB Köln': '1. CfB Köln',
 	}[team_name] || team_name;
 	team_name = team_name.replace(/\s+1$/, '');
 	return team_name;
