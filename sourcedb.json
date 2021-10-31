@@ -199,8 +199,8 @@
 	"type": "csde"
 },
 "BSV Eggenstein-Leopoldshafen": {
-	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/bsveggensteinleopoldshafen/"
+	"type": "csde",
+	"_btde_url": "https://badmintonticker.de/ticker/bsveggensteinleopoldshafen/"
 },
 
 "HSG DHfK Leipzig": {
