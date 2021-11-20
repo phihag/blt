@@ -1,24 +1,22 @@
 [
-
-
     {
         "type": "auto",
         "team_names": [
             "TV Refrath 2",
-            "SV Berliner Brauereien"
+            "1.BC Wipperfeld 2"
         ],
         "league_key": "2BLN-2020",
         "starttime": "14:00",
-        "date": "2021-10-23",
-        "date_de": "23.10.2021",
-        "ts": 1634990400,
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637413200,
         "override": {
             "live_streams": [{
                 "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/tv-refrath-ii/tv-refrath-2-sv-berliner-brauereien-feld-1"
+                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-2-1-bc-wipperfeld-2-feld-1"
             }, {
                 "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/tv-refrath-ii/tv-refrath-2-sv-berliner-brauereien-feld-2"
+                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-2-1-bc-wipperfeld-2-feld-2"
             }]
         }
     },
@@ -26,20 +24,20 @@
         "type": "auto",
         "team_names": [
             "TV Refrath",
-            "TSV Neuhausen-Nymphenburg"
+            "SC Union 08 Lüdinghausen"
         ],
         "league_key": "1BL-2020",
         "starttime": "18:00",
-        "date": "2021-10-23",
-        "date_de": "23.10.2021",
-        "ts": 1635004800,
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637427600,
         "override": {
             "live_streams": [{
                 "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-tsv-neuhausen-nymphenburg-feld-1"
+                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-union-luedinghausen-feld-1"
             }, {
                 "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-tsv-neuhausen-nymphenburg-feld-2"
+                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-union-luedinghausen-feld-2"
             }]
         }
     },

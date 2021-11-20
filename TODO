@@ -60,13 +60,11 @@ colors Jena / Fischbach
 message if everything unselected!
 	-> Steffen Hohenberg
 
-
+live table (=> Tobias Mund)
 
 read courts
 	CourtSpot
 cast with bup
-
-add Regionalliga Nord / Regionalliga West (initially hidden)
 
 courtspot: allow tests (status off should be != error)
 
