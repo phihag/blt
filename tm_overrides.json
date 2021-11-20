@@ -65,21 +65,21 @@
     {
         "type": "auto",
         "team_names": [
-            "TV Refrath",
-            "SG Schorndorf"
+            "1.BC Wipperfeld",
+            "1.BC Beuel"
         ],
         "league_key": "1BL-2020",
-        "starttime": "15:00",
-        "date": "2021-10-24",
-        "date_de": "24.10.2021",
-        "ts": 1635080400,
+        "starttime": "14:00",
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637413200,
         "override": {
             "live_streams": [{
                 "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-sg-schorndorf-feld-1"
+                "url": "https://sportdeutschland.tv/1-bc-wipperfeld/1-bl-9-spieltag-1-bc-wipperfeld-1-bc-beuel-court-1"
             }, {
                 "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-sg-schorndorf-feld-2"
+                "url": "https://sportdeutschland.tv/1-bc-wipperfeld/1-bl-9-spieltag-1-bc-wipperfeld-1-bc-beuel-court-2"
             }]
         }
     },
@@ -87,21 +87,21 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Beuel 2",
-            "1. CfB Köln"
+            "1. BC Sbr.-Bischmisheim",
+            "SV Fun-Ball Dortelweil"
         ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2021-10-23",
-        "date_de": "23.10.2021",
-        "ts": 1634990400,
+        "league_key": "1BL-2020",
+        "starttime": "17:00",
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637424000,
         "override": {
             "live_streams": [{
                 "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/1-bc-beuel/1-bc-beuel-2-vs-cfb-koeln-feld-1"
+                "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/1-bcb-sv-fun-ball-dortelweil-l-court-1"
             }, {
                 "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/1-bc-beuel/1-bc-beuel-2-vs-cfb-koeln-feld-2"
+                "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/1-bcb-sv-fun-ball-dortelweil-l-court-2"
             }]
         }
     },
@@ -109,123 +109,66 @@
 {
         "type": "auto",
         "team_names": [
-            "1.BC Beuel",
-            "SV GutsMuths Jena"
+            "SG Schorndorf",
+            "TSV Neuhausen-Nymphenburg"
         ],
         "league_key": "1BL-2020",
         "starttime": "18:00",
-        "date": "2021-10-23",
-        "date_de": "23.10.2021",
-        "ts": 1635004800,
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637427600,
+
         "override": {
             "live_streams": [{
                 "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/1-bc-beuel/1-bc-beuel-vs-sv-gutsmuths-feld-1"
+                "url": "https://sportdeutschland.tv/sgschorndorf/1-bundesliga-sg-schorndorf-vs-tsv-neuhausen-nymphenburg-court-1"
             }, {
                 "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/1-bc-beuel/1-bc-beuel-vs-sv-gutsmuths-feld-2"
+                "url": "https://sportdeutschland.tv/sgschorndorf/1-bundesliga-sg-schorndorf-vs-tsv-neuhausen-nymphenburg-court-2"
             }]
         }
-
     },
-    {
+
+        {
         "type": "auto",
         "team_names": [
             "1.BC Beuel 2",
-            "1.BV Mülheim"
+            "STC Blau-Weiss Solingen"
         ],
         "league_key": "2BLN-2020",
-        "starttime": "13:00",
-        "date": "2021-10-24",
-        "date_de": "24.10.2021",
-        "ts": 1635073200,
+        "starttime": "18:00",
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637427600,
         "override": {
             "live_streams": [{
                 "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/1-bc-beuel/1-bc-beuel-2-vs-1-bv-muelheim-feld-1"
+                "url": "https://sportdeutschland.tv/1-bc-beuel/1-bc-beuel-2-vs-stc-blau-weiss-solingen-feld-1"
             }, {
                 "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/1-bc-beuel/1-bc-beuel-2-vs-1-bv-muelheim-feld-2"
+                "url": "https://sportdeutschland.tv/1-bc-beuel/1-bc-beuel-2-vs-stc-blau-weiss-solingen-feld-2"
             }]
         }
     },
+
     {
         "type": "auto",
         "team_names": [
-            "1. BC Sbr.-Bischmisheim",
-            "Blau-Weiss Wittorf-NMS"
+            "1. CfB Köln",
+            "1.BV Mülheim"
         ],
-        "league_key": "1BL-2020",
+        "league_key": "2BLN-2020",
         "starttime": "17:00",
-        "date": "2021-10-23",
-        "date_de": "23.10.2021",
-        "ts": 1635001200,
+        "date": "2021-11-20",
+        "date_de": "20.11.2021",
+        "ts": 1637424000,
         "override": {
             "live_streams": [{
                 "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/1-bcb-bw-wittorf-l-court-1"
+                "url": "https://sportdeutschland.tv/cfb/2-bl-nord-9-spieltag-1-cfb-koeln-1-bv-muelheim-court-1"
             }, {
                 "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/1-bcb-bw-wittorf-l-court-2"
-            }]
-        }
-    },
-
-{
-        "type": "auto",
-        "team_names": [
-            "1. BC Sbr.-Bischmisheim",
-            "TSV Trittau"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "15:00",
-        "date": "2021-10-24",
-        "date_de": "24.10.2021",
-        "ts": 1635080400,
-        "override": {
-            "live_streams": [{
-                "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/1-bcb-tsv-trittau-l-court-1"
-            }, {
-                "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/1-bcb-tsv-trittau-l-court-2"
-            }]
-        }
-    },
-
-{
-        "type": "auto",
-        "team_names": [
-            "SV Fun-Ball Dortelweil",
-            "TSV Trittau"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "17:00",
-        "date": "2021-10-23",
-        "date_de": "23.10.2021",
-        "ts": 1635001200,
-        "override": {
-            "live_streams": [{
-                "label": "Live-Stream",
-                "url": "https://sportdeutschland.tv/svfunballdortelweilev/sv-fun-ball-dortelweil-gegen-tsv-trittau"
-            }]
-        }
-    },
-{
-        "type": "auto",
-        "team_names": [
-            "SV Fun-Ball Dortelweil",
-            "Blau-Weiss Wittorf-NMS"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "11:00",
-        "date": "2021-10-24",
-        "date_de": "24.10.2021",
-        "ts": 1635066000,
-        "override": {
-            "live_streams": [{
-                "label": "Live-Stream",
-                "url": "https://sportdeutschland.tv/svfunballdortelweilev/sv-fun-ball-dortelweil-gegen-bw-wittorf-neumuenster"
+                "url": "https://sportdeutschland.tv/cfb/2-bl-nord-9-spieltag-1-cfb-koeln-1-bv-muelheim-court-2"
             }]
         }
     }

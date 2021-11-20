@@ -2258,18 +2258,6 @@
     {
         "type": "auto",
         "team_names": [
-            "Horner TV",
-            "TSV Trittau 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2021-11-20",
-        "date_de": "20.11.2021",
-        "ts": 1637413200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV Berliner Brauereien",
             "SG EBT Berlin"
         ],
