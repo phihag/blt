@@ -75,6 +75,12 @@ function run_server(cfg, source_info) {
 function main() {
 	async.waterfall([
 		config.load,
+		(cfg, cb) => {
+			if (cfg('disable_tls_verification', false)) {
+				process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
+			}
+			cb(null, cfg);
+		},
 		(cfg, cb) => sources.load((err, source_info) => cb(err, cfg, source_info)),
 	], (err, cfg, source_info) => {
 		if (err) {
