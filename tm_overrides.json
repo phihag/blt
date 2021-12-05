@@ -85,6 +85,28 @@
                 "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-sv-fun-ball-dortelweil-feld-2"
             }]
         }
+    },
 
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2021-12-05",
+        "date_de": "05.12.2021",
+        "ts": 1638709200,
+        "override": {
+            "live_streams": [{
+                "label": "Live-Stream Feld 1",
+                "url": "https://sportdeutschland.tv/sc-union-luedinghausen/1-badminton-bundesliga-sc-union-08-luedinghausen-vs-1-bc-sbr-bischmisheim-c1"
+            }, {
+                "label": "Live-Stream Feld 2",
+                "url": "https://sportdeutschland.tv/sc-union-luedinghausen/1-badminton-bundesliga-sc-union-08-luedinghausen-vs-1-bc-sbr-bischmisheim-c2"
+            }]
+        }
     }
+    
 ]
