@@ -101,6 +101,10 @@
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/tv1884marktheidenfeld/"
 },
+"TV 1884 Marktheidenfeld 2": {
+	"type": "btde",
+	"url": "https://badmintonticker.de/ticker/tv1884marktheidenfeld2/"
+},
 "STC BW Solingen": {
 	"type": "csde"
 },
