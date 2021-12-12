@@ -2906,18 +2906,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1. CfB Köln",
-            "Horner TV"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2021-12-12",
-        "date_de": "12.12.2021",
-        "ts": 1639314000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "BC Remagen",
             "TuS Neuhofen"
         ],
