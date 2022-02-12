@@ -2,21 +2,21 @@
     {
         "type": "auto",
         "team_names": [
-            "SC Union 08 Lüdinghausen",
-            "SV Fun-Ball Dortelweil"
+            "TV Refrath",
+            "1.BC Beuel"
         ],
         "league_key": "1BL-2020",
-        "starttime": "14:00",
-        "date": "2021-12-04",
-        "date_de": "04.12.2021",
-        "ts": 1638622800,
+        "starttime": "18:00",
+        "date": "2022-02-12",
+        "date_de": "12.02.2022",
+        "ts": 1644685200,
         "override": {
             "live_streams": [{
                 "label": "Live-Stream Feld 1",
                 "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-1-bc-beuel-feld-1"
             }, {
                 "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/sc-union-luedinghausen/1-badminton-bundesliga-sc-union-08-luedinghausen-vs-sv-fun-ball-dortelweil-c2"
+                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-1-bc-beuel-feld-2"
             }]
         }
     },
