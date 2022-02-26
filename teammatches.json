@@ -38,18 +38,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TSV Trittau 2",
-            "SG EBT Berlin"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "13:00",
-        "date": "2021-09-11",
-        "date_de": "11.09.2021",
-        "ts": 1631358000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "BC Remagen",
             "TV 1884 Marktheidenfeld"
         ],
@@ -258,18 +246,6 @@
             "BSV Eggenstein-Leopoldshafen"
         ],
         "league_key": "2BLS-2020",
-        "starttime": "11:00",
-        "date": "2021-09-12",
-        "date_de": "12.09.2021",
-        "ts": 1631437200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TSV Trittau 2",
-            "SV Berliner Brauereien"
-        ],
-        "league_key": "2BLN-2020",
         "starttime": "11:00",
         "date": "2021-09-12",
         "date_de": "12.09.2021",
@@ -598,18 +574,6 @@
         "date": "2021-09-25",
         "date_de": "25.09.2021",
         "ts": 1632565800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Beuel 2",
-            "TSV Trittau 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "13:00",
-        "date": "2021-09-25",
-        "date_de": "25.09.2021",
-        "ts": 1632567600
     },
     {
         "type": "auto",
@@ -1002,18 +966,6 @@
             "BC Phönix Hövelhof"
         ],
         "league_key": "RLW-2016",
-        "starttime": "15:00",
-        "date": "2021-09-26",
-        "date_de": "26.09.2021",
-        "ts": 1632661200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "STC Blau-Weiss Solingen",
-            "TSV Trittau 2"
-        ],
-        "league_key": "2BLN-2020",
         "starttime": "15:00",
         "date": "2021-09-26",
         "date_de": "26.09.2021",
@@ -2834,18 +2786,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1. CfB Köln",
-            "Horner TV"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2021-12-12",
-        "date_de": "12.12.2021",
-        "ts": 1639314000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "BC Remagen",
             "TuS Neuhofen"
         ],
@@ -3782,18 +3722,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BV Mülheim",
-            "SG EBT Berlin"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "13:00",
-        "date": "2022-02-12",
-        "date_de": "12.02.2022",
-        "ts": 1644667200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV Fun-Ball Dortelweil 2",
             "TuS 1872 Schwanheim"
         ],
@@ -3902,18 +3830,6 @@
     {
         "type": "auto",
         "team_names": [
-            "BSpfr. Neusatz",
-            "TSV 1860 Ansbach"
-        ],
-        "league_key": "RLSO-2019",
-        "starttime": "16:00",
-        "date": "2022-02-12",
-        "date_de": "12.02.2022",
-        "ts": 1644678000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "ESV Flügelrad Nürnberg",
             "HSG DHfK Leipzig"
         ],
@@ -3934,18 +3850,6 @@
         "date": "2022-02-12",
         "date_de": "12.02.2022",
         "ts": 1644678000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Wipperfeld 2",
-            "Horner TV"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "16:30",
-        "date": "2022-02-12",
-        "date_de": "12.02.2022",
-        "ts": 1644679800
     },
     {
         "type": "auto",
@@ -3976,18 +3880,6 @@
         "team_names": [
             "1.BV Mülheim 2",
             "BC Hohenlimburg 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "17:00",
-        "date": "2022-02-12",
-        "date_de": "12.02.2022",
-        "ts": 1644681600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BV RW Wesel",
-            "BC Phönix Hövelhof"
         ],
         "league_key": "RLW-2016",
         "starttime": "17:00",
@@ -4106,18 +3998,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Schorndorf 2",
-            "TSV 1860 Ansbach"
-        ],
-        "league_key": "RLSO-2019",
-        "starttime": "11:00",
-        "date": "2022-02-13",
-        "date_de": "13.02.2022",
-        "ts": 1644746400
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV Fun-Ball Dortelweil",
             "TSV Neuhausen-Nymphenburg"
         ],
@@ -4134,18 +4014,6 @@
             "BC Offenburg"
         ],
         "league_key": "2BLS-2020",
-        "starttime": "11:00",
-        "date": "2022-02-13",
-        "date_de": "13.02.2022",
-        "ts": 1644746400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TV Refrath 2",
-            "Horner TV"
-        ],
-        "league_key": "2BLN-2020",
         "starttime": "11:00",
         "date": "2022-02-13",
         "date_de": "13.02.2022",
@@ -4186,18 +4054,6 @@
         "date": "2022-02-13",
         "date_de": "13.02.2022",
         "ts": 1644753600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1. CfB Köln",
-            "SG EBT Berlin"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2022-02-13",
-        "date_de": "13.02.2022",
-        "ts": 1644757200
     },
     {
         "type": "auto",
@@ -5198,6 +5054,30 @@
     {
         "type": "auto",
         "team_names": [
+            "BSpfr. Neusatz",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "18:00",
+        "date": "2022-03-12",
+        "date_de": "12.03.2022",
+        "ts": 1647104400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "TSV 1860 Ansbach"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2022-03-13",
+        "date_de": "13.03.2022",
+        "ts": 1647176400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TV 1884 Marktheidenfeld 2",
             "ESV Flügelrad Nürnberg"
         ],
@@ -5418,6 +5298,18 @@
             "TV Refrath 2"
         ],
         "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2022-03-19",
+        "date_de": "19.03.2022",
+        "ts": 1647709200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV RW Wesel",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
         "starttime": "18:00",
         "date": "2022-03-19",
         "date_de": "19.03.2022",
