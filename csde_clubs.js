@@ -3,17 +3,24 @@
 const assert = require('assert');
 const argparse = require('argparse');
 const fetch = require('node-fetch');
+const fs = require('fs');
+const path = require('path');
 
 const utils = require('./src/utils');
 
 
+const TARGET_FILE = path.join(__dirname, 'src', 'csde_map.js');
+
+
 async function main() {
 	const parser = new argparse.ArgumentParser({
-		description: 'Generate club IDs for CourtSpot, to be copied into csde.js',
+		description: 'Generate and write club IDs for CourtSpot',
 	});
-	parser.parseArgs();
+	parser.addArgument('--display', {help: `Do not write to ${TARGET_FILE}, display instead`});
+	const args = parser.parseArgs();
 
-	for (const league of [1, 2, 3, 4, 7, 11, 12, 13]) {
+	const lines = [];
+	for (const league of [1, 2, 3, 4, 6, 7, 11, 12, 13]) {
 		const response = await fetch(`https://courtspot.de/php__Skripte/getVereine.php?liga=${league}`);
 		assert.equal(response.status, 200);
 		const xml = await response.text();
@@ -28,8 +35,26 @@ async function main() {
 			}
 
 			const id = el.getElementsByTagName('Nummer')[0].textContent;
-			console.log(`'${league}-${id}': '${name}',`);
+			lines.push(`    '${league}-${id}': '${name}',`);
 		}
+	}
+
+	if (args.display) {
+		for (const line of lines) {
+			console.log(line.trim());
+		}
+	} else {
+		const js = (
+			"'use strict';\n\n" +
+			'const TEAM_NAMES = {\n' +
+			lines.join('\n') +
+			'\n};\n\n' +
+			'module.exports = {\n' + 
+			'    TEAM_NAMES,\n' +
+			'};\n'
+		);
+		await fs.promises.writeFile(TARGET_FILE, js, {encoding: 'utf-8'});
+		console.log(`Updated ${TARGET_FILE}`);
 	}
 }
 
