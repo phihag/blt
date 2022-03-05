@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const utils = require('./src/utils');
-
+const {unify_team_name} = require('./src/eventutils.js');
 
 const TARGET_FILE = path.join(__dirname, 'src', 'csde_map.js');
 
@@ -33,6 +33,7 @@ async function main() {
 			if (name_m) {
 				name = name_m[1];
 			}
+			name = unify_team_name(name);
 
 			const id = el.getElementsByTagName('Nummer')[0].textContent;
 			lines.push(`    '${league}-${id}': '${name}',`);

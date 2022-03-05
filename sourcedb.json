@@ -128,6 +128,9 @@
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/svgutsmuthsjena/"
 },
+"SV GutsMuths Jena 2": {
+	"type": "none"
+},
 "BC Hohenlimburg": {
 	"type": "csde"
 },
@@ -217,9 +220,19 @@
 "ESV Flügelrad Nürnberg": {
 	"type": "btde",
 	"url": "https://badmintonticker.de/ticker/esvfluegelradnuernberg/"
+},
+
+"TB Andernach": {
+	"type": "csde"
+},
+
+"OTG 1902 Gera": {
+	"type": "none"
+},
+
+"SG 1862 Anspach": {
+	"type": "none"
 }
-
-
 
 
 }
