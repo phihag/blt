@@ -5606,6 +5606,30 @@
     {
         "type": "auto",
         "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2022-03-27",
+        "date_de": "27.03.2022",
+        "ts": 1648382400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2022-03-27",
+        "date_de": "27.03.2022",
+        "ts": 1648382400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TSV 1906 Freystadt",
             "TSV 1860 Ansbach"
         ],
