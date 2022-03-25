@@ -1,17 +1,6 @@
 'use strict';
 
 const TEAM_NAMES = {
-    '1-1': '1. BC Sbr.-Bischmisheim',
-    '1-8': '1.BC Beuel',
-    '1-2': '1.BC Wipperfeld',
-    '1-5': 'Blau-Weiss Wittorf-NMS',
-    '1-4': 'SC Union 08 Lüdinghausen',
-    '1-10': 'SG Schorndorf',
-    '1-11': 'SV Fun-Ball Dortelweil',
-    '1-9': 'SV GutsMuths Jena',
-    '1-6': 'TSV Neuhausen-Nymphenburg',
-    '1-7': 'TSV Trittau',
-    '1-3': 'TV Refrath',
     '2-18': '1. CfB Köln',
     '2-19': '1.BC Beuel 2',
     '2-23': '1.BC Wipperfeld 2',
