@@ -57,6 +57,8 @@ class StateHandler {
 	}
 
 	on_new_full(new_ev, ticker_state) {
+		assert.equal(typeof new_ev.team_competition, 'boolean');
+
 		new_ev.num = this.num;
 		const diff = determine_diff(this.ev, new_ev);
 

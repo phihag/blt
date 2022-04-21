@@ -6,6 +6,7 @@ function copy_props(ev, src) {
 			ev[k] = src[k];
 		}
 	}
+	ev.team_competition = true;
 
 	if (!ev.team_names[1]) {
 		const admin_note = (

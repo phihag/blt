@@ -117,6 +117,7 @@ function event_handler(req, res, next) {
 	const _matches = team_name => extradata.shortname(team_name).toLowerCase() === team;
 
 	let data = undefined;
+	// Home match?
 	for (const ev of events) {
 		if (!ev.team_names) continue;
 		if (_matches(ev.team_names[0])) {
@@ -124,6 +125,8 @@ function event_handler(req, res, next) {
 			break;
 		}
 	}
+
+	// Away match
 	if (!data) {
 		for (const ev of events) {
 			if (!ev.team_names) continue;
