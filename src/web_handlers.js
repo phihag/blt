@@ -75,7 +75,7 @@ function streamcourt_handler(req, res) {
 	const dm_style = req.query.dm_style || 'streamcourt';
 	res.redirect(
 		`/bup/#display&dm_style=${encodeURIComponent(dm_style)}` +
-		`&bbt_poll=${shortname}&court=${court}&nosettings`);
+		`&bbt_poll=${shortname}&court=${court}&nosettings&team_colors=true`);
 }
 
 module.exports = {
