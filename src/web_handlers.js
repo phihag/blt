@@ -53,6 +53,7 @@ function streams_handler(req, res, next) {
 	render(req, res, next, 'streams', {
 		teams: team_data(req.app),
 		courts: [{court_id: '1'}, {court_id: '2'}],
+		bbt_base_url: 'https://b.aufschlagwechsel.de',
 	}, true);
 }
 
@@ -63,13 +64,18 @@ function stream_handler(req, res) {
 
 function streamteam_handler(req, res) {
 	const shortname = req.params.shortname;
-	res.redirect(`/bup/#display&dm_style=streamteam&bbt_poll=${shortname}&court=referee&nosettings`);
+	res.redirect(
+		`/bup/#display&dm_style=streamteam&bbt_poll=${shortname}` +
+		`&court=referee&nosettings&team_colors=true`);
 }
 
 function streamcourt_handler(req, res) {
 	const shortname = req.params.shortname;
 	const court = req.params.court;
-	res.redirect(`/bup/#display&dm_style=streamcourt&bbt_poll=${shortname}&court=${court}&nosettings`);
+	const dm_style = req.query.dm_style || 'streamcourt';
+	res.redirect(
+		`/bup/#display&dm_style=${encodeURIComponent(dm_style)}` +
+		`&bbt_poll=${shortname}&court=${court}&nosettings`);
 }
 
 module.exports = {
