@@ -18,6 +18,7 @@ async function setup(cfg, app) {
 	app.get('/allteams', web_handlers.allteams_handler);
 	app.get('/streams', web_handlers.streams_handler);
 	app.get('/s/:shortname', web_handlers.stream_handler);
+	app.get('/s/:shortname/team', web_handlers.streamteam_handler);
 	app.get('/s/:shortname/:court', web_handlers.streamcourt_handler);
 
 	app.get('/bupdate', bup_handlers.bupdate_handler);

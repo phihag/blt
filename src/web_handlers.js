@@ -60,6 +60,11 @@ function stream_handler(req, res) {
 	res.redirect(`/bup/#display&dm_style=stream&bbt_poll=${shortname}&court=referee&nosettings`);
 }
 
+function streamteam_handler(req, res) {
+	const shortname = req.params.shortname;
+	res.redirect(`/bup/#display&dm_style=streamteam&bbt_poll=${shortname}&court=referee&nosettings`);
+}
+
 function streamcourt_handler(req, res) {
 	const shortname = req.params.shortname;
 	const court = req.params.court;
@@ -73,5 +78,6 @@ module.exports = {
 	root_handler,
 	streams_handler,
 	stream_handler,
+	streamteam_handler,
 	streamcourt_handler,
 };
