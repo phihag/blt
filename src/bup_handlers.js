@@ -143,6 +143,15 @@ function event_handler(req, res, next) {
 		return;
 	}
 
+	// Set empty courts to avoid errors
+	if (!data.courts) {
+		data = {...data};
+		data.courts = [
+			{'label': '1'},
+			{'label': '2'},
+		];
+	}
+
 	res.setHeader('Content-Type', 'application/json');
 	res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
 	res.send(JSON.stringify(data, null, 2));

@@ -52,6 +52,7 @@ function allteams_handler(req, res, next) {
 function streams_handler(req, res, next) {
 	render(req, res, next, 'streams', {
 		teams: team_data(req.app),
+		courts: [{court_id: '1'}, {court_id: '2'}],
 	}, true);
 }
 
