@@ -30,5 +30,24 @@
             "label": "Live-Stream",
             "url": "https://sportdeutschland.tv/finalfourbadminton2022/final-four-badminton-halbfinale-fun-ball-dortelweil-vs-1-bc-sbr-bischmisheim"
         }]
+    },
+    {
+        "type": "csde",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "12:00",
+        "date": "2022-04-23",
+        "date_de": "23.04.2022",
+        "ts": 1650718800000,
+        "live_streams": [{
+            "label": "Live-Stream Feld 1",
+            "url": "https://sportdeutschland.tv/finalfourbadminton2022/final-four-badminton-finale-spielfeld-1-0"
+        }, {
+            "label": "Live-Stream Feld 2",
+            "url": "https://sportdeutschland.tv/finalfourbadminton2022/final-four-badminton-finale-spielfeld-1"
+        }]
     }
 ]
