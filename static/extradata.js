@@ -22,6 +22,7 @@ var TEAM_COLORS = {
 	'Hövelhof': '#ce1b28', // BX Phönix Hövelhof
 	'Jena': '#3466a4', // SV GutsMuths Jena
 	'Lüdinghausen': '#ff1400',
+	'Maintal': '#104cba', // 1. BV Maintal
 	'Marktheidenfeld': '#1c3759',
 	'Neubiberg': '#e2001a', // TSV Neubiberg/Ottobrunn 1920
 	'Neuhausen': '#02c0ff',
@@ -58,6 +59,7 @@ var LOGOS = [
 	'bspfrneusatz',
 	'bsveggensteinleopoldshafen',
 	'bvgifhorn',
+	'bvmaintal',
 	'bvmuelheim',
 	'bvrwwesel',
 	'cfbkoeln',

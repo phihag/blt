@@ -56,6 +56,9 @@ function init(cfg, datestr, source_info, wss) {
 		}
 
 		let mod;
+		if (!tm.team_names) {
+			throw new Error('Team match without team names: ' + JSON.stringify(tm));
+		}
 		const home_team_name = tm.team_names[0];
 		const home_team = sourcedb[home_team_name];
 		if (!home_team) {
