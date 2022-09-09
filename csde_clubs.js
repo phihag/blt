@@ -16,7 +16,7 @@ async function main() {
 	const parser = new argparse.ArgumentParser({
 		description: 'Generate and write club IDs for CourtSpot',
 	});
-	parser.addArgument('--display', {help: `Do not write to ${TARGET_FILE}, display instead`});
+	parser.addArgument('--display', {action: 'storeTrue', help: `Do not write to ${TARGET_FILE}, display instead`});
 	const args = parser.parseArgs();
 
 	const lines = [];
