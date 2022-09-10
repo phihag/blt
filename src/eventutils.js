@@ -158,6 +158,8 @@ function unify_team_name(team_name) {
 		'SC Union Lüdinghausen': 'SC Union 08 Lüdinghausen',
 		'1.CfB Köln': '1. CfB Köln',
 		'TuS 1872  Schwanheim': 'TuS 1872 Schwanheim',
+		'1. BV Maintal 1978': '1. BV Maintal',
+		'TSV Neuhausen-Nymphenb. München 2': 'TSV Neuhausen-Nymphenburg 2',
 	}[team_name] || team_name;
 	team_name = team_name.replace(/\s+1$/, '');
 	return team_name;
