@@ -76,24 +76,24 @@ function parse(src, data) {
 	const GAME_COUNT = max_game_count(scoring);
 
 	const courts = [{label: '1'}, {label: '2'}];
-	const matches = event.matches.map(match => {
+	const matches = event.matches.map(btde_match => {
 		const res = {
-			name: match.dis,
+			name: btde_match.dis,
 			score: [],
 		};
 
-		const court_id = match.court;
+		const court_id = btde_match.court;
 		if (court_id === 1) {
 			courts[0].match_id = res.name;
 		} else if (court_id === 2) {
 			courts[1].match_id = res.name;
 		}
 
-		let players = match.players.map(_parse_players);
+		// Players
+		let players = btde_match.players.map(_parse_players);
 		if (players.length !== 2) {
 			players = [[], []];
 		}
-
 		// Swap mixed (wrong order in btde)
 		if (res.name === 'GD') {
 			for (const team_players of players) {
@@ -102,14 +102,17 @@ function parse(src, data) {
 				}
 			}
 		}
-
 		if ((players[0].length > 0) || (players[1].length > 0)) {
 			res.players = players;
 		}
 
-		res.score = match.points;
+		// Score
+		res.score = btde_match.points;
 
-		// TODO who's serving?
+		// Server
+		if (btde_match.service && btde_match.service.length == 2) {
+			res.serving = btde_match.service[0] ? 0 : 1;
+		}
 
 		return res;
 	});
