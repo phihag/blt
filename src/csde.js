@@ -223,8 +223,6 @@ function setup_tm(tm, home_team) {
 	tm.link = home_team.link;
 
 	const team_ids = tm.team_names.map(tname => {
-		tname = eventutils.unify_team_name(tname);
-
 		let league_code;
 		for (const k in TEAM_NAMES) {
 			league_code = tm.csde_league_code;

@@ -18,6 +18,10 @@ const TYPES = {
 
 function apply_overrides(tms, overrides) {
 	for (const o of overrides) {
+		if (o.team_names) {
+			o.team_names = o.team_names.map(eventutils.unify_team_name);
+		}
+
 		const matching_tms = tms.filter(search_tm => {
 			return utils.deep_equal(o.team_names, search_tm.team_names);
 		});
@@ -60,7 +64,6 @@ function init(cfg, datestr, source_info, wss) {
 		if (!tm.team_names) {
 			throw new Error('Team match without team names: ' + JSON.stringify(tm));
 		}
-		tm.team_names = tm.team_names.map(eventutils.unify_team_name);
 		const home_team_name = tm.team_names[0];
 		const home_team = sourcedb[home_team_name];
 		if (!home_team) {
@@ -106,8 +109,20 @@ function load(callback) {
 	], (err, source_info_ar) => {
 		if (err) return callback(err);
 
+		const teammatches = source_info_ar[0];
+		for (const tm of teammatches) {
+			if (!tm.team_names) {
+				assert(tm.team_names, `No team names in ${JSON.stringify(tm)}`);
+			}
+			if (tm.team_names.length !== 2) {
+				assert.equal(tm.team_names.length, 2, `Strange team names: ${JSON.stringify(tm.team_names)}`);
+			}
+
+			tm.team_names = tm.team_names.map(eventutils.unify_team_name);
+		}
+
 		callback(err, {
-			teammatches: source_info_ar[0],
+			teammatches,
 			overrides: source_info_ar[1],
 			sourcedb: source_info_ar[2],
 		});
