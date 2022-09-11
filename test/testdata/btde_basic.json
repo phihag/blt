@@ -1,0 +1,371 @@
+{
+  "event": {
+    "id": 92,
+    "matchday": "1. Spieltag",
+    "date": "10.09.2022",
+    "time": "14:00",
+    "score": [
+      6,
+      1
+    ],
+    "league": "(002) 2. Bundesliga Nord",
+    "uts": 1662844229.54,
+    "bestOf": 5,
+    "teams": [
+      "VfB GW Mülheim",
+      "1.BV Mülheim"
+    ],
+    "logos": [
+      "vfbgwmuelheim.svg",
+      "bvmuelheim.svg"
+    ],
+    "likes": [
+      857,
+      840
+    ],
+    "matches": [
+      {
+        "id": 1,
+        "dis": "HD1",
+        "court": 0,
+        "service": [],
+        "players": [
+          "Roovers, Alexander/Kuznetsov, Vasily",
+          "Makarski, Stiliyan/Schlevoigt, Jarne"
+        ],
+        "games": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "points": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            13,
+            11
+          ]
+        ],
+        "match": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "dis": "DD",
+        "court": 0,
+        "service": [],
+        "players": [
+          "Stremlau, Lea-Lyn/Gordeyeva, Iya",
+          "Meyer, Julia/Siebrecht, Cara"
+        ],
+        "games": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "points": [
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "match": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "dis": "HD2",
+        "court": 0,
+        "service": [],
+        "players": [
+          "Joppien, Björn/Jiang, Chenyang",
+          "Achthoven, Finn/Reinhold, Florian"
+        ],
+        "games": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "points": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "match": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": 4,
+        "dis": "HE1",
+        "court": 1,
+        "service": [],
+        "players": [
+          "Roovers, Alexander",
+          "Achthoven, Finn"
+        ],
+        "games": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "points": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            12,
+            14
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "match": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "dis": "DE",
+        "court": 0,
+        "service": [],
+        "players": [
+          "Gordeyeva, Iya",
+          "Nalbantova, Kaloyana"
+        ],
+        "games": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "points": [
+          [
+            3,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "match": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 6,
+        "dis": "GD",
+        "court": 2,
+        "service": [],
+        "players": [
+          "Stremlau, Lea-Lyn/Kuznetsov, Vasily",
+          "Meyer, Julia/Schlevoigt, Jarne"
+        ],
+        "games": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "points": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "match": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": 7,
+        "dis": "HE2",
+        "court": 0,
+        "service": [],
+        "players": [
+          "Joppien, Björn",
+          "Sufryd, Karl"
+        ],
+        "games": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "points": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "match": [
+          1,
+          0
+        ]
+      }
+    ]
+  }
+}

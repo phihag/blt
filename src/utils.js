@@ -131,6 +131,11 @@ function read_json(fn, callback) {
 	});
 }
 
+async function read_json_async(fn) {
+	const json = await fs.promises.readFile(fn);
+	return JSON.parse(json);
+}
+
 function pad(n, width, z) {
 	z = z || '0';
 	width = width || 2;
@@ -236,6 +241,7 @@ module.exports = {
 	parse_querystring,
 	parseXML,
 	read_json,
+	read_json_async,
 	run_every,
 	send,
 };

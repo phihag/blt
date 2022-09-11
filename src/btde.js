@@ -65,36 +65,34 @@ function _parse_players(player_str) {
 	throw new Error('Unparsable: ' + JSON.stringify(player_str));
 }
 
-function parse(src, str) {
-	const pipe_parts = str.split('|');
-	const metadata_ar = pipe_parts[0].split('~');
+function parse(src, data) {
+	const {event} = data;
+	assert(event);
 
-	const mscore = [parseInt(metadata_ar[1]), parseInt(metadata_ar[2])];
-	const team_names = [metadata_ar[3], metadata_ar[4]].map(eventutils.unify_team_name);
+	const mscore = event.score;
 
 	const scoring = league_scoring(src.league_key) || '5x11_15^90';
 	const MATCH_NAMES = is_bundesliga(src.league_key) ? MATCH_NAMES_BUNDESLIGA : MATCH_NAMES_8;
 	const GAME_COUNT = max_game_count(scoring);
 
-	const match_parts = pipe_parts.slice(1, -1);
 	const courts = [{label: '1'}, {label: '2'}];
-	const matches = match_parts.map(mp_str => {
-		const mp = mp_str.split('~');
+	const matches = event.matches.map(match => {
 		const res = {
-			name: MATCH_NAMES[mp[0]],
+			name: match.dis,
 			score: [],
 		};
-		const court_id = mp[1];
-		if (court_id === '1') {
+
+		const court_id = match.court;
+		if (court_id === 1) {
 			courts[0].match_id = res.name;
-		} else if (court_id === '2') {
+		} else if (court_id === 2) {
 			courts[1].match_id = res.name;
 		}
 
-		const players = [
-			_parse_players(mp[5]),
-			_parse_players(mp[6]),
-		];
+		let players = match.players.map(_parse_players);
+		if (players.length !== 2) {
+			players = [[], []];
+		}
 
 		// Swap mixed (wrong order in btde)
 		if (res.name === 'GD') {
@@ -109,28 +107,15 @@ function parse(src, str) {
 			res.players = players;
 		}
 
-		const SCORE_IDXSTART = 7;
-		for (let game_idx = 0;game_idx < GAME_COUNT;game_idx++) {
-			if (mp[SCORE_IDXSTART + game_idx] !== '') {
-				res.score.push([
-					parseInt(mp[SCORE_IDXSTART + game_idx]),
-					parseInt(mp[SCORE_IDXSTART + game_idx + GAME_COUNT]),
-				]);
-			}
-		}
+		res.score = match.points;
 
-		if (mp[2] === 'H') {
-			res.serving = 0;
-		} else if (mp[2] === 'G') {
-			res.serving = 1;
-		}
+		// TODO who's serving?
 
 		return res;
 	});
 	eventutils.unify_order(matches, src.league_key);
 
 	return {
-		team_names,
 		mscore,
 		matches,
 		scoring,
@@ -139,10 +124,10 @@ function parse(src, str) {
 }
 
 function run_once(cfg, src, sh, cb) {
-	const base_url = src.url || src.btde_url;
-	assert(base_url);
-	assert(base_url.endsWith('/'));
-	const url = base_url + 'ticker.php';
+	const { btde_account } = src;
+	assert(btde_account, `Ǹo btde_account setting for ${JSON.stringify(src)}`);
+	assert(!btde_account.includes('/'));
+	const url = `https://badmintonticker.de/ticker/api/?team=${encodeURIComponent(btde_account)}&uts=0&lh=0&lg=0`;
 
 	if (cfg('verbosity', 0) > 2) {
 		console.log('[btde] Downloading ' + url); // eslint-disable-line no-console
@@ -151,13 +136,14 @@ function run_once(cfg, src, sh, cb) {
 	utils.download_page(url, (err, _req, txt) => {
 		if (err) return cb(err);
 
+		const data = JSON.parse(txt);
 		let event;
 		try {
-			event = parse(src, txt);
+			event = parse(src, data);
 		} catch (e) {
 			return cb(e);
 		}
-		event.link = base_url;
+		event.link = `https://badmintonticker.de/ticker/${encodeURIComponent(btde_account)}/`;
 		source_helper.copy_props(event, src);
 		sh.on_new_full(event);
 		return cb();
@@ -165,7 +151,7 @@ function run_once(cfg, src, sh, cb) {
 }
 
 function setup_tm(tm, home_team) {
-	tm.url = home_team.url;
+	tm.btde_account = home_team.btde_account;
 }
 
 module.exports = {

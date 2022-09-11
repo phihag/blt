@@ -1,0 +1,45 @@
+{
+  "mscore": [
+    0,
+    0
+  ],
+  "matches": [
+    {
+      "name": "HD1",
+      "score": []
+    },
+    {
+      "name": "DD",
+      "score": []
+    },
+    {
+      "name": "HD2",
+      "score": []
+    },
+    {
+      "name": "HE1",
+      "score": []
+    },
+    {
+      "name": "DE",
+      "score": []
+    },
+    {
+      "name": "GD",
+      "score": []
+    },
+    {
+      "name": "HE2",
+      "score": []
+    }
+  ],
+  "scoring": "5x11_15^90",
+  "courts": [
+    {
+      "label": "1"
+    },
+    {
+      "label": "2"
+    }
+  ]
+}

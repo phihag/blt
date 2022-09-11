@@ -5,22 +5,22 @@
 "1.BC Wipperfeld 2": {
 	"type": "csde"
 },
-"TSV Neuhausen-Nymphenburg": {
+"TSV Neuhausen-Nymphenburg München": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tsvneuhausennymphenburg/"
+	"btde_account": "tsvneuhausennymphenburg"
 },
-"TSV Neuhausen-Nymphenburg 2": {
+"TSV Neuhausen-Nymphenburg München 2": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tsvneuhausennymphenburg2/"
+	"btde_account": "tsvneuhausennymphenburg2"
 },
 
 "TV Refrath": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tvrefrath/"
+	"btde_account": "tvrefrath"
 },
 "TV Refrath 2": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tvrefrath2/"
+	"btde_account": "tvrefrath2"
 },
 "TV Refrath 3": {
 	"type": "csde"
@@ -30,7 +30,7 @@
 },
 "TSV 1906 Freystadt": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tsv1906freystadt/"
+	"btde_account": "tsv1906freystadt"
 },
 "SV Fun-Ball Dortelweil": {
 	"type": "csde"
@@ -47,12 +47,12 @@
 },
 "SV Berliner Brauereien": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/svberlinerbrauereien/"
+	"btde_account": "svberlinerbrauereien"
 },
 
 "TSV Trittau": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tsvtrittau/"
+	"btde_account": "tsvtrittau"
 },
 "SC Union Lüdinghausen": {
 	"type": "csde"
@@ -85,25 +85,25 @@
 },
 "VfB Friedrichshafen": {
 	"type": "none",
-	"url": "https://badmintonticker.de/ticker/vfbfriedrichshafen/"
+	"btde_account": "vfbfriedrichshafen"
 },
 "TSV Neubiberg/Ottobrunn 1920": {
 	"type": "csde"
 },
 "SG Schorndorf": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/sgschorndorf/"
+	"btde_account": "sgschorndorf"
 },
 "SG Schorndorf 2": {
 	"type": "none"
 },
 "TV 1884 Marktheidenfeld": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tv1884marktheidenfeld/"
+	"btde_account": "tv1884marktheidenfeld"
 },
 "TV 1884 Marktheidenfeld 2": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tv1884marktheidenfeld2/"
+	"btde_account": "tv1884marktheidenfeld2"
 },
 "STC BW Solingen": {
 	"type": "csde"
@@ -126,7 +126,7 @@
 },
 "SV GutsMuths Jena": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/svgutsmuthsjena/"
+	"btde_account": "svgutsmuthsjena"
 },
 "SV GutsMuths Jena 2": {
 	"type": "none"
@@ -145,12 +145,12 @@
 },
 "TSV Trittau 2": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tsvtrittau2/"
+	"btde_account": "tsvtrittau2"
 },
 
 "Spvgg.Sterkrade-N.": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/spvggsterkradenord/"
+	"btde_account": "spvggsterkradenord"
 },
 
 "BC Remagen": {
@@ -167,7 +167,7 @@
 
 "SV GutsMuths Jena" : {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/svgutsmuthsjena/"
+	"btde_account": "svgutsmuthsjena"
 },
 
 "TV 1860 Hofheim": {
@@ -179,17 +179,17 @@
 
 "BC Offenburg": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/bcoffenburg/"
+	"btde_account": "bcoffenburg"
 },
 
 "VfB GW Mülheim": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/vfbgwmuelheim/"
+	"btde_account": "vfbgwmuelheim"
 },
 
 "1. CfB Köln": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/cfbkoeln/"
+	"btde_account": "cfbkoeln"
 },
 
 "TuS Neuhofen": {
@@ -215,11 +215,11 @@
 },
 "TSV 1860 Ansbach": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/tsv1860ansbach/"
+	"btde_account": "tsv1860ansbach"
 },
 "ESV Flügelrad Nürnberg": {
 	"type": "btde",
-	"url": "https://badmintonticker.de/ticker/esvfluegelradnuernberg/"
+	"btde_account": "esvfluegelradnuernberg"
 },
 
 "TB Andernach": {

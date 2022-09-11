@@ -1,0 +1,270 @@
+{
+  "mscore": [
+    6,
+    1
+  ],
+  "matches": [
+    {
+      "name": "HD1",
+      "score": [
+        [
+          7,
+          11
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          13,
+          11
+        ]
+      ],
+      "players": [
+        [
+          {
+            "name": "Alexander Roovers"
+          },
+          {
+            "name": "Vasily Kuznetsov"
+          }
+        ],
+        [
+          {
+            "name": "Stiliyan Makarski"
+          },
+          {
+            "name": "Jarne Schlevoigt"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "DD",
+      "score": [
+        [
+          9,
+          11
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          11,
+          5
+        ]
+      ],
+      "players": [
+        [
+          {
+            "name": "Lea-Lyn Stremlau"
+          },
+          {
+            "name": "Iya Gordeyeva"
+          }
+        ],
+        [
+          {
+            "name": "Julia Meyer"
+          },
+          {
+            "name": "Cara Siebrecht"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "HD2",
+      "score": [
+        [
+          11,
+          9
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          6
+        ]
+      ],
+      "players": [
+        [
+          {
+            "name": "Björn Joppien"
+          },
+          {
+            "name": "Chenyang Jiang"
+          }
+        ],
+        [
+          {
+            "name": "Finn Achthoven"
+          },
+          {
+            "name": "Florian Reinhold"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "HE1",
+      "score": [
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          11,
+          9
+        ]
+      ],
+      "players": [
+        [
+          {
+            "name": "Alexander Roovers"
+          }
+        ],
+        [
+          {
+            "name": "Finn Achthoven"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "DE",
+      "score": [
+        [
+          3,
+          11
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "players": [
+        [
+          {
+            "name": "Iya Gordeyeva"
+          }
+        ],
+        [
+          {
+            "name": "Kaloyana Nalbantova"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "GD",
+      "score": [
+        [
+          7,
+          11
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          11,
+          9
+        ]
+      ],
+      "players": [
+        [
+          {
+            "name": "Vasily Kuznetsov"
+          },
+          {
+            "name": "Lea-Lyn Stremlau"
+          }
+        ],
+        [
+          {
+            "name": "Jarne Schlevoigt"
+          },
+          {
+            "name": "Julia Meyer"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "HE2",
+      "score": [
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ]
+      ],
+      "players": [
+        [
+          {
+            "name": "Björn Joppien"
+          }
+        ],
+        [
+          {
+            "name": "Karl Sufryd"
+          }
+        ]
+      ]
+    }
+  ],
+  "scoring": "5x11_15^90",
+  "courts": [
+    {
+      "label": "1",
+      "match_id": "HE1"
+    },
+    {
+      "label": "2",
+      "match_id": "GD"
+    }
+  ]
+}

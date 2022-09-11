@@ -122,6 +122,7 @@ var LOGO_ALIASSE = {
 	'STC BW Solingen': 'stcblauweisssolingen',
 	'SV Harkenbleck': 'harkenbleck',
 	'TSV Neuhausen-Nymphenburg': 'tsvneuhausen',
+	'TSV Neuhausen-Nymphenburg München': 'tsvneuhausen',
 	'TuS Friedrichsdorf': 'friedrichsdorf',
 	'Union Lüdinghausen': 'unionluedinghausen',
 	'VfB GW Mülheim': 'vfbgwmuelheim',
@@ -134,7 +135,8 @@ function team_logo(team_name, warn=true) {
 		return 'logos/' + clean_name + '.svg';
 	} else {
 		if (warn) {
-			report_problem.silent_error('Cannot find logo for ' + clean_name);
+			report_problem.silent_error(
+				`Cannot find logo for "${team_name}" (looked at ${JSON.stringify(clean_name)})`);
 		}
 	}
 }
