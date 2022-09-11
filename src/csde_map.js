@@ -5,7 +5,7 @@ const TEAM_NAMES = {
     '1-9': '1.BC Beuel',
     '1-1': '1.BC Wipperfeld',
     '1-10': 'BC Offenburg',
-    '1-6': 'Blau-Weiss Wittorf-NMS',
+    '1-6': 'Blau-Weiss Wittorf',
     '1-4': 'SC Union 08 Lüdinghausen',
     '1-8': 'SG Schorndorf',
     '1-2': 'SV Fun-Ball Dortelweil',

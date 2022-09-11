@@ -160,6 +160,8 @@ function unify_team_name(team_name) {
 		'TuS 1872  Schwanheim': 'TuS 1872 Schwanheim',
 		'1. BV Maintal 1978': '1. BV Maintal',
 		'TSV Neuhausen-Nymphenb. München 2': 'TSV Neuhausen-Nymphenburg 2',
+		'Blau-Weiss Wittorf NMS': 'Blau-Weiss Wittorf',
+		'Blau-Weiss Wittorf-NMS': 'Blau-Weiss Wittorf',
 	}[team_name] || team_name;
 	team_name = team_name.replace(/\s+1$/, '');
 	return team_name;
