@@ -159,7 +159,8 @@ function unify_team_name(team_name) {
 		'1.CfB Köln': '1. CfB Köln',
 		'TuS 1872  Schwanheim': 'TuS 1872 Schwanheim',
 		'1. BV Maintal 1978': '1. BV Maintal',
-		'TSV Neuhausen-Nymphenb. München 2': 'TSV Neuhausen-Nymphenburg 2',
+		'TSV Neuhausen-Nymphenb. München': 'TSV Neuhausen-Nymphenburg München',
+		'TSV Neuhausen-Nymphenb. München 2': 'TSV Neuhausen-Nymphenburg München 2',
 		'Blau-Weiss Wittorf NMS': 'Blau-Weiss Wittorf',
 		'Blau-Weiss Wittorf-NMS': 'Blau-Weiss Wittorf',
 	}[team_name] || team_name;
