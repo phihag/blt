@@ -9,7 +9,7 @@ const TEAM_NAMES = {
     '1-4': 'SC Union 08 Lüdinghausen',
     '1-8': 'SG Schorndorf',
     '1-2': 'SV Fun-Ball Dortelweil',
-    '1-7': 'TSV Neuhausen-Nymphenburg',
+    '1-7': 'TSV Neuhausen-Nymphenburg München',
     '1-5': 'TV Refrath',
     '2-20': '1.BC Beuel 2',
     '2-13': '1.BC Wipperfeld 2',
@@ -30,7 +30,7 @@ const TEAM_NAMES = {
     '3-28': 'SV Fun-Ball Dortelweil 2',
     '3-23': 'SV GutsMuths Jena',
     '3-34': 'TSV 1906 Freystadt',
-    '3-30': 'TSV Neuhausen-Nymphenburg 2',
+    '3-30': 'TSV Neuhausen-Nymphenburg München 2',
     '3-31': 'TuS 1872 Schwanheim',
     '3-29': 'TuS Geretsried',
     '3-24': 'TV 1860 Hofheim',
@@ -58,7 +58,7 @@ const TEAM_NAMES = {
     '7-43': 'SG Schorndorf 2',
     '7-50': 'SG TSV Diedorf / TSV Haunstetten',
     '7-48': 'TSV Neubiberg/Ottobrunn 1920',
-    '7-51': 'TSV Neuhausen-Nymphenburg 3',
+    '7-51': 'TSV Neuhausen-Nymphenb. München 3',
     '7-44': 'TV 1862 Dillingen',
 };
 
