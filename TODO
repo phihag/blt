@@ -1,3 +1,11 @@
+API
+	move league_keys to JSONO
+	js script to download details
+	add tm tde URL
+	expose in API
+	download&parse from tde
+	route to trigger download
+
 no_events_visible
 	show on init
 	render if checks change
