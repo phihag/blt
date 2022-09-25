@@ -19,8 +19,7 @@
 	"btde_account": "tvrefrath"
 },
 "TV Refrath 2": {
-	"type": "csde",
-	"_type": "btde",
+	"type": "btde",
 	"btde_account": "tvrefrath2"
 },
 "TV Refrath 3": {
