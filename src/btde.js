@@ -146,7 +146,7 @@ function run_once(cfg, src, sh, cb) {
 		} catch (e) {
 			return cb(e);
 		}
-		event.link = `https://badmintonticker.de/ticker/${encodeURIComponent(btde_account)}/`;
+		event.link = `https://${encodeURIComponent(btde_account)}.badmintonticker.de/`;
 		source_helper.copy_props(event, src);
 		sh.on_new_full(event);
 		return cb();
