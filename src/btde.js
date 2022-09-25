@@ -5,7 +5,7 @@ const assert = require('assert');
 const eventutils = require('./eventutils');
 const utils = require('./utils');
 const source_helper = require('./source_helper');
-const {is_bundesliga, max_game_count, league_scoring} = require('./eventutils');
+const {is_bundesliga, max_game_count, league_scoring, unify_team_name} = require('./eventutils');
 
 const MATCH_NAMES_BUNDESLIGA = {
 	'1': 'HD1',
@@ -118,12 +118,19 @@ function parse(src, data) {
 	});
 	eventutils.unify_order(matches, src.league_key);
 
-	return {
+	const res = {
 		mscore,
 		matches,
 		scoring,
 		courts,
 	};
+
+
+	if (event.teams && event.teams.length === 2 && event.teams[0] && event.teams[1]) {
+		res.team_names = event.teams.map(unify_team_name);
+	}
+
+	return res;
 }
 
 function run_once(cfg, src, sh, cb) {

@@ -17,7 +17,8 @@ async function btde_snapshot(snapshot_name, league_key) {
 
 describe('btde', () => {
 	it('basic parsing', async () => {
-		await btde_snapshot('btde_basic', '1BL-2020');
+		const basic = await btde_snapshot('btde_basic', '1BL-2020');
+		assert.deepStrictEqual(basic.team_names, ['VfB GW Mülheim', '1.BV Mülheim']);
 	});
 
 	it('parse empty match', async () => {

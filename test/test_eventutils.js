@@ -18,6 +18,7 @@ describe('eventutils', () => {
 		assert.strictEqual(eventutils.unify_team_name('OSC Düsseldorf'), 'OSC Düsseldorf');
 		assert.strictEqual(eventutils.unify_team_name('BC Phönix Hövelhof 1'), 'BC Phönix Hövelhof');
 		assert.strictEqual(eventutils.unify_team_name('TSV Neuhausen-Nymphenb. München 2'), 'TSV Neuhausen-Nymphenburg München 2');
+		assert.strictEqual(eventutils.unify_team_name('TSV Neuhausen-Nymphenburg 3'), 'TSV Neuhausen-Nymphenburg München 3');
 		assert.strictEqual(eventutils.unify_team_name('Blau-Weiss Wittorf NMS'), 'Blau-Weiss Wittorf');
 		assert.strictEqual(eventutils.unify_team_name('Blau-Weiss Wittorf-NMS'), 'Blau-Weiss Wittorf');
 	});
