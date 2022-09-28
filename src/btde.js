@@ -146,7 +146,12 @@ function run_once(cfg, src, sh, cb) {
 	utils.download_page(url, (err, _req, txt) => {
 		if (err) return cb(err);
 
-		const data = JSON.parse(txt);
+		let data;
+		try {
+			data = JSON.parse(txt);
+		} catch (e) {
+			return cb(e);
+		}
 		let event;
 		try {
 			event = parse(src, data);
