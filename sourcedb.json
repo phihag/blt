@@ -77,6 +77,9 @@
 "1.BC Beuel 2": {
 	"type": "csde"
 },
+"1.BC Beuel 3": {
+	"type": "csde"
+},
 "1.BV Mülheim": {
 	"type": "csde"
 },
@@ -122,6 +125,9 @@
 	"type": "csde"
 },
 "1. BC Sbr.-Bischmisheim 2": {
+	"type": "csde"
+},
+"1. BC Sbr.-Bischmisheim 3": {
 	"type": "csde"
 },
 "TV 1862 Dillingen": {
@@ -174,6 +180,9 @@
 },
 
 "TV 1860 Hofheim": {
+	"type": "csde"
+},
+"TV 1860 Hofheim 2": {
 	"type": "csde"
 },
 "TuS 1872 Schwanheim": {
@@ -253,6 +262,17 @@
 },
 "SC BW Ostenland": {
 	"type": "none"
+},
+
+"SG TSV Diedorf / TSV Haunstetten": {
+	"type": "none"
+},
+
+"TV 1890 Volkmarsen": {
+	"type": "none"
+},
+"TV Mainz-Zahlbach 1862": {
+	"type": "csde"
 }
 
 
