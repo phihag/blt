@@ -58,7 +58,7 @@ const TEAM_NAMES = {
     '7-43': 'SG Schorndorf 2',
     '7-50': 'SG TSV Diedorf / TSV Haunstetten',
     '7-48': 'TSV Neubiberg/Ottobrunn 1920',
-    '7-51': 'TSV Neuhausen-Nymphenb. München 3',
+    '7-51': 'TSV Neuhausen-Nymphenburg München 3',
     '7-44': 'TV 1862 Dillingen',
 };
 
