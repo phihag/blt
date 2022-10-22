@@ -159,6 +159,7 @@ function unify_team_name(team_name) {
 		'1.CfB Köln': '1. CfB Köln',
 		'TuS 1872  Schwanheim': 'TuS 1872 Schwanheim',
 		'1. BV Maintal 1978': '1. BV Maintal',
+		'1.BV Maintal': '1. BV Maintal',
 		'TSV Neuhausen-Nymphenburg': 'TSV Neuhausen-Nymphenburg München',
 		'TSV Neuhausen-Nymphenb. München': 'TSV Neuhausen-Nymphenburg München',
 		'TSV Neuhausen-Nymphenburg 2': 'TSV Neuhausen-Nymphenburg München 2',
