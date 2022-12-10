@@ -530,18 +530,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TV Refrath 2",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "13:00",
-        "date": "2022-09-24",
-        "date_de": "24.09.2022",
-        "ts": 1664017200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TuS 1872 Schwanheim",
             "1. BC Sbr.-Bischmisheim 2"
         ],
@@ -2006,18 +1994,6 @@
     {
         "type": "auto",
         "team_names": [
-            "HSG DHfK Leipzig",
-            "ESV Flügelrad Nürnberg"
-        ],
-        "league_key": "RLSO-2019",
-        "starttime": "10:00",
-        "date": "2022-10-23",
-        "date_de": "23.10.2022",
-        "ts": 1666512000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SG TSV Diedorf \/ TSV Haunstetten",
             "PTSV Konstanz"
         ],
@@ -2222,6 +2198,18 @@
     {
         "type": "auto",
         "team_names": [
+            "HSG DHfK Leipzig",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "13:00",
+        "date": "2022-10-23",
+        "date_de": "23.10.2022",
+        "ts": 1666522800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Beuel",
             "Blau-Weiss Wittorf NMS"
         ],
@@ -2286,10 +2274,10 @@
             "TV Refrath 3"
         ],
         "league_key": "RLW-2016",
-        "starttime": "18:00",
+        "starttime": "16:00",
         "date": "2022-10-29",
         "date_de": "29.10.2022",
-        "ts": 1667059200
+        "ts": 1667052000
     },
     {
         "type": "auto",
@@ -2330,18 +2318,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Beuel 3",
-            "1.BV Mülheim 2"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2022-11-05",
-        "date_de": "05.11.2022",
-        "ts": 1667667600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TV Refrath 3",
             "Gladbecker FC"
         ],
@@ -2350,18 +2326,6 @@
         "date": "2022-11-05",
         "date_de": "05.11.2022",
         "ts": 1667667600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BV Mülheim 2",
-            "TV Refrath 3"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "14:00",
-        "date": "2022-11-06",
-        "date_de": "06.11.2022",
-        "ts": 1667739600
     },
     {
         "type": "auto",
@@ -2390,6 +2354,18 @@
     {
         "type": "auto",
         "team_names": [
+            "1.BC Wipperfeld",
+            "Blau-Weiss Wittorf NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "13:00",
+        "date": "2022-11-19",
+        "date_de": "19.11.2022",
+        "ts": 1668859200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TV Refrath 2",
             "1.BV Mülheim"
         ],
@@ -2398,6 +2374,18 @@
         "date": "2022-11-19",
         "date_de": "19.11.2022",
         "ts": 1668859200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2022-11-19",
+        "date_de": "19.11.2022",
+        "ts": 1668862800
     },
     {
         "type": "auto",
@@ -2546,18 +2534,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SV GutsMuths Jena",
-            "TSV 1906 Freystadt"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "11:00",
-        "date": "2022-11-20",
-        "date_de": "20.11.2022",
-        "ts": 1668938400
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TSV Neubiberg\/Ottobrunn 1920",
             "HSG DHfK Leipzig"
         ],
@@ -2578,6 +2554,18 @@
         "date": "2022-11-20",
         "date_de": "20.11.2022",
         "ts": 1668938400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:30",
+        "date": "2022-11-20",
+        "date_de": "20.11.2022",
+        "ts": 1668940200
     },
     {
         "type": "auto",
@@ -2606,18 +2594,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Wipperfeld",
-            "Blau-Weiss Wittorf NMS"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "13:00",
-        "date": "2022-11-20",
-        "date_de": "20.11.2022",
-        "ts": 1668945600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "BC Offenburg",
             "1. BC Sbr.-Bischmisheim"
         ],
@@ -2626,18 +2602,6 @@
         "date": "2022-11-20",
         "date_de": "20.11.2022",
         "ts": 1668945600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "BC Hohenlimburg",
-            "1.BC Wipperfeld 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2022-11-20",
-        "date_de": "20.11.2022",
-        "ts": 1668949200
     },
     {
         "type": "auto",
@@ -2658,18 +2622,6 @@
             "1. BC Sbr.-Bischmisheim 2"
         ],
         "league_key": "2BLS-2020",
-        "starttime": "14:00",
-        "date": "2022-11-20",
-        "date_de": "20.11.2022",
-        "ts": 1668949200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SC Union 08 Lüdinghausen",
-            "TV Refrath"
-        ],
-        "league_key": "1BL-2020",
         "starttime": "14:00",
         "date": "2022-11-20",
         "date_de": "20.11.2022",
@@ -2702,6 +2654,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "18:00",
+        "date": "2022-11-20",
+        "date_de": "20.11.2022",
+        "ts": 1668963600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Hohenlimburg 2",
             "TuS Friedrichsdorf"
         ],
@@ -2710,6 +2674,18 @@
         "date": "2022-12-03",
         "date_de": "03.12.2022",
         "ts": 1670086800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2022-12-04",
+        "date_de": "04.12.2022",
+        "ts": 1670148000
     },
     {
         "type": "auto",
@@ -3282,10 +3258,10 @@
             "TuS Friedrichsdorf"
         ],
         "league_key": "RLW-2016",
-        "starttime": "11:00",
+        "starttime": "10:30",
         "date": "2022-12-18",
         "date_de": "18.12.2022",
-        "ts": 1671357600
+        "ts": 1671355800
     },
     {
         "type": "auto",
@@ -3458,6 +3434,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TV Refrath 3",
+            "BC Hohenlimburg 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-01-21",
+        "date_de": "21.01.2023",
+        "ts": 1674306000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. BC Sbr.-Bischmisheim 2",
             "TV 1884 Marktheidenfeld"
         ],
@@ -3606,18 +3594,6 @@
             "TSV 1906 Freystadt"
         ],
         "league_key": "2BLS-2020",
-        "starttime": "18:00",
-        "date": "2023-01-21",
-        "date_de": "21.01.2023",
-        "ts": 1674320400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TV Refrath 3",
-            "BC Hohenlimburg 2"
-        ],
-        "league_key": "RLW-2016",
         "starttime": "18:00",
         "date": "2023-01-21",
         "date_de": "21.01.2023",
