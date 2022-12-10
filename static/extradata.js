@@ -72,6 +72,7 @@ var LOGOS = [
 	'friedrichsdorf', // png logo
 	'gladbeckerfc',
 	'hamburghornertv',
+	'haunstetten', // png logo
 	'harkenbleck',
 	'hoevelhof',
 	'sganspach',
