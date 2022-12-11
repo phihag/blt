@@ -113,6 +113,8 @@ var LOGO_ALIASSE = {
 	'BC Bischmisheim': 'bcbsaarbruecken',
 	'BC Phönix Hövelhof': 'hoevelhof',
 	'Blau-Weiss Wittorf-NMS': 'wittorfneumuenster',
+	'Blau-Weiss Wittorf NMS': 'wittorfneumuenster',
+	'Blau-Weiss Wittorf': 'wittorfneumuenster',
 	'ESV Flügelrad Nürnberg': 'esvnuernberg',
 	'Horner TV': 'hamburghornertv',
 	'HSG DHfK Leipzig': 'dhfkleipzig',
