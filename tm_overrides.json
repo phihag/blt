@@ -26,20 +26,20 @@
     "type": "auto",
     "team_names": [
         "TV Refrath",
-        "Blau-Weiss Wittorf NMS"
+        "SC Union 08 Lüdinghausen"
     ],
     "league_key": "1BL-2020",
-    "starttime": "11:00",
-    "date": "2022-12-11",
-    "date_de": "11.12.2022",
-    "ts": 1670752800,
+    "starttime": "17:00",
+    "date": "2023-01-21",
+    "date_de": "21.01.2023",
+    "ts": 1674316800,
     "override": {
         "live_streams": [{
             "label": "Live-Stream Feld 1",
-            "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-bw-wittorf-feld-1"
+            "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-union-luedinghausen-feld-1-0"
         }, {
             "label": "Live-Stream Feld 2",
-            "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-bw-wittorf-feld-2"
+            "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-union-luedinghausen-feld-2-0"
          }]
     }
 }
