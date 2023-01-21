@@ -3266,20 +3266,20 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Beuel 3",
-            "TV Refrath 3"
+            "1.BV Mülheim 2",
+            "SC BW Ostenland"
         ],
         "league_key": "RLW-2016",
-        "starttime": "14:00",
+        "starttime": "12:00",
         "date": "2022-12-18",
         "date_de": "18.12.2022",
-        "ts": 1671368400
+        "ts": 1671361200
     },
     {
         "type": "auto",
         "team_names": [
-            "1.BV Mülheim 2",
-            "SC BW Ostenland"
+            "1.BC Beuel 3",
+            "TV Refrath 3"
         ],
         "league_key": "RLW-2016",
         "starttime": "14:00",
@@ -3507,7 +3507,7 @@
         "type": "auto",
         "team_names": [
             "HSG DHfK Leipzig",
-            "BSpfr. Neusatz"
+            "PTSV Konstanz"
         ],
         "league_key": "RLSO-2019",
         "starttime": "16:00",
@@ -3615,7 +3615,7 @@
         "type": "auto",
         "team_names": [
             "HSG DHfK Leipzig",
-            "PTSV Konstanz"
+            "BSpfr. Neusatz"
         ],
         "league_key": "RLSO-2019",
         "starttime": "10:00",
@@ -3646,6 +3646,18 @@
         "date": "2023-01-22",
         "date_de": "22.01.2023",
         "ts": 1674378000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "10:15",
+        "date": "2023-01-22",
+        "date_de": "22.01.2023",
+        "ts": 1674378900
     },
     {
         "type": "auto",
@@ -3698,10 +3710,10 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Fun-Ball Dortelweil 2",
-            "BC Remagen"
+            "STC Blau-Weiss Solingen",
+            "SG EBT Berlin"
         ],
-        "league_key": "2BLS-2020",
+        "league_key": "2BLN-2020",
         "starttime": "11:00",
         "date": "2023-01-22",
         "date_de": "22.01.2023",
@@ -3818,18 +3830,6 @@
     {
         "type": "auto",
         "team_names": [
-            "STC Blau-Weiss Solingen",
-            "SG EBT Berlin"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "14:00",
-        "date": "2023-01-22",
-        "date_de": "22.01.2023",
-        "ts": 1674392400
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "1. BC Sbr.-Bischmisheim",
             "BC Offenburg"
         ],
@@ -3914,10 +3914,10 @@
     {
         "type": "auto",
         "team_names": [
-            "TB Andernach",
-            "TuS Neuhofen"
+            "SG Schorndorf 2",
+            "ESV Flügelrad Nürnberg"
         ],
-        "league_key": "RLM-2016",
+        "league_key": "RLSO-2019",
         "starttime": "14:00",
         "date": "2023-02-11",
         "date_de": "11.02.2023",
@@ -3926,14 +3926,14 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Schorndorf 2",
-            "ESV Flügelrad Nürnberg"
+            "TB Andernach",
+            "TuS Neuhofen"
         ],
-        "league_key": "RLSO-2019",
-        "starttime": "15:00",
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
         "date": "2023-02-11",
         "date_de": "11.02.2023",
-        "ts": 1676124000
+        "ts": 1676120400
     },
     {
         "type": "auto",
@@ -4406,6 +4406,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TV Refrath 3",
+            "SC BW Ostenland"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-02-25",
+        "date_de": "25.02.2023",
+        "ts": 1677330000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. BC Sbr.-Bischmisheim",
             "SC Union 08 Lüdinghausen"
         ],
@@ -4614,18 +4626,6 @@
             "SG Schorndorf"
         ],
         "league_key": "1BL-2020",
-        "starttime": "18:00",
-        "date": "2023-02-25",
-        "date_de": "25.02.2023",
-        "ts": 1677344400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TV Refrath 3",
-            "SC BW Ostenland"
-        ],
-        "league_key": "RLW-2016",
         "starttime": "18:00",
         "date": "2023-02-25",
         "date_de": "25.02.2023",
