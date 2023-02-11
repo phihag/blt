@@ -3350,18 +3350,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TuS 1872 Schwanheim",
-            "BC Remagen"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "13:00",
-        "date": "2023-01-21",
-        "date_de": "21.01.2023",
-        "ts": 1674302400
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "1.BC Beuel 3",
             "BC Phönix Hövelhof"
         ],
@@ -3782,18 +3770,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TuS 1872 Schwanheim",
-            "TV 1860 Hofheim"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "12:00",
-        "date": "2023-01-22",
-        "date_de": "22.01.2023",
-        "ts": 1674385200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TuS Geretsried",
             "TSV 1906 Freystadt"
         ],
@@ -3866,6 +3842,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TuS Friedrichsdorf",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2023-01-28",
+        "date_de": "28.01.2023",
+        "ts": 1674921600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Hohenlimburg 2",
             "1.BC Beuel 3"
         ],
@@ -3880,18 +3868,6 @@
         "team_names": [
             "Gladbecker FC",
             "SC BW Ostenland"
-        ],
-        "league_key": "RLW-2016",
-        "starttime": "18:00",
-        "date": "2023-01-28",
-        "date_de": "28.01.2023",
-        "ts": 1674925200
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TuS Friedrichsdorf",
-            "TV Refrath 3"
         ],
         "league_key": "RLW-2016",
         "starttime": "18:00",
@@ -3926,6 +3902,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SG VfB\/SC Peine",
+            "SV Harkenbleck"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-02-11",
+        "date_de": "11.02.2023",
+        "ts": 1676120400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TB Andernach",
             "TuS Neuhofen"
         ],
@@ -3934,6 +3922,18 @@
         "date": "2023-02-11",
         "date_de": "11.02.2023",
         "ts": 1676120400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-02-11",
+        "date_de": "11.02.2023",
+        "ts": 1676124000
     },
     {
         "type": "auto",
@@ -4046,18 +4046,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1. BC Sbr.-Bischmisheim 2",
-            "BSV Eggenstein-Leopoldshafen"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "11:00",
-        "date": "2023-02-12",
-        "date_de": "12.02.2023",
-        "ts": 1676196000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "1.BC Wipperfeld 2",
             "BC Hohenlimburg"
         ],
@@ -4156,18 +4144,6 @@
         "team_names": [
             "1.CfB Köln",
             "VfB GW Mülheim"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "12:00",
-        "date": "2023-02-12",
-        "date_de": "12.02.2023",
-        "ts": 1676199600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SG VfB\/SC Peine",
-            "SV Harkenbleck"
         ],
         "league_key": "2BLN-2020",
         "starttime": "12:00",
