@@ -60,6 +60,10 @@ const TEAM_NAMES = {
     '7-48': 'TSV Neubiberg/Ottobrunn 1920',
     '7-51': 'TSV Neuhausen-Nymphenburg München 3',
     '7-44': 'TV 1862 Dillingen',
+    '11-3': '1. BC Sbr.-Bischmisheim',
+    '11-6': 'Blau-Weiss Wittorf',
+    '12-4': 'SC Union 08 Lüdinghausen',
+    '12-5': 'TV Refrath',
 };
 
 module.exports = {
