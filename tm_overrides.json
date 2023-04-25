@@ -1,47 +1,4 @@
 [
 
-{
-        "type": "auto",
-        "team_names": [
-            "TV Refrath 2",
-            "1.BC Beuel 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "11:00",
-        "date": "2023-03-05",
-        "date_de": "05.03.2023",
-        "ts": 1678010400,
-        "override": {
-        	"live_streams": [{
-                "label": "Live-Stream Feld 1",
-                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-2-1-bc-beuel-2-feld-1"
-            }, {
-                "label": "Live-Stream Feld 2",
-                "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-2-1-bc-beuel-2-feld-2"
-             }]
-        }
-},
-
-{
-    "type": "auto",
-    "team_names": [
-        "TV Refrath",
-        "1. BC Sbr.-Bischmisheim"
-    ],
-    "league_key": "1BL-2020",
-    "starttime": "15:00",
-    "date": "2023-03-05",
-    "date_de": "05.03.2023",
-    "ts": 1678024800,
-    "override": {
-        "live_streams": [{
-            "label": "Live-Stream Feld 1",
-            "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-1-bc-bischmisheim-feld-1"
-        }, {
-            "label": "Live-Stream Feld 2",
-            "url": "https://sportdeutschland.tv/tvrefrath/tv-refrath-1-bc-bischmisheim-feld-2"
-         }]
-    }
-}
     
 ]
