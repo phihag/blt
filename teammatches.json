@@ -2,35 +2,21 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Fun-Ball Dortelweil",
+            "1.BC Wipperfeld",
             "1. BC Sbr.-Bischmisheim"
         ],
         "league_key": "1BL-2020",
-        "starttime": "16:00",
-        "date": "2023-04-29",
-        "date_de": "29.04.2023",
-        "ts": 1682776800,
+        "starttime": "14:00",
+        "date": "2023-04-30",
+        "date_de": "30.04.2023",
+        "ts": 1682812800,
         "csde_league_code": "14",
         "live_streams": [{
-            "label": "Live-Stream",
-            "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/finalfour-halbfinale-dortelweil-vs-bischmisheim"
-        }]
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1.BC Wipperfeld",
-            "TV Refrath"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "16:00",
-        "date": "2023-04-29",
-        "date_de": "29.04.2023",
-        "ts": 1682776800,
-        "csde_league_code": "14",
-        "live_streams": [{
-            "label": "Live-Stream",
-            "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/finalfour-halbfinale-wipperfeld-vs-refrath"
+            "label": "Live-Stream Feld 1",
+            "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/finalfour-finale-die-deutsche-mannschaftsmeisterschaft-court-2"
+        }, {
+            "label": "Live-Stream Feld 2",
+            "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/finalfour-finale-die-deutsche-mannschaftsmeisterschaft"
         }]
     }
 ]
