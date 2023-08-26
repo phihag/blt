@@ -2,21 +2,7129 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Wipperfeld",
+            "1.BC Beuel 3",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-08-26",
+        "date_de": "26.08.2023",
+        "ts": 1693065600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln 2",
+            "Spvgg.Sterkrade-N."
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-08-26",
+        "date_de": "26.08.2023",
+        "ts": 1693065600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-08-26",
+        "date_de": "26.08.2023",
+        "ts": 1693065600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Spvgg.Sterkrade-N.",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2023-08-27",
+        "date_de": "27.08.2023",
+        "ts": 1693126800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 3",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-08-27",
+        "date_de": "27.08.2023",
+        "ts": 1693137600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-09-02",
+        "date_de": "02.09.2023",
+        "ts": 1693670400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS 1872 Schwanheim",
+            "TV 1860 Hofheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-09-03",
+        "date_de": "03.09.2023",
+        "ts": 1693742400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Ludwigshafen",
+            "TuS Neuhofen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "15:00",
+        "date": "2023-09-09",
+        "date_de": "09.09.2023",
+        "ts": 1694264400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln 2",
+            "1.BC Beuel 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "16:00",
+        "date": "2023-09-09",
+        "date_de": "09.09.2023",
+        "ts": 1694268000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "Spvgg.Sterkrade-N."
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:30",
+        "date": "2023-09-09",
+        "date_de": "09.09.2023",
+        "ts": 1694277000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "1.BC Beuel 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "10:30",
+        "date": "2023-09-10",
+        "date_de": "10.09.2023",
+        "ts": 1694334600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Spvgg.Sterkrade-N.",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2023-09-10",
+        "date_de": "10.09.2023",
+        "ts": 1694336400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln 2",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-09-10",
+        "date_de": "10.09.2023",
+        "ts": 1694347200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Mainz-Zahlbach 1862",
+            "1. BC Sbr.-Bischmisheim 3"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-09-10",
+        "date_de": "10.09.2023",
+        "ts": 1694347200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "Spvgg.Sterkrade-N."
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "15:00",
+        "date": "2023-09-16",
+        "date_de": "16.09.2023",
+        "ts": 1694869200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-09-16",
+        "date_de": "16.09.2023",
+        "ts": 1694880000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "10:30",
+        "date": "2023-09-17",
+        "date_de": "17.09.2023",
+        "ts": 1694939400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-09-17",
+        "date_de": "17.09.2023",
+        "ts": 1694952000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG 1862 Anspach",
+            "TV 1860 Hofheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "19:00",
+        "date": "2023-09-20",
+        "date_de": "20.09.2023",
+        "ts": 1695229200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695466800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695466800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695466800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695470400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS",
             "1. BC Sbr.-Bischmisheim"
         ],
         "league_key": "1BL-2020",
         "starttime": "14:00",
-        "date": "2023-04-30",
-        "date_de": "30.04.2023",
-        "ts": 1682812800,
-        "csde_league_code": "14",
-        "live_streams": [{
-            "label": "Live-Stream Feld 1",
-            "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/finalfour-finale-die-deutsche-mannschaftsmeisterschaft-court-2"
-        }, {
-            "label": "Live-Stream Feld 2",
-            "url": "https://sportdeutschland.tv/1bcsaarbrueckenbischmisheim/finalfour-finale-die-deutsche-mannschaftsmeisterschaft"
-        }]
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695470400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695470400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695470400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695474000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Ludwigshafen",
+            "1. BC Sbr.-Bischmisheim 3"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "15:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695474000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695474000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695474000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS 2",
+            "SG Lengede\/Vechelde"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Horner TV",
+            "SG VfB\/SC Peine"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Bremen\/Neustadt",
+            "SV Berliner Brauereien 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Hammer\/Altenholz\/Molfsee",
+            "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695477600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695479400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena 2",
+            "TuS 1872 Schwanheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "17:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695481200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695484800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695484800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "1.CfB Köln 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695484800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "18:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695484800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Neuhofen",
+            "TV Mainz-Zahlbach 1862"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "19:00",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695488400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS 2",
+            "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695542400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Horner TV",
+            "SV Berliner Brauereien 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695542400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Bremen\/Neustadt",
+            "SG VfB\/SC Peine"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695542400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Hammer\/Altenholz\/Molfsee",
+            "SG Lengede\/Vechelde"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695542400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695542400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena 2",
+            "TV 1860 Hofheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "10:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695542400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695542400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695546000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695546000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695546000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695546000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Ludwigshafen",
+            "TV Mainz-Zahlbach 1862"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695546000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695546000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695546000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695546000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:30",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695547800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695549600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Neuhofen",
+            "1. BC Sbr.-Bischmisheim 3"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695549600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "12:30",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695551400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695553200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695556800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695556800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695556800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695556800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS",
+            "SC Union 08 Lüdinghausen"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695556800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG 1862 Anspach",
+            "TuS 1872 Schwanheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695556800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695556800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695560400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-09-24",
+        "date_de": "24.09.2023",
+        "ts": 1695564000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "19:00",
+        "date": "2023-09-25",
+        "date_de": "25.09.2023",
+        "ts": 1695661200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "18:30",
+        "date": "2023-09-26",
+        "date_de": "26.09.2023",
+        "ts": 1695745800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "SC Union 08 Lüdinghausen"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "19:00",
+        "date": "2023-09-26",
+        "date_de": "26.09.2023",
+        "ts": 1695747600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "13:00",
+        "date": "2023-09-30",
+        "date_de": "30.09.2023",
+        "ts": 1696071600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-09-30",
+        "date_de": "30.09.2023",
+        "ts": 1696075200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2023-09-30",
+        "date_de": "30.09.2023",
+        "ts": 1696084200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena 2",
+            "SG 1862 Anspach"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "17:00",
+        "date": "2023-09-30",
+        "date_de": "30.09.2023",
+        "ts": 1696086000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-09-30",
+        "date_de": "30.09.2023",
+        "ts": 1696089600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "1.CfB Köln 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-09-30",
+        "date_de": "30.09.2023",
+        "ts": 1696089600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696150800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696154400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696154400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696154400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "12:30",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696156200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696158000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696161600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696161600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2023-10-01",
+        "date_de": "01.10.2023",
+        "ts": 1696161600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696676400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696676400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696676400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696676400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696676400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696680000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696680000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696680000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696683600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Horner TV",
+            "Blau-Weiss Wittorf-NMS 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Bremen\/Neustadt",
+            "SG Hammer\/Altenholz\/Molfsee"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG VfB\/SC Peine",
+            "SG Lengede\/Vechelde"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien 2",
+            "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696687200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:30",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696689000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696689000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG 1862 Anspach",
+            "Post SV Ludwigshafen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "17:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696690800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696690800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696690800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil",
+            "TSV Neuhausen-Nymphenb. München"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:30",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696692600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "18:00",
+        "date": "2023-10-07",
+        "date_de": "07.10.2023",
+        "ts": 1696694400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Horner TV",
+            "SG Hammer\/Altenholz\/Molfsee"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Bremen\/Neustadt",
+            "Blau-Weiss Wittorf-NMS 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG VfB\/SC Peine",
+            "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien 2",
+            "SG Lengede\/Vechelde"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:30",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696757400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:30",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696757400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "12:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696759200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "TSV Neuhausen-Nymphenb. München"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696766400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696766400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696766400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:30",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696768200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696770000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 3",
+            "SG 1862 Anspach"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-10-14",
+        "date_de": "14.10.2023",
+        "ts": 1697284800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS 1872 Schwanheim",
+            "TuS Neuhofen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-10-14",
+        "date_de": "14.10.2023",
+        "ts": 1697284800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1860 Hofheim",
+            "Post SV Ludwigshafen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "15:00",
+        "date": "2023-10-14",
+        "date_de": "14.10.2023",
+        "ts": 1697288400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Mainz-Zahlbach 1862",
+            "SV GutsMuths Jena 2"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "18:00",
+        "date": "2023-10-14",
+        "date_de": "14.10.2023",
+        "ts": 1697299200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 3",
+            "SV GutsMuths Jena 2"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:00",
+        "date": "2023-10-15",
+        "date_de": "15.10.2023",
+        "ts": 1697364000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Mainz-Zahlbach 1862",
+            "SG 1862 Anspach"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:00",
+        "date": "2023-10-15",
+        "date_de": "15.10.2023",
+        "ts": 1697364000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS 1872 Schwanheim",
+            "Post SV Ludwigshafen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:30",
+        "date": "2023-10-15",
+        "date_de": "15.10.2023",
+        "ts": 1697365800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-10-15",
+        "date_de": "15.10.2023",
+        "ts": 1697367600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-10-15",
+        "date_de": "15.10.2023",
+        "ts": 1697371200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1860 Hofheim",
+            "TuS Neuhofen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-10-15",
+        "date_de": "15.10.2023",
+        "ts": 1697371200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697886000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697886000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 3",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697889600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697889600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697889600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697893200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697893200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "SC Union 08 Lüdinghausen"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697893200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697893200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697893200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln 2",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS 2",
+            "SG VfB\/SC Peine"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Hammer\/Altenholz\/Molfsee",
+            "SV Berliner Brauereien 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Lengede\/Vechelde",
+            "Horner TV"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Harkenbleck",
+            "SG Bremen\/Neustadt"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697896800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:30",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697898600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697900400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697900400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "18:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697904000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-10-21",
+        "date_de": "21.10.2023",
+        "ts": 1697904000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS 2",
+            "SV Berliner Brauereien 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697961600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697961600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697961600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Hammer\/Altenholz\/Molfsee",
+            "SG VfB\/SC Peine"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697961600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Lengede\/Vechelde",
+            "SG Bremen\/Neustadt"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697961600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Harkenbleck",
+            "Horner TV"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697961600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "10:30",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697963400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697965200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697965200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697965200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697965200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697965200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "1.BC Beuel 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697965200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697968800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697968800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697968800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "12:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697968800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "12:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697968800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697972400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697972400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697976000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697976000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697976000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München",
+            "SC Union 08 Lüdinghausen"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697976000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697979600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2023-10-22",
+        "date_de": "22.10.2023",
+        "ts": 1697979600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698490800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698498000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698498000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698498000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698501600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS 2",
+            "SG Hammer\/Altenholz\/Molfsee"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698501600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Bremen\/Neustadt",
+            "Horner TV"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698501600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "16:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698501600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Lengede\/Vechelde",
+            "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698501600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien 2",
+            "SG VfB\/SC Peine"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698501600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698501600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698503400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698503400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698508800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698508800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698508800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:30",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698575400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "12:30",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698579000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698580800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698584400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698584400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:30",
+        "date": "2023-10-29",
+        "date_de": "29.10.2023",
+        "ts": 1698586200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "1.CfB Köln 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-11-04",
+        "date_de": "04.11.2023",
+        "ts": 1699117200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-11-04",
+        "date_de": "04.11.2023",
+        "ts": 1699117200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:30",
+        "date": "2023-11-04",
+        "date_de": "04.11.2023",
+        "ts": 1699119000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699704000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699704000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 3",
+            "TV 1860 Hofheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699707600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699707600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699707600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699707600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699707600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena 2",
+            "TuS Neuhofen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699707600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699707600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699711200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699711200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699711200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699711200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Mainz-Zahlbach 1862",
+            "TuS 1872 Schwanheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "15:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699711200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699714800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699714800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699714800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699714800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699714800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699714800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699714800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Spvgg.Sterkrade-N.",
+            "1.BC Beuel 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699718400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699718400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "TSV Neuhausen-Nymphenb. München"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699718400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "18:00",
+        "date": "2023-11-11",
+        "date_de": "11.11.2023",
+        "ts": 1699722000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena 2",
+            "Post SV Ludwigshafen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "10:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699779600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699779600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699779600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Mainz-Zahlbach 1862",
+            "TV 1860 Hofheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "10:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699779600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "Spvgg.Sterkrade-N."
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:30",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699785000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 3",
+            "TuS 1872 Schwanheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699786800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "12:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699786800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699786800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699786800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "13:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699790400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699790400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699794000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG 1862 Anspach",
+            "TuS Neuhofen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699794000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699794000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2023-11-12",
+        "date_de": "12.11.2023",
+        "ts": 1699797600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-11-25",
+        "date_de": "25.11.2023",
+        "ts": 1700924400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-11-25",
+        "date_de": "25.11.2023",
+        "ts": 1700931600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2023-11-25",
+        "date_de": "25.11.2023",
+        "ts": 1700931600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702123200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 3",
+            "Spvgg.Sterkrade-N."
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702126800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702126800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln 2",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702126800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702130400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702130400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702130400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Lengede\/Vechelde",
+            "Blau-Weiss Wittorf-NMS 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG VfB\/SC Peine",
+            "Horner TV"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien 2",
+            "SG Bremen\/Neustadt"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Harkenbleck",
+            "SG Hammer\/Altenholz\/Molfsee"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702134000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702135800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702135800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702135800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702141200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702141200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2023-12-09",
+        "date_de": "09.12.2023",
+        "ts": 1702141200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "10:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702198800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Lengede\/Vechelde",
+            "SG Hammer\/Altenholz\/Molfsee"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702198800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702198800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG VfB\/SC Peine",
+            "SG Bremen\/Neustadt"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702198800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "10:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702198800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien 2",
+            "Horner TV"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702198800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Harkenbleck",
+            "Blau-Weiss Wittorf-NMS 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702198800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "10:30",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702200600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702202400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "1.BC Beuel 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702202400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702202400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702202400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702202400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Spvgg.Sterkrade-N.",
+            "1.CfB Köln 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702202400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:30",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702204200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702206000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "12:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702206000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "12:30",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702207800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702209600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702209600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702213200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:30",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702215000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702216800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:00",
+        "date": "2023-12-15",
+        "date_de": "15.12.2023",
+        "ts": 1702656000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "TSV Neuhausen-Nymphenb. München"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2023-12-16",
+        "date_de": "16.12.2023",
+        "ts": 1702735200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:30",
+        "date": "2023-12-16",
+        "date_de": "16.12.2023",
+        "ts": 1702740600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:00",
+        "date": "2023-12-16",
+        "date_de": "16.12.2023",
+        "ts": 1702742400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "18:00",
+        "date": "2023-12-16",
+        "date_de": "16.12.2023",
+        "ts": 1702746000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2023-12-17",
+        "date_de": "17.12.2023",
+        "ts": 1702807200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:00",
+        "date": "2023-12-17",
+        "date_de": "17.12.2023",
+        "ts": 1702807200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:30",
+        "date": "2023-12-17",
+        "date_de": "17.12.2023",
+        "ts": 1702809000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "12:00",
+        "date": "2023-12-17",
+        "date_de": "17.12.2023",
+        "ts": 1702810800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "TSV Neuhausen-Nymphenb. München"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2023-12-17",
+        "date_de": "17.12.2023",
+        "ts": 1702818000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "TSV Neuhausen-Nymphenb. München"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "19:00",
+        "date": "2023-12-18",
+        "date_de": "18.12.2023",
+        "ts": 1702922400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "18:30",
+        "date": "2023-12-19",
+        "date_de": "19.12.2023",
+        "ts": 1703007000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "19:30",
+        "date": "2023-12-19",
+        "date_de": "19.12.2023",
+        "ts": 1703010600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705147200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705147200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705150800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705150800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705154400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705154400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705154400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705154400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705158000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705159800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705161600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "1.CfB Köln 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "17:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705161600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "18:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705165200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "1.BC Beuel 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2024-01-13",
+        "date_de": "13.01.2024",
+        "ts": 1705165200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705226400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705226400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705226400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705226400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705226400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705226400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705230000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705233600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705233600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705237200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 3",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705237200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705237200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705237200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2024-01-14",
+        "date_de": "14.01.2024",
+        "ts": 1705240800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705752000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln 2",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705755600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705759200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705759200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS 2",
+            "Horner TV"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Hammer\/Altenholz\/Molfsee",
+            "SG Bremen\/Neustadt"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Lengede\/Vechelde",
+            "SG VfB\/SC Peine"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Harkenbleck",
+            "SV Berliner Brauereien 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705762800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705764600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705764600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG 1862 Anspach",
+            "SV GutsMuths Jena 2"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "17:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705766400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705770000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705770000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Neuhofen",
+            "Post SV Ludwigshafen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "19:00",
+        "date": "2024-01-20",
+        "date_de": "20.01.2024",
+        "ts": 1705773600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS 2",
+            "SG Bremen\/Neustadt"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705827600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705827600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705827600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Hammer\/Altenholz\/Molfsee",
+            "Horner TV"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705827600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Lengede\/Vechelde",
+            "SV Berliner Brauereien 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705827600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Harkenbleck",
+            "SG VfB\/SC Peine"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705827600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705827600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705831200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705831200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705831200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705831200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705831200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705831200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705831200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:30",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705833000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 3",
+            "TV Mainz-Zahlbach 1862"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705834800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1860 Hofheim",
+            "TuS 1872 Schwanheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705834800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "12:30",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705836600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705838400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705842000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705842000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:30",
+        "date": "2024-01-21",
+        "date_de": "21.01.2024",
+        "ts": 1705843800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "SC Union 08 Lüdinghausen"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-01-27",
+        "date_de": "27.01.2024",
+        "ts": 1706360400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-01-27",
+        "date_de": "27.01.2024",
+        "ts": 1706360400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Spvgg.Sterkrade-N.",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2024-01-27",
+        "date_de": "27.01.2024",
+        "ts": 1706360400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "15:00",
+        "date": "2024-01-27",
+        "date_de": "27.01.2024",
+        "ts": 1706364000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:00",
+        "date": "2024-01-27",
+        "date_de": "27.01.2024",
+        "ts": 1706367600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2024-01-27",
+        "date_de": "27.01.2024",
+        "ts": 1706374800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Spvgg.Sterkrade-N.",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2024-01-28",
+        "date_de": "28.01.2024",
+        "ts": 1706436000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "12:00",
+        "date": "2024-01-28",
+        "date_de": "28.01.2024",
+        "ts": 1706439600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "13:00",
+        "date": "2024-01-28",
+        "date_de": "28.01.2024",
+        "ts": 1706443200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "SC Union 08 Lüdinghausen"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-01-28",
+        "date_de": "28.01.2024",
+        "ts": 1706446800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-01-28",
+        "date_de": "28.01.2024",
+        "ts": 1706446800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707566400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS 1872 Schwanheim",
+            "TV Mainz-Zahlbach 1862"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707570000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Ludwigshafen",
+            "SG 1862 Anspach"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "15:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1860 Hofheim",
+            "1. BC Sbr.-Bischmisheim 3"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "15:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707573600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Horner TV",
+            "SG Bremen\/Neustadt"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Hammer\/Altenholz\/Molfsee",
+            "Blau-Weiss Wittorf-NMS 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG VfB\/SC Peine",
+            "SV Berliner Brauereien 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Harkenbleck",
+            "SG Lengede\/Vechelde"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "16:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707577200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707579000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "18:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707584400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Neuhofen",
+            "SV GutsMuths Jena 2"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "19:00",
+        "date": "2024-02-10",
+        "date_de": "10.02.2024",
+        "ts": 1707588000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707642000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707642000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld 2",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSV Eggenstein-Leopoldshafen",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Ludwigshafen",
+            "SV GutsMuths Jena 2"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "TSV 1906 Freystadt"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1860 Hofheim",
+            "TV Mainz-Zahlbach 1862"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Neuhofen",
+            "SG 1862 Anspach"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707645600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "SG EBT Berlin"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707649200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BV Gifhorn",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707649200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "12:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707649200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS 1872 Schwanheim",
+            "1. BC Sbr.-Bischmisheim 3"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707649200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "12:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707649200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Offenburg",
+            "TV 1884 Marktheidenfeld"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "12:30",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707651000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707652800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "STC Blau-Weiss Solingen"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707652800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BV Maintal 1978",
+            "1. BC Sbr.-Bischmisheim 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707656400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-02-11",
+        "date_de": "11.02.2024",
+        "ts": 1707656400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Horner TV",
+            "SG Lengede\/Vechelde"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-02-17",
+        "date_de": "17.02.2024",
+        "ts": 1708182000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Bremen\/Neustadt",
+            "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-02-17",
+        "date_de": "17.02.2024",
+        "ts": 1708182000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG VfB\/SC Peine",
+            "Blau-Weiss Wittorf-NMS 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-02-17",
+        "date_de": "17.02.2024",
+        "ts": 1708182000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien 2",
+            "SG Hammer\/Altenholz\/Molfsee"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2024-02-17",
+        "date_de": "17.02.2024",
+        "ts": 1708182000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2024-02-17",
+        "date_de": "17.02.2024",
+        "ts": 1708189200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "1.CfB Köln 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2024-02-17",
+        "date_de": "17.02.2024",
+        "ts": 1708189200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Horner TV",
+            "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2024-02-18",
+        "date_de": "18.02.2024",
+        "ts": 1708246800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Bremen\/Neustadt",
+            "SG Lengede\/Vechelde"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2024-02-18",
+        "date_de": "18.02.2024",
+        "ts": 1708246800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG VfB\/SC Peine",
+            "SG Hammer\/Altenholz\/Molfsee"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2024-02-18",
+        "date_de": "18.02.2024",
+        "ts": 1708246800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien 2",
+            "Blau-Weiss Wittorf-NMS 2"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "10:00",
+        "date": "2024-02-18",
+        "date_de": "18.02.2024",
+        "ts": 1708246800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "1.BV Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708776000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 3",
+            "Post SV Ludwigshafen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708779600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS",
+            "TSV Neuhausen-Nymphenb. München"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708779600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708779600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS 1872 Schwanheim",
+            "SV GutsMuths Jena 2"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708779600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1860 Hofheim",
+            "SG 1862 Anspach"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "15:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708783200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708786800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708786800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708786800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708786800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708790400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:30",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708792200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 3",
+            "1.CfB Köln 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708794000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Spvgg.Sterkrade-N.",
+            "TV Refrath 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708794000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Union Lüdinghausen 2",
+            "BC Phönix Hövelhof"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "18:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708794000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Mainz-Zahlbach 1862",
+            "TuS Neuhofen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "19:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708797600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG TSV Diedorf \/ TSV Haunstetten",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708851600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708851600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Mainz-Zahlbach 1862",
+            "Post SV Ludwigshafen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "10:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708851600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708855200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708855200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "Post SV Landshut"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708855200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "SV Berliner Brauereien"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708855200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fischbach",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708855200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1860 Hofheim",
+            "SV GutsMuths Jena 2"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708855200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708855200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "TSV Neuhausen-Nymphenb. München"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:30",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708857000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil",
+            "1. BC Sbr.-Bischmisheim"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "11:30",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708857000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 3",
+            "TuS Neuhofen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "12:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708858800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Wipperfeld",
+            "1.BC Beuel"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "12:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708858800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "13:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708862400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf 2",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708862400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Trittau",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708862400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 3",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708866000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708866000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "Spvgg.Sterkrade-N."
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "14:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708866000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708866000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS 1872 Schwanheim",
+            "SG 1862 Anspach"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708866000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "TuS Geretsried"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "14:30",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708867800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "VfB GW Mülheim",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "15:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708869600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:00",
+        "date": "2024-02-25",
+        "date_de": "25.02.2024",
+        "ts": 1708873200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim 2",
+            "BC Hohenlimburg"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2024-03-03",
+        "date_de": "03.03.2024",
+        "ts": 1709460000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710590400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710590400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710590400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710590400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "13:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710590400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710594000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710594000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena 2",
+            "TV Mainz-Zahlbach 1862"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "14:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710594000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Ludwigshafen",
+            "TV 1860 Hofheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "15:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710597600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "15:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710597600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710601200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710601200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710601200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "16:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710601200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710601200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710601200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "16:30",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710603000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710603000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG 1862 Anspach",
+            "1. BC Sbr.-Bischmisheim 3"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "17:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710604800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710604800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil",
+            "SC Union 08 Lüdinghausen"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:30",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710606600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "18:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710608400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "18:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710608400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Neuhofen",
+            "TuS 1872 Schwanheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "19:00",
+        "date": "2024-03-16",
+        "date_de": "16.03.2024",
+        "ts": 1710612000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "ESV Flügelrad Nürnberg",
+            "TSV Neuhausen-Nymphenb. München 2"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710666000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "TSV Neubiberg\/Ottobrunn 1920"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710666000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "SV Fischbach"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BV Mülheim",
+            "BV Gifhorn"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln 2",
+            "1.BV Mülheim 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Hohenlimburg",
+            "Spvgg.Sterkrade-N."
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Phönix Hövelhof",
+            "1.BC Beuel 3"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BC Remagen",
+            "BSV Eggenstein-Leopoldshafen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "BSpfr. Neusatz",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Gladbecker FC",
+            "1.BC Beuel 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "HSG DHfK Leipzig",
+            "TV 1862 Dillingen"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Ludwigshafen",
+            "TuS 1872 Schwanheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG 1862 Anspach",
+            "TV Mainz-Zahlbach 1862"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG EBT Berlin",
+            "VfB GW Mülheim"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "STC Blau-Weiss Solingen",
+            "1.CfB Köln"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien",
+            "1.BC Wipperfeld 2"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV GutsMuths Jena 2",
+            "1. BC Sbr.-Bischmisheim 3"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV 1906 Freystadt",
+            "SG Schorndorf 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1884 Marktheidenfeld",
+            "SV Fun-Ball Dortelweil 2"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 2",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV Refrath 3",
+            "Union Lüdinghausen 2"
+        ],
+        "league_key": "RLW-2016",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Geretsried",
+            "BC Offenburg"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TuS Neuhofen",
+            "TV 1860 Hofheim"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710669600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Niederwürschnitz",
+            "PTSV Konstanz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "12:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710673200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "SC Union 08 Lüdinghausen"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710680400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710680400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG Schorndorf",
+            "1.BC Wipperfeld"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710680400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Fun-Ball Dortelweil",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-03-17",
+        "date_de": "17.03.2024",
+        "ts": 1710680400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "14:00",
+        "date": "2024-04-06",
+        "date_de": "06.04.2024",
+        "ts": 1712404800
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "15:00",
+        "date": "2024-04-06",
+        "date_de": "06.04.2024",
+        "ts": 1712408400
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-04-06",
+        "date_de": "06.04.2024",
+        "ts": 1712412000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "16:00",
+        "date": "2024-04-06",
+        "date_de": "06.04.2024",
+        "ts": 1712412000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "PTSV Konstanz",
+            "BSpfr. Neusatz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:45",
+        "date": "2024-04-07",
+        "date_de": "07.04.2024",
+        "ts": 1712479500
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Post SV Landshut",
+            "ESV Flügelrad Nürnberg"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:45",
+        "date": "2024-04-07",
+        "date_de": "07.04.2024",
+        "ts": 1712479500
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neubiberg\/Ottobrunn 1920",
+            "TSV Niederwürschnitz"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:45",
+        "date": "2024-04-07",
+        "date_de": "07.04.2024",
+        "ts": 1712479500
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TSV Neuhausen-Nymphenb. München 2",
+            "HSG DHfK Leipzig"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:45",
+        "date": "2024-04-07",
+        "date_de": "07.04.2024",
+        "ts": 1712479500
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "TV 1862 Dillingen",
+            "SG TSV Diedorf \/ TSV Haunstetten"
+        ],
+        "league_key": "RLSO-2019",
+        "starttime": "10:45",
+        "date": "2024-04-07",
+        "date_de": "07.04.2024",
+        "ts": 1712479500
     }
 ]
