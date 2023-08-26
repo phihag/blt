@@ -203,6 +203,10 @@
 	"type": "btde",
 	"btde_account": "cfbkoeln"
 },
+"1.CfB Köln 2": {
+	"type": "btde",
+	"btde_account": "cfbkoeln2"
+},
 
 "TuS Neuhofen": {
 	"type": "csde"
