@@ -386,18 +386,6 @@
     {
         "type": "auto",
         "team_names": [
-            "Blau-Weiss Wittorf-NMS 2",
-            "SG Lengede\/Vechelde"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "16:00",
-        "date": "2023-09-23",
-        "date_de": "23.09.2023",
-        "ts": 1695477600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "Horner TV",
             "SG VfB\/SC Peine"
         ],
@@ -502,6 +490,18 @@
         "date": "2023-09-23",
         "date_de": "23.09.2023",
         "ts": 1695481200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "Blau-Weiss Wittorf-NMS 2",
+            "SG Lengede\/Vechelde"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "17:30",
+        "date": "2023-09-23",
+        "date_de": "23.09.2023",
+        "ts": 1695483000
     },
     {
         "type": "auto",
@@ -3818,18 +3818,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Berliner Brauereien 2",
-            "Horner TV"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "10:00",
-        "date": "2023-12-10",
-        "date_de": "10.12.2023",
-        "ts": 1702198800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV Harkenbleck",
             "Blau-Weiss Wittorf-NMS 2"
         ],
@@ -3990,6 +3978,18 @@
             "SV Fischbach"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "13:00",
+        "date": "2023-12-10",
+        "date_de": "10.12.2023",
+        "ts": 1702209600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SV Berliner Brauereien 2",
+            "Horner TV"
+        ],
+        "league_key": "RLN-2016",
         "starttime": "13:00",
         "date": "2023-12-10",
         "date_de": "10.12.2023",
