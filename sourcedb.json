@@ -104,7 +104,8 @@
 	"btde_account": "sgschorndorf"
 },
 "SG Schorndorf 2": {
-	"type": "none"
+	"type": "btde",
+	"btde_account": "sgschorndorf2"
 },
 "TV 1884 Marktheidenfeld": {
 	"type": "btde",
