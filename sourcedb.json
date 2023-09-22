@@ -45,6 +45,9 @@
 "Blau-Weiss Wittorf": {
 	"type": "csde"
 },
+"Blau-Weiss Wittorf-NMS 2": {
+	"type": "csde"
+},
 "Horner TV": {
 	"type": "csde"
 },
@@ -277,8 +280,21 @@
 },
 "TV Mainz-Zahlbach 1862": {
 	"type": "csde"
-}
+},
 
+"BV Gifhorn": {
+	"type": "csde"
+},
+
+"Post SV Ludwigshafen": {
+	"type": "none"
+},
+"SG Bremen/Neustadt": {
+	"type": "none"
+},
+"SG Hammer/Altenholz/Molfsee": {
+	"type": "none"
+}
 
 
 }
