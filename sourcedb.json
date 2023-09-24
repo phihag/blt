@@ -90,7 +90,8 @@
 	"type": "csde"
 },
 "SV Fischbach": {
-	"type": "csde"
+	"type": "btde",
+	"btde_account": "svfischbach"
 },
 "VfB Friedrichshafen": {
 	"type": "none",
