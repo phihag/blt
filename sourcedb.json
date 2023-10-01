@@ -221,7 +221,8 @@
 },
 
 "Gladbecker FC": {
-	"type": "none"
+	"type": "btde",
+	"btde_account": "gladbeckerfc"
 },
 "BC Phönix Hövelhof": {
 	"type": "csde"
