@@ -55,6 +55,10 @@
 	"type": "btde",
 	"btde_account": "svberlinerbrauereien"
 },
+"SV Berliner Brauereien 2": {
+	"type": "none",
+	"btde_account": "svberlinerbrauereien2"
+},
 
 "TSV Trittau": {
 	"type": "btde",
@@ -296,6 +300,10 @@
 	"type": "none"
 },
 "SG Hammer/Altenholz/Molfsee": {
+	"type": "none"
+},
+
+"Post SV Landshut": {
 	"type": "none"
 }
 
