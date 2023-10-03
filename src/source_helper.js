@@ -16,7 +16,7 @@ function copy_props(ev, src) {
 		ev.team_names = src.team_names;
 		ev.matches = false;
 		ev.mscore = [0, 0];
-		ev.link = src.link || src.url;
+		ev.link = ev.link || src.link || src.url;
 	} else if (ev.team_names[1] !== src.team_names[1]) {
 		const admin_note = (
 			'Der Original-Liveticker ist noch nicht richtig eingestellt' +
@@ -26,7 +26,7 @@ function copy_props(ev, src) {
 		ev.team_names = src.team_names;
 		ev.matches = false;
 		ev.mscore = [0, 0];
-		ev.link = src.link || src.url;
+		ev.link = ev.link || src.link || src.url;
 	}
 }
 
