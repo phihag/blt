@@ -410,8 +410,8 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Bremen\/Neustadt",
-            "SV Berliner Brauereien 2"
+            "SG Hammer\/Altenholz\/Molfsee",
+            "SV Harkenbleck"
         ],
         "league_key": "RLN-2016",
         "starttime": "16:00",
@@ -422,8 +422,8 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Hammer\/Altenholz\/Molfsee",
-            "SV Harkenbleck"
+            "SG PSV Bremen\/BTS Neustadt",
+            "SV Berliner Brauereien 2"
         ],
         "league_key": "RLN-2016",
         "starttime": "16:00",
@@ -590,8 +590,8 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Bremen\/Neustadt",
-            "SG VfB\/SC Peine"
+            "SG Hammer\/Altenholz\/Molfsee",
+            "SG Lengede\/Vechelde"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -602,8 +602,8 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Hammer\/Altenholz\/Molfsee",
-            "SG Lengede\/Vechelde"
+            "SG PSV Bremen\/BTS Neustadt",
+            "SG VfB\/SC Peine"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -1298,10 +1298,10 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Bremen\/Neustadt",
-            "SG Hammer\/Altenholz\/Molfsee"
+            "SG EBT Berlin",
+            "1.CfB Köln"
         ],
-        "league_key": "RLN-2016",
+        "league_key": "2BLN-2020",
         "starttime": "16:00",
         "date": "2023-10-07",
         "date_de": "07.10.2023",
@@ -1310,10 +1310,10 @@
     {
         "type": "auto",
         "team_names": [
-            "SG EBT Berlin",
-            "1.CfB Köln"
+            "SG PSV Bremen\/BTS Neustadt",
+            "SG Hammer\/Altenholz\/Molfsee"
         ],
-        "league_key": "2BLN-2020",
+        "league_key": "RLN-2016",
         "starttime": "16:00",
         "date": "2023-10-07",
         "date_de": "07.10.2023",
@@ -1478,20 +1478,8 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Bremen\/Neustadt",
+            "SG PSV Bremen\/BTS Neustadt",
             "Blau-Weiss Wittorf-NMS 2"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "10:00",
-        "date": "2023-10-08",
-        "date_de": "08.10.2023",
-        "ts": 1696752000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SG VfB\/SC Peine",
-            "SV Harkenbleck"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -1718,6 +1706,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SG VfB\/SC Peine",
+            "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-08",
+        "date_de": "08.10.2023",
+        "ts": 1696773600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. BC Sbr.-Bischmisheim 3",
             "SG 1862 Anspach"
         ],
@@ -1766,6 +1766,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TuS 1872 Schwanheim",
+            "Post SV Ludwigshafen"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "11:00",
+        "date": "2023-10-15",
+        "date_de": "15.10.2023",
+        "ts": 1697360400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. BC Sbr.-Bischmisheim 3",
             "SV GutsMuths Jena 2"
         ],
@@ -1786,18 +1798,6 @@
         "date": "2023-10-15",
         "date_de": "15.10.2023",
         "ts": 1697364000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TuS 1872 Schwanheim",
-            "Post SV Ludwigshafen"
-        ],
-        "league_key": "RLM-2016",
-        "starttime": "12:30",
-        "date": "2023-10-15",
-        "date_de": "15.10.2023",
-        "ts": 1697365800
     },
     {
         "type": "auto",
@@ -2055,7 +2055,7 @@
         "type": "auto",
         "team_names": [
             "SV Harkenbleck",
-            "SG Bremen\/Neustadt"
+            "SG PSV Bremen\/BTS Neustadt"
         ],
         "league_key": "RLN-2016",
         "starttime": "16:00",
@@ -2211,7 +2211,7 @@
         "type": "auto",
         "team_names": [
             "SG Lengede\/Vechelde",
-            "SG Bremen\/Neustadt"
+            "SG PSV Bremen\/BTS Neustadt"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -2486,6 +2486,18 @@
     {
         "type": "auto",
         "team_names": [
+            "VfB GW Mülheim",
+            "TSV Trittau"
+        ],
+        "league_key": "2BLN-2020",
+        "starttime": "14:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698494400
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1.BC Wipperfeld 2",
             "BV Gifhorn"
         ],
@@ -2546,18 +2558,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Bremen\/Neustadt",
-            "Horner TV"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "16:00",
-        "date": "2023-10-28",
-        "date_de": "28.10.2023",
-        "ts": 1698501600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SG EBT Berlin",
             "STC Blau-Weiss Solingen"
         ],
@@ -2572,6 +2572,18 @@
         "team_names": [
             "SG Lengede\/Vechelde",
             "SV Harkenbleck"
+        ],
+        "league_key": "RLN-2016",
+        "starttime": "16:00",
+        "date": "2023-10-28",
+        "date_de": "28.10.2023",
+        "ts": 1698501600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SG PSV Bremen\/BTS Neustadt",
+            "Horner TV"
         ],
         "league_key": "RLN-2016",
         "starttime": "16:00",
@@ -2644,18 +2656,6 @@
         "team_names": [
             "1.CfB Köln",
             "TV Refrath 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "18:00",
-        "date": "2023-10-28",
-        "date_de": "28.10.2023",
-        "ts": 1698508800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "VfB GW Mülheim",
-            "TSV Trittau"
         ],
         "league_key": "2BLN-2020",
         "starttime": "18:00",
@@ -3651,7 +3651,7 @@
         "type": "auto",
         "team_names": [
             "SV Berliner Brauereien 2",
-            "SG Bremen\/Neustadt"
+            "SG PSV Bremen\/BTS Neustadt"
         ],
         "league_key": "RLN-2016",
         "starttime": "16:00",
@@ -3795,7 +3795,7 @@
         "type": "auto",
         "team_names": [
             "SG VfB\/SC Peine",
-            "SG Bremen\/Neustadt"
+            "SG PSV Bremen\/BTS Neustadt"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -4671,7 +4671,7 @@
         "type": "auto",
         "team_names": [
             "SG Hammer\/Altenholz\/Molfsee",
-            "SG Bremen\/Neustadt"
+            "SG PSV Bremen\/BTS Neustadt"
         ],
         "league_key": "RLN-2016",
         "starttime": "16:00",
@@ -4815,7 +4815,7 @@
         "type": "auto",
         "team_names": [
             "Blau-Weiss Wittorf-NMS 2",
-            "SG Bremen\/Neustadt"
+            "SG PSV Bremen\/BTS Neustadt"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -5355,7 +5355,7 @@
         "type": "auto",
         "team_names": [
             "Horner TV",
-            "SG Bremen\/Neustadt"
+            "SG PSV Bremen\/BTS Neustadt"
         ],
         "league_key": "RLN-2016",
         "starttime": "16:00",
@@ -5762,7 +5762,7 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Bremen\/Neustadt",
+            "SG PSV Bremen\/BTS Neustadt",
             "SV Harkenbleck"
         ],
         "league_key": "RLN-2016",
@@ -5834,7 +5834,7 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Bremen\/Neustadt",
+            "SG PSV Bremen\/BTS Neustadt",
             "SG Lengede\/Vechelde"
         ],
         "league_key": "RLN-2016",
@@ -5882,6 +5882,18 @@
     {
         "type": "auto",
         "team_names": [
+            "TuS 1872 Schwanheim",
+            "SV GutsMuths Jena 2"
+        ],
+        "league_key": "RLM-2016",
+        "starttime": "13:00",
+        "date": "2024-02-24",
+        "date_de": "24.02.2024",
+        "ts": 1708776000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. BC Sbr.-Bischmisheim 3",
             "Post SV Ludwigshafen"
         ],
@@ -5910,18 +5922,6 @@
             "TSV Neubiberg\/Ottobrunn 1920"
         ],
         "league_key": "RLSO-2019",
-        "starttime": "14:00",
-        "date": "2024-02-24",
-        "date_de": "24.02.2024",
-        "ts": 1708779600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "TuS 1872 Schwanheim",
-            "SV GutsMuths Jena 2"
-        ],
-        "league_key": "RLM-2016",
         "starttime": "14:00",
         "date": "2024-02-24",
         "date_de": "24.02.2024",
