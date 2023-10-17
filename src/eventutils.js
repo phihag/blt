@@ -169,6 +169,7 @@ function unify_team_name(team_name) {
 		'TSV Neuhausen-Nymphenb. München 3': 'TSV Neuhausen-Nymphenburg München 3',
 		'Blau-Weiss Wittorf NMS': 'Blau-Weiss Wittorf',
 		'Blau-Weiss Wittorf-NMS': 'Blau-Weiss Wittorf',
+		'SG PSV Bremen/BTS Neustadt': 'SG Bremen/Neustadt',
 	}[team_name] || team_name;
 	team_name = team_name.replace(/\s+1$/, '');
 	return team_name;
