@@ -7022,6 +7022,18 @@
     {
         "type": "auto",
         "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "Blau-Weiss Wittorf-NMS"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2024-04-06",
+        "date_de": "06.04.2024",
+        "ts": 1712404800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TSV Neuhausen-Nymphenb. München 2",
             "TSV Niederwürschnitz"
         ],
@@ -7066,6 +7078,18 @@
         "date": "2024-04-06",
         "date_de": "06.04.2024",
         "ts": 1712412000
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "SC Union 08 Lüdinghausen",
+            "TV Refrath"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "17:00",
+        "date": "2024-04-06",
+        "date_de": "06.04.2024",
+        "ts": 1712415600
     },
     {
         "type": "auto",
