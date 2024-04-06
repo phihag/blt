@@ -1,15 +1,6 @@
 'use strict';
 
 const TEAM_NAMES = {
-    '1-1': '1. BC Sbr.-Bischmisheim',
-    '1-8': '1.BC Beuel',
-    '1-2': '1.BC Wipperfeld',
-    '1-6': 'Blau-Weiss Wittorf',
-    '1-5': 'SC Union 08 Lüdinghausen',
-    '1-9': 'SG Schorndorf',
-    '1-3': 'SV Fun-Ball Dortelweil',
-    '1-7': 'TSV Neuhausen-Nymphenburg München',
-    '1-4': 'TV Refrath',
     '2-17': '1.BC Beuel 2',
     '2-11': '1.BC Wipperfeld 2',
     '2-13': '1.BV Mülheim',
@@ -44,9 +35,9 @@ const TEAM_NAMES = {
     '4-345': 'Union Lüdinghausen 2',
     '5-7': 'Blau-Weiss Wittorf-NMS 2',
     '5-3': 'Horner TV',
-    '5-1': 'SG Bremen/Neustadt',
     '5-5': 'SG Hammer/Altenholz/Molfsee',
     '5-8': 'SG Lengede/Vechelde',
+    '5-1': 'SG Bremen/Neustadt',
     '5-4': 'SG VfB/SC Peine',
     '5-2': 'SV Berliner Brauereien 2',
     '5-6': 'SV Harkenbleck',
@@ -68,6 +59,10 @@ const TEAM_NAMES = {
     '7-41': 'TSV Neuhausen-Nymphenburg München 2',
     '7-49': 'TSV Niederwürschnitz',
     '7-44': 'TV 1862 Dillingen',
+    '11-1': '1. BC Sbr.-Bischmisheim',
+    '11-6': 'Blau-Weiss Wittorf',
+    '12-5': 'SC Union 08 Lüdinghausen',
+    '12-4': 'TV Refrath',
 };
 
 module.exports = {
