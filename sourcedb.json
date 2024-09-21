@@ -41,6 +41,9 @@
 "SV Fun-Ball Dortelweil 2": {
 	"type": "csde"
 },
+"SV Fun-Ball Dortelweil 3": {
+	"type": "none"
+},
 
 "Blau-Weiss Wittorf": {
 	"type": "csde"
@@ -320,6 +323,14 @@
 },
 
 "TV Witzhelden": {
+	"type": "none"
+},
+
+"PSV Saar": {
+	"type": "none"
+},
+
+"SV Lohhof": {
 	"type": "none"
 }
 
