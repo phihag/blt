@@ -674,18 +674,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Gifhorn\/Nienburg",
-            "SV Berliner Brauereien 2"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "16:00",
-        "date": "2024-09-28",
-        "date_de": "28.09.2024",
-        "ts": 1727532000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TSV Tempelhof-Mariendorf",
             "SG Hammer\/Altenholz\/Molfsee"
         ],
@@ -694,18 +682,6 @@
         "date": "2024-09-28",
         "date_de": "28.09.2024",
         "ts": 1727532000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Horner TV",
-            "SV Berliner Brauereien 2"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "10:00",
-        "date": "2024-09-29",
-        "date_de": "29.09.2024",
-        "ts": 1727596800
     },
     {
         "type": "auto",
@@ -1226,6 +1202,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SG Schorndorf",
+            "SV Fun-Ball Dortelweil"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "12:00",
+        "date": "2024-10-06",
+        "date_de": "06.10.2024",
+        "ts": 1728208800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "BC Offenburg",
             "TSV 1906 Freystadt"
         ],
@@ -1242,18 +1230,6 @@
             "1. BC Sbr.-Bischmisheim 2"
         ],
         "league_key": "2BLS-2020",
-        "starttime": "13:00",
-        "date": "2024-10-06",
-        "date_de": "06.10.2024",
-        "ts": 1728212400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SG Schorndorf",
-            "SV Fun-Ball Dortelweil"
-        ],
-        "league_key": "1BL-2020",
         "starttime": "13:00",
         "date": "2024-10-06",
         "date_de": "06.10.2024",
@@ -1394,18 +1370,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Berliner Brauereien 2",
-            "SG Hammer\/Altenholz\/Molfsee"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "16:00",
-        "date": "2024-10-12",
-        "date_de": "12.10.2024",
-        "ts": 1728741600
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SG Lengede\/Vechelde",
             "TSV Tempelhof-Mariendorf"
         ],
@@ -1420,18 +1384,6 @@
         "team_names": [
             "SG VfB\/SC Peine",
             "SC Brandenburg"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "10:00",
-        "date": "2024-10-13",
-        "date_de": "13.10.2024",
-        "ts": 1728806400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV Berliner Brauereien 2",
-            "Blau-Weiss Wittorf-NMS 2"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -1910,18 +1862,6 @@
     {
         "type": "auto",
         "team_names": [
-            "TSV Tempelhof-Mariendorf",
-            "SV Berliner Brauereien 2"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "16:00",
-        "date": "2024-10-26",
-        "date_de": "26.10.2024",
-        "ts": 1729951200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TV Mainz-Zahlbach 1862",
             "TuS 1872 Schwanheim"
         ],
@@ -1936,18 +1876,6 @@
         "team_names": [
             "Horner TV",
             "SG VfB\/SC Peine"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "10:00",
-        "date": "2024-10-27",
-        "date_de": "27.10.2024",
-        "ts": 1730019600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SC Brandenburg",
-            "SV Berliner Brauereien 2"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -2858,18 +2786,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Berliner Brauereien 2",
-            "SG VfB\/SC Peine"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "16:00",
-        "date": "2024-11-23",
-        "date_de": "23.11.2024",
-        "ts": 1732374000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TSV Tempelhof-Mariendorf",
             "SC Brandenburg"
         ],
@@ -2894,22 +2810,22 @@
     {
         "type": "auto",
         "team_names": [
-            "1.BC Beuel 2",
-            "TV Refrath 2"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "18:00",
-        "date": "2024-11-23",
-        "date_de": "23.11.2024",
-        "ts": 1732381200
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV GutsMuths Jena",
             "HSG DHfK Leipzig"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2024-11-23",
+        "date_de": "23.11.2024",
+        "ts": 1732377600
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.BC Beuel 2",
+            "TV Refrath 2"
+        ],
+        "league_key": "2BLN-2020",
         "starttime": "18:00",
         "date": "2024-11-23",
         "date_de": "23.11.2024",
@@ -2944,18 +2860,6 @@
         "team_names": [
             "SG Hammer\/Altenholz\/Molfsee",
             "Horner TV"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "10:00",
-        "date": "2024-11-24",
-        "date_de": "24.11.2024",
-        "ts": 1732438800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV Berliner Brauereien 2",
-            "SG Lengede\/Vechelde"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -3374,18 +3278,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Berliner Brauereien 2",
-            "SG Gifhorn\/Nienburg"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "17:00",
-        "date": "2024-12-14",
-        "date_de": "14.12.2024",
-        "ts": 1734192000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV Fun-Ball Dortelweil 2",
             "HSG DHfK Leipzig"
         ],
@@ -3578,6 +3470,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SV Fun-Ball Dortelweil 2",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2024-12-15",
+        "date_de": "15.12.2024",
+        "ts": 1734256800
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TV 1884 Marktheidenfeld",
             "1. BC Sbr.-Bischmisheim 2"
         ],
@@ -3674,34 +3578,10 @@
     {
         "type": "auto",
         "team_names": [
-            "SV Berliner Brauereien 2",
-            "Horner TV"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "13:30",
-        "date": "2024-12-15",
-        "date_de": "15.12.2024",
-        "ts": 1734265800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "Blau-Weiss Wittorf-NMS",
             "SC Union 08 Lüdinghausen"
         ],
         "league_key": "1BL-2020",
-        "starttime": "14:00",
-        "date": "2024-12-15",
-        "date_de": "15.12.2024",
-        "ts": 1734267600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV Fun-Ball Dortelweil 2",
-            "SV GutsMuths Jena"
-        ],
-        "league_key": "2BLS-2020",
         "starttime": "14:00",
         "date": "2024-12-15",
         "date_de": "15.12.2024",
@@ -3926,22 +3806,22 @@
     {
         "type": "auto",
         "team_names": [
-            "1.CfB Köln",
-            "Gladbecker FC"
-        ],
-        "league_key": "2BLN-2020",
-        "starttime": "18:00",
-        "date": "2025-01-11",
-        "date_de": "11.01.2025",
-        "ts": 1736614800
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SV GutsMuths Jena",
             "SV Fun-Ball Dortelweil 2"
         ],
         "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2025-01-11",
+        "date_de": "11.01.2025",
+        "ts": 1736611200
+    },
+    {
+        "type": "auto",
+        "team_names": [
+            "1.CfB Köln",
+            "Gladbecker FC"
+        ],
+        "league_key": "2BLN-2020",
         "starttime": "18:00",
         "date": "2025-01-11",
         "date_de": "11.01.2025",
@@ -4034,6 +3914,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SV GutsMuths Jena",
+            "BC Remagen"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "11:00",
+        "date": "2025-01-12",
+        "date_de": "12.01.2025",
+        "ts": 1736676000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "Spvgg.Sterkrade-N.",
             "SV Berliner Brauereien"
         ],
@@ -4110,18 +4002,6 @@
             "SV Fun-Ball Dortelweil"
         ],
         "league_key": "1BL-2020",
-        "starttime": "14:00",
-        "date": "2025-01-12",
-        "date_de": "12.01.2025",
-        "ts": 1736686800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV GutsMuths Jena",
-            "BC Remagen"
-        ],
-        "league_key": "2BLS-2020",
         "starttime": "14:00",
         "date": "2025-01-12",
         "date_de": "12.01.2025",
@@ -4226,18 +4106,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SG Hammer\/Altenholz\/Molfsee",
-            "SV Berliner Brauereien 2"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "16:00",
-        "date": "2025-01-18",
-        "date_de": "18.01.2025",
-        "ts": 1737212400
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "1. BC Sbr.-Bischmisheim 3",
             "PSV Saar"
         ],
@@ -4258,18 +4126,6 @@
         "date": "2025-01-18",
         "date_de": "18.01.2025",
         "ts": 1737216000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "Blau-Weiss Wittorf-NMS 2",
-            "SV Berliner Brauereien 2"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "10:00",
-        "date": "2025-01-19",
-        "date_de": "19.01.2025",
-        "ts": 1737277200
     },
     {
         "type": "auto",
@@ -4718,18 +4574,6 @@
     {
         "type": "auto",
         "team_names": [
-            "1. BC Sbr.-Bischmisheim 2",
-            "SV GutsMuths Jena"
-        ],
-        "league_key": "2BLS-2020",
-        "starttime": "13:00",
-        "date": "2025-02-08",
-        "date_de": "08.02.2025",
-        "ts": 1739016000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "SC Union 08 Lüdinghausen 2",
             "Gladbecker FC"
         ],
@@ -4874,6 +4718,18 @@
     {
         "type": "auto",
         "team_names": [
+            "1. BC Sbr.-Bischmisheim 2",
+            "SV GutsMuths Jena"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "16:30",
+        "date": "2025-02-08",
+        "date_de": "08.02.2025",
+        "ts": 1739028600
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "TSV 1906 Freystadt",
             "TuS Geretsried"
         ],
@@ -4902,18 +4758,6 @@
             "SV GutsMuths Jena 2"
         ],
         "league_key": "RLM-2016",
-        "starttime": "17:00",
-        "date": "2025-02-08",
-        "date_de": "08.02.2025",
-        "ts": 1739030400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV Berliner Brauereien 2",
-            "TSV Tempelhof-Mariendorf"
-        ],
-        "league_key": "RLN-2016",
         "starttime": "17:00",
         "date": "2025-02-08",
         "date_de": "08.02.2025",
@@ -5098,18 +4942,6 @@
         "date": "2025-02-09",
         "date_de": "09.02.2025",
         "ts": 1739102400
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV Berliner Brauereien 2",
-            "SC Brandenburg"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "13:30",
-        "date": "2025-02-09",
-        "date_de": "09.02.2025",
-        "ts": 1739104200
     },
     {
         "type": "auto",
@@ -5522,6 +5354,18 @@
     {
         "type": "auto",
         "team_names": [
+            "SV GutsMuths Jena",
+            "1. BV Maintal 1978"
+        ],
+        "league_key": "2BLS-2020",
+        "starttime": "17:00",
+        "date": "2025-02-22",
+        "date_de": "22.02.2025",
+        "ts": 1740240000
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "VfB GW Mülheim",
             "STC Blau-Weiss Solingen"
         ],
@@ -5586,18 +5430,6 @@
             "Spvgg.Sterkrade-N."
         ],
         "league_key": "2BLN-2020",
-        "starttime": "18:00",
-        "date": "2025-02-22",
-        "date_de": "22.02.2025",
-        "ts": 1740243600
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SV GutsMuths Jena",
-            "1. BV Maintal 1978"
-        ],
-        "league_key": "2BLS-2020",
         "starttime": "18:00",
         "date": "2025-02-22",
         "date_de": "22.02.2025",
@@ -6146,18 +5978,6 @@
     {
         "type": "auto",
         "team_names": [
-            "SG VfB\/SC Peine",
-            "SV Berliner Brauereien 2"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "16:00",
-        "date": "2025-03-08",
-        "date_de": "08.03.2025",
-        "ts": 1741446000
-    },
-    {
-        "type": "auto",
-        "team_names": [
             "TSV Neuhausen-Nymphenb. München",
             "HSG DHfK Leipzig"
         ],
@@ -6292,18 +6112,6 @@
         "team_names": [
             "SG Gifhorn\/Nienburg",
             "Blau-Weiss Wittorf-NMS 2"
-        ],
-        "league_key": "RLN-2016",
-        "starttime": "10:00",
-        "date": "2025-03-09",
-        "date_de": "09.03.2025",
-        "ts": 1741510800
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "SG Lengede\/Vechelde",
-            "SV Berliner Brauereien 2"
         ],
         "league_key": "RLN-2016",
         "starttime": "10:00",
@@ -6482,6 +6290,18 @@
     {
         "type": "auto",
         "team_names": [
+            "1. BC Sbr.-Bischmisheim",
+            "SG Schorndorf"
+        ],
+        "league_key": "1BL-2020",
+        "starttime": "14:00",
+        "date": "2025-03-09",
+        "date_de": "09.03.2025",
+        "ts": 1741525200
+    },
+    {
+        "type": "auto",
+        "team_names": [
             "1. BC Sbr.-Bischmisheim 3",
             "Post SV Ludwigshafen"
         ],
@@ -6562,18 +6382,6 @@
         "date": "2025-03-09",
         "date_de": "09.03.2025",
         "ts": 1741527000
-    },
-    {
-        "type": "auto",
-        "team_names": [
-            "1. BC Sbr.-Bischmisheim",
-            "SG Schorndorf"
-        ],
-        "league_key": "1BL-2020",
-        "starttime": "17:00",
-        "date": "2025-03-09",
-        "date_de": "09.03.2025",
-        "ts": 1741536000
     },
     {
         "type": "auto",
